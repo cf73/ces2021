@@ -6,26 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1363d994-8fdb-4522-aa09-be3adfa8199c.css"/>
         <link rel="stylesheet" href="/css/ces.css">
     </head>
     <body>
-        <div class="container">
-            <div class="navigation">
-                <ul style="list-style-type:none; margin-left:-40px;">
-                    {{ nav :from="/" }}
-                    <li>
-                       <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
-                       {{ if is_current || is_parent }}
-                          {{ if children }}
-                             <ul>{{ *recursive children* }}</ul>
-                          {{ /if }}
-                       {{ /if }}
-                    </li>
-                 {{ /nav }}
-                </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="navigation" style="position: fixed;">
+                        <div class="logo" style="margin: 30px 0;">
+                            <img src="/assets/CES-logo.png" alt="">
+                        </div>
+                        <ul style="list-style-type:none; margin-left:-40px;">
+                            {{ nav :from="/" }}
+                            <li>
+                               <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+                               {{ if is_current || is_parent }}
+                                  {{ if children }}
+                                     <ul>{{ *recursive children* }}</ul>
+                                  {{ /if }}
+                               {{ /if }}
+                            </li>
+                         {{ /nav }}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-9" style="padding-top: 60px;">
+                    {{ template_content }}
+                </div>
             </div>
+            
            
-            {{ template_content }}
+            
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
         <script src="/js/jquery.min.js"></script>

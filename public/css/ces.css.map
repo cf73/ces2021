@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,GAAI;EACA,eAAe,EAAE,SAAS",
-"sources": ["../../resources/sass/elements.scss"],
+"mappings": "AAAA,GAAI;EACA,eAAe,EAAE,SAAS;;AAG9B,UAAW;EACP,WAAW,EAAE,mBAA8B;EAC3C,YAAY,EAAE,GAAG;;ACNrB,IAAK;EACD,WAAW,EAAE,+BAA+B;EAC5C,KAAK,EAAE,OAAO;EACd,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;;AAInB,EAAG;EACC,WAAW,EAAE,+BAA+B;EAC5C,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,GAAG",
+"sources": ["../../resources/sass/elements.scss","../../resources/sass/typography.scss"],
 "names": [],
 "file": "ces.css"
 }
