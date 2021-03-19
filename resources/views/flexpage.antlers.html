@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-sm-12   ">
+        <div class="row">
+            <div class="col">
+                {{if main_image}}
+                    <img src="{{main_image}}" alt="">
+                {{/if}}
+            </div>
+        </div>
+       <div class="row">
+           <div class="col-md-8">
+               <h1>{{title}}</h1>
+                {{add_content}}
+                        
+                    {{ if type == "text" }}
+
+                    <div class="text" style="max-width: 500px;">
+                    {{ text }}
+                    </div>
+
+                    {{ elseif type == "quote" }}
+
+                    <blockquote>{{ quote }}</blockquote>
+                    <p>— {{ attribution }}</p>
+
+                    {{ elseif type == "image" }}
+
+                    <figure>
+                    <img src="{{ photo }}" alt="{{ caption }}" />
+                    <figcaption>{{ caption }}</figcaption>
+                    </figure>
+
+                    {{ /if }}
+
+                {{/add_content}}
+           </div>
+           <div class="col-md-4">
+               sidebar
+           </div>
+       </div>
+        
+    </div>
+</div>
+
+    

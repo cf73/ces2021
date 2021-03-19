@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,GAAI;EACA,eAAe,EAAE,SAAS",
+"sources": ["../sass/elements.scss"],
+"names": [],
+"file": "elements.css"
+}

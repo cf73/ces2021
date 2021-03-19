@@ -1,0 +1,125 @@
+title: 'Flexible content page'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: hidden
+          listable: hidden
+          default: flexpage
+      -
+        handle: main_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Main image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: add_content
+        field:
+          collapse: false
+          sets:
+            text:
+              display: Text
+              fields:
+                -
+                  handle: text
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    display: Text
+                    type: bard
+                    icon: bard
+                    listable: hidden
+            image:
+              display: Image
+              fields:
+                -
+                  handle: image
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    max_files: 1
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+            quote:
+              display: Quote
+              fields:
+                -
+                  handle: quote
+                  field:
+                    antlers: false
+                    display: Quote
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                -
+                  handle: attribution
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Attribution
+                    type: text
+                    icon: text
+                    listable: hidden
+          display: 'Add Content'
+          type: replicator
+          icon: replicator
+          listable: hidden
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ title ?? site:name }}</title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/ces.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navigation">
+                <ul style="list-style-type:none; margin-left:-40px;">
+                    {{ nav :from="/" }}
+                    <li>
+                       <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+                       {{ if is_current || is_parent }}
+                          {{ if children }}
+                             <ul>{{ *recursive children* }}</ul>
+                          {{ /if }}
+                       {{ /if }}
+                    </li>
+                 {{ /nav }}
+                </ul>
+            </div>
+           
+            {{ template_content }}
+        </div>
+        <script src="{{ mix src='/js/site.js' }}"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/bs-init.js"></script>
+    </body>
+</html>
