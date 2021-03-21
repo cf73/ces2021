@@ -86,7 +86,8 @@ add_content:
     enabled: true
 parent: f26696f3-cf58-4634-a160-545d0969f3cc
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1616177773
-id: 02912eaf-c62e-441d-81ce-46b14ff4a366
+updated_at: 1616268400
 blueprint: flexible_content_page
+main_image: Xbabies.jpg
+id: 02912eaf-c62e-441d-81ce-46b14ff4a366
 ---

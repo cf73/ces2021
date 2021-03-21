@@ -84,7 +84,8 @@ add_content:
     type: text
     enabled: true
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1616177473
-id: d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa
+updated_at: 1616268143
 blueprint: flexible_content_page
+main_image: CES-1616268139.png
+id: d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa
 ---

@@ -1,5 +1,10 @@
+
+$heavy: 'Avenir LT W01_85 Heavy1475544';
+$medium: 'Avenir Next LT W05 Medium';
+$light:'Avenir LT W01_35 Light1475496';
+
 body {
-    font-family: 'Avenir LT W01_35 Light1475496';
+    font-family: $light;
     color: #8e8e8e;
     letter-spacing: 0.04em;
     line-height: 1.73em;
@@ -8,7 +13,7 @@ body {
 }
 
 h1 {
-    font-family: 'Avenir LT W01_85 Heavy1475544';
+    font-family: $heavy;
     font-size: 5.65em;
     line-height: 1em;
     margin-bottom: .5em;

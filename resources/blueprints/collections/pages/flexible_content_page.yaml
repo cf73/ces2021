@@ -99,6 +99,20 @@ sections:
                     type: text
                     icon: text
                     listable: hidden
+            movie:
+              display: Movie
+              fields:
+                -
+                  handle: movie
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    max_files: 1
+                    display: Movie
+                    type: assets
+                    icon: assets
+                    listable: hidden
           display: 'Add Content'
           type: replicator
           icon: replicator

@@ -1,22 +1,46 @@
-.on {
-  text-decoration: underline; }
-
-blockquote {
-  border-left: solid thick #e0e0e0;
-  padding-left: 2em; }
-
 body {
-  font-family: 'Avenir LT W01_35 Light1475496';
+  font-family: "Avenir LT W01_35 Light1475496";
   color: #8e8e8e;
   letter-spacing: 0.04em;
   line-height: 1.73em;
   font-size: 16px; }
 
 h1 {
-  font-family: 'Avenir LT W01_85 Heavy1475544';
+  font-family: "Avenir LT W01_85 Heavy1475544";
   font-size: 5.65em;
   line-height: 1em;
   margin-bottom: .5em;
   letter-spacing: 0em; }
+
+blockquote {
+  border-left: solid thick #e0e0e0;
+  padding-left: 2em; }
+
+.card {
+  border-radius: 30px;
+  overflow: hidden; }
+
+.navlist {
+  list-style-type: none;
+  margin-left: -40px;
+  font-family: "Avenir Next LT W05 Medium";
+  font-size: 1.5em;
+  line-height: 1.7em; }
+  .navlist a {
+    color: #ac8e8e; }
+  .navlist :hover {
+    text-decoration: none;
+    background-color: rgba(98, 185, 76, 0.122);
+    display: block; }
+
+.on {
+  background-color: #62b94c;
+  padding-left: 6px;
+  display: block;
+  margin-bottom: 3px;
+  color: white !important; }
+
+body {
+  background-color: #fff3e5; }
 
 /*# sourceMappingURL=ces.css.map */

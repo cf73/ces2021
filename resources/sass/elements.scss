@@ -1,8 +1,35 @@
-.on {
-    text-decoration: underline;
-}
+
 
 blockquote {
     border-left: solid thick rgb(224, 224, 224);
     padding-left: 2em;
+}
+
+.card {
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.navlist {
+    list-style-type: none; 
+    margin-left:-40px;
+    font-family: $medium;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    & a {
+        color: rgb(172, 142, 142);
+        
+    }
+    & :hover {
+        text-decoration: none;
+        background-color: $lightgreen;
+        display: block;
+    }
+}
+.on {
+    background-color: $green;
+    padding-left: 6px;
+    display: block;
+    margin-bottom: 3px;
+    color: white !important;
 }
