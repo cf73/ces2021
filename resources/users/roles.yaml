@@ -1,4 +1,22 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+admin:
+  title: Admin
+  permissions:
+    - 'access cp'
+    - 'view announcements entries'
+    - 'edit announcements entries'
+    - 'create announcements entries'
+    - 'delete announcements entries'
+    - 'publish announcements entries'
+    - 'reorder announcements entries'
+    - 'view events entries'
+    - 'edit events entries'
+    - 'create events entries'
+    - 'delete events entries'
+    - 'publish events entries'
+    - 'reorder events entries'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'create pages entries'
+    - 'delete pages entries'
+    - 'publish pages entries'
+    - 'reorder pages entries'
