@@ -8,35 +8,31 @@
             </div>
         </div>
        <div class="row">
-           <div class="col-md-8">
-               <h1>{{title}}</h1>
-                {{add_content}}
-                        
-                    {{ if type == "text" }}
+            <div class="col-sm-12">
+                    {{add_content}}
+                            
+                        {{ if type == "text" }}
 
-                    <div class="text">
-                    {{ text }}
-                    </div>
+                        <div class="text">
+                        {{ text }}
+                        </div>
 
-                    {{ elseif type == "quote" }}
+                        {{ elseif type == "quote" }}
 
-                    <blockquote>{{ quote }}</blockquote>
-                    <p>— {{ attribution }}</p>
+                        <blockquote>{{ quote }}</blockquote>
+                        <p>— {{ attribution }}</p>
 
-                    {{ elseif type == "image" }}
+                        {{ elseif type == "image" }}
 
-                    <figure>
-                    <img src="{{ photo }}" alt="{{ caption }}" />
-                    <figcaption>{{ caption }}</figcaption>
-                    </figure>
+                        <figure>
+                        <img src="{{ photo }}" alt="{{ caption }}" />
+                        <figcaption>{{ caption }}</figcaption>
+                        </figure>
 
-                    {{ /if }}
+                        {{ /if }}
 
-                {{/add_content}}
-           </div>
-           <div class="offset-md-1 col-md-3">
-               sidebar
-           </div>
+                    {{/add_content}}
+            </div>
        </div>
         
     </div>

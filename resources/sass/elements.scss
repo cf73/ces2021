@@ -12,24 +12,24 @@ blockquote {
 
 .navlist {
     list-style-type: none; 
-    margin-left:-40px;
-    font-family: $medium;
-    font-size: 1.5em;
-    line-height: 1.7em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin:20px;
+    font-family: $roman;
+    & li {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin: 6px 20px;
+    }
     & a {
-        color: rgb(172, 142, 142);
-        
+        color: $body;
     }
     & :hover {
-        text-decoration: none;
-        background-color: $lightgreen;
-        display: block;
+        border-radius: 7px;
     }
 }
 .on {
-    background-color: $green;
-    padding-left: 6px;
-    display: block;
-    margin-bottom: 3px;
-    color: white !important;
+    font-family: $heavy;
 }

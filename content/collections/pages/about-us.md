@@ -92,8 +92,9 @@ add_content:
             text: 'Our two gated playgrounds are wonderful extensions of our indoor classrooms. Children develop their imaginations, physical strength, social skills and confidence during their daily outdoor time. Playground structures and equipment mirror the natural environment in which they are situated and encourage a multitude of opportunities for natural play and physical expression.'
     type: text
     enabled: true
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629132428
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1633208675
 blueprint: flexible_content_page
+main_image: Screenshot-2021-07-27-154439.png
 id: 523d62db-c1ac-4068-af18-6950b8a80ff7
 ---

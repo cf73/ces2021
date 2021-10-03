@@ -10,28 +10,30 @@
         <link rel="stylesheet" href="/css/ces.css">
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container">
+            <div class="logo" style="margin: 30px 0;">
+                <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
+            </div>
+            <div class="navigation" style="position: fixed; top: 0; z-index: 9999;">
+                
+                <ul class="navlist">
+                    {{ nav :from="/" }}
+                    <li style="list-style-type: none;">
+                       <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+                       
+                    </li>
+                 {{ /nav }}
+                </ul>
+            </div>
             <div class="row">
+                <div class="col-sm-12"><h2>{{segment_1 | title}}</h2></div>
                 <div class="col-md-3">
-                    <div class="navigation" style="position: fixed;">
-                        <div class="logo" style="margin: 30px 0;">
-                            <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
-                        </div>
-                        <ul class="navlist">
-                            {{ nav :from="/" }}
-                            <li style="list-style-type: none;">
-                               <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
-                               {{ if is_current || is_parent }}
-                                  {{ if children }}
-                                     <ul>{{ *recursive children* }}</ul>
-                                  {{ /if }}
-                               {{ /if }}
-                            </li>
-                         {{ /nav }}
-                        </ul>
-                    </div>
+                    
+                    {{ nav from="{segment_1}" }}
+                        <li><a href="{{url}}" {{ if is_current || is_parent }} class="on"{{ /if }}>{{title}}</a></li>
+                    {{/nav}}   
                 </div>
-                <div class="col-md-9" style="padding-top: 60px;">
+                <div class="col-md-9">
                     {{ template_content }}
                 </div>
             </div>

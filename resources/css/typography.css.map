@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAKA,IAAK;EACD,WAAW,EAHR,+BAA+B;EAIlC,KAAK,EAAE,OAAO;EACd,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;;AAInB,EAAG;EACC,WAAW,EAdP,+BAA+B;EAenC,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;EAChB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,GAAG",
+"sources": ["../sass/typography.scss"],
 "names": [],
 "file": "typography.css"
 }
