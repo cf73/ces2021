@@ -1,6 +1,6 @@
 ---
 title: 'Teaching Team'
-template: flexpage
+template: flexpage_collection
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1628865853
 blueprint: flexible_content_page

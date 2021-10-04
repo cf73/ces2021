@@ -1,0 +1,8 @@
+title: People
+taxonomies:
+  - role
+  - classrooms
+revisions: false
+date_behavior:
+  past: public
+  future: private
