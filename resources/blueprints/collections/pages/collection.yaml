@@ -38,6 +38,16 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+      -
+        handle: program_type
+        field:
+          mode: default
+          taxonomies:
+            - program_types
+          display: 'Program Type'
+          type: terms
+          icon: taxonomy
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:

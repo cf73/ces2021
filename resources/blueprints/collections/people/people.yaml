@@ -76,6 +76,26 @@ sections:
           icon: entries
           listable: hidden
       -
+        handle: program_types
+        field:
+          mode: default
+          taxonomies:
+            - program_types
+          display: 'Program Types'
+          type: terms
+          icon: taxonomy
+          listable: hidden
+      -
+        handle: program_ages
+        field:
+          mode: default
+          taxonomies:
+            - program_ages
+          display: 'Program Ages'
+          type: terms
+          icon: taxonomy
+          listable: hidden
+      -
         handle: bio
         field:
           antlers: false
