@@ -56,10 +56,10 @@ structure:
       entry: f26696f3-cf58-4634-a160-545d0969f3cc
       children:
         -
+          entry: bd2b504a-06a8-4b74-a886-90dcf179bece
+        -
           entry: 02912eaf-c62e-441d-81ce-46b14ff4a366
           children:
-            -
-              entry: da582c97-5285-4311-8c8d-696cdce7f406
             -
               entry: 77f8afd8-a9f4-460f-9c4f-ab74e81b6dc3
             -
@@ -75,8 +75,6 @@ structure:
           entry: 328af10c-749e-4b3d-8e11-be7b256e3926
         -
           entry: a79a333e-7232-401d-a1ba-fc9202bcf82c
-        -
-          entry: be994a51-9f90-475d-96ec-0e910aa5d424
     -
       entry: b6be47de-19f3-467c-9983-5629d08418ef
       children:

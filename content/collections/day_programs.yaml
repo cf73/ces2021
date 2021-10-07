@@ -1,5 +1,21 @@
 title: 'Day Programs'
+template: default
+layout: layout
+mount: 02912eaf-c62e-441d-81ce-46b14ff4a366
 revisions: false
+route: /programs/day-programs
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+structure:
+  root: false
+  tree:
+    -
+      entry: aec6e288-8cfc-4500-9ebc-8238fe6c3dbd
+    -
+      entry: 85ed664f-257d-402c-9f76-c7872660a3d4
+    -
+      entry: 5bc90a5e-4913-4795-9a1f-aa154c329089
+    -
+      entry: 5b318440-9629-4bf7-8e8a-feb491d816d5

@@ -1,4 +1,4 @@
-title: Collection
+title: 'Day Programs'
 sections:
   main:
     display: Main
@@ -11,13 +11,38 @@ sections:
           validate:
             - required
       -
-        handle: day_program
+        handle: age_range
         field:
-          max_items: 1
+          input_type: text
+          antlers: false
+          display: 'Age range'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: time
+        field:
+          input_type: text
+          antlers: false
+          display: Time
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: teachers
+        field:
           mode: default
           collections:
-            - day_programs
-          display: 'Day Program'
+            - people
+          display: Teachers
           type: entries
           icon: entries
           listable: hidden
@@ -37,7 +62,7 @@ sections:
         field:
           type: entries
           collections:
-            - pages
+            - day_programs
           max_items: 1
           listable: false
           localizable: true

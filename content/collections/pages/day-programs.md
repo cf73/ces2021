@@ -1,6 +1,6 @@
 ---
 title: 'Day Program'
-template: flexpage
+template: dayprogramscollection
 add_content:
   -
     text:
