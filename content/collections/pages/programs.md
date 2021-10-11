@@ -1,6 +1,6 @@
 ---
 title: Programs
-template: flexpage
+template: programs
 add_content:
   -
     text:

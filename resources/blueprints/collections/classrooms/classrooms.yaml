@@ -1,4 +1,4 @@
-title: Programs
+title: Classrooms
 sections:
   main:
     display: Main
@@ -10,34 +10,6 @@ sections:
           required: true
           validate:
             - required
-      -
-        handle: description
-        field:
-          always_show_set_button: false
-          buttons:
-            - h2
-            - h3
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-            - table
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          display: Description
-          type: bard
-          icon: bard
-          listable: hidden
       -
         handle: age_range
         field:
@@ -52,13 +24,21 @@ sections:
       -
         handle: program_type
         field:
-          max_items: 1
           mode: default
           taxonomies:
             - program_types
           display: 'Program type'
           type: terms
           icon: taxonomy
+          listable: hidden
+          max_items: 1
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
           listable: hidden
   sidebar:
     display: Sidebar
@@ -72,11 +52,10 @@ sections:
           validate:
             - required
       -
-        handle: parent
+        handle: program_types
         field:
-          type: entries
-          collections:
-            - programs
-          max_items: 1
-          listable: false
-          localizable: true
+          type: terms
+          taxonomies:
+            - program_types
+          display: 'Program Types'
+          mode: select

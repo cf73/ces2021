@@ -1,5 +1,12 @@
 title: Classrooms
+template: default
+layout: layout
+taxonomies:
+  - program_types
+  - program_ages
 revisions: false
+route: '/program-types/{program-type}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private
