@@ -54,25 +54,6 @@ structure:
           entry: af114a97-d3b3-4535-a2b9-f9b31735b609
     -
       entry: f26696f3-cf58-4634-a160-545d0969f3cc
-      children:
-        -
-          entry: 02912eaf-c62e-441d-81ce-46b14ff4a366
-          children:
-            -
-              entry: 77f8afd8-a9f4-460f-9c4f-ab74e81b6dc3
-            -
-              entry: dbb2790d-37c6-449f-9567-42d1d2a638ff
-        -
-          entry: b4a35f67-7182-4608-a97b-7a7cecbfb2ef
-          children:
-            -
-              entry: d2ee2f9a-3a4a-4aed-8189-3f773cae865f
-            -
-              entry: e7915dd7-8666-4550-b3e7-6f4625e233eb
-        -
-          entry: 328af10c-749e-4b3d-8e11-be7b256e3926
-        -
-          entry: a79a333e-7232-401d-a1ba-fc9202bcf82c
     -
       entry: b6be47de-19f3-467c-9983-5629d08418ef
       children:

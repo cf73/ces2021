@@ -15,8 +15,6 @@ sections:
         field:
           max_items: 1
           mode: default
-          taxonomies:
-            - program_ages
           display: 'Age range'
           type: terms
           icon: taxonomy
@@ -26,7 +24,7 @@ sections:
         field:
           mode: default
           taxonomies:
-            - program_types
+            - programs
           display: 'Program type'
           type: terms
           icon: taxonomy
@@ -58,4 +56,12 @@ sections:
           taxonomies:
             - program_types
           display: 'Program Types'
+          mode: select
+      -
+        handle: programs
+        field:
+          type: terms
+          taxonomies:
+            - programs
+          display: Programs
           mode: select

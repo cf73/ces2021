@@ -1,4 +1,4 @@
-title: Programs
+title: Ages
 sections:
   main:
     display: Main
@@ -11,13 +11,10 @@ sections:
           validate:
             - required
       -
-        handle: description_of_program_type
+        handle: content
         field:
-          antlers: false
-          display: 'Description of program type'
-          type: textarea
-          icon: textarea
-          listable: hidden
+          type: markdown
+          localizable: true
   sidebar:
     display: Sidebar
     fields:
