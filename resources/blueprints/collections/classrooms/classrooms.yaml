@@ -11,26 +11,6 @@ sections:
           validate:
             - required
       -
-        handle: age_range
-        field:
-          max_items: 1
-          mode: default
-          display: 'Age range'
-          type: terms
-          icon: taxonomy
-          listable: hidden
-      -
-        handle: program_type
-        field:
-          mode: default
-          taxonomies:
-            - programs
-          display: 'Program type'
-          type: terms
-          icon: taxonomy
-          listable: hidden
-          max_items: 1
-      -
         handle: description
         field:
           antlers: false
@@ -50,14 +30,6 @@ sections:
           validate:
             - required
       -
-        handle: program_types
-        field:
-          type: terms
-          taxonomies:
-            - program_types
-          display: 'Program Types'
-          mode: select
-      -
         handle: programs
         field:
           type: terms
@@ -65,3 +37,15 @@ sections:
             - programs
           display: Programs
           mode: select
+          listable: hidden
+          max_items: 1
+      -
+        handle: ages
+        field:
+          type: terms
+          taxonomies:
+            - ages
+          display: Ages
+          mode: select
+          listable: hidden
+          max_items: 1

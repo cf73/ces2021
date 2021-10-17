@@ -1,11 +1,10 @@
 title: Classrooms
 template: default
 layout: layout
-mount: f26696f3-cf58-4634-a160-545d0969f3cc
 taxonomies:
   - programs
+  - ages
 revisions: false
-route: /classrooms
 sort_dir: asc
 date_behavior:
   past: public
