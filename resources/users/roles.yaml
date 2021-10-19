@@ -20,6 +20,15 @@ admin:
     - 'delete pages entries'
     - 'publish pages entries'
     - 'reorder pages entries'
+    - 'edit other authors announcements entries'
+    - 'edit other authors events entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors announcements entries'
+    - 'publish other authors events entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors announcements entries'
+    - 'delete other authors events entries'
+    - 'delete other authors pages entries'
 editor:
   title: Editor
   permissions:
@@ -49,3 +58,12 @@ editor:
     - 'move assets assets'
     - 'rename assets assets'
     - 'delete assets assets'
+    - 'edit other authors announcements entries'
+    - 'edit other authors events entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors announcements entries'
+    - 'publish other authors events entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors announcements entries'
+    - 'delete other authors events entries'
+    - 'delete other authors pages entries'

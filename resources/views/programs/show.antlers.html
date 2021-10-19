@@ -1,8 +1,5 @@
-{{entries group_by="ages:title"}}
-    {{ groups }}
-        <h1>{{ group | upper }}</h1>
-        {{ items }}
-            {{ ages:title }}
-        {{ /items }}
-    {{ /groups }}
+{{entries}}
+ 
+<li>{{title}}</li>
+
 {{/entries}}
