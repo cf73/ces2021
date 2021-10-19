@@ -1,10 +1,16 @@
-<div class="row">
-    <div class="col-md-8">
-        {{if main_image}}
-            <img src="{{main_image}}" width="100%" alt="{{title}}">
-        {{/if}}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        {{hero}}
+            <div class="carousel-item {{if first}} active {{/if}}">
+                <img class="d-block w-100" src="{{url}}" alt="{{title}}">
+            </div>
+        {{/hero}}
     </div>
-    <div class="col-md-4">
+  </div>
+
+
+<div class="row">
+    <div class="col-sm-12">
         <h2>Announcements!</h2>
             {{collection:announcements}}
                 <div class="card" style="margin-bottom: 30px;">

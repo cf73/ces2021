@@ -9,14 +9,29 @@ blockquote {
     border-radius: 30px;
     overflow: hidden;
 }
-
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 96px;
+    z-index: 9999;
+    box-shadow: 0px 12px 50px 0px $glow;
+    background-color: $warm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    margin-bottom: 0 !important;
+}
 .navlist {
     list-style-type: none; 
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin:20px;
-    font-family: $roman;
+    font-family: $heavy;
     & li {
         display: flex;
         flex-direction: row;
@@ -25,11 +40,16 @@ blockquote {
     }
     & a {
         color: $body;
+        font-size: 21px;
     }
     & :hover {
-        border-radius: 7px;
+        text-decoration: none;
+        color: $highlight;
+        transition: all .5s;
     }
-}
-.on {
-    font-family: $heavy;
+    .on {
+        font-family: $heavy;
+        color: $highlight;
+        border-bottom: solid 3px $highlight;
+    }
 }

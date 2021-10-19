@@ -11,11 +11,11 @@
     </head>
     <body>
         <div class="container">
-            <div class="logo" style="margin: 30px 0;">
-                <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
-            </div>
-            <div class="navigation" style="position: fixed; top: 0; z-index: 9999;">
-                
+            
+            <div class="navigation">
+                <div class="logo" style="margin: 30px 0;">
+                    <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
+                </div>
                 <ul class="navlist">
                     {{ nav :from="/" }}
                     <li style="list-style-type: none;">
@@ -25,13 +25,8 @@
                  {{ /nav }}
                 </ul>
             </div>
-            <div class="row">
-                <div class="col-sm-12"><h2>{{segment_1 | title}}</h2></div>
-                <div class="col-md-3">
-                    
-                   
-                </div>
-                <div class="col-md-9">
+            <div class="row" style="margin-top: 120px;">
+                <div class="col-sm-12">
                     {{ template_content }}
                 </div>
             </div>

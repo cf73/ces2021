@@ -1,4 +1,5 @@
-title: Collection
+hide: true
+title: Home
 sections:
   main:
     display: Main
@@ -11,15 +12,22 @@ sections:
           validate:
             - required
       -
-        handle: day_program
+        handle: hero
         field:
-          max_items: 1
-          mode: default
-          collections:
-            - day_programs
-          display: 'Day Program'
-          type: entries
-          icon: entries
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: Hero
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: intro
+        field:
+          antlers: false
+          display: Intro
+          type: textarea
+          icon: textarea
           listable: hidden
   sidebar:
     display: Sidebar

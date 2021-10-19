@@ -26,25 +26,45 @@ blockquote {
   border-radius: 30px;
   overflow: hidden; }
 
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 96px;
+  z-index: 9999;
+  box-shadow: 0px 12px 50px 0px #edecdf;
+  background-color: #fff8d4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+ul {
+  margin-bottom: 0 !important; }
+
 .navlist {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   text-align: center;
-  margin: 20px;
-  font-family: "Avenir LT W01_55 Roman1475520"; }
+  font-family: "Avenir LT W01_85 Heavy1475544"; }
   .navlist li {
     display: flex;
     flex-direction: row;
     text-align: center;
     margin: 6px 20px; }
   .navlist a {
-    color: #384266; }
+    color: #384266;
+    font-size: 21px; }
   .navlist :hover {
-    border-radius: 7px; }
-
-.on {
-  font-family: "Avenir LT W01_85 Heavy1475544"; }
+    text-decoration: none;
+    color: #db1a3c;
+    transition: all .5s; }
+  .navlist .on {
+    font-family: "Avenir LT W01_85 Heavy1475544";
+    color: #db1a3c;
+    border-bottom: solid 3px #db1a3c; }
 
 body {
   background-color: #e7eaed; }
