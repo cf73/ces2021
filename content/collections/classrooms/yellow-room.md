@@ -1,8 +1,10 @@
 ---
+id: 8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba
+blueprint: classrooms
 title: 'Yellow Room'
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634594272
+updated_at: 1634678181
 programs: day
 ages: toddler
-id: 8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba
+integer: 2
 ---

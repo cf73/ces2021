@@ -1,5 +1,16 @@
-{{entries}}
- 
-<li>{{title}}</li>
+<a href="./">Back to all Programs</a>
+<h1>{{title}} Program</h1>
+{{ if entries }}
+{{entries sort="ages:title"}}
 
+            <div class="card">
+                <a href="{{url}}">
+                    <h2>{{ title }}</h2>
+                </a>
+                <p>{{ages:title}}</p>
+            </div>
+ 
 {{/entries}}
+{{else}}
+Add some classes!
+{{ /if }}
