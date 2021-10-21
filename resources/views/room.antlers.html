@@ -1,6 +1,4 @@
-breadcrumb / breadcrumb
-
-
+<a href="/{{segment_1}}">{{segment_1 | title }}</a> / <a href="/{{segment_1}}/{{programs:slug}}">{{programs:title}} Program</a>
 
 <h1>{{title}}</h1>
 
@@ -8,6 +6,10 @@ breadcrumb / breadcrumb
 
 <p>{{description}}</p>
 
+<h3>Teachers</h3>
 {{collection:people classrooms:contains="{id}"}}
     {{title}}
+    {{if no_results}}
+        No teachers added yet!
+    {{/if}}
 {{/collection:people}}
