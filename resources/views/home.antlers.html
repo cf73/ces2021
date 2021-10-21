@@ -1,10 +1,16 @@
 <div class="announcebanner">
-    <h1>Open House!</h1>
-    <h3>Saturday, Nov 6, 10am - 12pm</h3>
-    <h4>Details</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Open House!</h1>
+                <h3>Saturday, Nov 6, 10am - 12pm</h3>
+                <h4>Details</h4>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="splide" style="margin-top: 180px;">
+<div class="splide" style="margin-top: 96px; margin-bottom: 30px;">
     <div class="splide__track">
           <div class="splide__list">
             {{slideshow}}                            
@@ -17,7 +23,12 @@
 
 
 <div class="container">
-
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>{{welcome_line}}</h2>
+            <p>{{intro}}</p>
+        </div>
+    </div>
 </div>
 <script>
     var splide = new Splide( '.splide', {

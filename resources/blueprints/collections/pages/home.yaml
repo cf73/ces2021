@@ -48,6 +48,16 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: welcome_line
+        field:
+          input_type: text
+          antlers: false
+          display: 'Welcome line'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
         handle: intro
         field:
           antlers: false
