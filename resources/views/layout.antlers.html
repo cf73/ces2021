@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1363d994-8fdb-4522-aa09-be3adfa8199c.css"/>
         <link rel="stylesheet" href="/css/ces.css">
+        <link rel="stylesheet" href="/css/splide.min.css">
+        <script src="/js/splide.min.js"></script>
     </head>
     <body>
         <div class="container">
-            
             <div class="navigation">
                 <div class="logo" style="margin: 30px 0;">
                     <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
@@ -20,7 +21,7 @@
                     <ul>
                         {{ nav include_home="true" }}
                           <div style="display: inline-block; margin: 0 10px;">
-                            <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>
+                            <a href="{{ url }}"{{ if is_current || is_parent }} class="on" {{ /if }}>
                               {{ title }}
                             </a>
                           </div>
@@ -28,15 +29,9 @@
                       </ul>
                 </ul>
             </div>
-            <div class="row" style="margin-top: 120px;">
-                <div class="col-sm-12">
-                    {{ template_content }}
-                </div>
-            </div>
-            
-           
-            
         </div>
+        {{ template_content }}
+
         <script src="{{ mix src='/js/site.js' }}"></script>
         <script src="/js/jquery.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>

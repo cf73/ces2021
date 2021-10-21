@@ -1,29 +1,34 @@
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        {{hero}}
-            <div class="carousel-item {{if first}} active {{/if}}">
-                <img class="d-block w-100" src="{{url}}" alt="{{title}}">
-            </div>
-        {{/hero}}
+<div class="announcebanner">
+    <h1>Open House!</h1>
+    <h3>Saturday, Nov 6, 10am - 12pm</h3>
+    <h4>Details</h4>
+</div>
+
+<div class="splide" style="margin-top: 180px;">
+    <div class="splide__track">
+          <div class="splide__list">
+            {{slideshow}}                            
+                <div class="splide__slide slide" style="background-image: url('{{image}}');"><span class="happyverb">{{happy_verb}}</span></div>
+            {{/slideshow}}
+          </div>
     </div>
   </div>
 
 
-<div class="row">
-    <div class="col-sm-12">
-        <h2>Announcements!</h2>
-            {{collection:announcements}}
-                <div class="card" style="margin-bottom: 30px;">
-                    {{if image}}
-                        <img src="{{image}}" width="100%" alt="{{title}}">
-                    {{/if}}
-                    <div style="padding: 9px 15px;">
-                        <strong>{{title}}</strong>
-                        {{main_announcement_text}}
-                    </div>
-                    
-                </div>                
-            {{/collection:announcements}}
-    </div>
-</div>
 
+<div class="container">
+
+</div>
+<script>
+    var splide = new Splide( '.splide', {
+    type  : 'fade',
+    rewind: true,
+    autoplay: true,
+    pauseOnHover: false,
+    arrows: false,
+    pagination: false,
+    speed: 2000,
+    } );
+
+    splide.mount();
+</script>
