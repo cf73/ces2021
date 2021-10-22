@@ -1,4 +1,6 @@
 ---
+id: 6d48eb1a-4eb4-48b0-a408-df269842f815
+blueprint: flexible_content_page
 title: Giving
 template: flexpage
 add_content:
@@ -19,7 +21,6 @@ add_content:
     type: text
     enabled: true
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1633213428
-blueprint: flexible_content_page
-id: 6d48eb1a-4eb4-48b0-a408-df269842f815
+updated_at: 1634933644
+include: true
 ---

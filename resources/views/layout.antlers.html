@@ -18,13 +18,16 @@
                     <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
                 </div>
                 <ul class="navlist">
+        
                     <ul>
                         {{ nav include_home="true" }}
-                          <div style="display: inline-block; margin: 0 10px;">
-                            <a href="{{ url }}"{{ if is_current || is_parent }} class="on" {{ /if }}>
-                              {{ title }}
-                            </a>
-                          </div>
+                            {{if include}}
+                                <div style="display: inline-block; margin: 0 10px;">
+                                    <a href="{{ url }}"{{ if is_current || is_parent }} class="on" {{ /if }}>
+                                    {{ title }}
+                                    </a>
+                                </div>
+                            {{/if}}
                         {{ /nav }}
                       </ul>
                 </ul>

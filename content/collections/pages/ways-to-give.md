@@ -1,4 +1,6 @@
 ---
+id: 2d2dfb77-be33-43a8-8b81-ea5fb25d09f3
+blueprint: flexible_content_page
 title: 'Ways to Give'
 template: flexpage
 add_content:
@@ -115,7 +117,15 @@ add_content:
         content:
           -
             type: text
-            text: '[button that links to giving platform]'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::4ab4d443-e760-4025-8d59-be82badb9f10'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Click here to donate to CES.'
       -
         type: paragraph
         content:
@@ -178,8 +188,7 @@ add_content:
     type: text
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629922056
-blueprint: flexible_content_page
-id: 2d2dfb77-be33-43a8-8b81-ea5fb25d09f3
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1634933889
+include: true
 ---
