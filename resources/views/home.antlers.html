@@ -1,7 +1,7 @@
 <div class="announcebanner">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12" style=" display: flex; flex-direction: row; align-items: baseline; justify-content: space-between;">
                 <h1>Open House!</h1>
                 <h3>Saturday, Nov 6, 10am - 12pm</h3>
                 <h4>Details</h4>
@@ -18,18 +18,42 @@
             {{/slideshow}}
           </div>
     </div>
-  </div>
+</div>
 
-
-
-<div class="container">
+<div class="container spacer60">
+    <div class="row spacer60">
+        {{at_a_glance}}
+        <div class="col-sm-4" style="text-align: center;">
+            
+                <h1 class="highlight">{{number}}</h1>
+                <p class="bold">{{caption}}</p>
+            
+        </div>
+        {{/at_a_glance}}
+    </div>
     <div class="row">
         <div class="col-sm-12">
             <h2>{{welcome_line}}</h2>
             <p>{{intro}}</p>
         </div>
     </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Latest news</h2>
+            <p>Follow us on Facebook and Instagram to stay up to date on what's happening at Cambridge-Ellis!</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Give now</h2>
+            <p>Your support helps us enrich the lives of those we care for [needs re-writing]</p>
+            <a href="{{url}}">Click here to donate now!</a>
+        </div>
+    </div>
 </div>
+
 <script>
     var splide = new Splide( '.splide', {
     type  : 'fade',

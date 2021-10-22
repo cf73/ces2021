@@ -1,9 +1,10 @@
 ---
-title: 'Teaching Team'
-template: flexpage_collection
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628865853
+id: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 blueprint: flexible_content_page
+title: 'Teaching Team'
+template: flexpage
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1634927675
 add_content:
   -
     text:
@@ -15,18 +16,6 @@ add_content:
             text: 'At Cambridge-Ellis, we pride ourselves on hiring the most skilled and passionate teachers with a diverse range of backgrounds, educations, and perspectives.'
     type: text
     enabled: true
-  -
-    type: text
-    enabled: true
-    text:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Red Room'
   -
     text:
       -
@@ -159,5 +148,4 @@ add_content:
             text: 'Spanish Room'
     type: text
     enabled: true
-id: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 ---

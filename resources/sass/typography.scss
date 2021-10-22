@@ -20,7 +20,12 @@ body {
     font-size: 17px;
     letter-spacing: 0.02em;
 }
-
+.bold {
+    font-family: $heavy;
+}
+.highlight {
+    color: $cherry;
+}
 h1 {
     font-family: $heavy;
     font-size: 42px;

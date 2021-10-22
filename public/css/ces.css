@@ -12,6 +12,12 @@ body {
   font-size: 17px;
   letter-spacing: 0.02em; }
 
+.bold {
+  font-family: "Avenir LT W01_85 Heavy1475544"; }
+
+.highlight {
+  color: #de1237d6; }
+
 h1 {
   font-family: "Avenir LT W01_85 Heavy1475544";
   font-size: 42px;
@@ -28,7 +34,7 @@ h3 {
 .slide {
   background-size: cover;
   background-position: center;
-  height: 66vh;
+  height: 83vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,14 +95,27 @@ ul {
   background-color: #de1237d6;
   height: auto;
   z-index: 9999;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  justify-content: space-between;
   padding: 30px 30px;
   color: #fff3e5; }
   .announcebanner h1 {
     margin: 0; }
+
+.spacerTop30 {
+  padding-top: 30px; }
+
+.spacerTop60 {
+  padding-top: 60px; }
+
+.spacer30 {
+  margin-bottom: 30px; }
+
+.spacer60 {
+  margin-bottom: 60px; }
+
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #384266; }
 
 body {
   background-color: #e7eaed; }

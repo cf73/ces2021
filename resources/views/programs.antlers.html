@@ -1,11 +1,37 @@
-<div class="row">
-    <div class="col-md-3">
-        {{taxonomy:programs}}
-            <li><a href="{{url}}">{{title}}</a></li>
-        {{/taxonomy:programs}}
-    </div>
-    <div class="col-md-9">
-        <h1>{{title}}</h1>
-        <p>the content</p>
+<div class="container spacerTop30">
+    <div class="row">
+        <div class="col-md-3 spacerTop60">
+            <ul style="margin-left: -40px;">
+                {{taxonomy:programs}}
+                    <li style="list-style-type: none; margin-bottom: 30px;"><a href="{{url}}">{{title}}</a></li>
+                {{/taxonomy:programs}}
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <h1>{{title}}</h1>
+            {{add_content}}
+    
+                            {{ if type == "text" }}
+    
+                            <div class="text">
+                            {{ text }}
+                            </div>
+    
+                            {{ elseif type == "quote" }}
+    
+                            <blockquote>{{ quote }}</blockquote>
+                            <p>— {{ attribution }}</p>
+    
+                            {{ elseif type == "image" }}
+    
+                            <figure>
+                            <img src="{{ photo }}" alt="{{ caption }}" />
+                            <figcaption>{{ caption }}</figcaption>
+                            </figure>
+    
+                            {{ /if }}
+    
+                        {{/add_content}}
+        </div>
     </div>
 </div>

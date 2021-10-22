@@ -1,15 +1,39 @@
-<a href="/{{segment_1}}">{{segment_1 | title }}</a> / <a href="/{{segment_1}}/{{programs:slug}}">{{programs:title}} Program</a>
+<div class="container spacerTop30">
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="/{{segment_1}}">{{segment_1 | title }}</a> / <a href="/{{segment_1}}/{{programs:slug}}">{{programs:title}} Program</a>
 
-<h1>{{title}}</h1>
+            <h1>{{title}}</h1>
 
-<h3>{{ages:title}}</h3>
+            <h3>{{ages:title}}</h3>
 
-<p>{{description}}</p>
+            <p>{{description}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <h3>Teachers</h3>
+            <div class="row">
+                {{collection:people classrooms:contains="{id}"}}
+                <div class="col-sm-4">
+                    <div class="card" style="padding: 20px;">
+                        <img src="{{photo}}" alt="{{title}}" class="spacer30" style="border-radius: 15px;">
+                        <h2>{{title}}</h2>
+                        <h3>{{officialtitle}}</h3>
+                        <h5>{{email}}</h5>
+                        <hr>
+                        <h5>{{education}}{{name_of_institution}}{{/education}}</h5>
+                        <p>{{bio}}</p>
+                    </div>
+                </div>
+                {{if no_results}}
+                    No teachers added yet!
+                {{/if}}
+            {{/collection:people}}
+            </div>
+            
+        </div>
+    </div>
+            
 
-<h3>Teachers</h3>
-{{collection:people classrooms:contains="{id}"}}
-    {{title}}
-    {{if no_results}}
-        No teachers added yet!
-    {{/if}}
-{{/collection:people}}
+</div>

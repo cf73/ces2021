@@ -48,6 +48,40 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: at_a_glance
+        field:
+          collapse: false
+          max_sets: 4
+          sets:
+            statistic:
+              display: Statistic
+              fields:
+                -
+                  handle: number
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Number
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: caption
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Caption
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+          display: 'At a glance'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+      -
         handle: welcome_line
         field:
           input_type: text

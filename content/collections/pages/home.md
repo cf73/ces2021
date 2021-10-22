@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634850466
+updated_at: 1634927848
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -45,4 +45,20 @@ slideshow:
     type: image
     enabled: true
 welcome_line: 'Welcome to Cambridge-Ellis School'
+at_a_glance:
+  -
+    number: 40
+    caption: 'years of nurturing young children'
+    type: statistic
+    enabled: true
+  -
+    number: 5000
+    caption: 'books and other media resources in our library'
+    type: statistic
+    enabled: true
+  -
+    caption: 'average child to teacher ratio'
+    type: statistic
+    enabled: true
+    number: '600:1'
 ---

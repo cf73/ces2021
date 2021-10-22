@@ -1,4 +1,6 @@
 ---
+id: 523d62db-c1ac-4068-af18-6950b8a80ff7
+blueprint: flexible_content_page
 title: About
 template: flexpage
 add_content:
@@ -93,8 +95,6 @@ add_content:
     type: text
     enabled: true
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1633295264
-blueprint: flexible_content_page
-main_image: Screenshot-2021-07-27-154439.png
-id: 523d62db-c1ac-4068-af18-6950b8a80ff7
+updated_at: 1634926803
+main_image: C7ES-3-XD.png
 ---

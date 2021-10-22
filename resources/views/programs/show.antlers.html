@@ -1,24 +1,29 @@
-<a href="./">Back to all Programs</a>
-
-<div class="row">
-    <div class="col-md-3">
-        {{ if entries }}
-        {{entries sort="ages:title"}}
+<div class="container spacerTop30">
+    <p class="spacer30"><a href="./">Back to all Programs</a></p>
     
-                    <div class="card">
-                        <a href="{{url}}">
-                            <h2>{{ title }}</h2>
-                        </a>
-                        <p>{{ages:title}}</p>
-                    </div>
+    <div class="row">
+        <div class="col-md-3">
+            {{ if entries }}
+            {{entries sort="ages:title"}}
     
-        {{/entries}}
-        {{else}}
-        Add some classes!
-        {{ /if }}
-    </div>
-    <div class="col-md-9">
-        <h1>{{title}} Program</h1>
-        <p>{{description}}</p>
+                        <div class="">
+                            <a href="{{url}}">
+                                <h2>{{ title }}</h2>
+                            </a>
+                            <p>{{ages:title}}</p>
+                        </div>
+    
+            {{/entries}}
+            {{else}}
+            Add some classes!
+            {{ /if }}
+        </div>
+        <div class="col-md-9">
+            {{if main_image}}
+                <img src="{{main_image}}" alt="{{title}}" width="100%">
+            {{/if}}
+            <h1>{{title}} Program</h1>
+            <p>{{description}}</p>
+        </div>
     </div>
 </div>

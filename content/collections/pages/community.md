@@ -1,9 +1,10 @@
 ---
+id: b6be47de-19f3-467c-9983-5629d08418ef
+blueprint: flexible_content_page
 title: Community
 template: flexpage
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628865685
-blueprint: flexible_content_page
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1634926773
 add_content:
   -
     text:
@@ -30,5 +31,5 @@ add_content:
     attribution: 'CES Caregiver'
     type: quote
     enabled: true
-id: b6be47de-19f3-467c-9983-5629d08418ef
+main_image: Screenshot-2021-07-27-154439.png
 ---
