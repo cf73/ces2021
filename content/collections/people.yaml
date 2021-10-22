@@ -1,8 +1,10 @@
 title: People
+template: default
+layout: layout
 taxonomies:
   - role
-  - classrooms
 revisions: false
+sort_dir: asc
 date_behavior:
   past: public
   future: private
