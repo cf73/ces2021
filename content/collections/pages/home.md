@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634927848
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1634934369
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -15,12 +15,7 @@ hero:
 intro: 'We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community''s youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community.'
 slideshow:
   -
-    image: Screenshot-2021-07-27-154439.png
-    happy_verb: 'We Camp'
-    type: image
-    enabled: true
-  -
-    image: 1WE-PLAY.jpg
+    image: IMG_3862.jpg
     happy_verb: 'We Play'
     type: image
     enabled: true
@@ -60,5 +55,5 @@ at_a_glance:
     caption: 'average child to teacher ratio'
     type: statistic
     enabled: true
-    number: '600:1'
+    number: '5:1'
 ---
