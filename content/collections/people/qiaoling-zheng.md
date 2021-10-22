@@ -10,7 +10,7 @@ education:
     enabled: true
 email: Qiaoling@Cambridge-Ellis.org
 bio: 'I started teaching at Cambridge-Ellis School in 1998 and have been the Head Teacher in the Mandarin class since 2008. Throughout the decades of my teaching experiences, I have learned the true joy of teaching is growing together with the children.'
-photo: j6NhViTQQziz5KbG2ko+mQ_thumb_f3c-(1).jpg
+photo: 'Qiaoling Zheng.jpg'
 role:
   - teacher
 programs:

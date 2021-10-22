@@ -1,9 +1,11 @@
 ---
+id: 6888c472-7446-4dbd-a4aa-24dfd4c54ce3
+blueprint: flexible_content_page
 title: 'Leadership Team'
 template: flexpage
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f51.jpg
+    image: 'Julie Parsons.jpg'
     type: image
     enabled: true
   -
@@ -153,7 +155,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f3f.jpg
+    image: 'Andy Griswold.jpg'
     type: image
     enabled: true
   -
@@ -265,7 +267,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f4a.jpg
+    image: 'Kim Rogers.jpg'
     type: image
     enabled: true
   -
@@ -323,7 +325,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f59.jpg
+    image: 'Michelle Pheonix.jpg'
     type: image
     enabled: true
   -
@@ -373,6 +375,4 @@ add_content:
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631802534
-blueprint: flexible_content_page
-id: 6888c472-7446-4dbd-a4aa-24dfd4c54ce3
 ---

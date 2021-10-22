@@ -1,13 +1,14 @@
 ---
+id: 8818afa4-8046-439f-8b3c-d3491c907d63
+blueprint: flexible_content_page
 title: 'Blue Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801547
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f54.jpg
+    image: 'Liz Tedesco.jpg'
     type: image
     enabled: true
   -
@@ -56,7 +57,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f47.jpg
+    image: 'Liz McKillop-Segura.jpg'
     type: image
     enabled: true
   -
@@ -105,7 +106,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f56.jpg
+    image: 'Jermaine Cook-Wright.jpg'
     type: image
     enabled: true
   -
@@ -153,5 +154,4 @@ add_content:
             text: 'I am originally from Jamaica. As a child, I always wanted to join the military, but after a summer of helping a friend who owned a preschool, I found my true calling. I became a preschool teacher in Jamaica in 1997 before moving to the US before the birth of my first daughter. I joined the teaching team at Cambridge-Ellis in 1999. I love being a preschool teacher, and I truly think it’s the best job in the world. I have been married for over two decades, and I have 3 daughters who have all gone to Cambridge-Ellis.'
     type: text
     enabled: true
-id: 8818afa4-8046-439f-8b3c-d3491c907d63
 ---

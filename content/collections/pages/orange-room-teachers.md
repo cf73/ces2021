@@ -1,13 +1,14 @@
 ---
+id: 52d6f61b-0129-45b4-8546-4e0beddd44f1
+blueprint: flexible_content_page
 title: 'Orange Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801264
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f4f.jpg
+    image: 'Tullah Dash.jpg'
     type: image
     enabled: true
   -
@@ -104,5 +105,4 @@ add_content:
             text: 'I am proud to be a long-standing member of the Cambridge-Ellis School. Since 2000, I have supported many children from two to four years of age in the day program. In the afternoon, I continue helping children learn and grow as a member of the English after-school team. As a native speaker of Portuguese, I love to share my language and Brazilian culture with all the children at Cambridge-Ellis. Outside of school I enjoy family, cooking, dancing, and spending time with my cat Shana.'
     type: text
     enabled: true
-id: 52d6f61b-0129-45b4-8546-4e0beddd44f1
 ---

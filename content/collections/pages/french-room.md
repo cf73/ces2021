@@ -1,13 +1,14 @@
 ---
+id: 002a8342-172e-4f4b-b45c-92126cd0a478
+blueprint: flexible_content_page
 title: 'French Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801780
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f52.jpg
+    image: 'Hafsa Abdelmoula.jpg'
     type: image
     enabled: true
   -
@@ -65,7 +66,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f53.jpg
+    image: 'Elisabeth Guenette.jpg'
     type: image
     enabled: true
   -
@@ -122,5 +123,4 @@ add_content:
             text: "Growing up, I was exposed to French nursery rhymes and lullabies from my father, who passed them down from my French Canadian grandparents. This exposure from such a young age contributed to my love and proficiency for the French language. After graduating from college, I moved to Toulouse, France, where I taught English in French primary schools. The following year, I worked as a teacher in a\_4th grade classroom while completing the\_2nd year of my master’s degree and thesis. Newly relocated back to the US, I am very excited to pass on my love for the French language to a new generation of learners as part of the Cambridge-Ellis community. In my free time, I enjoy traveling, dancing and teaching dance, studying photography, hiking, and exploring outside!"
     type: text
     enabled: true
-id: 002a8342-172e-4f4b-b45c-92126cd0a478
 ---

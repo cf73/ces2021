@@ -1,13 +1,14 @@
 ---
+id: 295af504-2ddc-4d0e-96f3-81f818597a9e
+blueprint: flexible_content_page
 title: 'Amber Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801388
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f55.jpg
+    image: 'Maura Walsh.jpg'
     type: image
     enabled: true
   -
@@ -111,5 +112,4 @@ add_content:
             text: 'I received my Bachelors degree in elementary education and natural sciences at Lesley University. I went on to work in the Cambridge public schools, as well as Lexington and Brookline’s extended day programs before coming to Cambridge-Ellis in 2010. I love being part of a community that supports and encourages children as they explore and develop into problem solvers and community members. I live in Arlington with my daughter, and love yoga, kayaking, biking, and being active outdoors.'
     type: text
     enabled: true
-id: 295af504-2ddc-4d0e-96f3-81f818597a9e
 ---

@@ -14,7 +14,7 @@ education:
     enabled: true
 email: MaryAnne@Cambridge-Ellis.org
 bio: 'After working briefly as a graphic designer for a small book publisher, I returned to school in order to live out my dream as an educator of young children. I’m passionate about fostering relationships in the Cambridge Ellis community and creating warm, nurturing environments for children to explore and connect with each day. In my spare time, I enjoy traveling with my family, and exploring the beauty of New England.'
-photo: UNADJUSTEDNONRAW_thumb_f44.jpg
+photo: 'Mary Anne Santos.jpg'
 role:
   - teacher
 programs:

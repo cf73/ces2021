@@ -1,13 +1,14 @@
 ---
+id: fe6e4820-eb11-4bc5-8c8b-9836c055ed5d
+blueprint: flexible_content_page
 title: 'Spanish Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631802188
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f40.jpg
+    image: 'Jeanette Herrera.jpg'
     type: image
     enabled: true
   -
@@ -65,7 +66,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f41.jpg
+    image: 'Vilmari Gonzalez.jpg'
     type: image
     enabled: true
   -
@@ -113,5 +114,4 @@ add_content:
             text: 'I was born and raised in Cambridge, MA. I earned my Bachelor’s degree in Latin American Studies and Dance from Bennington College. Though I am fluent in Spanish, I also speak intermediate Japanese. I have been working in childcare teaching language for five years and am excited to start her first year with CES! I currently live in Cambridge with my mom, dad and two younger brothers. In my free time, I enjoy dancing, ice skating and reading.'
     type: text
     enabled: true
-id: fe6e4820-eb11-4bc5-8c8b-9836c055ed5d
 ---

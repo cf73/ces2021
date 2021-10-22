@@ -1,9 +1,11 @@
 ---
+id: f0119ee1-08c5-4596-826b-54f3c7833136
+blueprint: flexible_content_page
 title: 'Yellow Room'
 template: flexpage
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f3e.jpg
+    image: 'Heydi Cambria.jpg'
     type: image
     enabled: true
   -
@@ -52,7 +54,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f57.jpg
+    image: 'Wendy Henderson.jpg'
     type: image
     enabled: true
   -
@@ -103,6 +105,4 @@ add_content:
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801183
-blueprint: flexible_content_page
-id: f0119ee1-08c5-4596-826b-54f3c7833136
 ---

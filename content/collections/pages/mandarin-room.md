@@ -1,13 +1,14 @@
 ---
+id: 4ea8136c-6279-4803-9eb8-8eed7e4e8872
+blueprint: flexible_content_page
 title: 'Mandarin Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801878
-blueprint: flexible_content_page
 add_content:
   -
-    image: j6NhViTQQziz5KbG2ko+mQ_thumb_f3c-(1).jpg
+    image: 'Qiaoling Zheng.jpg'
     type: image
     enabled: true
   -
@@ -56,7 +57,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: Ei9NvmcjRk6vTBu4MdoCmg_thumb_f3b.jpg
+    image: 'An Fong.jpg'
     type: image
     enabled: true
   -
@@ -105,7 +106,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f43.jpg
+    image: 'Yiting Wu.jpg'
     type: image
     enabled: true
   -
@@ -162,5 +163,4 @@ add_content:
             text: 'I am thrilled to be Chinese teacher this year. I completed my master''s degree in early childhood education in UmassAmherst. I have several years of teaching experience in preschool and kindergarten. My goal as the teacher is to make children learn with fun and have more experiences in class. I look forward to learning and growing with all of you!'
     type: text
     enabled: true
-id: 4ea8136c-6279-4803-9eb8-8eed7e4e8872
 ---

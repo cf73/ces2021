@@ -1,9 +1,11 @@
 ---
+id: 27d3f266-df62-424c-b36a-cef0f87cd1b4
+blueprint: flexible_content_page
 title: 'Floating Teachers'
 template: flexpage
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f48.jpg
+    image: 'Eileen Edmondson.jpg'
     type: image
     enabled: true
   -
@@ -61,7 +63,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f49.jpg
+    image: 'Holly Luck.jpg'
     type: image
     enabled: true
   -
@@ -119,7 +121,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f50.jpg
+    image: 'Jan Marie Olownia.jpg'
     type: image
     enabled: true
   -
@@ -169,6 +171,4 @@ add_content:
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631802367
-blueprint: flexible_content_page
-id: 27d3f266-df62-424c-b36a-cef0f87cd1b4
 ---

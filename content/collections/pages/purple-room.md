@@ -1,13 +1,14 @@
 ---
+id: cb556e44-d7da-4974-be7b-8b6409ec46d2
+blueprint: flexible_content_page
 title: 'Purple Room'
 template: flexpage
 parent: 8a03df5e-652c-474a-b3e1-cf2911cb00b4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1631801614
-blueprint: flexible_content_page
 add_content:
   -
-    image: UNADJUSTEDNONRAW_thumb_f44.jpg
+    image: 'Mary Anne Santos.jpg'
     type: image
     enabled: true
   -
@@ -65,7 +66,7 @@ add_content:
     type: text
     enabled: true
   -
-    image: UNADJUSTEDNONRAW_thumb_f4b.jpg
+    image: 'Cindy Lehmann.jpg'
     type: image
     enabled: true
   -
@@ -122,5 +123,4 @@ add_content:
             text: 'With three decades of teaching experience in early childhood programs, I was impressed with the quality of care and professionalism that I observed when I came to CES. I knew it was a place where I could continue to grow as an educator. I love working with the four and five year-olds as they explore and discover their world and share their thoughts and insights. Outside of work, I enjoy spending time with my husband and twin daughters. Together we bike, ski, hike, and revel in nature.'
     type: text
     enabled: true
-id: cb556e44-d7da-4974-be7b-8b6409ec46d2
 ---
