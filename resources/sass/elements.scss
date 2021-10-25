@@ -22,14 +22,15 @@ blockquote {
     top: 0;
     left: 0;
     right: 0;
+    padding: 0 30px;
     height: 96px;
     z-index: 9999;
     box-shadow: 0px 12px 50px 0px $glow;
-    background-color: $lilac;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 ul {
     margin-bottom: 0 !important;
@@ -58,7 +59,6 @@ ul {
     .on {
         font-family: $heavy;
         color: $highlight;
-        border-bottom: solid 3px $highlight;
     }
 }
 .announcebanner {
