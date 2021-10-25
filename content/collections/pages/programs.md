@@ -4,17 +4,10 @@ blueprint: flexible_content_page
 title: Programs
 template: programs
 include: true
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634933608
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635176180
 add_content:
   -
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: hola
     type: text
     enabled: true
 ---

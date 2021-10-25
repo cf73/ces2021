@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1634934369
+updated_at: 1635179494
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -30,13 +30,13 @@ slideshow:
     type: image
     enabled: true
   -
-    image: xcooking.jpg
-    happy_verb: 'We Cook'
+    image: IMG_0452.jpg
+    happy_verb: 'We Wonder'
     type: image
     enabled: true
   -
-    image: Xcoolkids.jpg
-    happy_verb: 'We Chill'
+    image: IMG_4369.jpg
+    happy_verb: 'We Grow'
     type: image
     enabled: true
 welcome_line: 'Welcome to Cambridge-Ellis School'

@@ -2,7 +2,7 @@
 id: d55c3300-37a9-45f6-9ad6-f6adee381cc2
 blueprint: people
 title: 'Qiaoling Zheng'
-officialtitle: 'Teacher (Maternity Coverage)'
+officialtitle: 'Mandarin Room Co-Head Teacher, Red Room Maternity Coverage'
 education:
   -
     name_of_institution: 'Cambridge College'
@@ -15,8 +15,10 @@ role:
   - teacher
 programs:
   - day
+  - language
 classrooms:
   - 448d749d-93d0-4c81-bd6f-806e5e431849
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634924255
+  - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635172479
 ---

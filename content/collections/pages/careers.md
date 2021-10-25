@@ -1,9 +1,10 @@
 ---
+id: a0f1b991-763a-4fbd-a494-914d601d634e
+blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628864411
-blueprint: flexible_content_page
+updated_at: 1635179821
 add_content:
   -
     text:
@@ -30,5 +31,5 @@ add_content:
     attribution: 'Cambridge-Ellis Non-Discrimination Policy'
     type: quote
     enabled: true
-id: a0f1b991-763a-4fbd-a494-914d601d634e
+main_image: IMG_5104-1635179815.jpg
 ---

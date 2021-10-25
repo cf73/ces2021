@@ -1,9 +1,10 @@
 ---
+id: 89a32578-cbd1-470c-8cb3-22828a4a3d3e
+blueprint: flexible_content_page
 title: 'Board of Directors'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628866041
-blueprint: flexible_content_page
+updated_at: 1635176126
 add_content:
   -
     text:
@@ -232,7 +233,21 @@ add_content:
           -
             type: text
             text: 'Teacher Representative'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Tullah Dash'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Teacher Representative'
     type: text
     enabled: true
-id: 89a32578-cbd1-470c-8cb3-22828a4a3d3e
 ---
