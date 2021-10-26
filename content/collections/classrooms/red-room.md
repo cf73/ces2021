@@ -2,10 +2,10 @@
 id: 448d749d-93d0-4c81-bd6f-806e5e431849
 blueprint: classrooms
 title: 'Red Room'
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634927620
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635262584
 program_type: day
-ages: upper-preschool
+ages: toddler
 programs: day
 integer: 1
 description: 'Entry to CES!'

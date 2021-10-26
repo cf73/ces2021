@@ -19,7 +19,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Our school is located at 80 Trowbridge Street in downtown Cambridge. We are easily accessible by bus or train and have a parking lot for pick up and drop off times. Our [insert date] century brick building features seven indoor classrooms and two playgrounds.'
+            text: 'Our school is located at 80 Trowbridge Street in downtown Cambridge. We are easily accessible by bus or train and have a parking lot for pick up and drop off times. Our 20th century brick building features seven indoor classrooms and two playgrounds.'
     type: text
     enabled: true
   -
@@ -95,6 +95,6 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635180195
+updated_at: 1635264400
 include: true
 ---
