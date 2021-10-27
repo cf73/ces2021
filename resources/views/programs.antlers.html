@@ -1,37 +1,25 @@
 <div class="container spacerTop30">
     <div class="row">
-        <div class="col-md-3 spacerTop60">
-            <ul style="margin-left: -40px;">
-                {{taxonomy:programs}}
-                    <li style="list-style-type: none; margin-bottom: 30px;"><a href="{{url}}">{{title}}</a></li>
-                {{/taxonomy:programs}}
-            </ul>
+       <div class="col-sm-12">
+           <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;" class="spacer60">
+               <div>
+                   <h1>{{title}}</h1>
+                   <h2>{{description}}</h2>
+               </div>
+               <button>Enroll now!</button>
+           </div>
+        <div class="row">
+            {{ nav :from="uri" }}
+                {{ unless no_results }}
+                    <div class="col-sm-3">
+                        <img src="{{program_image}}" alt="{{title}}" width="100%" height="auto">
+                        <h3>{{ title }}</h3>
+                        <p>{{short_description}}</p>
+                        <a href="{{url}}"><button>Explore</button></a>
+                    </div>
+                {{ /unless }}
+            {{ /nav }}
         </div>
-        <div class="col-md-9">
-            <h1>{{title}}</h1>
-            {{add_content}}
-    
-                            {{ if type == "text" }}
-    
-                            <div class="text">
-                            {{ text }}
-                            </div>
-    
-                            {{ elseif type == "quote" }}
-    
-                            <blockquote>{{ quote }}</blockquote>
-                            <p>— {{ attribution }}</p>
-    
-                            {{ elseif type == "image" }}
-    
-                            <figure>
-                            <img src="{{ photo }}" alt="{{ caption }}" />
-                            <figcaption>{{ caption }}</figcaption>
-                            </figure>
-    
-                            {{ /if }}
-    
-                        {{/add_content}}
-        </div>
+       </div>
     </div>
 </div>

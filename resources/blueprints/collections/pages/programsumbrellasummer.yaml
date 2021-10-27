@@ -1,0 +1,216 @@
+title: ProgramsUmbrellaSummer
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: main_image
+        field:
+          mode: list
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Main image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: short_description
+        field:
+          character_limit: '300'
+          antlers: false
+          display: 'Short description'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: slideshow
+        field:
+          mode: list
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Slideshow
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        handle: description
+        field:
+          antlers: false
+          display: Description
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
+      -
+        handle: programs_offered
+        field:
+          collapse: false
+          sets:
+            program:
+              display: Program
+              fields:
+                -
+                  handle: program_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Program Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: program_description
+                  field:
+                    antlers: false
+                    display: 'Program Description'
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+          display: 'Programs Offered'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+      -
+        handle: sessions
+        field:
+          collapse: false
+          sets:
+            session:
+              display: Session
+              fields:
+                -
+                  handle: session_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Session Title'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: session_dates
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Session Dates'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: programs_in_this_session
+                  field:
+                    collapse: false
+                    sets:
+                      program:
+                        display: Program
+                        fields:
+                          -
+                            handle: program_title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Program title'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: half_day_time_and_price
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Half day time and price'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: full_day_time_and_price
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Full day time and price'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                    display: 'Programs in this Session'
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: Sessions
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+      -
+        handle: important_notes
+        field:
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
+          display: 'Important notes'
+          type: bard
+          icon: bard
+          listable: hidden
+          instructions_position: above
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
