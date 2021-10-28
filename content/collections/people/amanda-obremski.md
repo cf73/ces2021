@@ -1,6 +1,7 @@
 ---
 id: 06f57a4f-cabc-45fa-a356-d2d9d3c079d1
 blueprint: people
+template: bio
 title: 'Amanda Obremski'
 officialtitle: 'Green Room Co-Head Teacher'
 education:

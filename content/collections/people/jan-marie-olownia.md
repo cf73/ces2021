@@ -1,6 +1,7 @@
 ---
 id: 924aaf72-f5b0-4242-8a44-f22ce83e7855
 blueprint: people
+template: bio
 title: 'Jan Marie Olownia'
 officialtitle: 'Floating Teacher'
 education:

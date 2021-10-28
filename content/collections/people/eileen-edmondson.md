@@ -1,6 +1,7 @@
 ---
 id: 0dd8615e-e014-42a0-8254-405642a7b31c
 blueprint: people
+template: bio
 title: 'Eileen Edmondson'
 officialtitle: 'Floating Teacher'
 education:

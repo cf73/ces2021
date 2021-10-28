@@ -1,6 +1,7 @@
 ---
 id: 53c49a4d-7fd4-4ad9-99a2-2659a9283bc6
 blueprint: people
+template: bio
 title: 'Liz Tedesco'
 officialtitle: 'Blue Room Co-Head Teacher'
 education:

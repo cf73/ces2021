@@ -1,6 +1,7 @@
 ---
 id: 3c7a9eb5-fd7a-4dc0-b150-93868993baa1
 blueprint: people
+template: bio
 title: 'Liz McKillop-Segura'
 officialtitle: 'Blue Room Co-Head Teacher'
 education:

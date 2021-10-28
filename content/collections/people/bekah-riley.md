@@ -1,6 +1,7 @@
 ---
 id: c237bba1-b7af-4e30-81ac-50072b37ef9f
 blueprint: people
+template: bio
 title: 'Bekah Riley'
 officialtitle: 'Assistant Director and Language Program Director'
 education:

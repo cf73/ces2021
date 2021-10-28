@@ -1,6 +1,7 @@
 ---
 id: 33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47
 blueprint: people
+template: bio
 title: 'Michelle Pheonix'
 officialtitle: 'Office Manager'
 education:

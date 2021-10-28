@@ -4,6 +4,7 @@ layout: layout
 taxonomies:
   - role
 revisions: false
+route: '/community/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

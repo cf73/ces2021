@@ -1,0 +1,50 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 spacerTop30">
+            <a href="./">Back to all Programs</a>
+            <h1>{{title}}</h1>
+            {{if slideshow}}
+            <div class="splide" style="margin-top: 30px; margin-bottom: 30px;">
+                <div class="splide__track">
+                      <div class="splide__list">
+                        {{slideshow}}                            
+                            <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
+                        {{/slideshow}}
+                      </div>
+                </div>
+            </div>
+            {{/if}}
+
+            <h2>{{description}}</h2>
+            
+            <div class="row spacerTop30">
+                {{classrooms}}
+                    <div class="col-sm-4">
+                        <h3>{{title}}</h3>
+                        <p>{{description}}</p>
+                        {{if teachers}}
+                        <h5>Teachers:</h5>
+                        {{teachers}}
+                            <a href="{{url}}"><button>{{title}}</button></a>
+                        {{/teachers}}
+                        {{/if}}
+                    </div>
+                {{/classrooms}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var splide = new Splide( '.splide', {
+    type  : 'fade',
+    rewind: true,
+    autoplay: true,
+    pauseOnHover: false,
+    arrows: false,
+    pagination: false,
+    speed: 2000,
+    } );
+
+    splide.mount();
+</script>

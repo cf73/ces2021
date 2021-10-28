@@ -35,7 +35,13 @@ h1 {
     letter-spacing: 0em;
 }
 h2 {
-
+    font-family: $medium;
+    font-size: 28px;
+    line-height: 1.3em;
+    margin-bottom: .5em;
+    margin-top: 45px;
+    letter-spacing: 0em;
+    color: $soft;
 }
 h3 {
     font-size: 21px;

@@ -1,6 +1,7 @@
 ---
 id: 1c1cc7a8-4625-4982-a995-8044af5878cd
 blueprint: people
+template: bio
 title: 'An Fong'
 officialtitle: 'Mandarin Room Co-Head Teacher'
 education:

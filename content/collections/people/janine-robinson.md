@@ -1,6 +1,7 @@
 ---
 id: 7eeffe6b-8ee3-4c8a-b7df-452c9f0f385e
 blueprint: people
+template: bio
 title: 'Janine Robinson'
 role:
   - teacher

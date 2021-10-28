@@ -1,6 +1,7 @@
 ---
 id: 9b517d7d-3b1c-432e-b9f9-700da7d5eb6b
 blueprint: people
+template: bio
 title: 'Mary Anne Santos'
 officialtitle: 'Purple Room Head Teacher'
 education:

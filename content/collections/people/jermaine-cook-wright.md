@@ -1,6 +1,7 @@
 ---
 id: 55c6d51a-07ca-41c5-b091-a98abc416aa0
 blueprint: people
+template: bio
 title: 'Jermaine Cook-Wright'
 officialtitle: 'Blue Room Teacher'
 education:

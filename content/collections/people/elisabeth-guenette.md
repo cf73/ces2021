@@ -1,6 +1,7 @@
 ---
 id: 2a9c0592-e852-4a9f-8894-532ad4e08e0e
 blueprint: people
+template: bio
 title: 'Elisabeth Guenette'
 officialtitle: 'French Room Co-Head Teacher'
 education:

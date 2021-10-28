@@ -18,6 +18,18 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+      -
+        handle: teachers
+        field:
+          mode: select
+          create: true
+          collections:
+            - people
+          display: Teachers
+          type: entries
+          icon: entries
+          listable: hidden
+          instructions_position: above
   sidebar:
     display: Sidebar
     fields:
@@ -30,23 +42,3 @@ sections:
           validate:
             - required
             - 'unique_entry_value:{collection},{id},{site}'
-      -
-        handle: programs
-        field:
-          type: terms
-          taxonomies:
-            - programs
-          display: Programs
-          mode: select
-          listable: hidden
-          max_items: 1
-      -
-        handle: ages
-        field:
-          type: terms
-          taxonomies:
-            - ages
-          display: Ages
-          mode: select
-          listable: hidden
-          max_items: 1
