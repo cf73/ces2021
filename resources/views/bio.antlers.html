@@ -1,19 +1,30 @@
 <div class="container spacerTop30">
     <div class="row">
         <div class="col-sm-12">
+            {{ nav:breadcrumbs include_home="false"}}
+            <span{{ if is_current }} class="current"{{ /if }}>
+                <a href="{{ url }}">{{ title }}</a> / 
+            </span>
+            {{ /nav:breadcrumbs }}
+
             <h1>{{title}}</h1>
         </div>
         <div class="col-sm-6">
             <img src="{{photo}}" alt="{{title}}" width="100%">
         </div>
         <div class="col-sm-6">
+            <p class="meta">Official Title:</p>
             <h3>{{officialtitle}}</h3>
+            <hr>
+            <p class="meta">Email:</p>
             <h5>{{email}}</h5>
             <hr>
+            <p class="meta">Education:</p>
             {{education}}
                 <h5>{{name_of_institution}}</h5>
             {{/education}}
             <hr>
+            <p class="meta">Bio:</p>
             <p>{{bio}}</p>
 
             <!-- <p>I teach in the</p>

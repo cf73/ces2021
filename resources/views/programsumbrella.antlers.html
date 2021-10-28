@@ -1,18 +1,24 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 spacerTop30">
-            <a href="./">Back to all Programs</a>
+            {{ nav:breadcrumbs include_home="false"}}
+            <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
+                <a href="{{ url }}">{{ title }}</a> / 
+            </span>
+            {{ /nav:breadcrumbs }}
+
             <h1>{{title}}</h1>
+
             {{if slideshow}}
-            <div class="splide" style="margin-top: 30px; margin-bottom: 30px;">
-                <div class="splide__track">
-                      <div class="splide__list">
-                        {{slideshow}}                            
-                            <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
-                        {{/slideshow}}
-                      </div>
+                <div class="splide" style="margin-top: 30px; margin-bottom: 30px;">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            {{slideshow}}                            
+                                <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
+                            {{/slideshow}}
+                        </div>
+                    </div>
                 </div>
-            </div>
             {{/if}}
 
             <h2>{{description}}</h2>

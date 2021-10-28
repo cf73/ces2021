@@ -1,0 +1,33 @@
+title: 'Inspiring Quotes'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: attribution
+        field:
+          input_type: text
+          antlers: false
+          display: Attribution
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required

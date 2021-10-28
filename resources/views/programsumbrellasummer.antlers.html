@@ -1,7 +1,11 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12 spacerTop30">
-            <a href="./">Back to all Programs</a>
+                {{ nav:breadcrumbs include_home="false"}}
+                <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
+                    <a href="{{ url }}">{{ title }}</a> / 
+                </span>
+                {{ /nav:breadcrumbs }}
 
 
             <div class="splide" style="margin-top: 96px; margin-bottom: 30px;">
@@ -17,7 +21,7 @@
             <h1>{{title}}</h1>
             <h2>{{description}}</h2>
             <hr class="spacer30">
-            <h5>Programs Offered:</h5>
+            <p class="meta">Programs Offered:</p>
             <div class="row">
                 {{programs_offered}}
                     <div class="col-sm-6">
@@ -28,7 +32,7 @@
             </div>
             {{ if sessions }}
                 <hr>
-                <h5>Sessions offered:</h5>
+                <p class="meta">Sessions offered:</p>
                 <div class="row">
                     {{sessions}}
                         <div class="col-sm-6">

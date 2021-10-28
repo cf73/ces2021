@@ -1,24 +1,23 @@
 <div class="container">
     <div class="row">
-        <div class="col-sm-3 spacerTop30">
-            <ul style="margin-left: -40px;">
-                {{ nav :from="uri" }}
-                    {{ unless no_results }}
-                        <li style="list-style-type: none; margin-bottom: 30px;">
-                            <a href="{{ url }}">{{ title }}</a>
-                        </li>
-                    {{ /unless }}
-                {{ /nav }}
-            </ul>     
+        <div class="col-sm-12 spacerTop30">
+                {{ nav:breadcrumbs include_home="false"}}
+                <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
+                    <a href="{{ url }}">{{ title }}</a> / 
+                </span>
+                {{ /nav:breadcrumbs }}
         </div>
-        <div class="col-sm-9 spacerTop30">
-            <div class="row">
-                <div class="col">
-                    {{if main_image}}
-                        <img src="{{main_image}}" width="100%" alt="{{title}}" class="spacer30">
-                    {{/if}}
-                </div>
-            </div>
+        <div class="col-sm-12">
+            <h1>{{title}}</h1>
+        </div>
+        <div class="col-sm-12">
+            {{if main_image}}
+                <img src="{{main_image}}" width="100%" alt="{{title}}" class="spacer30">
+                {{else}}
+                <h2>[should upload a main image here]</h2>
+            {{/if}}
+        </div>
+        <div class="col-sm-7">
            <div class="row">
                 <div class="col-sm-12">
                         {{add_content}}
@@ -45,10 +44,19 @@
     
                         {{/add_content}}
                 </div>
-           </div>
-    
+            </div>
+        </div>
+        <div class="offset-md-1 col-sm-4 spacerTop30">
+            <p class="meta">Explore:</p>
+            {{ nav :from="uri" }}
+                {{ unless no_results }}
+                    <a href="{{ url }}"><h3 style="padding-top: 8px;">{{ title }}</h3></a>
+                {{ /unless }}
+            {{ /nav }}
+            {{collection:inspiring_quotes sort="random" limit="1"}}
+                <h2 class="spacerTop30">{{title}}</h2>
+                <h3>&mdash; {{attribution}}</h3>
+            {{/collection:inspiring_quotes}}
         </div>
     </div>
-    
-    
 </div>

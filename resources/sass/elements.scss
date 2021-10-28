@@ -14,10 +14,15 @@ blockquote {
     border-left: solid thick rgb(224, 224, 224);
     padding-left: 2em;
 }
-
+.crumb {
+    font-family: $mono;
+}
 .card {
     border-radius: 30px;
     overflow: hidden;
+}
+hr {
+    border-top: 1px solid $body;
 }
 .navigation {
     position: fixed;
