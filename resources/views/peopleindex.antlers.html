@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 spacerTop30">
+
+            {{ nav:breadcrumbs include_home="false"}}
+            <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
+                <a href="{{ url }}">{{ title }}</a> / 
+            </span>
+            {{ /nav:breadcrumbs }}
+
+            <h1>{{title}}</h1>
+            
+            {{if slug | contains:leadership}}
+                {{collection:people role:contains="leadership"}}
+                    <a href="{{url}}">
+                        <div class="spacer30">
+                            <h3>{{title}}</h3>
+                            <p class="meta">{{officialtitle}}</p>
+                        </div>
+                    </a>
+                {{/collection:people}}
+            {{elseif slug | contains:teaching-team}}
+                {{collection:people role:contains="teacher"}}
+                    <a href="{{url}}">
+                        <div class="spacer30">
+                            <h3>{{title}}</h3>
+                            <p class="meta">{{officialtitle}}</p>
+                        </div>
+                    </a>
+                {{/collection:people}}
+            {{elseif slug | contains:board}}
+                {{collection:people role:contains="board"}}
+                    <a href="{{url}}">
+                        <div class="spacer30">
+                            <h3>{{title}}</h3>
+                            <p class="meta">{{officialtitle}}</p>
+                        </div>
+                    </a>
+                {{/collection:people}}
+            {{/if}}
+            
+        </div>
+    </div>
+</div>

@@ -96,3 +96,5 @@ sections:
           listable: hidden
           instructions_position: above
           create: true
+          validate:
+            - required

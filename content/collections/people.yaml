@@ -1,5 +1,5 @@
 title: People
-template: default
+template: bio
 layout: layout
 taxonomies:
   - role
