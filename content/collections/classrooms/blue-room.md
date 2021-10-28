@@ -2,12 +2,13 @@
 id: af22aa7b-08f2-4f3a-b509-10c03031eee4
 blueprint: classrooms
 title: 'Blue Room'
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635390725
-description: 'The Upper Preschool Program utilizes an emergent, play-based curriculum influenced by Reggio Emilia and Inquiry Approach learning philosophies. Rich and authentic learning opportunities encompass areas of development such as literacy, the arts, mathematics, and science. A deliberate focus on social justice and environmentalism promotes understanding of the local and broader community. Above all, children are developing meaningful friendships by collaborating and negotiating with peers. In the Amber, Blue, and Purple Rooms, children are uplifted as individuals while learning the importance of being a community member.'
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635444733
+description: 'The Blue Room is for older 3 and younger 4-year-olds. Classroom curriculum is emergent—based on the interests of the children and encompasses all learning areas including literacy, math, sensory, science, block play, art, dramatic play, and physical movement. The Blue Room focuses on whole child development and supports children’s social/emotional, cognitive, and physical development as they gain important school readiness skills though play-based, experiential learning.'
 programs: day
 ages: upper-preschool
 teachers:
-  - c2f68fc6-2439-4912-a545-f520fcd8dadb
-  - 1c1cc7a8-4625-4982-a995-8044af5878cd
+  - 53c49a4d-7fd4-4ad9-99a2-2659a9283bc6
+  - 3c7a9eb5-fd7a-4dc0-b150-93868993baa1
+  - 55c6d51a-07ca-41c5-b091-a98abc416aa0
 ---

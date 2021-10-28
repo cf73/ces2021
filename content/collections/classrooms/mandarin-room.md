@@ -2,9 +2,13 @@
 id: 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
 blueprint: classrooms
 title: 'Mandarin Room'
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634700850
-description: 'The French, Mandarin, and Spanish Rooms welcome children ranging from 2.9 to 6 years old. Staples of the program include immersion in each language, an emergent and play-based curriculum, and a focus on hands-on work and outdoor exploration. This allows us to accommodate students at all levels of learning and individually challenge them based on where they are in their language development. We expose children to the different traditions of each of the French, Mandarin, and Spanish-speaking cultures of the world through the exploration of food, dance, celebrations, and music.'
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635445062
+description: 'The Mandarin Room welcomes children from 2.9 to 6 years old. Through immersion in the Mandarin language, and an emergent and play-based curriculum with a focus on the arts and outdoor exploration, we are able to accommodate students at all levels of Mandarin learning, and individually challenge them based on where they are in their language development. We expose children to the different traditions of the Mandarin-speaking cultures through the exploration of food, dance, holiday celebrations, and music.'
 programs: language
 ages: preschool
+teachers:
+  - d55c3300-37a9-45f6-9ad6-f6adee381cc2
+  - 1c1cc7a8-4625-4982-a995-8044af5878cd
+  - a2b61a23-cc9e-4ba3-ac3f-1b65b1025223
 ---

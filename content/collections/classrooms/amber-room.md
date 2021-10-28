@@ -2,11 +2,12 @@
 id: eb19cc0e-2314-4252-8f6c-af927cfa0ab2
 blueprint: classrooms
 title: 'Amber Room'
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635392627
-description: 'The Upper Preschool Program utilizes an emergent, play-based curriculum influenced by Reggio Emilia and Inquiry Approach learning philosophies. Rich and authentic learning opportunities encompass areas of development such as literacy, the arts, mathematics, and science. A deliberate focus on social justice and environmentalism promotes understanding of the local and broader community. Above all, children are developing meaningful friendships by collaborating and negotiating with peers. In the Amber, Blue, and Purple Rooms, children are uplifted as individuals while learning the importance of being a community member.'
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635444958
+description: 'The Amber Room is our mixed age classroom, with ages ranging from older 2''s to young 4''s. We use the Inquiry Approach to develop year-long studies based on the children’s interests as they explore the world around them through play and first-hand experiences. Past year-long Inquiries have been in Music, Pets, Construction, Food Preparation, and Simple Machines, to name just a few!'
 programs: day
 ages: upper-preschool
 teachers:
-  - 06f57a4f-cabc-45fa-a356-d2d9d3c079d1
+  - e2a0afb3-a63a-45a1-b534-2b52fc413bd2
+  - 3bb1c2b6-2776-4b43-a958-9dd30c3ceea3
 ---
