@@ -2,8 +2,20 @@
     <div class="row">
         <div class="col-sm-12 spacerTop30">
             <a href="./">Back to all Programs</a>
+
+
+            <div class="splide" style="margin-top: 96px; margin-bottom: 30px;">
+                <div class="splide__track">
+                      <div class="splide__list">
+                        {{slideshow}}                            
+                            <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
+                        {{/slideshow}}
+                      </div>
+                </div>
+            </div>
+
             <h1>{{title}}</h1>
-            <p>{{description}}</p>
+            <h2>{{description}}</h2>
             <hr class="spacer30">
             <h5>Programs Offered:</h5>
             <div class="row">
@@ -14,22 +26,24 @@
                     </div>
                 {{/programs_offered}}
             </div>
-            <hr>
-            <h5>Sessions offered:</h5>
-            <div class="row">
-                {{sessions}}
-                    <div class="col-sm-6">
-                        <h3>{{session_title}}</h3>
-                        <h4>{{session_dates}}</h4>
-                        {{programs_in_this_session}}
-                            <h5>{{program_title}}</h5>
-                            <p>Half day: {{half_day_time_and_price}}</p>
-                            <p>Full day: {{full_day_time_and_price}}</p>
-                        {{/programs_in_this_session}}
-                    </div>
-                {{/sessions}}
-            </div>
-            <hr>
+            {{ if sessions }}
+                <hr>
+                <h5>Sessions offered:</h5>
+                <div class="row">
+                    {{sessions}}
+                        <div class="col-sm-6">
+                            <h3>{{session_title}}</h3>
+                            <h4>{{session_dates}}</h4>
+                            {{programs_in_this_session}}
+                                <h5>{{program_title}}</h5>
+                                <p>Half day: {{half_day_time_and_price}}</p>
+                                <p>Full day: {{full_day_time_and_price}}</p>
+                            {{/programs_in_this_session}}
+                        </div>
+                    {{/sessions}}
+                </div>
+                <hr>
+            {{ /if }}
             <div class="row">
                 <div class="col-sm-12">
                     <p>{{important_notes}}</p>
@@ -38,3 +52,16 @@
         </div>
     </div>
 </div>
+<script>
+    var splide = new Splide( '.splide', {
+    type  : 'fade',
+    rewind: true,
+    autoplay: true,
+    pauseOnHover: false,
+    arrows: false,
+    pagination: false,
+    speed: 2000,
+    } );
+
+    splide.mount();
+</script>
