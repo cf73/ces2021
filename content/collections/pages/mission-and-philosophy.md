@@ -1,9 +1,10 @@
 ---
+id: fe10778f-dff3-47af-bf1b-b1972057450f
+blueprint: flexible_content_page
 title: 'Mission and Philosophy'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628864379
-blueprint: flexible_content_page
+updated_at: 1635445855
 add_content:
   -
     text:
@@ -130,5 +131,5 @@ add_content:
         type: paragraph
     type: text
     enabled: true
-id: fe10778f-dff3-47af-bf1b-b1972057450f
+main_image: 20201001_102723.jpg
 ---
