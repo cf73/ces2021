@@ -3,31 +3,31 @@ id: 21904ad8-20a4-4672-a6eb-51204901e0e7
 blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
-description: '[need to write Summer Programs overall description here...]'
+description: 'Our warmer months are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm or 8:30-3:00pm programming for Toddlers and Preschoolers alike. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.'
 programs_offered:
   -
-    program_title: 'Young Explorers'
+    program_title: 'Young Explorers- English Summer Camp'
     program_description: 'Our Young Explorers programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
     type: program
     enabled: true
   -
-    program_title: 'Globetrotters – Summer Language Program'
+    program_title: 'Globetrotters – Language Immersion Summer Camp'
     program_description: 'We offer Spanish, French, and Mandarin language programs for children who are completely new to foreign languages, fluent, or anywhere in between.'
     type: program
     enabled: true
 sessions:
   -
     session_title: 'Session A'
-    session_dates: 'June 14th – July 2nd'
+    session_dates: 'June 13th – July 1st'
     programs_in_this_session:
       -
-        program_title: 'Young Explorers - Red'
+        program_title: 'Young Explorers - Toddlers'
         half_day_time_and_price: '8:30 - 12noon, $1520'
         full_day_time_and_price: '8:30 - 3pm, $1688'
         type: program
         enabled: true
       -
-        program_title: 'Young Explorers - Orange'
+        program_title: 'Young Explorers and Globetrotters - Preschool'
         half_day_time_and_price: '8:30 - 12noon, $1520'
         full_day_time_and_price: '8:30 - 3pm, $1688'
         type: program
@@ -36,16 +36,16 @@ sessions:
     enabled: true
   -
     session_title: 'Session B'
-    session_dates: 'July 6th - July 23rd'
+    session_dates: 'July 5th - July 22nd'
     programs_in_this_session:
       -
-        program_title: 'Young Explorers - Red'
+        program_title: 'Young Explorers - Toddlers'
         half_day_time_and_price: '8:30 - 12noon, $1420'
         full_day_time_and_price: '8:30 - 3pm, $1578'
         type: program
         enabled: true
       -
-        program_title: 'Young Explorers - Orange'
+        program_title: 'Young Explorers and Globetrotters - Preschool'
         half_day_time_and_price: '8:30 - 12noon, $1420'
         full_day_time_and_price: '8:30 - 3pm, $1578'
         type: program
@@ -93,10 +93,10 @@ important_notes:
                 type: text
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635362985
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635435949
 main_image: 69617404_523065031569707_108148148602370874_n.jpg
-short_description: '[need short description here]'
+short_description: 'During our summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
   - 97376343_274413647282543_399722570388709120_n.jpg
   - 'An Fong.jpg'

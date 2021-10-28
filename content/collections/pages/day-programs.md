@@ -13,10 +13,10 @@ classrooms:
   - 8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba
   - 7c58e147-8daa-4bf1-9ef4-0c2d74ac028f
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635352195
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635429655
 program_image: 97376343_274413647282543_399722570388709120_n.jpg
-short_description: '[need a short description of this type of program]'
+short_description: 'Our school day program'
 slideshow:
   - 1WE-PLAY.jpg
   - 2WE-EXPLORE.jpg

@@ -4,35 +4,32 @@ blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Enrichment Programs'
 main_image: 67965004_175842866912149_2600052419723076944_n.jpg
-short_description: '[enter short description here]'
-description: 'Overall description of programs here.'
+short_description: 'We supplement our Day and Language Programs with a variety of Enrichment programming focused on the arts, music, and outdoor learning.'
+description: 'A focus on the arts and nature is an integral part of the Cambridge-Ellis philosophy. Though our classroom teachers integrate these experiences into their daily practice, we supplement this learning with the following Enrichment Programs: Arts Adventure, Music with Anna, Nature Days, and our unique Artisan Program.'
 programs_offered:
   -
     program_title: 'Arts Adventure'
-    program_description: 'Arts Adventure is a unique offering that introduces children to the many genres of music, visual arts, dance and movement, drama, and literature. All day program students participate in a weekly 45-minute arts class designed to extend the classroom themes. Each class is specially designed with unique and original activities created to enrich the children’s learning and allow them to engage in artistic and physical expression.'
+    program_description: 'Arts Adventure connects children to their world through artistic expression. Students participate in music, visual arts, dance and movement, drama, and literature, weekly for 30 - 45 minutes. Arts Adventure is designed to extend upon both classroom and Artisan Program themes, as well as provide Language Program students experiences in their cultural arts.'
     type: program
     enabled: true
   -
-    program_title: 'Artisans Program'
-    program_description: 'The Ann Murphy Artisans Program is funded by a private endowment created by the late Ann Murphy, beloved teacher, administrator, and friend of Cambridge-Ellis. The program supports the residency of a special artisan or group of artisans to work with the children, teachers and parents to explore the unique significance of handmade work and the creativity and imagination that goes into their art-form. Each year the arts educator works with the school community to select a theme and design a year long exploration of it.'
-    type: program
-    enabled: true
-  -
-    program_title: 'Music Education'
-    program_description: 'Our unique music education program offers biweekly sessions for all students in both the Day and Language programs. Our music educator engages in song and dance with children, exposing them to different types of music across various cultures, languages, and traditions, in addition to introducing them to several types of instruments to play, bang together, and explore.'
+    program_title: 'Music with Anna'
+    program_description: 'Twice each month, children develop their musical roots and celebrate the international language of music with our specialist, Anna Laufenberg. Through songs and creative movement Anna introduces students to beats, rhythms, and scales. She delights and inspires children with her array of musical instruments from flute to contrabase.'
     type: program
     enabled: true
   -
     program_title: 'Nature Program'
-    program_description: |-
-      A hidden gem in the heart of Cambridge, our playgrounds inspire endless opportunities for adventure and discovery. Whether running through leaves, shoveling snow, or planting seeds, children learn about their world through authentic experiences in nature on a daily basis. Outdoors, children can peek at chickens through a window in the fence; dig rivers and moats filled from our water pump; and climb trees with conveniently low branches. Scheduled visits from Habitat Education Center have children looking at insects under logs and following small animal tracks. Regular neighborhood walks broaden the lens from which children take in knowledge. From Dogwood trees to dog-walkers, wonder exists all around.
-
-      “Our society is much more interested in information than wonder, in noise rather than silence…And I feel that we need a lot more wonder and a lot more silence in our lives.” – Fred Rogers
+    program_description: 'A hidden gem in the heart of Cambridge, our playgrounds inspire endless opportunities for adventure. Digging moats, climbing trees, transporting logs, cooking in mud kitchens, and observing chickens are part of our daily outdoor experiences. Weekly neighborhood walks to community green spaces and regularly scheduled visits from Habitat Wildlife Sanctuary further inspire awe and wonder as children learn about their world through discovery.'
+    type: program
+    enabled: true
+  -
+    program_title: 'Artisan Program'
+    program_description: 'The Ann Murphy Artisan Program celebrates the artistic process, from imagination to creation. An endowment from the late Ann Murphy, beloved CES teacher and administrator, supports artist residencies for the children, professional development for our teachers and theme inspired family events.'
     type: program
     enabled: true
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635389463
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635435247
 slideshow:
   - CES-1616268139.png
   - IMG_5104.jpg
