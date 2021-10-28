@@ -9,6 +9,7 @@
             {{ /nav:breadcrumbs }}
 
             <h1>{{title}}</h1>
+            <h2 class="spacer60">{{description}}</h2>
             
             {{if slug | contains:leadership}}
                 {{collection:people role:contains="leadership"}}
@@ -16,6 +17,7 @@
                         <div class="spacer30">
                             <h3>{{title}}</h3>
                             <p class="meta">{{officialtitle}}</p>
+                            <hr>
                         </div>
                     </a>
                 {{/collection:people}}
@@ -25,6 +27,7 @@
                         <div class="spacer30">
                             <h3>{{title}}</h3>
                             <p class="meta">{{officialtitle}}</p>
+                            <hr>
                         </div>
                     </a>
                 {{/collection:people}}
@@ -34,6 +37,7 @@
                         <div class="spacer30">
                             <h3>{{title}}</h3>
                             <p class="meta">{{officialtitle}}</p>
+                            <hr>
                         </div>
                     </a>
                 {{/collection:people}}
