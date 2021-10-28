@@ -1,6 +1,7 @@
 ---
 id: e00d8cf8-bb4a-46e4-aa49-7b8579ce1fda
 blueprint: people
+template: bio
 title: 'Cindy Lehmann'
 officialtitle: 'Purple Room Teacher'
 education:

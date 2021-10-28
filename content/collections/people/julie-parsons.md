@@ -1,6 +1,7 @@
 ---
 id: a5191769-e650-419b-aa00-7421dd93a94d
 blueprint: people
+template: bio
 title: 'Julie Parsons'
 officialtitle: Director
 education:

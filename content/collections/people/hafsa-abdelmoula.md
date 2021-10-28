@@ -1,6 +1,7 @@
 ---
 id: 187b3c4f-e4c2-41f2-ad22-cb7c9ce25d36
 blueprint: people
+template: bio
 title: 'Hafsa Abdelmoula'
 officialtitle: 'French Room Co-Head Teacher'
 education:

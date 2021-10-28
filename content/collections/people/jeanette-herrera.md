@@ -1,6 +1,7 @@
 ---
 id: 328dac6a-39bb-4cfe-bfca-9d8b36a34b5c
 blueprint: people
+template: bio
 title: 'Jeanette Herrera'
 officialtitle: 'Spanish Room Co-Head Teacher'
 education:

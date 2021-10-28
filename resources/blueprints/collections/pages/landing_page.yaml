@@ -1,4 +1,4 @@
-title: Classrooms
+title: 'Landing Page'
 sections:
   main:
     display: Main
@@ -18,18 +18,9 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
-      -
-        handle: teachers
-        field:
-          mode: select
-          create: true
-          collections:
-            - people
-          display: Teachers
-          type: entries
-          icon: entries
-          listable: hidden
           instructions_position: above
+          validate:
+            - required
   sidebar:
     display: Sidebar
     fields:
@@ -41,4 +32,12 @@ sections:
           localizable: true
           validate:
             - required
-            - 'unique_entry_value:{collection},{id},{site}'
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

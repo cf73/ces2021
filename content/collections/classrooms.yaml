@@ -1,11 +1,8 @@
 title: Classrooms
 template: room
 layout: layout
-taxonomies:
-  - programs
-  - ages
 revisions: false
-route: 'programs/{programs}/{slug}'
+route: 'programs/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

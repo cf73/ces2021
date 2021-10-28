@@ -1,6 +1,7 @@
 ---
 id: e2a0afb3-a63a-45a1-b534-2b52fc413bd2
 blueprint: people
+template: bio
 title: 'Maura Walsh'
 officialtitle: 'Amber Room Head Teacher'
 education:

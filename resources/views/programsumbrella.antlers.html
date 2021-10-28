@@ -22,6 +22,12 @@
                     <div class="col-sm-4">
                         <h3>{{title}}</h3>
                         <p>{{description}}</p>
+                        {{if teachers}}
+                        <h5>Teachers:</h5>
+                        {{teachers}}
+                            <a href="{{url}}"><button>{{title}}</button></a>
+                        {{/teachers}}
+                        {{/if}}
                     </div>
                 {{/classrooms}}
             </div>

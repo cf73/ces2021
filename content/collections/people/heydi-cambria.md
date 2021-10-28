@@ -1,6 +1,7 @@
 ---
 id: 636cb4a7-2934-4f79-9222-b34a8179f78a
 blueprint: people
+template: bio
 title: 'Heydi Cambria'
 officialtitle: 'Yellow Room Head Teacher'
 education:

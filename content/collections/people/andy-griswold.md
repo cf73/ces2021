@@ -1,6 +1,7 @@
 ---
 id: 7154caac-857b-4f19-8489-96fa5cd2edbd
 blueprint: people
+template: bio
 title: 'Andy Griswold'
 officialtitle: 'Business Manager'
 education:

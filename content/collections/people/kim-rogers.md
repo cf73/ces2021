@@ -1,6 +1,7 @@
 ---
 id: 85447551-542f-4f4d-b377-d908f98c822a
 blueprint: people
+template: bio
 title: 'Kim Rogers'
 officialtitle: 'Director of Development'
 education:

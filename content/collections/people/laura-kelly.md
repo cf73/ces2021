@@ -1,6 +1,7 @@
 ---
 id: db36433f-8439-45d3-9081-38ee0d9bef74
 blueprint: people
+template: bio
 title: 'Laura Kelly'
 officialtitle: 'Green Room Co-Head Teacher'
 education:

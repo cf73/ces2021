@@ -1,6 +1,7 @@
 ---
 id: b5bb8cd0-648d-4365-b5ed-6d82d8c1a81c
 blueprint: people
+template: bio
 title: 'Mary Dutczak'
 officialtitle: 'Floating Teacher'
 education:

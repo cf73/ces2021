@@ -1,6 +1,7 @@
 ---
 id: d55c3300-37a9-45f6-9ad6-f6adee381cc2
 blueprint: people
+template: bio
 title: 'Qiaoling Zheng'
 officialtitle: 'Mandarin Room Co-Head Teacher, Red Room Maternity Coverage'
 education:

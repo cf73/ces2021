@@ -96,27 +96,3 @@ sections:
           listable: hidden
           instructions_position: above
           create: true
-      -
-        handle: programs
-        field:
-          mode: select
-          create: true
-          taxonomies:
-            - programs
-          display: Programs
-          type: terms
-          icon: taxonomy
-          listable: hidden
-          instructions_position: above
-      -
-        handle: classrooms
-        field:
-          mode: select
-          create: true
-          collections:
-            - classrooms
-          display: Classrooms
-          type: entries
-          icon: entries
-          listable: hidden
-          instructions_position: above

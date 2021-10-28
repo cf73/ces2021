@@ -1,6 +1,7 @@
 ---
 id: 3bb1c2b6-2776-4b43-a958-9dd30c3ceea3
 blueprint: people
+template: bio
 title: 'Dee Lyle'
 officialtitle: 'Amber Room Teacher'
 education:

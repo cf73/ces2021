@@ -1,6 +1,7 @@
 ---
 id: 75862a02-1182-48da-aeed-14e0714e846d
 blueprint: people
+template: bio
 title: 'Katie Clark'
 officialtitle: 'Art Coordinator'
 education:

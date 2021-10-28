@@ -1,6 +1,7 @@
 ---
 id: d120d817-6a1f-4fac-ab04-8804189991d3
 blueprint: people
+template: bio
 title: 'Claudia Allevato'
 officialtitle: 'Orange Room Teacher, Rainbow Orange Co-Head Teacher'
 education:

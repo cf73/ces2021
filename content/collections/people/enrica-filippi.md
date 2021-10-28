@@ -1,6 +1,7 @@
 ---
 id: 8a96eea7-b3d3-4240-83ac-ef1b7b38bab3
 blueprint: people
+template: bio
 title: 'Enrica Filippi'
 officialtitle: 'Rainbow Red Head Teacher'
 education:

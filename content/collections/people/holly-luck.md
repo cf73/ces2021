@@ -1,6 +1,7 @@
 ---
 id: 91f0cb69-d693-44ac-9b9f-1dfbc8e3978d
 blueprint: people
+template: bio
 title: 'Holly Luck'
 officialtitle: 'Floating Teacher'
 education:

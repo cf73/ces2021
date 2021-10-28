@@ -1,6 +1,7 @@
 ---
 id: c2f68fc6-2439-4912-a545-f520fcd8dadb
 blueprint: people
+template: bio
 title: 'Christina Isidoro'
 officialtitle: 'Director of Admissions and Accredidation'
 education:

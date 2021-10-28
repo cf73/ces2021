@@ -1,6 +1,7 @@
 ---
 id: 26b39d59-4809-47b7-9f13-650c6fc30bd5
 blueprint: people
+template: bio
 title: 'Lily Carey'
 officialtitle: 'Red Room Co-Head Teacher'
 education:

@@ -1,6 +1,7 @@
 ---
 id: a2b61a23-cc9e-4ba3-ac3f-1b65b1025223
 blueprint: people
+template: bio
 title: 'Yiting Wu'
 officialtitle: 'Mandarin Room Teacher'
 education:

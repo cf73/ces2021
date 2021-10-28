@@ -1,6 +1,7 @@
 ---
 id: c57e4fb9-2ffe-403f-9a2f-ea5b62d48ce3
 blueprint: people
+template: bio
 title: 'Natasha Dimas'
 officialtitle: 'Rainbow Orange Co-Head Teacher'
 education:
