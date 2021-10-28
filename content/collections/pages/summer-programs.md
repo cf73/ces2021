@@ -3,7 +3,7 @@ id: 21904ad8-20a4-4672-a6eb-51204901e0e7
 blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
-description: 'Our warmer months are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm or 8:30-3:00pm programming for Toddlers and Preschoolers alike. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.'
+description: 'The July and June are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm or 8:30-3:00pm programming for Toddlers and Preschoolers alike. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.'
 programs_offered:
   -
     program_title: 'Young Explorers- English Summer Camp'
@@ -94,9 +94,9 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635435949
+updated_at: 1635442948
 main_image: 69617404_523065031569707_108148148602370874_n.jpg
-short_description: 'During our summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
+short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
   - 97376343_274413647282543_399722570388709120_n.jpg
   - 'An Fong.jpg'
