@@ -1,4 +1,6 @@
 ---
+id: d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa
+blueprint: flexible_content_page
 title: 'A Letter from the Director'
 template: flexpage
 add_content:
@@ -48,21 +50,9 @@ add_content:
             text: 'Thank you for your interest in Cambridge-Ellis School. We look forward to meeting you!'
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: 'Warm Regards,'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Gerlinde Hossain-Endl,\_Director"
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629203647
-blueprint: flexible_content_page
+updated_at: 1635452749
 main_image: CES-1616268139.png
-id: d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa
 ---
