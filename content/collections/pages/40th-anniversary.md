@@ -1,9 +1,10 @@
 ---
+id: e8dffaaa-d5b9-4817-bfd5-df162a6b3be5
+blueprint: flexible_content_page
 title: '40th Anniversary!'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629141085
-blueprint: flexible_content_page
+updated_at: 1635511384
 add_content:
   -
     text:
@@ -36,5 +37,5 @@ add_content:
             text: 'Interested in learning more? Please contact Kim Rogers, Director of Development, at kim@cambridge-ellis.org.'
     type: text
     enabled: true
-id: e8dffaaa-d5b9-4817-bfd5-df162a6b3be5
+main_image: CES-40th-Banner.jpg
 ---

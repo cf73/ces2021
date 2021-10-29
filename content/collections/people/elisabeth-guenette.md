@@ -17,9 +17,10 @@ email: Elisabeth@Cambridge-Ellis.org
 bio: 'Growing up, I was exposed to French nursery rhymes and lullabies from my father, who passed them down from my French Canadian grandparents. This exposure from such a young age contributed to my love and proficiency for the French language. After graduating from college, I moved to Toulouse, France, where I taught English in French primary schools. The following year, I worked as a teacher in a 4th grade classroom while completing the 2nd year of my master’s degree and thesis. Newly relocated back to the US, I am very excited to pass on my love for the French language to a new generation of learners as part of the Cambridge-Ellis community. In my free time, I enjoy traveling, dancing and teaching dance, studying photography, hiking, and exploring outside!'
 photo: 'Elisabeth Guenette.jpg'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635174450
+updated_at: 1635512730
 role:
   - teacher
+  - board-of-directors
 programs:
   - language
 classrooms:

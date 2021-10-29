@@ -20,7 +20,8 @@ add_content:
             text: 'You may receive a request for additional, direct financial support on a few occasions: You’ll hear from the Development Committee during our Annual Fund drive in the fall (we are so proud that we have met our 100% participation goal for several years in a row, thanks to our incredible community!) and the Auction in the spring. The PTA leads collections for faculty and staff gifts during the holiday season and at the end of the school year.'
     type: text
     enabled: true
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634933644
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635524477
 include: true
+main_image: IMG_3756-1635524474.JPG
 ---

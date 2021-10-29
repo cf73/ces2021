@@ -12,6 +12,7 @@ email: Julie@Cambridge-Ellis.org
 photo: IMG_3051.JPG
 role:
   - leadership
+  - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635175788
+updated_at: 1635512711
 ---

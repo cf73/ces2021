@@ -1,9 +1,10 @@
 ---
+id: 45a19839-c187-4be0-bedc-67f9f39aa5c5
+blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629204090
-blueprint: flexible_content_page
+updated_at: 1635516833
 add_content:
   -
     text:
@@ -389,5 +390,5 @@ add_content:
   -
     type: text
     enabled: true
-id: 45a19839-c187-4be0-bedc-67f9f39aa5c5
+main_image: 20210505_111230.jpg
 ---

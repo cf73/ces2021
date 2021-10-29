@@ -1,9 +1,10 @@
 ---
+id: 9d1c2779-c059-4c7d-9bdc-2a26cef3877e
+blueprint: flexible_content_page
 title: Partnerships
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628866054
-blueprint: flexible_content_page
+updated_at: 1635524724
 add_content:
   -
     text:
@@ -101,5 +102,5 @@ add_content:
             text: 'In 2015 we began to welcome students from the Boston Arts Academy to volunteer during their community day. Students performed for CES children and offered an instrument petting zoo.'
     type: text
     enabled: true
-id: 9d1c2779-c059-4c7d-9bdc-2a26cef3877e
+main_image: IMG_6082.JPG
 ---

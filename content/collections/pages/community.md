@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Community
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635263996
+updated_at: 1635512088
 add_content:
   -
     text:
@@ -40,4 +40,5 @@ add_content:
     type: quote
     enabled: true
 include: true
+main_image: IMG_4454.jpg
 ---

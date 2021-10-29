@@ -1,9 +1,10 @@
 ---
+id: b131b608-32c3-4073-9050-ebf8b6c9dc7f
+blueprint: flexible_content_page
 title: 'Financial Aid'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629145888
-blueprint: flexible_content_page
+updated_at: 1635524308
 add_content:
   -
     text:
@@ -46,5 +47,5 @@ add_content:
             text: ' to apply.'
     type: text
     enabled: true
-id: b131b608-32c3-4073-9050-ebf8b6c9dc7f
+main_image: website1.jpg
 ---

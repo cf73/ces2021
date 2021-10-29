@@ -94,7 +94,8 @@ add_content:
             text: "CES works collaboratively with a number of different agencies, public and private, as well as renowned experts in areas of child development, including a child development specialist, speech and language pathologist, and child psychologist. Our teaching faculty receives ongoing training and consultation by experts in the field. We welcome specialists and therapists into our classrooms to provide special support services to children during school hours.\_"
     type: text
     enabled: true
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1634933633
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635524008
 include: true
+main_image: IMG_20191105_085648989_HDR_Original.jpg
 ---

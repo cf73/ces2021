@@ -1,9 +1,10 @@
 ---
+id: 66afe361-c739-4275-ad7d-b48d1cde227d
+blueprint: flexible_content_page
 title: 'Visit CES'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1629145490
-blueprint: flexible_content_page
+updated_at: 1635523987
 add_content:
   -
     text:
@@ -34,5 +35,5 @@ add_content:
             text: 'To arrange for a tour, please contact Christina Isidoro, our Admissions Director at Christina@Cambridge-Ellis.org'
     type: text
     enabled: true
-id: 66afe361-c739-4275-ad7d-b48d1cde227d
+main_image: IMG_5420-1635523982.JPG
 ---

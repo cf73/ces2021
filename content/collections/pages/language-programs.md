@@ -12,12 +12,12 @@ classrooms:
   - a289ada5-75ed-4478-a0ac-457b827c8850
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635442877
-program_image: Xlanguage-french.jpeg
+updated_at: 1635522822
+program_image: 20210924_161120.jpg
 short_description: 'Our afternoon Language Program offers a unique, immersive experience for young children, whether they are fluent or just starting to explore the target language.'
 slideshow:
-  - 67965004_175842866912149_2600052419723076944_n.jpg
-  - 69599239_384732555780556_3651007238915589923_n.jpg
-  - 69617404_523065031569707_108148148602370874_n.jpg
-  - 69700274_387068462185459_2009454359351655038_n.jpg
+  - 20210915_160012.jpg
+  - IMG_2919.jpg
+  - IMG_1021.JPG
+  - IMG_0528.JPG
 ---
