@@ -8,23 +8,20 @@
                </div>
                <button>Enroll now!</button>
            </div>
+           <div class="row">
+
         {{ nav :from="uri" }}
             {{ unless no_results }}
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="polaroid">
-                        <a href="{{url}}" title="{{title}}">
-                            <img height="100%" src="{{program_image}}" alt="{{title}}" title="{{title}}" />
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p>{{short_description}}</p>
+                <div class="col-md-3" style="display: flex; flex-direction: column; align-items: center;">
+                    <div style="height: 400px; width: 400px; margin-bottom: 30px; border-radius: 50%; background-image: url({{program_image}}); background-size: cover; background-position: center;"></div>
+                    <h3>{{title}}</h3>
+                    <p style="text-align: center;">{{short_description}}</p>
                     <a href="{{url}}"><button>Explore</button></a>
                 </div>
-            </div>
             {{ /unless }}
         {{ /nav }}
+    </div>
+
        </div>
     </div>
 </div>
