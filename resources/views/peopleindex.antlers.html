@@ -12,34 +12,61 @@
             <h2 class="spacer60">{{description}}</h2>
             
             {{if slug | contains:leadership}}
-                {{collection:people role:contains="leadership"}}
+                {{collection:people role:contains="leadership" sort="officialtitle"}}
                     <a href="{{url}}">
-                        <div class="spacer30">
-                            <h3>{{title}}</h3>
-                            <p class="meta">{{officialtitle}}</p>
-                            <hr>
+                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
+                            <div>
+                                {{if photo}}
+                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
+                                {{else}}
+                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
+                                {{/if}}
+                            </div>
+                            <div style="margin-left: 30px;">
+                                <h3>{{title}}</h3>
+                                <p class="meta">{{officialtitle}}</p>
+                            </div>
                         </div>
                     </a>
+                    <hr>
                 {{/collection:people}}
             {{elseif slug | contains:teaching-team}}
-                {{collection:people role:contains="teacher"}}
+                {{collection:people role:contains="teacher" sort="officialtitle"}}
                     <a href="{{url}}">
-                        <div class="spacer30">
-                            <h3>{{title}}</h3>
-                            <p class="meta">{{officialtitle}}</p>
-                            <hr>
+                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
+                            <div>
+                                {{if photo}}
+                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
+                                {{else}}
+                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
+                                {{/if}}
+                            </div>
+                            <div style="margin-left: 30px;">
+                                <h3>{{title}}</h3>
+                                <p class="meta">{{officialtitle}}</p>
+                            </div>
                         </div>
                     </a>
+                    <hr>
                 {{/collection:people}}
             {{elseif slug | contains:board}}
-                {{collection:people role:contains="board"}}
+                {{collection:people role:contains="board" sort="officialtitle"}}
                     <a href="{{url}}">
-                        <div class="spacer30">
-                            <h3>{{title}}</h3>
-                            <p class="meta">{{officialtitle}}</p>
-                            <hr>
+                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
+                            <div>
+                                {{if photo}}
+                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
+                                {{else}}
+                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
+                                {{/if}}
+                            </div>
+                            <div style="margin-left: 30px;">
+                                <h3>{{title}}</h3>
+                                <p class="meta">{{officialtitle}}</p>
+                            </div>
                         </div>
                     </a>
+                    <hr>
                 {{/collection:people}}
             {{/if}}
             

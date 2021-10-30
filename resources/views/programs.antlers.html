@@ -8,18 +8,23 @@
                </div>
                <button>Enroll now!</button>
            </div>
-        <div class="row">
-            {{ nav :from="uri" }}
-                {{ unless no_results }}
-                    <div class="col-sm-3">
-                        <img src="{{program_image}}" alt="{{title}}" width="100%" height="auto">
-                        <h3>{{ title }}</h3>
-                        <p>{{short_description}}</p>
-                        <a href="{{url}}"><button>Explore</button></a>
+        {{ nav :from="uri" }}
+            {{ unless no_results }}
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="polaroid">
+                        <a href="{{url}}" title="{{title}}">
+                            <img height="100%" src="{{program_image}}" alt="{{title}}" title="{{title}}" />
+                        </a>
                     </div>
-                {{ /unless }}
-            {{ /nav }}
-        </div>
+                </div>
+                <div class="col-md-6">
+                    <p>{{short_description}}</p>
+                    <a href="{{url}}"><button>Explore</button></a>
+                </div>
+            </div>
+            {{ /unless }}
+        {{ /nav }}
        </div>
     </div>
 </div>

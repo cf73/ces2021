@@ -93,8 +93,8 @@ important_notes:
                 type: text
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635523056
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1635535120
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
@@ -103,4 +103,5 @@ slideshow:
   - IMG_0051-1635514734.jpg
   - IMG_2513.JPG
   - IMG_2566.JPG
+program_image: 20200110_092446.jpg
 ---
