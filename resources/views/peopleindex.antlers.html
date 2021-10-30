@@ -12,7 +12,7 @@
             <h2 class="spacer60">{{description}}</h2>
             
             {{if slug | contains:leadership}}
-                {{collection:people role:contains="leadership" sort="officialtitle"}}
+                {{collection:people role:contains="leadership"}}
                     <a href="{{url}}">
                         <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
                             <div>
@@ -50,7 +50,7 @@
                     <hr>
                 {{/collection:people}}
             {{elseif slug | contains:board}}
-                {{collection:people role:contains="board" sort="officialtitle"}}
+                {{collection:people role:contains="board"}}
                     <a href="{{url}}">
                         <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
                             <div>
