@@ -1,7 +1,7 @@
 .slide {
     background-size: cover;
     background-position: center;
-    height: 83vh; 
+    height: 94vh; 
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -42,47 +42,29 @@ hr {
 ul {
     margin-bottom: 0 !important;
 }
-.navlist {
-    list-style-type: none; 
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    font-family: $heavy;
-    & li {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin: 6px 20px;
-    }
-    & a {
-        color: $body;
-        font-size: 21px;
-    }
-    & :hover {
-        text-decoration: none;
-        color: $highlight;
-        transition: all .5s;
-    }
-    .on {
-        font-family: $heavy;
-        color: $highlight;
-    }
-}
 .announcebanner {
-    position: fixed;
-    top: 96px;
-    width: 100%;
-    background-color: $cherry;
+    position: relative;
+    top: -80px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
     height: auto;
     z-index: 9999;
-   
     padding: 30px 30px;
-    color: $bisque;
+    border-radius: 10px;
     & h1 {
         margin: 0;
     }
 }
-
+.shadow {
+    box-shadow: 0 8px 30px #08334410 !important;
+}
+.box {
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
 // spacers
 .spacerTop30 {
     padding-top: 30px;

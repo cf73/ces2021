@@ -1,12 +1,8 @@
-<div class="container">
+{{partial:breadcrumb}}
+
+<div class="container" style="margin-top: 45px;">
     <div class="row">
         <div class="col-sm-12 spacerTop30">
-            {{ nav:breadcrumbs include_home="false"}}
-            <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
-                <a href="{{ url }}">{{ title }}</a> / 
-            </span>
-            {{ /nav:breadcrumbs }}
-
             <h1>{{title}}</h1>
 
             {{if slideshow}}

@@ -1,4 +1,14 @@
-<div class="announcebanner">
+<div class="splide" style="margin-bottom: 30px;">
+    <div class="splide__track">
+          <div class="splide__list">
+            {{slideshow}}                            
+                <div class="splide__slide slide" style="background-image: url('{{image}}');"><span class="happyverb">{{happy_verb}}</span></div>
+            {{/slideshow}}
+          </div>
+    </div>
+</div>
+
+<div class="announcebanner shadow">
     <div class="container">
         <div class="row">
             <div class="col-sm-12" style=" display: flex; flex-direction: row; align-items: baseline; justify-content: space-between;">
@@ -10,18 +20,14 @@
     </div>
 </div>
 
-<div class="splide" style="margin-top: 96px; margin-bottom: 30px;">
-    <div class="splide__track">
-          <div class="splide__list">
-            {{slideshow}}                            
-                <div class="splide__slide slide" style="background-image: url('{{image}}');"><span class="happyverb">{{happy_verb}}</span></div>
-            {{/slideshow}}
-          </div>
-    </div>
-</div>
-
 <div class="container spacer60">
-    <div class="row spacer60">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>{{welcome_line}}</h1>
+            <h2>{{intro}}</h2>
+        </div>
+    </div>
+    <div class="row spacerTop30">
         {{at_a_glance}}
         <div class="col-sm-4" style="text-align: center;">
             
@@ -31,20 +37,50 @@
         </div>
         {{/at_a_glance}}
     </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h2>{{welcome_line}}</h2>
-            <p>{{intro}}</p>
+    <!-- testimonials -->
+    <div class="row spacerTop60">
+        <div class="col-md-6">
+            <div style="width: 100%; height: 100%; border-radius: 10px; background-image: url({{testimonial_1_image}}); background-size: cover; background-position: center;"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="box">
+                <p>"{{testimonial_1}}"
+                </p>
+                &mdash; {{testimonial_1_attribution}}
+            </div>
+            
         </div>
     </div>
-    <hr>
-    <div class="row">
-        <div class="col-sm-12">
-            <h2>Latest news</h2>
-            <p>Follow us on Facebook and Instagram to stay up to date on what's happening at Cambridge-Ellis!</p>
+    <div class="cta">
+        meet our teachers!
+    </div>
+    <div class="row spacerTop60">
+        <div class="col-md-6">
+            <div class="box">
+                <p>"{{testimonial_2}}"
+                </p>
+                &mdash; {{testimonial_2_attribution}}
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div style="width: 100%; height: 100%; border-radius: 10px; background-image: url({{testimonial_2_image}}); background-size: cover; background-position: center;"></div>
         </div>
     </div>
-    <hr>
+
+    <div class="row spacerTop60">
+        <div class="col-md-6">
+            <div style="width: 100%; height: 100%; border-radius: 10px; background-image: url({{testimonial_3_image}}); background-size: cover; background-position: center;"></div>
+        </div>
+        <div class="col-md-6">
+            <div class="box">
+                <p>"{{testimonial_3}}"
+                </p>
+                &mdash; {{testimonial_3_attribution}}
+            </div>
+            
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-sm-12">
             <h2>Give now</h2>

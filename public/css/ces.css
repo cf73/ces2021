@@ -18,9 +18,12 @@ body {
 .highlight {
   color: #de1237d6; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #4e587b; }
+
 h1 {
   font-family: "Avenir LT W01_85 Heavy1475544";
-  font-size: 72px;
+  font-size: 48px;
   line-height: 1em;
   margin-bottom: .5em;
   margin-top: 45px;
@@ -28,17 +31,16 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-family: "Avenir Next LT W05 Medium";
-  font-size: 28px;
+  font-family: "Avenir LT W01_55 Roman1475520";
+  font-size: 30px;
   line-height: 1.3em;
   margin-bottom: .5em;
-  margin-top: 45px;
-  letter-spacing: 0em;
-  color: #6e67a1; }
+  letter-spacing: 0em; }
 
 h3 {
-  font-size: 21px;
-  font-family: "Avenir LT W01_85 Heavy1475544"; }
+  font-size: 24px;
+  font-family: "Avenir LT W01_85 Heavy1475544";
+  line-height: 1.3; }
 
 .meta {
   font-family: "Space Mono", monospace;
@@ -48,7 +50,7 @@ h3 {
 .slide {
   background-size: cover;
   background-position: center;
-  height: 83vh;
+  height: 94vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,39 +91,27 @@ hr {
 ul {
   margin-bottom: 0 !important; }
 
-.navlist {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  font-family: "Avenir LT W01_85 Heavy1475544"; }
-  .navlist li {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 6px 20px; }
-  .navlist a {
-    color: #4e587b;
-    font-size: 21px; }
-  .navlist :hover {
-    text-decoration: none;
-    color: #db1a3c;
-    transition: all .5s; }
-  .navlist .on {
-    font-family: "Avenir LT W01_85 Heavy1475544";
-    color: #db1a3c; }
-
 .announcebanner {
-  position: fixed;
-  top: 96px;
-  width: 100%;
-  background-color: #de1237d6;
+  position: relative;
+  top: -80px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
   height: auto;
   z-index: 9999;
   padding: 30px 30px;
-  color: #fff3e5; }
+  border-radius: 10px; }
   .announcebanner h1 {
     margin: 0; }
+
+.shadow {
+  box-shadow: 0 8px 30px #08334410 !important; }
+
+.box {
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+  border-radius: 10px; }
 
 .spacerTop30 {
   padding-top: 30px; }
@@ -177,6 +167,6 @@ ul {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); }
 
 body {
-  background-color: #fffef7; }
+  background-color: #fafafa; }
 
 /*# sourceMappingURL=ces.css.map */
