@@ -13,39 +13,51 @@
         <link rel="stylesheet" href="/css/ces.css">
         <link rel="stylesheet" href="/css/splide.min.css">
         <script src="/js/splide.min.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="navigation">
-                <div class="logo" style="margin: 30px 0;">
-                    <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}"></a>
-                </div>
-                <ul class="navlist">
-        
+        <div id="colorlib-page">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="js-fullheight">
+                <nav id="colorlib-main-menu" role="navigation">
                     <ul>
+                        <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}" style="margin-bottom: 30px;"></a>
                         {{ nav include_home="false" }}
-                            {{if include}}
-                                <div style="display: inline-block; margin: 0 10px;">
-                                    <a href="{{ url }}"{{ if is_current || is_parent }} class="on" {{ /if }}>
-                                    {{ title }}
-                                    </a>
-                                </div>
-                            {{/if}}
-                        {{ /nav }}
-                      </ul>
-                </ul>
-            </div>
-        </div>
-        <div style="margin-top: 96px;" class="spacer60">
-            {{ template_content }}
-        </div>
-        <div class="footer" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-            <h2 style="color: white;">the footer</h2>
-        </div>
+                        {{if include}}
+                            <li {{ if is_current || is_parent }} class="colorlib-active" {{ /if }}>
+                                <a href="{{ url }}">
+                                {{ title }}
+                                </a>
+                            </li>
+                        {{/if}}
+                    {{ /nav }}
+                    </ul>
+                </nav>
+            </aside> <!-- END COLORLIB-ASIDE -->
+    
+            <div id="colorlib-main">
+                <section class="ftco-section pt-4 mb-5 ftco-intro">
+                    <div class="container-fluid px-3 px-md-0">
+                        <div class="row">
+                            <div class="col-md-12 mb-4">
+                                {{ template_content }}
+                            </div>
+                            <div class="footer" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                                <h2 style="color: white;">the footer</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- END COLORLIB-MAIN -->
+        </div><!-- END COLORLIB-PAGE -->
 
-        <script src="{{ mix src='/js/site.js' }}"></script>
+        </section>
+    
+        
+
         <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.js"></script>
         <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/bs-init.js"></script>
+        <script src="/js/main.js"></script>
     </body>
 </html>
