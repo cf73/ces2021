@@ -1,19 +1,15 @@
-<div class="container spacerTop30">
+{{partial:breadcrumb}}
+
+<div class="container" style="margin-top: 45px;">
     <div class="row">
         <div class="col-sm-12">
-            {{ nav:breadcrumbs include_home="false"}}
-            <span{{ if is_current }} class="current"{{ /if }}>
-                <a href="{{ url }}">{{ title }}</a> / 
-            </span>
-            {{ /nav:breadcrumbs }}
-
             <h1>{{title}}</h1>
         </div>
         <div class="col-sm-6">
             {{if photo}}
-            <img src="{{photo}}" alt="{{title}}" width="100%">
+            <img src="{{photo}}" alt="{{title}}" width="100%" style="border-radius: 10px;">
             {{else}}
-            <img src="/assets/avatar.svg" alt="{{title}}" width="60%">
+            <img src="/assets/avatar.svg" alt="{{title}}" width="60%" style="border-radius: 10px;">
             {{/if}}
         </div>
         <div class="col-sm-6">

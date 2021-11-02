@@ -1,74 +1,33 @@
+{{partial:breadcrumb}}
+
 <div class="container">
     <div class="row">
         <div class="col-sm-12 spacerTop30">
 
-            {{ nav:breadcrumbs include_home="false"}}
-            <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
-                <a href="{{ url }}">{{ title }}</a> / 
-            </span>
-            {{ /nav:breadcrumbs }}
-
             <h1>{{title}}</h1>
             <h2 class="spacer60">{{description}}</h2>
+            <div class="row">
+                {{if slug | contains:leadership}}
+                    {{collection:people role:contains="leadership"}}
+                        <div class="col-md-4">
+                            <a href="{{url}}">{{partial:peoplecard}}</a>
+                        </div>
+                    {{/collection:people}}
+                {{elseif slug | contains:teaching-team}}
+                    {{collection:people role:contains="teacher" sort="officialtitle"}}
+                        <div class="col-md-4">
+                            <a href="{{url}}">{{partial:peoplecard}}</a>
+                        </div>
+                    {{/collection:people}}
+                {{elseif slug | contains:board}}
+                    {{collection:people role:contains="board"}}
+                        <div class="col-md-4">
+                            <a href="{{url}}">{{partial:peoplecard}}</a>
+                        </div>
+                    {{/collection:people}}
+                {{/if}}
+            </div>
             
-            {{if slug | contains:leadership}}
-                {{collection:people role:contains="leadership"}}
-                    <a href="{{url}}">
-                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
-                            <div>
-                                {{if photo}}
-                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
-                                {{else}}
-                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
-                                {{/if}}
-                            </div>
-                            <div style="margin-left: 30px;">
-                                <h3>{{title}}</h3>
-                                <p class="meta">{{officialtitle}}</p>
-                            </div>
-                        </div>
-                    </a>
-                    <hr>
-                {{/collection:people}}
-            {{elseif slug | contains:teaching-team}}
-                {{collection:people role:contains="teacher" sort="officialtitle"}}
-                    <a href="{{url}}">
-                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
-                            <div>
-                                {{if photo}}
-                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
-                                {{else}}
-                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
-                                {{/if}}
-                            </div>
-                            <div style="margin-left: 30px;">
-                                <h3>{{title}}</h3>
-                                <p class="meta">{{officialtitle}}</p>
-                            </div>
-                        </div>
-                    </a>
-                    <hr>
-                {{/collection:people}}
-            {{elseif slug | contains:board}}
-                {{collection:people role:contains="board"}}
-                    <a href="{{url}}">
-                        <div class="spacer30" style="display: flex; flex-direction: row; align-items: center;">
-                            <div>
-                                {{if photo}}
-                                    <div style="background-image: url('{{photo}}'); height: 170px; width: 170px; background-size: cover; border-radius: 7px;"></div>
-                                {{else}}
-                                    <div style="background-image: url(/assets/avatar.svg); height: 170px; width: 170px; background-size: cover;"></div>
-                                {{/if}}
-                            </div>
-                            <div style="margin-left: 30px;">
-                                <h3>{{title}}</h3>
-                                <p class="meta">{{officialtitle}}</p>
-                            </div>
-                        </div>
-                    </a>
-                    <hr>
-                {{/collection:people}}
-            {{/if}}
             
         </div>
     </div>
