@@ -14,12 +14,15 @@
         <link rel="stylesheet" href="/css/ces.css">
         <link rel="stylesheet" href="/css/splide.min.css">
         <script src="/js/splide.min.js"></script>
+        <link rel="stylesheet" href="/css/all.css">
+        <script defer src="/js/all.js"></script>
+
     </head>
     <body>
         <div id="colorlib-page">
             <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
             <aside id="colorlib-aside" role="complementary" class="js-fullheight">
-                <nav id="colorlib-main-menu" role="navigation">
+                <nav id="colorlib-main-menu" role="navigation" style="display: flex;flex-direction: column; justify-content: space-between; height: 100%;">
                     <ul>
                         <a href="/"><img src="/assets/CES-logo.png" alt="{{title}}" style="margin-bottom: 30px;"></a>
                         {{ nav include_home="false" }}
@@ -32,6 +35,14 @@
                         {{/if}}
                     {{ /nav }}
                     </ul>
+                    <div>
+                        <p class="meta small">
+                            80 Trowbridge St. <br>
+                            Cambridge, MA 02138</p>
+                            <p class="meta small">P: 617-354-0014</p>
+                            <p class="meta small" style="margin-bottom: 30px;">F: 617-491-4313</p>
+                        <p class="meta small"><a href="mailto:info@cambridge-ellis.org">Contact Us</a></p>
+                    </div>
                 </nav>
             </aside> <!-- END COLORLIB-ASIDE -->
     
@@ -42,9 +53,9 @@
                             <div class="col-md-12 mb-4">
                                 {{ template_content }}
                             </div>
-                            <div class="footer" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <!-- <div class="footer" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                                 <h2 style="color: white;">the footer</h2>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </section>

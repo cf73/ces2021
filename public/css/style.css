@@ -8249,11 +8249,11 @@ h1, h2, h3, h4, h5,
       font-weight: 500;
       line-height: 1.5; }
       #colorlib-aside #colorlib-main-menu ul li a {
-        color: black;
+        color: #4e587b;
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: "Poppins", Arial, sans-serif;
+        font-family: 'Avenir LT W01_85 Heavy1475544';
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }

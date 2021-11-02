@@ -24,11 +24,15 @@ body {
 .bold {
     font-family: $heavy;
 }
+.small {
+    font-size: 13px; 
+    line-height: 1.75;
+}
 .highlight {
     color: $cherry;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: $body;
+    color: inherit;
 }
 h1 {
     font-family: $heavy;
@@ -55,4 +59,10 @@ h3 {
     font-family: $mono;
     font-weight: 400;
     margin-bottom: 4px;
+}
+a, a .cta {
+    color: #ff6768;
+    & :hover {
+        color: #0056b3;
+    }
 }
