@@ -15,12 +15,19 @@ body {
 .bold {
   font-family: "Avenir LT W01_85 Heavy1475544"; }
 
+.small {
+  font-size: 13px;
+  line-height: 1.75; }
+
 .highlight {
   color: #de1237d6; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: inherit; }
+
 h1 {
   font-family: "Avenir LT W01_85 Heavy1475544";
-  font-size: 72px;
+  font-size: 48px;
   line-height: 1em;
   margin-bottom: .5em;
   margin-top: 45px;
@@ -28,34 +35,48 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-family: "Avenir Next LT W05 Medium";
-  font-size: 28px;
+  font-family: "Avenir LT W01_55 Roman1475520";
+  font-size: 30px;
   line-height: 1.3em;
   margin-bottom: .5em;
-  margin-top: 45px;
-  letter-spacing: 0em;
-  color: #6e67a1; }
+  letter-spacing: 0em; }
 
 h3 {
-  font-size: 21px;
-  font-family: "Avenir LT W01_85 Heavy1475544"; }
+  font-size: 24px;
+  font-family: "Avenir LT W01_85 Heavy1475544";
+  line-height: 1.3; }
 
 .meta {
   font-family: "Space Mono", monospace;
   font-weight: 400;
   margin-bottom: 4px; }
 
+a, a .cta {
+  color: #ff6768; }
+  a :hover, a .cta :hover {
+    color: #0056b3; }
+
 .slide {
   background-size: cover;
   background-position: center;
-  height: 83vh;
+  height: 94vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
 .subslide {
-  height: 50vh; }
+  height: 70vh; }
+
+button {
+  border: none;
+  border-radius: 30px;
+  background-color: #4e587b;
+  color: white;
+  padding: 2px 12px;
+  margin-bottom: 6px; }
+  button:hover {
+    color: white; }
 
 blockquote {
   border-left: solid thick #e0e0e0;
@@ -89,39 +110,66 @@ hr {
 ul {
   margin-bottom: 0 !important; }
 
-.navlist {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  font-family: "Avenir LT W01_85 Heavy1475544"; }
-  .navlist li {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 6px 20px; }
-  .navlist a {
-    color: #4e587b;
-    font-size: 21px; }
-  .navlist :hover {
-    text-decoration: none;
-    color: #db1a3c;
-    transition: all .5s; }
-  .navlist .on {
-    font-family: "Avenir LT W01_85 Heavy1475544";
-    color: #db1a3c; }
-
 .announcebanner {
-  position: fixed;
-  top: 96px;
-  width: 100%;
-  background-color: #de1237d6;
+  position: relative;
+  top: -80px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
   height: auto;
   z-index: 9999;
   padding: 30px 30px;
-  color: #fff3e5; }
+  border-radius: 10px; }
   .announcebanner h1 {
     margin: 0; }
+
+.shadow {
+  box-shadow: 0 8px 30px #08334410 !important; }
+
+.box {
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px #08334410 !important; }
+
+.peoplecard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 8px 30px #08334410 !important;
+  margin-bottom: 30px;
+  transition: all .5s; }
+  .peoplecard:hover {
+    box-shadow: 0 8px 30px #08334410 !important;
+    transition: all .5s; }
+
+a .peoplecard {
+  color: #4e587b; }
+  a .peoplecard:hover {
+    color: #ff6768; }
+
+.cta {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  transition: all .5s; }
+  .cta:hover {
+    box-shadow: 0 8px 30px #08334410 !important;
+    transition: all .5s; }
 
 .spacerTop30 {
   padding-top: 30px; }
@@ -140,43 +188,7 @@ ul {
   height: 300px;
   background-color: #4e587b; }
 
-.polaroid a {
-  background: #ffffff;
-  display: inline-block;
-  margin: 55px 75px 30px;
-  padding: 15px 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  -webkit-transition: all .20s linear;
-  -moz-transition: all .20s linear;
-  transition: all .20s linear;
-  z-index: 0;
-  position: relative; }
-
-.polaroid a:after {
-  color: #333;
-  font-size: 25px;
-  content: attr(title);
-  position: relative;
-  top: 15px; }
-
-.polaroid img {
-  display: block;
-  width: 100%; }
-
-.polaroid a:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  transform: scale(1.2);
-  z-index: 10;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); }
-
 body {
-  background-color: #e8f3ff; }
+  background-color: #fafafa; }
 
 /*# sourceMappingURL=ces.css.map */

@@ -1,0 +1,7 @@
+<div style="width: 100%; height: 45px; padding: 8px 32px; z-index: 99999; border-bottom: solid 1px lightgrey; position: fixed; top: 0; left: 20%; background-color: #fafafae7;">
+    {{ nav:breadcrumbs include_home="false"}}
+        <span class="crumb small" {{ if is_current }} class="current"{{ /if }}>
+            <a href="{{ url }}">{{ title }}</a> /
+        </span>
+    {{ /nav:breadcrumbs }}
+</div>

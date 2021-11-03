@@ -1,26 +1,20 @@
+{{partial:breadcrumb}}
+
+{{if slideshow}}
+    <div class="splide" style="margin-top: 45px; margin-bottom: 30px;">
+        <div class="splide__track">
+            <div class="splide__list">
+                {{slideshow}}                            
+                    <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
+                {{/slideshow}}
+            </div>
+        </div>
+    </div>
+{{/if}}
+
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 spacerTop30">
-            {{ nav:breadcrumbs include_home="false"}}
-            <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
-                <a href="{{ url }}">{{ title }}</a> / 
-            </span>
-            {{ /nav:breadcrumbs }}
-
-            <h1>{{title}}</h1>
-
-            {{if slideshow}}
-                <div class="splide" style="margin-top: 30px; margin-bottom: 30px;">
-                    <div class="splide__track">
-                        <div class="splide__list">
-                            {{slideshow}}                            
-                                <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
-                            {{/slideshow}}
-                        </div>
-                    </div>
-                </div>
-            {{/if}}
-
+        <div class="col-sm-12">
             <h2>{{description}}</h2>
             
             <div class="row spacerTop30">
@@ -29,7 +23,8 @@
                         <h3>{{title}}</h3>
                         <p>{{description}}</p>
                         {{if teachers}}
-                        <h5>Teachers:</h5>
+                        <hr>
+                        <p class="meta" style="margin-bottom: 6px;">Teachers:</p>
                         {{teachers}}
                             <a href="{{url}}"><button>{{title}}</button></a>
                         {{/teachers}}

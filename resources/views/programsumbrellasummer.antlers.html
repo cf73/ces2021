@@ -1,24 +1,20 @@
+{{partial:breadcrumb}}
+
+{{if slideshow}}
+    <div class="splide" style="margin-top: 45px; margin-bottom: 30px;">
+        <div class="splide__track">
+            <div class="splide__list">
+                {{slideshow}}                            
+                    <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
+                {{/slideshow}}
+            </div>
+        </div>
+    </div>
+{{/if}}
+
 <div class="container">
     <div class="row">
-        <div class="col-sm-12 spacerTop30">
-                {{ nav:breadcrumbs include_home="false"}}
-                <span class="crumb" {{ if is_current }} class="current"{{ /if }}>
-                    <a href="{{ url }}">{{ title }}</a> / 
-                </span>
-                {{ /nav:breadcrumbs }}
-
-
-            <div class="splide" style="margin-top: 96px; margin-bottom: 30px;">
-                <div class="splide__track">
-                      <div class="splide__list">
-                        {{slideshow}}                            
-                            <div class="splide__slide slide subslide" style="background-image: url('{{url}}');"></div>
-                        {{/slideshow}}
-                      </div>
-                </div>
-            </div>
-
-            <h1>{{title}}</h1>
+        <div class="col-sm-12">
             <h2>{{description}}</h2>
             <hr class="spacer30">
             <p class="meta">Programs Offered:</p>
