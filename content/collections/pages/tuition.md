@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635516833
+updated_at: 1635946218
 add_content:
   -
     text:
@@ -390,5 +390,5 @@ add_content:
   -
     type: text
     enabled: true
-main_image: 20210505_111230.jpg
+main_image: IMG_2504.jpg
 ---

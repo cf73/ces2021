@@ -29,11 +29,10 @@ programs_offered:
     enabled: true
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635522947
+updated_at: 1636028564
 slideshow:
   - IMG_4061.jpg
   - 69617404_523065031569707_108148148602370874_n.jpg
   - IMG_4064.JPG
   - IMG_6562.JPG
-  - 20211014_153348.jpg
 ---

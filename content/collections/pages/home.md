@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1635699781
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1635971879
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -47,7 +47,7 @@ at_a_glance:
     type: statistic
     enabled: true
   -
-    number: 5000
+    number: '5000'
     caption: 'books and other media resources in our library'
     type: statistic
     enabled: true
@@ -58,10 +58,10 @@ at_a_glance:
     number: '5:1'
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the purple room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
 testimonial_1_image: 1WE-PLAY.jpg
-testimonial_2: 'Cambridge-Ellis has so much to offer families who are just starting their child’s journey education. Our teachers take the time to form unique relationships with each child, making the transition from home to school feel flawless. I often feel in awe of the curriculum my co-workers are cultivating in their classrooms: Kamishibai theater storytelling, what farming looks like around the world, the art Jean-Michel Basquiat, the silkworm lifecycle, and what it means to vote! I feel that at CES, we work with children to build a foundation of learning that will serve them for the rest of their lives.'
+testimonial_2: 'Cambridge-Ellis has so much to offer families who are just starting their child’s educational journey. Our teachers take the time to form unique relationships with each child, making the transition from home to school feel flawless. I often feel in awe of the curriculum my co-workers are cultivating in their classrooms: Kamishibai theater storytelling, what farming looks like around the world, the art Jean-Michel Basquiat, the silkworm lifecycle, and what it means to vote! I feel that at CES, we work with children to build a foundation of learning that will serve them for the rest of their lives.'
 testimonial_2_image: 20210505_111230.jpg
 testimonial_3: 'In our conversations with other parents, we always come back to the same refrain: Cambridge-Ellis is a special place. The kindness and gentleness of the teachers, the depth and creativity of the curriculum, the exuberance of the children’s art displayed everywhere, the sunlight that fills and warms the building- these are just some of the things that make Cambridge-Ellis a very special place. We couldn’t have asked for a better first school experience for our child.'
-testimonial_3_image: 20210915_160012.jpg
+testimonial_3_image: IMG_2147-1635971874.jpg
 testimonial_1_attribution: 'CES Caregiver'
 testimonial_2_attribution: 'CES Leadership'
 testimonial_3_attribution: 'CES Caregiver'

@@ -1,9 +1,10 @@
 ---
+id: af114a97-d3b3-4535-a2b9-f9b31735b609
+blueprint: flexible_content_page
 title: History
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1628864400
-blueprint: flexible_content_page
+updated_at: 1635884270
 add_content:
   -
     text:
@@ -131,5 +132,5 @@ add_content:
             text: 'Cambridge-Ellis School celebrates it''s 40th Anniversary!'
     type: text
     enabled: true
-id: af114a97-d3b3-4535-a2b9-f9b31735b609
+main_image: IMG_3250.jpg
 ---
