@@ -17,7 +17,7 @@
         <div class="col-sm-12">
             <h2>{{description}}</h2>
             <hr class="spacer30">
-            <p class="meta">Programs Offered:</p>
+            <p class="meta spacer30">Programs Offered:</p>
             <div class="row">
                 {{programs_offered}}
                     <div class="col-sm-6">
@@ -28,7 +28,7 @@
             </div>
             {{ if sessions }}
                 <hr>
-                <p class="meta">Sessions offered:</p>
+                <p class="meta spacer30">Sessions offered:</p>
                 <div class="row">
                     {{sessions}}
                         <div class="col-sm-6">
@@ -36,7 +36,7 @@
                             <h4>{{session_dates}}</h4>
                             {{programs_in_this_session}}
                                 <h5>{{program_title}}</h5>
-                                <p>Half day: {{half_day_time_and_price}}</p>
+                                <p style="margin-bottom: 0;">Half day: {{half_day_time_and_price}}</p>
                                 <p>Full day: {{full_day_time_and_price}}</p>
                             {{/programs_in_this_session}}
                         </div>

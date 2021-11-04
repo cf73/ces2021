@@ -7,22 +7,23 @@
                <div>
                    <h2>{{description}}</h2>
                </div>
-               <button>Enroll now!</button>
            </div>
-           <div class="row">
-
-        {{ nav :from="uri" }}
-            {{ unless no_results }}
-                <div class="col-md-3" style="display: flex; flex-direction: column; align-items: center;">
-                    <div style="height: 400px; width: 400px; margin-bottom: 30px; border-radius: 50%; background-image: url({{program_image}}); background-size: cover; background-position: center;"></div>
-                    <h3>{{title}}</h3>
-                    <p style="text-align: center;">{{short_description}}</p>
-                    <a href="{{url}}"><button>Explore</button></a>
+            {{ nav :from="uri" }}
+                {{ unless no_results }}
+                    <div class="row spacer60 flex {{ switch between='flex-row|flex-row-reverse' }}">
+                        <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <div class="polaroid" style="{{ switch between='transform: rotate(3deg);|transform: rotate(-3deg);' }}">
+                                <div style="height: 100%; width: 100%; margin-bottom: 30px; border-radius: 3px; border: solid thin lightgrey; background-image: url({{program_image}}); background-size: cover; background-position: center;"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <h1 style="text-align: center;">{{title}}</h1>
+                            <p style="text-align: center;">{{short_description}}</p>
+                            <a href="{{url}}"><button>Explore</button></a>
+                        </div>
                 </div>
-            {{ /unless }}
-        {{ /nav }}
-    </div>
-
+                {{ /unless }}
+            {{ /nav }}
        </div>
     </div>
 </div>

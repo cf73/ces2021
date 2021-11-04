@@ -21,7 +21,15 @@ button {
         color: white;
     }
 }
-
+.polaroid {
+    width: 50vh;
+    height: 60vh;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 12px 50px 0px $glow;
+    padding: 5%;
+    padding-bottom: 15%;
+}
 blockquote {
     border-left: solid thick rgb(224, 224, 224);
     padding-left: 2em;
