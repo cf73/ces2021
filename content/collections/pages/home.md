@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636059049
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1636088186
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -42,13 +42,13 @@ slideshow:
 welcome_line: 'Welcome to Cambridge-Ellis School'
 at_a_glance:
   -
-    number: 9+
-    caption: 'average tenure of our teachers'
+    number: '40'
+    caption: 'years of nurturing young children'
     type: statistic
     enabled: true
   -
-    number: '40'
-    caption: 'years of nurturing young children'
+    number: 9+
+    caption: 'years average tenure of our teachers'
     type: statistic
     enabled: true
   -

@@ -8245,15 +8245,15 @@ h1, h2, h3, h4, h5,
       margin: 0 0 10px 0;
       padding: 0;
       list-style: none;
-      font-size: 22px;
-      font-weight: 500;
+      font-size: 13px;
+      font-weight: 400;
       line-height: 1.5; }
       #colorlib-aside #colorlib-main-menu ul li a {
         color: #4e587b;
         text-decoration: none;
         position: relative;
         padding: 10px 0;
-        font-family: 'Avenir LT W01_85 Heavy1475544';
+        font-family: 'Space Mono', monospace;;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
