@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Community
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636042024
+updated_at: 1636492511
 add_content:
   -
     text:
@@ -21,7 +21,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Community is at the heart of our mission at Cambridge-Ellis. We are constantly working towards the ideals of inclusion, equity, and a true sense of belonging for all of our community members. Testimonials from a variety of community members provide a window into the community we are nurturing at CES.'
+            text: 'Community is what drives the mission of Cambridge-Ellis School. We are constantly working towards the ideals of inclusion, equity, and a true sense of belonging for all of our community members. Testimonials from a variety of community members provide a window into the community we are nurturing at CES.'
     type: text
     enabled: true
   -

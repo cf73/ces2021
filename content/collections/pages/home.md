@@ -3,8 +3,8 @@ id: home
 blueprint: home
 title: Home
 template: home
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1636088186
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1636126796
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -47,8 +47,8 @@ at_a_glance:
     type: statistic
     enabled: true
   -
-    number: 9+
-    caption: 'years average tenure of our teachers'
+    number: '9 years'
+    caption: 'average tenure of our teachers'
     type: statistic
     enabled: true
   -

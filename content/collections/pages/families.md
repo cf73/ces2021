@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Families
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635524653
+updated_at: 1636121139
 add_content:
   -
     text:
@@ -25,13 +25,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Ways to get Involved'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '[insert button that links to ''Ways to Give'' page]'
+            text: 'Visit our "Ways to Give" page for ideas on how to get involved!'
     type: text
     enabled: true
 main_image: IMG_1716-1635524643.JPG

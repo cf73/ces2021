@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635947833
+updated_at: 1636122116
 add_content:
   -
     text:
@@ -97,7 +97,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -113,7 +115,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -129,7 +133,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -147,7 +153,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -163,7 +171,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -179,7 +189,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -195,7 +207,9 @@ add_content:
   -
     text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -205,7 +219,7 @@ add_content:
         content:
           -
             type: text
-            text: Kate@Cambridge-Ellis.org
+            text: Katie@Cambridge-Ellis.org
     type: text
     enabled: true
 include: true

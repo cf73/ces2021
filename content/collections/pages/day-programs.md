@@ -14,12 +14,12 @@ classrooms:
   - 7c58e147-8daa-4bf1-9ef4-0c2d74ac028f
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636028449
+updated_at: 1636122779
 program_image: 20210913_112628-1635953342.jpg
 short_description: 'Play-based, emergent learning is at the heart of our Day Program. We serve toddlers and preschool age children in seven classrooms that are grouped according to age and development.'
 slideshow:
-  - IMG_5430.JPG
   - IMG_7782_Original.JPG
+  - IMG_5430.JPG
   - IMG_0971-1636028441.jpg
   - IMG_2289.JPG
 ---
