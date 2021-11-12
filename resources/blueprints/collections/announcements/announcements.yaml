@@ -10,6 +10,11 @@ sections:
           required: true
           validate:
             - required
+          instructions_position: above
+          listable: hidden
+          input_type: text
+          character_limit: 30
+          antlers: false
       -
         handle: link
         field:
