@@ -8,17 +8,27 @@
     </div>
 </div>
 
-<div class="announcebanner">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12" style=" display: flex; flex-direction: row; align-items: baseline; justify-content: space-around;">
-                <h1>Open House!</h1>
-                <h3>Saturday, Nov 6, 10am - 12pm</h3>
-                <!-- <h4>Details</h4> -->
+{{collection:announcements limit="1" feature_on_homepage:is="true"}}
+    {{if no_results}}
+    {{else}}
+    <div class="announcebanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" style=" display: flex; flex-direction: row; align-items: center; justify-content: space-around;">
+                    <h1>{{title}}</h1>
+                    {{if link}}
+                    <div>
+                        <p class="meta small">Go to:</p>
+                        <h3><i class="fas fa-arrow-right"></i> {{link}}<a href="{{url}}" style="color: white;">{{title}}</a>{{/link}}</h3>
+                    </div>
+                    {{/if}}
+                    <!-- <h4>Details</h4> -->
+                </div>
             </div>
         </div>
     </div>
-</div>
+    {{/if}}
+{{/collection:announcements}}
 
 <div class="container spacer60" style="padding: 0 45px">
     <div class="row">

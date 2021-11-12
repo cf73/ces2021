@@ -11,44 +11,27 @@ sections:
           validate:
             - required
       -
-        handle: image
+        handle: link
         field:
-          mode: grid
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: Image
-          type: assets
-          icon: assets
+          max_items: 1
+          mode: select
+          create: false
+          collections:
+            - pages
+          display: Link
+          type: entries
+          icon: entries
           listable: hidden
+          instructions_position: above
       -
-        handle: main_announcement_text
+        handle: feature_on_homepage
         field:
-          always_show_set_button: false
-          buttons:
-            - h2
-            - h3
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-            - table
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          display: 'Main announcement text'
-          type: bard
-          icon: bard
+          default: false
+          display: 'Feature on homepage?'
+          type: toggle
+          icon: toggle
           listable: hidden
+          instructions_position: above
   sidebar:
     display: Sidebar
     fields:
