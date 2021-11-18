@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635946218
+updated_at: 1637182763
 add_content:
   -
     text:
@@ -78,7 +78,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$26,818'
+                        text: '$26,818*'
           -
             type: table_row
             content:
@@ -110,7 +110,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$34,572'
+                        text: '$34,572*'
       -
         type: table
         content:
@@ -173,7 +173,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$23,591'
+                        text: '$23,591*'
           -
             type: table_row
             content:
@@ -205,7 +205,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$31,405'
+                        text: '$31,405*'
     type: text
     enabled: true
   -
@@ -265,7 +265,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Day plus Language Program *'
+                        text: 'Day plus Language Program '
           -
             type: table_row
             content:
@@ -298,7 +298,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,494'
+                        text: '$14,494*'
               -
                 type: table_cell
                 attrs:
@@ -312,7 +312,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,396'
+                        text: '$11,396*'
           -
             type: table_row
             content:
@@ -345,7 +345,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,830'
+                        text: '$14,830*'
               -
                 type: table_cell
                 attrs:
@@ -359,7 +359,9 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,504'
+                        text: '$11,504*'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -371,7 +373,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'Discounted Language Program tuition applies to students enrolled in Full Day Program*'
+            text: 'All numbers above reflect our 2021-22 Tuition Model*'
     type: text
     enabled: true
   -
