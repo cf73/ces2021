@@ -38,11 +38,10 @@
                 </div>
             </div>
         </div>
-        <div class="offset-md-1 col-sm-4 spacerTop30">
-            <p class="meta">Explore:</p>
+        <div class="offset-md-1 col-sm-4 spacerTop30" style="border-left: solid red 1px; padding-left: 30px;">
             {{ nav :from="uri" }}
                 {{ unless no_results }}
-                    <a href="{{ url }}"><h3 style="padding-top: 8px;">{{ title }}</h3></a>
+                    <a href="{{ url }}"><p class="meta small" style="padding-top: 8px;">{{ title }}</p></a>
                 {{ /unless }}
             {{ /nav }}
             {{collection:inspiring_quotes sort="random" limit="1"}}
