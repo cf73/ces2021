@@ -97,8 +97,8 @@ button {
   border-bottom: solid 1px lightgrey;
   position: fixed;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  align-items: center;
   top: 0;
   left: 0;
   background-color: #fafafae7; }

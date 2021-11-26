@@ -9,7 +9,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-7">
+        <div class="col-sm-12 col-md-8 col-lg-7">
            <div class="row">
                 <div class="col-sm-12">
                         {{add_content}}
@@ -38,15 +38,17 @@
                 </div>
             </div>
         </div>
-        <div class="offset-md-1 col-sm-4 spacerTop30">
+        <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-1  spacerTop30">
             {{ nav :from="uri" }}
                 {{ unless no_results }}
                     <a href="{{ url }}"><p class="meta" style="padding-top: 8px;">{{ title }}</p></a>
                 {{ /unless }}
             {{ /nav }}
             {{collection:inspiring_quotes sort="random" limit="1"}}
-                <h2 class="spacerTop30">"{{title}}"</h2>
-                <h3>&mdash; {{attribution}}</h3>
+                <div style="text-align: center;">
+                    <p class="meta small spacerTop30">"{{title}}"</p>
+                    <p class="meta small">&mdash; {{attribution}}</p>
+                </div>
             {{/collection:inspiring_quotes}}
         </div>
     </div>
