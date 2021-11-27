@@ -1,6 +1,5 @@
 .happyverb {
-  box-shadow: 0px 12px 50px 0px black;
-  line-height: 0;
+  line-height: 96px;
   font-size: 96px;
   color: white;
   font-family: "Avenir LT W01_85 Heavy1475544"; }
@@ -46,6 +45,11 @@ h3 {
   font-family: "Avenir LT W01_85 Heavy1475544";
   line-height: 1.3; }
 
+h4 {
+  font-size: 20px;
+  font-family: "Avenir LT W01_85 Heavy1475544";
+  line-height: 1.3; }
+
 .meta {
   font-family: "Space Mono", monospace;
   font-weight: 400;
@@ -63,7 +67,8 @@ a, a .cta {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .subslide {
   height: 70vh; }
@@ -91,8 +96,8 @@ button {
 
 .bread {
   width: 100%;
-  height: 75px;
-  padding: 8px 60px;
+  height: 70px;
+  padding: 8px 100px;
   z-index: 99999;
   border-bottom: solid 1px lightgrey;
   position: fixed;
@@ -221,5 +226,9 @@ a .peoplecard {
 
 body {
   background-color: #fafafa; }
+
+@media (min-width: 768px) {
+  .extra-padding {
+    width: calc(100% - 120px); } }
 
 /*# sourceMappingURL=ces.css.map */

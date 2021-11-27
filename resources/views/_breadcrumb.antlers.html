@@ -1,11 +1,8 @@
+
 <div class="bread">
-    <!-- <div style="border: thin solid lightgrey; padding: 12px; border-radius: 10px; text-align: center; box-shadow: 0 8px 30px #08334410 !important;">
-        <p>Your support helps ensure Cambridge Ellis remains a special place.</p>
-        <a href="/donate"><button>Donate Now</button></a>
-    </div> -->
     {{ nav:breadcrumbs include_home="false"}}
         <span class="crumb small" {{ if is_current }} class="current"{{ /if }}>
-            <a href="{{ url }}">{{ title }}</a> /
+            <a href="{{ url }}">{{ title }}</a> /&nbsp;
         </span>
     {{ /nav:breadcrumbs }}
 </div>
