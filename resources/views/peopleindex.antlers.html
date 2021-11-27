@@ -9,19 +9,19 @@
             <div class="row">
                 {{if slug | contains:leadership}}
                     {{collection:people role:contains="leadership"}}
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-xl-4">
                             <a href="{{url}}">{{partial:peoplecard}}</a>
                         </div>
                     {{/collection:people}}
                 {{elseif slug | contains:teaching-team}}
                     {{collection:people role:contains="teacher" sort="officialtitle"}}
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-xl-4">
                             <a href="{{url}}">{{partial:peoplecard}}</a>
                         </div>
                     {{/collection:people}}
                 {{elseif slug | contains:board}}
                     {{collection:people role:contains="board"}}
-                        <div class="col-md-4">
+                        <div class="col-md-6 col-xl-4">
                             <a href="{{url}}">{{partial:peoplecard}}</a>
                         </div>
                     {{/collection:people}}
