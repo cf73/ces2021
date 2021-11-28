@@ -1,36 +1,39 @@
 {{partial:breadcrumb}}
 
-<div class="container" style="margin-top: 45px;">
+<div class="container extra-padding" style="margin-top: 45px;">
     <div class="row">
         <div class="col-sm-12">
             <h1>{{title}}</h1>
         </div>
+        
         <div class="col-sm-6">
-            {{if photo}}
-            <img src="{{photo}}" alt="{{title}}" width="100%" style="border-radius: 10px;">
-            {{else}}
-            <img src="/assets/avatar.svg" alt="{{title}}" width="60%" style="border-radius: 10px;">
-            {{/if}}
-        </div>
-        <div class="col-sm-6">
-            <p class="meta">Official Title:</p>
+            <p class="meta small">Official Title:</p>
             <h3>{{officialtitle}}</h3>
             <hr>
-            <p class="meta">Email:</p>
-            <h5>{{email}}</h5>
+            <p class="meta small">Email:</p>
+            <h3>{{email}}</h3>
             <hr>
-            <p class="meta">Education:</p>
+            <p class="meta small">Education:</p>
             {{education}}
-                <h5>{{name_of_institution}}</h5>
+                <h3>{{name_of_institution}}</h3>
             {{/education}}
             <hr>
-            <p class="meta">Bio:</p>
+            <p class="meta small">Bio:</p>
             <p>{{bio}}</p>
 
             <!-- <p>I teach in the</p>
             {{collection:classrooms :teachers:contains="id"}}
                 <a href="{{url}}"><button>{{title}}</button></a>
             {{/collection:classrooms}} -->
+        </div>
+        <div class="col-sm-6">
+            {{if photo}}
+            <div class="polaroid" style="{{ switch between='transform: rotate(3deg);|transform: rotate(-3deg);' }}">
+                <div style="height: 100%; width: 100%; margin-bottom: 30px; border-radius: 3px; border: solid thin lightgrey; background-image: url('{{photo}}'); background-size: cover; background-position: center;"></div>
+            </div>
+            {{else}}
+            <img src="/assets/avatar.svg" alt="{{title}}" width="60%" style="border-radius: 10px;">
+            {{/if}}
         </div>
     </div>
 </div>
