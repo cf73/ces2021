@@ -42,7 +42,6 @@ sections:
                   field:
                     always_show_set_button: false
                     buttons:
-                      - h2
                       - h3
                       - bold
                       - italic
@@ -65,6 +64,9 @@ sections:
                     type: bard
                     icon: bard
                     listable: hidden
+                    instructions_position: above
+                    enable_input_rules: true
+                    enable_paste_rules: true
             image:
               display: Image
               fields:
@@ -117,6 +119,7 @@ sections:
           type: replicator
           icon: replicator
           listable: hidden
+          instructions_position: above
   sidebar:
     display: Sidebar
     fields:

@@ -9,18 +9,6 @@ add_content:
       -
         type: heading
         attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'General Information about Admissions at Cambridge-Ellis'
-    type: text
-    enabled: true
-  -
-    text:
-      -
-        type: heading
-        attrs:
           level: 3
         content:
           -
@@ -74,10 +62,6 @@ add_content:
                   -
                     type: text
                     text: 'After School Language Programs (ages 2 years 9 months- 6 years by September)'
-    type: text
-    enabled: true
-  -
-    text:
       -
         type: heading
         attrs:
@@ -94,8 +78,8 @@ add_content:
             text: "CES works collaboratively with a number of different agencies, public and private, as well as renowned experts in areas of child development, including a child development specialist, speech and language pathologist, and child psychologist. Our teaching faculty receives ongoing training and consultation by experts in the field. We welcome specialists and therapists into our classrooms to provide special support services to children during school hours.\_"
     type: text
     enabled: true
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635524008
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1638064291
 include: true
 main_image: IMG_20191105_085648989_HDR_Original.jpg
 ---
