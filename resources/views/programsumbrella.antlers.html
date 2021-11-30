@@ -12,18 +12,18 @@
     </div>
 {{/if}}
 
-<div class="container">
+<div class="container extra-padding">
     <div class="row">
         <div class="col-sm-12">
+            <h1>{{title}}</h1>
             <h2>{{description}}</h2>
-            
+            <hr>
             <div class="row spacerTop30">
                 {{classrooms}}
                     <div class="col-sm-4 spacer60">
                         <h3>{{title}}</h3>
                         <p>{{description}}</p>
                         {{if teachers}}
-                        <hr>
                         <p class="meta small" style="margin-bottom: 12px;">Teachers:</p>
                         {{teachers}}
                             <a href="{{url}}"><button>{{title}}</button></a>

@@ -8163,7 +8163,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ff6768; }
+  color: #66ab4a; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8178,7 +8178,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #ff6768 !important; }
+  background: #66ab4a !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8269,7 +8269,7 @@ h1, h2, h3, h4, h5,
           bottom: 7px;
           left: 0;
           right: 0;
-          background-color: #ff6768;
+          background-color: #66ab4a;
           visibility: hidden;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -8292,7 +8292,7 @@ h1, h2, h3, h4, h5,
             -o-transform: scaleX(1);
             transform: scaleX(1); }
       #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
-        color: #ff6768; }
+        color: #66ab4a; }
         #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
           visibility: visible;
           -webkit-transform: scaleX(1);

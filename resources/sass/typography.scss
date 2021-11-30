@@ -35,12 +35,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-family: $heavy;
-    font-size: 48px;
-    line-height: 1em;
+    font-size: 30px;
+    line-height: 1.2em;
     margin-bottom: .5em;
     margin-top: 45px;
-    letter-spacing: 0em;
     font-weight: 700;
+    color: $band5;
+}
+@media (min-width: $md) {
+    h1 {
+        font-size: 48px;
+        line-height: 1em;
+    }   
 }
 h2 {
     font-family: $roman;
@@ -65,8 +71,8 @@ h4 {
     margin-bottom: 4px;
 }
 a, a .cta {
-    color: #ff6768;
+    color: $band5;
     & :hover {
-        color: #0056b3;
+        color: $band;
     }
 }

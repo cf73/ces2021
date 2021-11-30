@@ -1,10 +1,3 @@
-//grid
-$small: 576px;
-$medium: 768px;
-$large: 992px;
-$xl: 1200px;
-$xxl: 1400px;
-
 .slide {
     background-size: cover;
     background-position: center;
@@ -21,14 +14,15 @@ $xxl: 1400px;
 button {
     border: none;
     border-radius: 30px;
-    background-color: $body;
+    background-color: $band5;
     font-family: $medium;
     letter-spacing: 0.02em;
     color: white;
     padding: 5px 20px;
     margin-bottom: 6px;
     &:hover {
-        color: $highlight;
+        background-color: $band;
+        color: white;
     }
 }
 .polaroid {
@@ -50,14 +44,17 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    top: 0; 
+    top: 0;
     left: 0; 
     background-color: #fafafae7;
+    & a {
+        color: $body;
+    }
 }
   @media  (min-width: $large) {
     .bread {
         left: 20%; 
-        padding-left: 8px;
+        padding-left: 15px;
         height: 45px;
     }
   }
@@ -95,20 +92,16 @@ ul {
 }
 .announcebanner {
     position: relative;
-    top: -80px;
-    width: 80%;
     margin: 0 auto;
-    background-color: $neonpaint;
+    width: calc(100% + 90px);
+    left: -45px;
+    border-radius: 10px 10px 0 0;
+    color: $band5;
+    background-color: $band6;
     // box-shadow: 0 8px 70px #26db5ee0 !important;
-    transform: rotate(-3deg);
-    color: white;
     height: auto;
     z-index: 9999;
-    padding: 30px 30px;
-    border-radius: 100px;
-    & h1 {
-        margin: 0;
-    }
+    padding: 18px 15px 12px 15px;
 }
 .shadow {
     box-shadow: 0 8px 30px #08334410 !important;
@@ -118,7 +111,6 @@ ul {
     padding: 60px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 8px 30px #08334410 !important;
 }
 .peoplecard {
     background-color: white;
@@ -165,6 +157,9 @@ a .peoplecard {
 }
 .spacerTop60 {
     padding-top: 60px;
+}
+.spacerTop90 {
+    padding-top: 110px;
 }
 .spacer30 {
     margin-bottom: 30px;
