@@ -3,8 +3,8 @@ id: e8dffaaa-d5b9-4817-bfd5-df162a6b3be5
 blueprint: flexible_content_page
 title: '40th Anniversary!'
 template: flexpage
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635511384
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1638072514
 add_content:
   -
     text:
@@ -34,7 +34,26 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'Interested in learning more? Please contact Kim Rogers, Director of Development, at kim@cambridge-ellis.org.'
+            text: 'Interested in learning more? Please contact '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::85447551-542f-4f4d-b377-d908f98c822a'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: italic
+            text: 'Kim Rogers, Director of Development'
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: ', at kim@cambridge-ellis.org.'
     type: text
     enabled: true
 main_image: CES-40th-Banner.jpg

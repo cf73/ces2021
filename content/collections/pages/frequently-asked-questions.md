@@ -1,35 +1,12 @@
 ---
+id: 72301430-4743-448d-8a1f-70552c3c25eb
+blueprint: flexible_content_page
 title: 'Frequently Asked Questions'
 template: flexpage
 parent: 80db4d25-4d83-49ad-8d90-62f26c47a7b9
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1627314873
-blueprint: flexible_content_page
+updated_at: 1638290893
 add_content:
-  -
-    text:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Admissions and Enrollment '
-    type: text
-    enabled: true
-  -
-    text:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Day Program'
-    type: text
-    enabled: true
   -
     text:
       -
@@ -187,17 +164,5 @@ add_content:
             text: "\_if you have questions regarding bus pick up."
     type: text
     enabled: true
-  -
-    text:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Fundraising and Development'
-    type: text
-    enabled: true
-id: 72301430-4743-448d-8a1f-70552c3c25eb
+main_image: unnamed-(2).jpg
 ---
