@@ -59,6 +59,9 @@ h4 {
   font-weight: 400;
   margin-bottom: 4px; }
 
+a:hover {
+  color: #e7a603; }
+
 a, a .cta {
   color: #66ab4a; }
   a :hover, a .cta :hover {

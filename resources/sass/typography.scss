@@ -70,6 +70,9 @@ h4 {
     font-weight: 400;
     margin-bottom: 4px;
 }
+a:hover {
+    color: $band;
+}
 a, a .cta {
     color: $band5;
     & :hover {
