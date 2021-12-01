@@ -6,8 +6,8 @@
 
 body {
   font-family: "Avenir LT W01_45 Book1475508";
-  color: #575655;
-  line-height: 1.62em;
+  color: #374035;
+  line-height: 1.6em;
   font-size: 17px;
   letter-spacing: 0.02em; }
 
@@ -31,7 +31,7 @@ h1 {
   margin-bottom: .5em;
   margin-top: 45px;
   font-weight: 700;
-  color: #63793F; }
+  color: #408000; }
 
 h2 {
   font-family: "Avenir LT W01_55 Roman1475520";
@@ -65,12 +65,12 @@ h4 {
   margin-bottom: 4px; }
 
 a:hover {
-  color: #575655; }
+  color: #374035; }
 
 a, a .cta {
-  color: #63793F; }
+  color: #408000; }
   a :hover, a .cta :hover {
-    color: #575655; }
+    color: #374035; }
 
 .slide {
   background-size: cover;
@@ -88,14 +88,14 @@ a, a .cta {
 button {
   border: none;
   border-radius: 30px;
-  background-color: #63793F;
+  background-color: #408000;
   font-family: "Avenir Next LT W05 Medium";
   letter-spacing: 0.02em;
   color: white;
   padding: 5px 20px;
   margin-bottom: 6px; }
   button:hover {
-    background-color: #575655;
+    background-color: #374035;
     color: white; }
 
 .polaroid {
@@ -123,7 +123,7 @@ button {
   left: 0;
   background-color: #fafafae7; }
   .bread a {
-    color: #575655; }
+    color: #374035; }
 
 @media (min-width: 992px) {
   .bread {
@@ -169,7 +169,7 @@ ul {
   left: -45px;
   border-radius: 10px 10px 0 0;
   color: white;
-  background-color: #63793F;
+  background-color: #408000;
   height: auto;
   z-index: 9999;
   padding: 18px 15px 12px 15px; }
@@ -223,9 +223,9 @@ ul {
   transition: all .5s; }
 
 a .peoplecard {
-  color: #575655; }
+  color: #408000; }
   a .peoplecard:hover {
-    color: #d7ad7f; }
+    color: #374035; }
 
 .cta {
   width: 100%;
@@ -259,7 +259,7 @@ a .peoplecard {
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #575655; }
+  background-color: #374035; }
 
 body {
   background-color: #fafafa; }
@@ -281,7 +281,7 @@ body {
     width: 70%;
     margin: 0 auto; } }
 .bigstats {
-  color: #575655;
+  color: #374035;
   margin-bottom: 12px; }
 
 /*# sourceMappingURL=ces.css.map */

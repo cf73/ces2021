@@ -162,9 +162,9 @@ ul {
     transition: all .5s;
 }
 a .peoplecard {
-    color: $body;
+    color: $band5;
     &:hover {
-        color: $band;
+        color: $body;
     }
 }
 .cta {
