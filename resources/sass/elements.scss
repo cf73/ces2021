@@ -21,7 +21,7 @@ button {
     padding: 5px 20px;
     margin-bottom: 6px;
     &:hover {
-        background-color: $band;
+        background-color: $body;
         color: white;
     }
 }
@@ -98,17 +98,17 @@ ul {
     width: calc(100% + 90px);
     left: -45px;
     border-radius: 10px 10px 0 0;
-    color: $body;
-    background-color: $band7;
+    color: white;
+    background-color: $band5;
     // box-shadow: 0 8px 70px #26db5ee0 !important;
     height: auto;
     z-index: 9999;
     padding: 18px 15px 12px 15px;
     & a {
-        color: $body;
+        color: white;
     }
     & a :hover {
-        color: $body;
+        color: white;
     }
 }
 .homecard {

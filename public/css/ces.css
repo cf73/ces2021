@@ -6,7 +6,7 @@
 
 body {
   font-family: "Avenir LT W01_45 Book1475508";
-  color: #4e587b;
+  color: #575655;
   line-height: 1.62em;
   font-size: 17px;
   letter-spacing: 0.02em; }
@@ -31,7 +31,7 @@ h1 {
   margin-bottom: .5em;
   margin-top: 45px;
   font-weight: 700;
-  color: #66ab4a; }
+  color: #63793F; }
 
 h2 {
   font-family: "Avenir LT W01_55 Roman1475520";
@@ -65,12 +65,12 @@ h4 {
   margin-bottom: 4px; }
 
 a:hover {
-  color: #e7a603; }
+  color: #575655; }
 
 a, a .cta {
-  color: #66ab4a; }
+  color: #63793F; }
   a :hover, a .cta :hover {
-    color: #e7a603; }
+    color: #575655; }
 
 .slide {
   background-size: cover;
@@ -88,14 +88,14 @@ a, a .cta {
 button {
   border: none;
   border-radius: 30px;
-  background-color: #66ab4a;
+  background-color: #63793F;
   font-family: "Avenir Next LT W05 Medium";
   letter-spacing: 0.02em;
   color: white;
   padding: 5px 20px;
   margin-bottom: 6px; }
   button:hover {
-    background-color: #e7a603;
+    background-color: #575655;
     color: white; }
 
 .polaroid {
@@ -123,7 +123,7 @@ button {
   left: 0;
   background-color: #fafafae7; }
   .bread a {
-    color: #4e587b; }
+    color: #575655; }
 
 @media (min-width: 992px) {
   .bread {
@@ -168,15 +168,15 @@ ul {
   width: calc(100% + 90px);
   left: -45px;
   border-radius: 10px 10px 0 0;
-  color: #4e587b;
-  background-color: #f7e4f3;
+  color: white;
+  background-color: #63793F;
   height: auto;
   z-index: 9999;
   padding: 18px 15px 12px 15px; }
   .announcebanner a {
-    color: #4e587b; }
+    color: white; }
   .announcebanner a :hover {
-    color: #4e587b; }
+    color: white; }
 
 .homecard {
   padding: 0 45px 60px 45px;
@@ -223,9 +223,9 @@ ul {
   transition: all .5s; }
 
 a .peoplecard {
-  color: #4e587b; }
+  color: #575655; }
   a .peoplecard:hover {
-    color: #e7a603; }
+    color: #d7ad7f; }
 
 .cta {
   width: 100%;
@@ -259,7 +259,7 @@ a .peoplecard {
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #4e587b; }
+  background-color: #575655; }
 
 body {
   background-color: #fafafa; }
@@ -281,7 +281,7 @@ body {
     width: 70%;
     margin: 0 auto; } }
 .bigstats {
-  color: #4e587b;
+  color: #575655;
   margin-bottom: 12px; }
 
 /*# sourceMappingURL=ces.css.map */

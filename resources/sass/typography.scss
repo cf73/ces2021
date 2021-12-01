@@ -76,11 +76,11 @@ h4 {
     margin-bottom: 4px;
 }
 a:hover {
-    color: $band;
+    color: $body;
 }
 a, a .cta {
     color: $band5;
     & :hover {
-        color: $band;
+        color: $body;
     }
 }
