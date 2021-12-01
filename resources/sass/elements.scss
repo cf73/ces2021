@@ -112,9 +112,10 @@ ul {
     }
 }
 .homecard {
-    padding: 0 45px;
+    padding: 0 45px 60px 45px;
     position: relative;
     top: -232px;
+    margin-bottom: -350px;
     background-color: white;
     box-shadow: 0 8px 30px #08334410 !important;
     width: 100%;
@@ -122,8 +123,7 @@ ul {
     padding-bottom: 110px;
 }
 @media (min-width: $small) {
-    .homecard {
-        padding: 0 45px; 
+    .homecard { 
         width: 90%;
     }
 }
