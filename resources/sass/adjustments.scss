@@ -13,3 +13,25 @@
         width: calc(100% - 120px);
     }
 }
+.welcometext {
+    padding-top: 30px;
+}
+@media (min-width: $md) {
+    .welcometext {
+        padding-top: 90px;
+    }
+}
+
+.introtext {
+    width: 100%;
+}
+@media (min-width: $md) {
+    .introtext {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+.bigstats {
+    color: $body;
+    margin-bottom: 12px;
+}

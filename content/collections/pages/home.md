@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1638306236
+updated_at: 1638329801
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -47,15 +47,15 @@ at_a_glance:
     type: statistic
     enabled: true
   -
-    number: '9 years'
-    caption: 'average tenure of our teachers'
-    type: statistic
-    enabled: true
-  -
     caption: 'average child to teacher ratio'
     type: statistic
     enabled: true
     number: '5:1'
+  -
+    number: '9'
+    caption: 'years average tenure of our teachers'
+    type: statistic
+    enabled: true
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the purple room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
 testimonial_1_image: 1WE-PLAY.jpg
 testimonial_2: 'Cambridge-Ellis has so much to offer families who are just starting their child’s educational journey. Our teachers take the time to form unique relationships with each child, making the transition from home to school feel flawless. I often feel in awe of the curriculum my co-workers are cultivating in their classrooms: Kamishibai theater storytelling, what farming looks like around the world, the art Jean-Michel Basquiat, the silkworm lifecycle, and what it means to vote! I feel that at CES, we work with children to build a foundation of learning that will serve them for the rest of their lives.'

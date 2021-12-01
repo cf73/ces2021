@@ -33,6 +33,7 @@ button {
     box-shadow: 0px 12px 50px 0px $glow;
     padding: 5%;
     padding-bottom: 15%;
+    margin-bottom: 30px;
 }
 .bread {
     width: 100%; 
@@ -42,6 +43,7 @@ button {
     border-bottom: solid 1px lightgrey; 
     position: fixed; 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     top: 0;
@@ -96,21 +98,53 @@ ul {
     width: calc(100% + 90px);
     left: -45px;
     border-radius: 10px 10px 0 0;
-    color: $band5;
-    background-color: $band6;
+    color: $body;
+    background-color: $band7;
     // box-shadow: 0 8px 70px #26db5ee0 !important;
     height: auto;
     z-index: 9999;
     padding: 18px 15px 12px 15px;
+    & a {
+        color: $body;
+    }
+    & a :hover {
+        color: $body;
+    }
+}
+.homecard {
+    padding: 0 45px;
+    position: relative;
+    top: -232px;
+    background-color: white;
+    box-shadow: 0 8px 30px #08334410 !important;
+    width: 100%;
+    border-radius: 20px 20px 10px 10px;
+    padding-bottom: 110px;
+}
+@media (min-width: $small) {
+    .homecard {
+        padding: 0 45px; 
+        width: 90%;
+    }
 }
 .shadow {
     box-shadow: 0 8px 30px #08334410 !important;
 }
 .box {
     background-color: white;
-    padding: 60px;
+    padding: 0px;
     text-align: center;
     border-radius: 10px;
+}
+@media (min-width: $large) {
+    .box {
+        padding: 30px;
+    }
+}
+@media (min-width: $xl) {
+    .box {
+        padding: 60px;
+    }
 }
 .peoplecard {
     background-color: white;
@@ -126,15 +160,11 @@ ul {
     box-shadow: 0 8px 30px #08334410 !important;
     margin-bottom: 30px;
     transition: all .5s;
-    &:hover {
-        box-shadow: 0 8px 30px #08334410 !important;
-        transition: all .5s;
-    }
 }
 a .peoplecard {
     color: $body;
     &:hover {
-        color: $highlight;
+        color: $band;
     }
 }
 .cta {

@@ -12,12 +12,12 @@
             {{ nav :from="uri" }}
                 {{ unless no_results }}
                     <div class="row spacer60 flex {{ switch between='flex-row|flex-row-reverse' }}">
-                        <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <div class="col-xl-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                             <div class="polaroid" style="{{ switch between='transform: rotate(3deg);|transform: rotate(-3deg);' }}">
                                 <div style="height: 100%; width: 100%; margin-bottom: 30px; border-radius: 3px; border: solid thin lightgrey; background-image: url({{program_image}}); background-size: cover; background-position: center;"></div>
                             </div>
                         </div>
-                        <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <div class="col-xl-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                             <h3 style="text-align: center;">{{title}}</h3>
                             <p style="text-align: center;">{{short_description}}</p>
                             <a href="{{url}}"><button>Explore</button></a>

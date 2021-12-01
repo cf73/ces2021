@@ -9,10 +9,14 @@
 
 <div class="container extra-padding">
     <div class="row">
-        <div class="col-sm-12 col-md-10 offset-md-1 col-xl-7 offset-xl-0">
+        <div class="col-sm-12">
+            <h1>{{title}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-xl-7 offset-xl-0">
            <div class="row">
                 <div class="col-sm-12">
-                    <h1>{{title}}</h1>
                         {{add_content}}
     
                             {{ if type == "text" }}
@@ -39,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-xl-4 offset-xl-1 spacerTop90">
+        <div class="col-sm-12 col-xl-4 offset-xl-1">
             {{ nav :from="uri" }}
                 {{ unless no_results }}
                     <a href="{{ url }}"><h3 class="" style="padding-top: 8px;"><i class="fas fa-arrow-right"></i> {{ title }}</h3></a>

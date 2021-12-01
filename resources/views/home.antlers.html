@@ -8,14 +8,7 @@
     </div>
 </div>
 
-<div class="container spacer60" style="padding: 0 45px;
-position: relative;
-top: -232px;
-background-color: white;
-box-shadow: 0 8px 30px #08334410 !important;
-width: 90%;
-border-radius: 20px 20px 10px 10px;
-padding-bottom: 110px;">
+<div class="container spacer60 homecard">
 {{collection:announcements limit="1" feature_on_homepage:is="true"}}
 {{if no_results}}
 {{else}}
@@ -39,19 +32,18 @@ padding-bottom: 110px;">
 {{/if}}
 {{/collection:announcements}}
 
-    <div class="row" style="padding-top: 30px;">
+    <div class="row welcometext">
         <div class="col-sm-12" style="text-align: center;">
-            <h1>{{welcome_line}}</h1>
-            <p style="width: 70%; margin: 0 auto;">{{intro}}</p>
+            <h3>{{welcome_line}}</h3>
+            <br>
+            <p class="introtext">{{intro}}</p>
         </div>
     </div>
     <div class="row spacerTop30 spacer60">
         {{at_a_glance}}
         <div class="col-sm-4" style="text-align: center;">
-            
-                <h1>{{number}}</h1>
-                <p>{{caption}}</p>
-            
+            <h1 class="bigstats">{{number}}</h1>
+            <p>{{caption}}</p>
         </div>
         {{/at_a_glance}}
     </div>
