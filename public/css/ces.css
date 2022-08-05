@@ -72,6 +72,9 @@ a, a .cta {
   a :hover, a .cta :hover {
     color: #374035; }
 
+p a {
+  text-decoration: underline; }
+
 .slide {
   background-size: cover;
   background-position: center;

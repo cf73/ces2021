@@ -84,3 +84,8 @@ a, a .cta {
         color: $body;
     }
 }
+p {
+    & a {
+        text-decoration: underline;
+    }
+}
