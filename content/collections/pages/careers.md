@@ -4,26 +4,66 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635179821
+updated_at: 1653668726
 add_content:
   -
     text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Cambridge-Ellis School is currently hiring for the following positions:'
+      -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1cegIjuMxJ-PVO5EjqQ8613s6EdOoROaSFWGza5aEeoc/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: '2022-23 French Immersion Co-Head Teacher'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1i-MBfnLEnDw9Nrcmn0B9uRBat3cKVgLQ_Pt_SOkgOms/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: '2022-23 Toddler Co-Head Teacher'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Currently, we do not have any open positions at CES. If you are interested in potential future openings, please email our Assistant Director Rebekah Riley at '
-          -
-            type: text
             marks:
               -
-                type: link
-                attrs:
-                  href: 'mailto:bekah@cambridge-ellis.org'
-                  target: null
-                  rel: null
-            text: bekah@cambridge-ellis.org
+                type: bold
+            text: 'If you are interested in applying to any of the above positions or wish to learn more, please reach out to our Assistant Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
     type: text
     enabled: true
   -

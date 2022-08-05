@@ -2,7 +2,7 @@
 id: 33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47
 blueprint: people
 template: bio
-title: 'Michelle Pheonix'
+title: 'Michelle Phoenix'
 officialtitle: 'Office Manager'
 education:
   -
@@ -15,5 +15,5 @@ photo: 'Michelle Pheonix.jpg'
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635175722
+updated_at: 1646932974
 ---

@@ -28,13 +28,13 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Parent Teacher Association (PTA)'
+            text: 'Community Builders'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'To learn more about the work of our PTA, reach the committee chair Emily Tatelbaum at ptachair2122@cambridge-ellis.org.'
+            text: 'To learn more about the work of our Community Builders, reach the committee chair Emily Tatelbaum at ptachair2122@cambridge-ellis.org.'
       -
         type: paragraph
         content:
@@ -189,7 +189,7 @@ add_content:
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636066339
+updated_at: 1644499649
 include: true
 main_image: IMG_2515.jpg
 ---

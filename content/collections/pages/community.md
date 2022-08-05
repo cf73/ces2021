@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Community
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636492511
+updated_at: 1641322443
 add_content:
   -
     text:
@@ -25,17 +25,17 @@ add_content:
     type: text
     enabled: true
   -
-    quote: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the purple room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
+    quote: 'As a multiracial, multicultural, middle-class family, we wanted our child’s first school experience to be in a loving, nurturing, and welcoming place, and in a community that valued all forms of diversity. We found in Cambridge-Ellis a second home, where our child was truly known and loved, and where we felt deeply connected.'
     attribution: 'CES Caregiver'
     type: quote
     enabled: true
   -
-    quote: 'Cambridge-Ellis has so much to offer families who are just starting their child’s journey education. Our teachers take the time to form unique relationships with each child, making the transition from home to school feel flawless. I often feel in awe of the curriculum my co-workers are cultivating in their classrooms: Kamishibai theater storytelling, what farming looks like around the world, the art Jean-Michel Basquiat, the silkworm lifecycle, and what it means to vote! I feel that at CES, we work with children to build a foundation of learning that will serve them for the rest of their lives.'
-    attribution: 'CES Leadership'
+    quote: 'CES values it''s families, children, and developmental learning. As a teacher I feel that I have the respect, the professional understanding, the resources, and the support to do my job. It is also a safe space to explore new curriculum and methods of teaching to best serve the current population of children. I appreciate that I can tailor my teaching methods to the specific group that I have each year.'
+    attribution: 'CES Teacher'
     type: quote
     enabled: true
   -
-    quote: 'In our conversations with other parents, we always come back to the same refrain: Cambridge-Ellis is a special place. The kindness and gentleness of the teachers, the depth and creativity of the curriculum, the exuberance of the children’s art displayed everywhere, the sunlight that fills and warms the building- these are just some of the things that make Cambridge-Ellis a very special place. We couldn’t have asked for a better first school experience for our child.'
+    quote: 'We feel sincerely grateful to have crossed paths with the educators and administrators at CES. This contact has taught us to be better parents and has given our child a strong foundation which we couldn''t have done on our own. We are full of gratitude.'
     attribution: 'CES Caregiver'
     type: quote
     enabled: true
