@@ -3,7 +3,7 @@ id: b5bb8cd0-648d-4365-b5ed-6d82d8c1a81c
 blueprint: people
 template: bio
 title: 'Mary Dutczak'
-officialtitle: 'Floating Teacher'
+officialtitle: 'Mandarin Room Teacher'
 education:
   -
     name_of_institution: 'B.A. University of Massachusetts'
@@ -17,5 +17,6 @@ role:
 programs:
   - day
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635174662
+updated_at: 1660333220
+published: true
 ---

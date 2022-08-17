@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1637182763
+updated_at: 1659980222
 add_content:
   -
     text:
@@ -36,7 +36,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: Toddler
+                        text: 'Toddler                                                     '
               -
                 type: table_header
                 attrs:
@@ -47,6 +47,10 @@ add_content:
                 content:
                   -
                     type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '                                             '
           -
             type: table_row
             content:
@@ -78,7 +82,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$26,818*'
+                        text: '$27,490'
           -
             type: table_row
             content:
@@ -110,7 +114,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$34,572*'
+                        text: "$35,440\_"
       -
         type: table
         content:
@@ -173,7 +177,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$23,591*'
+                        text: "$24,182\_"
           -
             type: table_row
             content:
@@ -205,7 +209,10 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$31,405*'
+                        text: "$32,190\_\_"
+    type: text
+    enabled: true
+  -
     type: text
     enabled: true
   -
@@ -298,7 +305,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,494*'
+                        text: '$15,220'
               -
                 type: table_cell
                 attrs:
@@ -312,7 +319,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,396*'
+                        text: '$11,680'
           -
             type: table_row
             content:
@@ -345,7 +352,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,830*'
+                        text: "$15,575\_"
               -
                 type: table_cell
                 attrs:
@@ -359,7 +366,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,504*'
+                        text: '$11,792'
       -
         type: paragraph
       -
@@ -389,8 +396,6 @@ add_content:
             text: 'For any questions regarding tuition and financial aid, please contact our Business Manager Andy Griswold at Andy@Cambridge-Ellis.org.'
     type: text
     enabled: true
-  -
-    type: text
-    enabled: true
 main_image: IMG_2504.jpg
+published: true
 ---
