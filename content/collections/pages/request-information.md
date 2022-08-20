@@ -42,8 +42,9 @@ add_content:
             text: .
     type: text
     enabled: true
-published: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1659739551
+updated_at: 1660967798
+main_image: happy.JPG
+published: true
 ---
