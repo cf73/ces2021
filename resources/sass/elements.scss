@@ -1,3 +1,17 @@
+.promoted {
+    background-color: rgba(255, 255, 255, 0.928);
+    width: 90%;
+    height: auto;
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+    top: -35vh;
+    border-radius: 30px;
+    padding: 12px 0px 60px 0px;
+    box-shadow: 0 8px 30px #08334410 !important;
+    overflow: hidden;
+}
+
 .slide {
     background-size: cover;
     background-position: center;

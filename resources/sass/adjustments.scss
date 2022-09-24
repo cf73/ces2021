@@ -35,3 +35,12 @@
     color: $body;
     margin-bottom: 12px;
 }
+.carousel-indicators li {
+    background-color: black;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -60px;
+    opacity: .3;
+}

@@ -8,6 +8,37 @@
     </div>
 </div>
 
+<div class="promoted">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: auto;">
+        <ol class="carousel-indicators">
+            {{collection:promoted}}
+            <li data-target="#carouselExampleIndicators" data-slide-to="{{increment from='0'}}" class="{{ if first }}active{{ /if }}"></li>
+            {{/collection:promoted}}
+        </ol>
+        <div class="carousel-inner">
+            {{collection:promoted}}
+                <div class="carousel-item {{ if first }}active{{ /if }}">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img width="100%" height="auto" style="border-radius: 30px;" src="{{image}}" alt="{{title}}">
+                            </div>
+                            <div class="col-md-6" style="text-align:left;">
+                                <h1>{{title}}</h1>
+                                <h2>{{subtitle}}</h2>
+                                <p>{{date_of_event}}</p>
+                                <p>{{start_time}}&mdash;{{end_time}}</p>
+                                <p>{{address}}</p>
+                                <p>{{summary_or_additional_info}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/collection:promoted}}
+        </div>
+    </div>
+</div>
+
 <div class="container homecard">
 {{collection:announcements limit="1" feature_on_homepage:is="true"}}
 {{if no_results}}

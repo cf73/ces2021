@@ -75,6 +75,19 @@ a, a .cta {
 p a {
   text-decoration: underline; }
 
+.promoted {
+  background-color: rgba(255, 255, 255, 0.928);
+  width: 90%;
+  height: auto;
+  position: relative;
+  z-index: 999;
+  margin: 0 auto;
+  top: -35vh;
+  border-radius: 30px;
+  padding: 12px 0px 60px 0px;
+  box-shadow: 0 8px 30px #08334410 !important;
+  overflow: hidden; }
+
 .slide {
   background-size: cover;
   background-position: center;
@@ -286,5 +299,14 @@ body {
 .bigstats {
   color: #374035;
   margin-bottom: 12px; }
+
+.carousel-indicators li {
+  background-color: black;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -60px;
+  opacity: .3; }
 
 /*# sourceMappingURL=ces.css.map */
