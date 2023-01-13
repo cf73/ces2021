@@ -11,7 +11,7 @@ add_content:
         content:
           -
             type: text
-            text: 'We have spots available in our Preschool Program for the 2022-23 school year! Read below to learn how to apply.'
+            text: 'We are now accepting applications for the 2023-24 school year! Read below to learn how to apply.'
     type: text
     enabled: true
   -
@@ -32,6 +32,37 @@ add_content:
         content:
           -
             type: text
+            text: "First, fill out an\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridge-ellis.myschoolapp.com/app/embed#inquiry/40349'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: 'Inquiry Form'
+          -
+            type: text
+            text: '. Our admissions director will then reach out to you to set up a tour and meeting (adults only) with our Director and/or Assistant Director.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Then,'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: ' '
+          -
+            type: text
             marks:
               -
                 type: link
@@ -42,34 +73,10 @@ add_content:
                   title: null
               -
                 type: bold
-            text: 'Create an online account on our application platform'
+            text: 'create an online account on our application platform'
           -
             type: text
-            text: ", complete and submit your application, and\_"
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://bngn.smarttuition.com/?id=deb2hsvtzsc'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: 'submit the application fee here'
-          -
-            type: text
-            text: ".\_"
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'After applying, our admissions director will reach out to you to set up a tour and meeting (adults only) with our Director and/or Assistant Director.'
+            text: ' and submit the $55 application fee.'
     type: text
     enabled: true
   -
@@ -100,11 +107,11 @@ add_content:
         content:
           -
             type: text
-            text: 'For more information about Cambridge-Ellis'' commitment to providing financial aid and the application process, visit our Financial Aid page.'
+            text: "For more information about Cambridge-Ellis' commitment to providing financial aid and the application process, visit our Financial Aid page."
     type: text
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1657127487
+updated_at: 1668448678
 main_image: IMG_3005.jpg
 ---

@@ -9,10 +9,11 @@ education:
     type: institution
     enabled: true
 email: Julie@Cambridge-Ellis.org
-photo: IMG_3051.JPG
+photo: eadd6d78-de1a-46a4-b1e9-cb474d957146.jpeg
 role:
   - leadership
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635512711
+updated_at: 1663102759
+published: true
 ---

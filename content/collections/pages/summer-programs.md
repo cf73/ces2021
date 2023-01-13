@@ -4,17 +4,16 @@ blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
 description: |-
-  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm or 8:30-3:00pm programming for Toddlers and Preschoolers alike. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.
+  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm, 8:30-3:00pm, or 8:30-6pm programming for Toddlers and Preschoolers alike. Toddler-age classrooms are available for children 1.9 years and older. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.
 
 
-  The registration link for Summer Camp can be found at the bottom of this page.
 
 
    Email Katie@Cambridge-Ellis.org for more information.
 programs_offered:
   -
     program_title: 'Young Explorers- English Summer Camp'
-    program_description: 'Our Young Explorers programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
+    program_description: 'Our Young Explorers toddler and preschool programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
     type: program
     enabled: true
   -
@@ -25,36 +24,22 @@ programs_offered:
 sessions:
   -
     session_title: 'Session A'
-    session_dates: 'June 13th – July 1st'
+    session_dates: 'June 12th – June 30th'
     programs_in_this_session:
       -
-        program_title: 'Young Explorers - Toddlers'
-        half_day_time_and_price: '8:30 - 12pm, $1595'
-        full_day_time_and_price: '8:30 - 3pm, $1775'
-        type: program
-        enabled: true
-      -
-        program_title: 'Young Explorers and Globetrotters - Preschool'
-        half_day_time_and_price: '8:30 - 12pm, $1595'
-        full_day_time_and_price: '8:30 - 3pm, $1775'
+        half_day_time_and_price: '8:30 - 12pm, $1525'
+        full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
     type: session
     enabled: true
   -
     session_title: 'Session B'
-    session_dates: 'July 5th - July 22nd'
+    session_dates: 'July 3rd - July 21st'
     programs_in_this_session:
       -
-        program_title: 'Young Explorers - Toddlers'
-        half_day_time_and_price: '8:30 - 12pm, $1495'
-        full_day_time_and_price: '8:30 - 3pm, $1665'
-        type: program
-        enabled: true
-      -
-        program_title: 'Young Explorers and Globetrotters - Preschool'
-        half_day_time_and_price: '8:30 - 12pm, $1495'
-        full_day_time_and_price: '8:30 - 3pm, $1665'
+        half_day_time_and_price: '8:30 - 12pm, $1525'
+        full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
     type: session
@@ -107,10 +92,10 @@ important_notes:
         marks:
           -
             type: bold
-        text: 'To apply, please contact our Office Manager, Michelle Phoenix, at Michelle@Cambridge-Ellis.org'
+        text: 'An application link will be made available to enrolled CES families on February 1st. Families who are new to the CES community can apply on February 15th.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1654095183
+updated_at: 1673542074
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:

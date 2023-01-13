@@ -16,27 +16,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Summer Camp registration is now open to all! Please use the following link to register for a summer of fun in the sun at CES.'
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://cambridgeellis.campbrainregistration.com/'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: '2022 Summer Camp Registration'
-      -
-        type: paragraph
+            text: 'Summer Camp 2023 registration opens in February 2023. '
     type: text
     enabled: true
   -
@@ -56,6 +36,6 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1644929815
+updated_at: 1668435347
 main_image: IMG_2566.JPG
 ---

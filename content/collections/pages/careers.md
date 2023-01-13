@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1653668726
+updated_at: 1666975833
 add_content:
   -
     text:
@@ -15,44 +15,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Cambridge-Ellis School is currently hiring for the following positions:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1cegIjuMxJ-PVO5EjqQ8613s6EdOoROaSFWGza5aEeoc/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: '2022-23 French Immersion Co-Head Teacher'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1i-MBfnLEnDw9Nrcmn0B9uRBat3cKVgLQ_Pt_SOkgOms/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: '2022-23 Toddler Co-Head Teacher'
+            text: 'Cambridge-Ellis School is not currently hiring.'
       -
         type: paragraph
       -
@@ -63,7 +26,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'If you are interested in applying to any of the above positions or wish to learn more, please reach out to our Assistant Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
+            text: 'If you are interested in learning more about future career opportunities at our school, please reach out to our Assistant Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
     type: text
     enabled: true
   -

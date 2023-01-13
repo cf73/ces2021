@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1641316153
+updated_at: 1664805669
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -12,7 +12,7 @@ hero:
   - 1WE-PLAY.jpg
   - 2WE-EXPLORE.jpg
   - hands.jpg
-intro: 'We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community''s youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community.'
+intro: "We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community's youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community."
 slideshow:
   -
     image: IMG_3862-(1).jpg
@@ -42,7 +42,7 @@ slideshow:
 welcome_line: 'Welcome to Cambridge-Ellis School!'
 at_a_glance:
   -
-    number: '40'
+    number: '41'
     caption: 'years of nurturing young children'
     type: statistic
     enabled: true

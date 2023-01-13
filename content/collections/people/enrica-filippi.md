@@ -11,7 +11,7 @@ education:
     enabled: true
 email: Enrica@Cambridge-Ellis.org
 bio: 'I knew from an early age that nurturing was a calling for me. After attending Clark University for Psychology, I found myself working with children right away, mostly in settings such as after-school and enrichment programs. When planning curriculum, I enjoy including mindfulness through activities that encourage making connections and observing the natural environment. A native Italian with Chinese roots, I value learning about diverse cultures and perspectives, and listening to stories that help to shape knowing. I love how bright and curious toddlers naturally are, and am excited to be working alongside them more extensively. In my free time, I enjoy the outdoors, reading, yoga, and traveling.'
-photo: 'Enrica Filippi.jpg'
+photo: 7c74a18d-1055-43e2-a625-242ba7165acf.jpeg
 role:
   - teacher
 programs:
@@ -19,6 +19,6 @@ programs:
 classrooms:
   - c63dac32-3295-4368-bb8a-f4f1e23b718f
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1660333095
+updated_at: 1663102899
 published: true
 ---

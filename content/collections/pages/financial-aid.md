@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Financial Aid'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635524308
+updated_at: 1666036892
 add_content:
   -
     text:
@@ -29,19 +29,26 @@ add_content:
         content:
           -
             type: text
-            text: 'If you would like to be considered for scholarship funding, please visit '
+            text: 'If you would like to be considered for scholarship funding, please visit the'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: ' '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'http://sssbynais.org/parents'
-                  target: null
+                  href: 'https://sssandtadsfa.force.com/familyportal/FamilyLogin?startURL=%2Ffamilyportal'
                   rel: null
+                  target: null
+                  title: null
               -
                 type: bold
-            text: 'http://sssbynais.org/parents'
+            text: 'SSS Family Portal'
           -
             type: text
             text: ' to apply.'

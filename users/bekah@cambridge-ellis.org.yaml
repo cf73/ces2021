@@ -3,3 +3,10 @@ roles:
   - editor
 id: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 password_hash: $2y$10$Dsle6clO7Rhv4widBy1L7ub2vOSbWYXSwv4h2VEmm67Edsvs0KmBa
+preferences:
+  collections:
+    promoted:
+      columns:
+        - title
+        - slug
+        - date_of_event
