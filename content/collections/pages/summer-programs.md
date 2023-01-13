@@ -31,6 +31,7 @@ sessions:
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
+        extended_day_time_and_price: 'coming soon!'
     type: session
     enabled: true
   -
@@ -42,6 +43,7 @@ sessions:
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
+        extended_day_time_and_price: 'coming soon!'
     type: session
     enabled: true
 important_notes:
@@ -94,8 +96,8 @@ important_notes:
             type: bold
         text: 'An application link will be made available to enrolled CES families on February 1st. Families who are new to the CES community can apply on February 15th.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1673542074
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1673581025
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
