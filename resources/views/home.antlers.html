@@ -9,6 +9,27 @@
 </div>
 
 <div class="promoted">
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            {{collection:promoted}}
+            <div class="swiper-slide">
+                <h2>{{title}}</h2>
+                <h2>{{subtitle}}</h2>
+                <p>{{date_of_event}}</p>
+                <p>{{start_time}}&mdash;{{end_time}}</p>
+                <p>{{address}}</p>
+                <p>{{summary_or_additional_info}}</p>
+            </div>
+            {{/collection:promoted}}
+            ...
+        </div>
+    </div>
+</div>
+
+<!-- <div class="promoted">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: auto;">
         <ol class="carousel-indicators">
             {{collection:promoted}}
@@ -20,11 +41,8 @@
                 <div class="carousel-item {{ if first }}active{{ /if }}">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-3">
-                                <img width="100%" height="auto" style="border-radius: 30px; mix-blend-mode: multiply;" src="{{image}}" alt="{{title}}">
-                            </div>
-                            <div class="col-md-9" style="text-align:left;">
-                                <h1>{{title}}</h1>
+                            <div class="col-md-12" style="text-align:left;">
+                                <h2>{{title}}</h2>
                                 <h2>{{subtitle}}</h2>
                                 <p>{{date_of_event}}</p>
                                 <p>{{start_time}}&mdash;{{end_time}}</p>
@@ -37,7 +55,7 @@
             {{/collection:promoted}}
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container homecard">
 {{collection:announcements limit="1" feature_on_homepage:is="true"}}
@@ -154,3 +172,18 @@
 
     splide.mount();
 </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+    var swiper = new Swiper(".swiper", {
+        effect: "cards",
+        grabCursor: true,
+        autoplay: {
+          delay: 7500,
+          disableOnInteraction: false,
+        },
+    });
+  </script>

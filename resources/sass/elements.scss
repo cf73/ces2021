@@ -1,14 +1,10 @@
 .promoted {
-    background-color: rgba(255, 255, 255, 0.928);
-    width: 90%;
     height: auto;
     position: relative;
     z-index: 999;
     margin: 0 auto;
-    top: -35vh;
-    border-radius: 30px;
+    top: -15vh;
     padding: 12px 0px 60px 0px;
-    box-shadow: 0 8px 30px #08334410 !important;
     overflow: hidden;
 }
 
@@ -111,7 +107,7 @@ ul {
     margin: 0 auto;
     width: calc(100% + 90px);
     left: -45px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     color: white;
     background-color: $band5;
     // box-shadow: 0 8px 70px #26db5ee0 !important;
@@ -128,10 +124,8 @@ ul {
 .homecard {
     padding: 0 45px 60px 45px;
     position: relative;
-    top: -232px;
+    top: -15vh;
     margin-bottom: -350px;
-    background-color: white;
-    box-shadow: 0 8px 30px #08334410 !important;
     width: 100%;
     border-radius: 20px 20px 10px 10px;
     padding-bottom: 110px;
@@ -147,7 +141,6 @@ ul {
 .box {
     background-color: white;
     padding: 0px;
-    text-align: center;
     border-radius: 10px;
 }
 @media (min-width: $large) {
@@ -219,3 +212,59 @@ a .peoplecard {
     height: 300px;
     background-color: $body;
 }
+
+//swiper
+
+.swiper {
+    width: 80%;
+    height: auto;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    color: #fff;
+    padding: 30px;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
