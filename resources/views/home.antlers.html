@@ -1,3 +1,28 @@
+<div style="width: 100%; display: flex; justify-content: center;">
+    {{collection:announcements limit="1" feature_on_homepage:is="true"}}
+    {{if no_results}}
+    {{else}}
+    <div class="announcebanner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <h3>{{title}}</h3>
+                </div>
+                <div class="col-sm-12 col-lg-6" style="text-align: right;">
+                    {{if link}}
+                        <div>
+                            <!-- <p class="meta small">Go to:</p> -->
+                            {{link}}<a href="{{url}}"><h3><i class="fas fa-arrow-right"></i> {{title}}</h3></a>{{/link}}
+                        </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/if}}
+    {{/collection:announcements}}
+</div>
+
 <div class="splide" style="margin-bottom: 30px;">
     <div class="splide__track">
           <div class="splide__list">
@@ -58,34 +83,13 @@
 </div> -->
 
 <div class="container homecard">
-{{collection:announcements limit="1" feature_on_homepage:is="true"}}
-{{if no_results}}
-{{else}}
-<div class="announcebanner">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-6">
-                <h3>{{title}}</h3>
-            </div>
-            <div class="col-sm-12 col-lg-6" style="text-align: right;">
-                {{if link}}
-                    <div>
-                        <!-- <p class="meta small">Go to:</p> -->
-                        {{link}}<a href="{{url}}"><h3><i class="fas fa-arrow-right"></i> {{title}}</h3></a>{{/link}}
-                    </div>
-                {{/if}}
-            </div>
-        </div>
-    </div>
-</div>
-{{/if}}
-{{/collection:announcements}}
+
 
     <div class="row welcometext">
-        <div class="col-sm-12" style="text-align: center;">
-            <h3>{{welcome_line}}</h3>
+        <div class="col-sm-12">
+            <h1>{{welcome_line}}</h1>
             <br>
-            <p class="introtext">{{intro}}</p>
+            <p>{{intro}}</p>
         </div>
     </div>
     <div class="row spacerTop30 spacer60">

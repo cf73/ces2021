@@ -1,6 +1,6 @@
 .happyverb {
-  line-height: 96px;
-  font-size: 96px;
+  line-height: 108px;
+  font-size: 108px;
   color: white;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
@@ -41,7 +41,7 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 45px;
   font-weight: 700;
-  color: #408000;
+  color: #a5c544;
 }
 
 h2 {
@@ -89,7 +89,7 @@ a:hover {
 }
 
 a, a .cta {
-  color: #408000;
+  color: #a5c544;
 }
 a :hover, a .cta :hover {
   color: #374035;
@@ -127,7 +127,7 @@ p a {
 button {
   border: none;
   border-radius: 30px;
-  background-color: #408000;
+  background-color: #a5c544;
   font-family: 700;
   letter-spacing: 0.02em;
   color: white;
@@ -215,13 +215,13 @@ ul {
 }
 
 .announcebanner {
-  position: relative;
+  position: absolute;
+  top: 30px;
   margin: 0 auto;
-  width: calc(100% + 90px);
-  left: -45px;
+  width: 90%;
   border-radius: 10px;
   color: white;
-  background-color: #408000;
+  background-color: rgba(165, 197, 68, 0.84);
   height: auto;
   z-index: 9999;
   padding: 18px 15px 12px 15px;
@@ -234,18 +234,16 @@ ul {
 }
 
 .homecard {
-  padding: 0 45px 60px 45px;
   position: relative;
   top: -15vh;
   margin-bottom: -350px;
   width: 100%;
-  border-radius: 20px 20px 10px 10px;
   padding-bottom: 110px;
 }
 
 @media (min-width: 576px) {
   .homecard {
-    width: 90%;
+    width: 100%;
   }
 }
 .shadow {
@@ -285,7 +283,7 @@ ul {
 }
 
 a .peoplecard {
-  color: #408000;
+  color: #a5c544;
 }
 a .peoplecard:hover {
   color: #374035;
@@ -401,7 +399,7 @@ body {
 
 @media (min-width: 768px) {
   .welcometext {
-    padding-top: 90px;
+    padding-top: 0px;
   }
 }
 .introtext {

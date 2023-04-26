@@ -103,13 +103,13 @@ ul {
     margin-bottom: 0 !important;
 }
 .announcebanner {
-    position: relative;
+    position: absolute;
+    top: 30px;
     margin: 0 auto;
-    width: calc(100% + 90px);
-    left: -45px;
+    width: 90%;
     border-radius: 10px;
     color: white;
-    background-color: $band5;
+    background-color: $band5Trans;
     // box-shadow: 0 8px 70px #26db5ee0 !important;
     height: auto;
     z-index: 9999;
@@ -122,17 +122,15 @@ ul {
     }
 }
 .homecard {
-    padding: 0 45px 60px 45px;
     position: relative;
     top: -15vh;
     margin-bottom: -350px;
     width: 100%;
-    border-radius: 20px 20px 10px 10px;
     padding-bottom: 110px;
 }
 @media (min-width: $small) {
     .homecard { 
-        width: 90%;
+        width: 100%;
     }
 }
 .shadow {
