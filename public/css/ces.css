@@ -1,11 +1,18 @@
 .happyverb {
-  line-height: 108px;
-  font-size: 108px;
+  line-height: 60px;
+  font-size: 60px;
   color: white;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+  padding: 0 30px;
 }
 
+@media (min-width: 576px) {
+  .happyverb {
+    line-height: 108px;
+    font-size: 108px;
+  }
+}
 body {
   font-family: "Nunito", sans-serif;
   font-weight: 400;
@@ -216,7 +223,7 @@ ul {
 
 .announcebanner {
   position: absolute;
-  top: 30px;
+  top: 90px;
   margin: 0 auto;
   width: 90%;
   border-radius: 10px;
@@ -233,6 +240,11 @@ ul {
   color: white;
 }
 
+@media (min-width: 576px) {
+  .announcebanner {
+    top: 30px;
+  }
+}
 .homecard {
   position: relative;
   top: -15vh;
@@ -244,16 +256,12 @@ ul {
 @media (min-width: 576px) {
   .homecard {
     width: 100%;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 .shadow {
   box-shadow: 0 8px 30px rgba(8, 51, 68, 0.062745098) !important;
-}
-
-.box {
-  background-color: white;
-  padding: 0px;
-  border-radius: 10px;
 }
 
 @media (min-width: 992px) {

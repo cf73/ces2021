@@ -104,7 +104,7 @@ ul {
 }
 .announcebanner {
     position: absolute;
-    top: 30px;
+    top: 90px;
     margin: 0 auto;
     width: 90%;
     border-radius: 10px;
@@ -121,6 +121,11 @@ ul {
         color: white;
     }
 }
+@media (min-width: $small) {
+    .announcebanner { 
+        top: 30px;
+    }
+}
 .homecard {
     position: relative;
     top: -15vh;
@@ -131,15 +136,15 @@ ul {
 @media (min-width: $small) {
     .homecard { 
         width: 100%;
+        padding-left: 75px;
+        padding-right: 75px;
     }
 }
 .shadow {
     box-shadow: 0 8px 30px #08334410 !important;
 }
 .box {
-    background-color: white;
-    padding: 0px;
-    border-radius: 10px;
+
 }
 @media (min-width: $large) {
     .box {

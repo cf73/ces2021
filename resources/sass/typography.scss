@@ -7,11 +7,18 @@ $light: 400;
 $mono: 'Space Mono', monospace;
 .happyverb {
     // box-shadow: 0px 12px 50px 0px rgb(0, 0, 0); 
-    line-height: 108px;
-    font-size: 108px; 
+    line-height: 60px;
+    font-size: 60px; 
     color: white; 
     font-family: $sans;
     font-weight: $heavy;
+    padding: 0 30px;
+}
+@media (min-width: $small) {
+    .happyverb { 
+        line-height: 108px;
+        font-size: 108px; 
+    }
 }
 body {
     font-family: $sans;
