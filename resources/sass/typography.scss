@@ -1,27 +1,29 @@
-
-$heavy: 'Avenir LT W01_85 Heavy1475544';
-$medium: 'Avenir Next LT W05 Medium';
-$roman: 'Avenir LT W01_55 Roman1475520';
-$book: 'Avenir LT W01_45 Book1475508';
-$light:'Avenir LT W01_35 Light1475496';
+$sans: 'Nunito', sans-serif;
+$heavy: 700;
+$medium: 700;
+$roman: 400;
+$book: 400;
+$light: 400;
 $mono: 'Space Mono', monospace;
-
 .happyverb {
     // box-shadow: 0px 12px 50px 0px rgb(0, 0, 0); 
     line-height: 96px;
     font-size: 96px; 
     color: white; 
-    font-family: $heavy;
+    font-family: $sans;
+    font-weight: $heavy;
 }
 body {
-    font-family: $book;
+    font-family: $sans;
+    font-weight: $book;
     color: $body;
     line-height: 1.6em;
     font-size: 17px;
     letter-spacing: 0.02em;
 }
 .bold {
-    font-family: $heavy;
+    font-family: $sans;
+    font-weight: $heavy;
 }
 .small {
     font-size: 13px; 
@@ -34,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     color: inherit;
 }
 h1 {
-    font-family: $heavy;
+    font-family: $sans;
+    font-weight: $heavy;
     font-size: 30px;
     line-height: 1.2em;
     margin-bottom: .5em;
@@ -43,7 +46,8 @@ h1 {
     color: $band5;
 }
 h2 {
-    font-family: $roman;
+    font-family: $sans;
+    font-weight: $roman;
     font-size: 24px;
     line-height: 1.3em;
     margin-bottom: .5em;
@@ -51,12 +55,14 @@ h2 {
 }
 h3 {
     font-size: 18px;
-    font-family: $heavy;
+    font-family: $sans;
+    font-weight: $heavy;
     line-height: 1.3;
 }
 h4 {
     font-size: 20px;
-    font-family: $heavy;
+    font-family: $sans;
+    font-weight: $heavy;
     line-height: 1.3;
 }
 @media (min-width: $md) {
