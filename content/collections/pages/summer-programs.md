@@ -12,38 +12,44 @@ description: |-
    Email Katie@Cambridge-Ellis.org for more information.
 programs_offered:
   -
+    id: MM623Jbi
     program_title: 'Young Explorers- English Summer Camp'
     program_description: 'Our Young Explorers toddler and preschool programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
     type: program
     enabled: true
   -
+    id: Srgy3CK2
     program_title: 'Globetrotters – Language Immersion Summer Camp'
     program_description: 'We offer Spanish, French, and Mandarin language programs for children who are completely new to foreign languages, fluent, or anywhere in between.'
     type: program
     enabled: true
 sessions:
   -
+    id: v9xeLPP5
     session_title: 'Session A'
     session_dates: 'June 12th – June 30th'
     programs_in_this_session:
       -
+        id: voiW3WLF
         half_day_time_and_price: '8:30 - 12pm, $1525'
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
-        extended_day_time_and_price: 'coming soon!'
+        extended_day_time_and_price: '8:30-6pm, $2,465'
     type: session
     enabled: true
   -
+    id: USbtNjUn
     session_title: 'Session B'
     session_dates: 'July 3rd - July 21st'
     programs_in_this_session:
       -
+        id: yL4BDPeX
         half_day_time_and_price: '8:30 - 12pm, $1525'
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
-        extended_day_time_and_price: 'coming soon!'
+        extended_day_time_and_price: '8:30-6pm, $2,465'
     type: session
     enabled: true
 important_notes:
@@ -93,11 +99,18 @@ important_notes:
         type: text
         marks:
           -
+            type: link
+            attrs:
+              href: 'https://cambridgeellis.campbrainregistration.com/'
+              rel: null
+              target: null
+              title: null
+          -
             type: bold
-        text: 'An application link will be made available to enrolled CES families on February 1st. Families who are new to the CES community can apply on February 15th.'
+        text: 'Summer Camp 2023 Registration'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1673581025
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1676475867
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:

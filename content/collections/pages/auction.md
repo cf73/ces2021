@@ -4,9 +4,10 @@ blueprint: flexible_content_page
 title: Auction
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635524348
+updated_at: 1680793729
 add_content:
   -
+    id: rKTGfMz5
     text:
       -
         type: paragraph
@@ -17,6 +18,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: jM2VH7vk
     text:
       -
         type: paragraph
@@ -24,6 +26,33 @@ add_content:
           -
             type: text
             text: 'The festive evening is a chance for friends of CES to gather, enjoy delicious food and drink, and bid on donated items in our silent and live auctions. The generosity of the local and school community (whether by helping organize the event, donating auction items, or bidding at the event) helps us meet our fundraising goals and support our robust financial aid program.'
+    type: text
+    enabled: true
+  -
+    id: lg5953ca
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'To purchase tickets, follow the link below:'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://e.givesmart.com/events/vhN/'
+                  rel: null
+                  target: null
+                  title: null
+            text: '2023 CES Auction Tickets'
     type: text
     enabled: true
 main_image: 20200110_092446-1635524345.jpg

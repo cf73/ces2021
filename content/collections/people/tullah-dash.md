@@ -6,6 +6,7 @@ title: 'Tullah Dash'
 officialtitle: 'Yellow Room Co-Head Teacher'
 education:
   -
+    id: TJak3XzS
     name_of_institution: 'M.Ed. Hunter College'
     type: institution
     enabled: true
@@ -14,12 +15,10 @@ bio: 'I have worked in education for over ten years, and this will be my seventh
 photo: 83fbb7b2-268a-44fe-abb2-f9498698a179.jpeg
 role:
   - teacher
-  - board-of-directors
 programs:
   - day
 classrooms:
   - 73f44629-52d8-444e-8cc4-35a3a7569479
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1663102936
-published: true
+updated_at: 1689178927
 ---

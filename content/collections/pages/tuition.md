@@ -4,9 +4,10 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1659980222
+updated_at: 1683213670
 add_content:
   -
+    id: Tq9tLv9l
     text:
       -
         type: heading
@@ -82,7 +83,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$27,490'
+                        text: '$27,900'
           -
             type: table_row
             content:
@@ -114,7 +115,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: "$35,440\_"
+                        text: "$35,972\_"
       -
         type: table
         content:
@@ -177,7 +178,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: "$24,182\_"
+                        text: "$24,545\_"
           -
             type: table_row
             content:
@@ -209,13 +210,15 @@ add_content:
                     content:
                       -
                         type: text
-                        text: "$32,190\_\_"
+                        text: '$32,675'
     type: text
     enabled: true
   -
+    id: t2KeOizQ
     type: text
     enabled: true
   -
+    id: zN5HqFrg
     text:
       -
         type: heading
@@ -305,7 +308,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$15,220'
+                        text: '$15,677'
               -
                 type: table_cell
                 attrs:
@@ -319,7 +322,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,680'
+                        text: "$12,030\_"
           -
             type: table_row
             content:
@@ -352,7 +355,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: "$15,575\_"
+                        text: '$16,042'
               -
                 type: table_cell
                 attrs:
@@ -366,7 +369,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$11,792'
+                        text: '$12,145'
       -
         type: paragraph
       -
@@ -380,10 +383,11 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'All numbers above reflect our 2021-22 Tuition Model*'
+            text: 'All numbers above reflect our 2023-24 Tuition Model*'
     type: text
     enabled: true
   -
+    id: l0hT0sPk
     text:
       -
         type: paragraph
@@ -397,5 +401,4 @@ add_content:
     type: text
     enabled: true
 main_image: IMG_2504.jpg
-published: true
 ---

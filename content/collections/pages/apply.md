@@ -5,16 +5,18 @@ title: Apply
 template: flexpage
 add_content:
   -
+    id: cfKLTtNH
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We are now accepting applications for the 2023-24 school year! Read below to learn how to apply.'
+            text: "The first round of our 2023-34 Admissions Season is now closed. Families may still apply to be added to the 'waitpool' for our later admissions rounds. Read below for more information on how to apply."
     type: text
     enabled: true
   -
+    id: SmHOyMeB
     text:
       -
         type: heading
@@ -80,6 +82,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: 339ZGsgN
     text:
       -
         type: paragraph
@@ -90,6 +93,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: iENR7N03
     text:
       -
         type: heading
@@ -112,6 +116,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1668448678
+updated_at: 1675265659
 main_image: IMG_3005.jpg
 ---

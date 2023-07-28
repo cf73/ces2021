@@ -4,9 +4,10 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1653418526
+updated_at: 1689180414
 add_content:
   -
+    id: 8k7vQuWS
     text:
       -
         type: paragraph
@@ -84,7 +85,7 @@ add_content:
                 type: bold
           -
             type: text
-            text: '(617) 354-0014'
+            text: '(617) 491-4313'
       -
         type: paragraph
         content:
@@ -111,37 +112,13 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::a5191769-e650-419b-aa00-7421dd93a94d'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: 'Executive Director, Julie Parsons'
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
-          -
-            type: text
-            text: Julie@Cambridge-Ellis.org
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
                   href: 'statamic://entry::c237bba1-b7af-4e30-81ac-50072b37ef9f'
                   rel: null
                   target: null
                   title: null
               -
                 type: bold
-            text: 'Assistant Director and Language Program Director, Bekah Riley'
+            text: 'Interim Director, Bekah Riley'
           -
             type: hard_break
             marks:
@@ -219,6 +196,37 @@ add_content:
           -
             type: text
             text: Andy@Cambridge-Ellis.org
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: 'Language Program Coordinator, Elisabeth Guenette'
+          -
+            type: hard_break
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+          -
+            type: text
+            text: Elisabeth@Cambridge-Ellis.org
       -
         type: paragraph
         content:

@@ -1,10 +1,10 @@
 ---
-id: ab22daab-a42d-4ca8-b1bc-448af0e5445f
+id: 24a03bef-6647-4438-9ca9-b53f664b51ea
 blueprint: people
-title: 'Kaitlyn Kelley'
+title: 'Nathalie Roberts'
 officialtitle: 'Board Member'
 role:
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689178900
+updated_at: 1689178854
 ---

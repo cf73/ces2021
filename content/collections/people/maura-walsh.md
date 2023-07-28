@@ -3,13 +3,15 @@ id: e2a0afb3-a63a-45a1-b534-2b52fc413bd2
 blueprint: people
 template: bio
 title: 'Maura Walsh'
-officialtitle: 'Amber Room Head Teacher'
+officialtitle: 'Amber Room Co-Head Teacher'
 education:
   -
+    id: hWT5KbpR
     name_of_institution: 'M.Ed. Boston University'
     type: institution
     enabled: true
   -
+    id: QLwBVoOe
     name_of_institution: 'B.A. Boston University'
     type: institution
     enabled: true
@@ -23,5 +25,5 @@ programs:
 classrooms:
   - eb19cc0e-2314-4252-8f6c-af927cfa0ab2
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1637590800
+updated_at: 1689605768
 ---

@@ -5,6 +5,7 @@ title: 'Summer Camp Registration'
 template: flexpage
 add_content:
   -
+    id: PSAIy5X1
     text:
       -
         type: heading
@@ -16,26 +17,54 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Summer Camp 2023 registration opens in February 2023. '
+            text: 'Summer Camp 2023 is now open to both enrolled families and the public.'
     type: text
     enabled: true
   -
+    id: le5759so
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Please contact Michelle Phoenix at Michelle@Cambridge-Ellis.org if you have any questions about the registration process. '
+            text: 'Follow the link below to register for Summer Camp 2023.'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Please contact Katie Clark at Katie@Cambridge-Ellis.org with any other questions regarding Summer Camp.'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridgeellis.campbrainregistration.com/'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Summer Camp Registration'
+    type: text
+    enabled: true
+  -
+    id: ur03CyiT
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please contact our Office Manager, Michelle Phoenix at Michelle@Cambridge-Ellis.org if you have any questions about the registration process. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please contact our Summer Program Coordinator, Katie Clark at Katie@Cambridge-Ellis.org with any other questions regarding Summer Camp.'
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1668435347
+updated_at: 1676436988
 main_image: IMG_2566.JPG
 ---

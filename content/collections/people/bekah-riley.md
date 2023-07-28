@@ -3,9 +3,10 @@ id: c237bba1-b7af-4e30-81ac-50072b37ef9f
 blueprint: people
 template: bio
 title: 'Bekah Riley'
-officialtitle: 'Assistant Director and Language Program Director'
+officialtitle: 'Interim Director'
 education:
   -
+    id: xJUGbhiz
     name_of_institution: 'B.A. Dartmouth College'
     type: institution
     enabled: true
@@ -14,7 +15,7 @@ bio: 'After graduating from Dartmouth College with a degree in Studio Art and Ed
 photo: 7566a0ee-8434-4779-b3e2-2b4a338bbf85.jpeg
 role:
   - leadership
+  - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1663103147
-published: true
+updated_at: 1689179003
 ---

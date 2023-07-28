@@ -6,6 +6,7 @@ title: 'Laura Kelly'
 officialtitle: 'Green Room Co-Head Teacher'
 education:
   -
+    id: JaBjWy3L
     name_of_institution: 'B.A. Roger Williams University'
     type: institution
     enabled: true
@@ -20,6 +21,5 @@ programs:
 classrooms:
   - 9ae28b20-3a65-4e4b-8f56-4de6eef458f9
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1663103225
-published: true
+updated_at: 1689178996
 ---

@@ -4,9 +4,10 @@ blueprint: flexible_content_page
 title: 'Financial Aid'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1666036892
+updated_at: 1688562225
 add_content:
   -
+    id: JgCUlm58
     text:
       -
         type: paragraph
@@ -23,6 +24,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: DVqHXD0M
     text:
       -
         type: paragraph
@@ -42,7 +44,7 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'https://sssandtadsfa.force.com/familyportal/FamilyLogin?startURL=%2Ffamilyportal'
+                  href: 'https://sssandtadsfa.my.site.com/familyportal'
                   rel: null
                   target: null
                   title: null
