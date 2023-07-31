@@ -57,7 +57,7 @@ button {
     flex-direction: row;
     align-items: center;
     top: 0;
-    left: 0; 
+    left: 0;
     background-color: #fafafae7;
     & a {
         color: $body;
@@ -80,6 +80,8 @@ blockquote {
 .card {
     border-radius: 30px;
     overflow: hidden;
+    padding: 30px;
+    margin-bottom: 24px;
 }
 hr {
     border-top: 1px solid #4e587b1a;

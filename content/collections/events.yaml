@@ -1,10 +1,13 @@
 title: Events
 template: event
 layout: layout
-mount: 107bf252-0305-40ed-9c3c-6963cc83a141
 revisions: false
-route: '/events/{year}/{month}/{slug}'
+route: '/events/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'

@@ -1,5 +1,14 @@
-{{title}}
+{{partial:breadcrumb}}
 
-{{date}}
+<div class="container extra-padding spacerTop60">
+    <div class="row">
+        <div class="col-lg-9">
+            <h1>{{title}}</h1>
 
-{{text}}
+            <h4>{{event_date}}, {{ start_time | iso_format('h A') }} {{if end_time}} &ndash; {{end_time | iso_format('h A') }} {{/if}}</h4>
+            
+            <p>{{short_description}}</p>
+            {{details}}
+        </div>
+    </div>
+</div>

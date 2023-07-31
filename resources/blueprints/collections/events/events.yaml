@@ -11,7 +11,7 @@ sections:
           validate:
             - required
       -
-        handle: date
+        handle: event_date
         field:
           mode: single
           time_enabled: false
@@ -21,10 +21,48 @@ sections:
           inline: false
           columns: 1
           rows: 1
-          display: Date
+          display: 'Event Date'
           type: date
           icon: date
           listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          time_seconds_enabled: false
+      -
+        handle: start_time
+        field:
+          seconds_enabled: false
+          display: 'Start Time'
+          type: time
+          icon: time
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: end_time
+        field:
+          seconds_enabled: false
+          display: 'End Time'
+          type: time
+          icon: time
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: zoom_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Zoom link'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
       -
         handle: image
         field:
@@ -37,9 +75,25 @@ sections:
           icon: assets
           listable: hidden
       -
-        handle: text
+        handle: short_description
         field:
+          character_limit: '500'
+          antlers: false
+          display: 'Short Description'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
+      -
+        handle: details
+        field:
+          collapse: false
           always_show_set_button: false
+          previews: true
           buttons:
             - h2
             - h3
@@ -48,7 +102,6 @@ sections:
             - unorderedlist
             - orderedlist
             - removeformat
-            - quote
             - anchor
             - image
             - table
@@ -60,10 +113,17 @@ sections:
           reading_time: false
           fullscreen: true
           allow_source: true
-          display: Text
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
+          remove_empty_nodes: false
+          display: Details
           type: bard
           icon: bard
           listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:
@@ -71,7 +131,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required

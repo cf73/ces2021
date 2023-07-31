@@ -195,6 +195,8 @@ blockquote {
 .card {
   border-radius: 30px;
   overflow: hidden;
+  padding: 30px;
+  margin-bottom: 24px;
 }
 
 hr {
