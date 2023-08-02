@@ -44,3 +44,19 @@
     bottom: -60px;
     opacity: .3;
 }
+.showifxl {
+    display: none;
+}
+@media (min-width: $xl) {
+    .showifxl {
+        display: block;
+    }
+}
+.hideifxl {
+    display: block;
+}
+@media (min-width: $xl) {
+    .hideifxl {
+        display: none;
+    }
+}

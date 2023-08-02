@@ -52,6 +52,19 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: location
+        field:
+          antlers: false
+          display: Location
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
+      -
         handle: zoom_link
         field:
           input_type: text

@@ -2,17 +2,21 @@
 
 <div class="container extra-padding spacerTop60">
     <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-12">
             <h1>Events</h1>
-            {{collection:events sort="event_date:asc"}}
-                <a href="{{url}}" style="color: inherit">
-                    <div class="card">
-                        <h4>{{event_date}}, {{ start_time | iso_format('h A') }} {{if end_time}} &ndash; {{end_time | iso_format('h A') }} {{/if}}</h4>
-                        <h2>{{title}}</h2>
-                        <p>{{short_description}}</p>
+            <div class="row">
+                {{collection:events sort="event_date:asc"}}
+                    {{if no_results}}
+                    <div class="col-lg-12">
+                        <p>There are no events currently scheduled.</p>
                     </div>
-                </a>
+                    {{else}}
+                    <div class="col-lg-12">
+                        {{partial:eventcard}}
+                    </div>
+                {{/if}}
             {{/collection:events}}
+            </div>
         </div>
     </div>
 </div>

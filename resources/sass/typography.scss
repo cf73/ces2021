@@ -54,8 +54,8 @@ h1 {
 }
 h2 {
     font-family: $sans;
-    font-weight: $roman;
-    font-size: 30px;
+    font-weight: $medium;
+    font-size: 24px;
     line-height: 1.3em;
     margin-bottom: .5em;
     letter-spacing: 0em;
@@ -74,9 +74,15 @@ h4 {
 }
 @media (min-width: $md) {
     h1 {
-        font-size: 72px;
+        font-size: 96px;
         margin-bottom: 30px;
         line-height: 1em;
+    } 
+    h2 {
+        font-size: 36px;
+        line-height: 1.3em;
+        margin-bottom: .5em;
+        letter-spacing: 0em;
     }   
     h3 {
         font-size: 24px;
@@ -92,7 +98,7 @@ a:hover {
     color: $body;
 }
 a, a .cta {
-    color: $band5;
+    color: $blue;
     & :hover {
         color: $body;
     }
