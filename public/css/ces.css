@@ -48,13 +48,13 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 45px;
   font-weight: 700;
-  color: #a5c544;
+  color: #459b34;
 }
 
 h2 {
   font-family: "Nunito", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 24px;
   line-height: 1.3em;
   margin-bottom: 0.5em;
   letter-spacing: 0em;
@@ -76,9 +76,15 @@ h4 {
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 72px;
+    font-size: 96px;
     margin-bottom: 30px;
     line-height: 1em;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 1.3em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0em;
   }
   h3 {
     font-size: 24px;
@@ -96,7 +102,7 @@ a:hover {
 }
 
 a, a .cta {
-  color: #a5c544;
+  color: #2593da;
 }
 a :hover, a .cta :hover {
   color: #374035;
@@ -134,7 +140,7 @@ p a {
 button {
   border: none;
   border-radius: 30px;
-  background-color: #a5c544;
+  background-color: #459b34;
   font-family: 700;
   letter-spacing: 0.02em;
   color: white;
@@ -155,6 +161,94 @@ button:hover {
   padding: 5%;
   padding-bottom: 15%;
   margin-bottom: 30px;
+}
+
+.datearea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 12px 0;
+  background: rgb(14, 226, 211);
+  background: linear-gradient(161deg, rgb(14, 226, 211) 0%, rgb(74, 219, 68) 49%, rgb(231, 233, 48) 100%);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  padding-left: 45px;
+}
+.datearea h1 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.3;
+}
+.datearea h1, .datearea h2, .datearea h3 {
+  color: white !important;
+  margin: 0;
+}
+
+@media (min-width: 1200px) {
+  .datearea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 275px;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0em;
+    padding-left: 0;
+  }
+  .datearea h1 {
+    font-size: 96px;
+    line-height: 1;
+  }
+}
+.dateareahorizontal {
+  width: 100%;
+  height: 7em;
+  top: 70px;
+  flex-direction: row;
+  gap: 0.5em;
+  padding-left: 90px;
+  justify-content: left;
+}
+.dateareahorizontal h1 {
+  font-size: 24px;
+  line-height: 1;
+}
+
+@media (min-width: 1200px) {
+  .dateareahorizontal {
+    top: 45px;
+  }
+}
+.eventdetailarea {
+  position: relative;
+  margin-top: 4em;
+}
+.eventdetailarea h2 {
+  color: #459b34;
+}
+
+@media (min-width: 1200px) {
+  .eventdetailarea {
+    position: relative;
+    margin-top: 0;
+    left: 275px;
+    width: calc(100% - 275px);
+    height: auto;
+  }
+}
+.eventdetailareahorizontal {
+  margin-top: 9em;
+  left: 0;
+  width: auto;
 }
 
 .bread {
@@ -195,6 +289,10 @@ blockquote {
 .card {
   border-radius: 30px;
   overflow: hidden;
+  padding: 30px 45px;
+  margin-bottom: 24px;
+  border: none;
+  box-shadow: 0px 12px 50px 0px #edecdf;
 }
 
 hr {
@@ -291,7 +389,7 @@ ul {
 }
 
 a .peoplecard {
-  color: #a5c544;
+  color: #459b34;
 }
 a .peoplecard:hover {
   color: #374035;
@@ -433,4 +531,23 @@ body {
   position: relative;
   bottom: -60px;
   opacity: 0.3;
+}
+
+.showifxl {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .showifxl {
+    display: block;
+  }
+}
+.hideifxl {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .hideifxl {
+    display: none;
+  }
 }
