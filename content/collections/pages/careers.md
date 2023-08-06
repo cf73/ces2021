@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1686578118
+updated_at: 1690817666
 add_content:
   -
     id: CC854MBg
@@ -17,49 +17,6 @@ add_content:
           -
             type: text
             text: 'Cambridge-Ellis School is currently hiring for the following position(s):'
-    type: text
-    enabled: true
-  -
-    id: lgxvynsb
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2023-24 School Year - Coverage Coordinator'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: Part Time'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1duf4kedZ4fwvBVX42WBhFOI7eV_9bDKlA7s2W1kXfy8/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Description'
     type: text
     enabled: true
   -

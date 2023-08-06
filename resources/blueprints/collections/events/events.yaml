@@ -29,6 +29,8 @@ sections:
           visibility: visible
           always_save: false
           time_seconds_enabled: false
+          validate:
+            - required
       -
         handle: start_time
         field:
