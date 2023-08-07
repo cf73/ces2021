@@ -97,15 +97,11 @@ h4 {
   margin-bottom: 4px;
 }
 
-a:hover {
-  color: #374035;
-}
-
 a, a .cta {
   color: #2593da;
 }
 a :hover, a .cta :hover {
-  color: #374035;
+  color: #459b34;
 }
 
 p a {
@@ -140,7 +136,7 @@ p a {
 button {
   border: none;
   border-radius: 30px;
-  background-color: #459b34;
+  background-color: #2593da;
   font-family: 700;
   letter-spacing: 0.02em;
   color: white;
@@ -148,7 +144,7 @@ button {
   margin-bottom: 6px;
 }
 button:hover {
-  background-color: #374035;
+  background-color: #459b34;
   color: white;
 }
 

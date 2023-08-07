@@ -94,13 +94,10 @@ h4 {
     font-weight: 400;
     margin-bottom: 4px;
 }
-a:hover {
-    color: $body;
-}
 a, a .cta {
     color: $blue;
     & :hover {
-        color: $body;
+        color: $band5;
     }
 }
 p {

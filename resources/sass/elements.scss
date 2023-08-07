@@ -24,14 +24,14 @@
 button {
     border: none;
     border-radius: 30px;
-    background-color: $band5;
+    background-color: $blue;
     font-family: $medium;
     letter-spacing: 0.02em;
     color: white;
     padding: 5px 20px;
     margin-bottom: 6px;
     &:hover {
-        background-color: $body;
+        background-color: $band5;
         color: white;
     }
 }
