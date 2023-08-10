@@ -1,0 +1,36 @@
+---
+id: c4feb5e5-5430-4c3d-849f-dae09b90a7f9
+blueprint: events
+title: 'Boston Area School Fair presented by Cambridge-Ellis School'
+event_date: '2023-09-30'
+start_time: '10:00'
+end_time: '12:00'
+location: '80 Trowbridge St, Cambridge'
+image: school-fair-website-banner.jpg
+short_description: "Where else will you have the opportunity to chat with admissions representatives from over 20 Boston area preK through 12th grade independent schools all in one place? Come see what makes each school unique, have all your questions answered, and head home with loads of information and some pretty awesome swag to boot!\_"
+details:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Schools represented at the Boston Area School Fair include: Advent, Atrium, BB&N, Belmont Day, Birches School, Brimmer & May, British International School, Cambridge Friends, Chestnut Hill School, Fayerweather, Fessenden, German International School, International School of Boston, Kingsley Montessori, The Learning Project, Meadowbrook, Milton Academy, Shady Hill School, Tenacre Country Day School, St. John School, and of course, your host, Cambridge-Ellis School!\_"
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Bring your prospective students, or come solo. It will be a fun and informative event for all ages! Our playground will be open during the hours of the event (please make sure an adult is supervising your child at all times).'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., and Irving St. There is also metered parking located on Cambridge St.'
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1691684165
+---
