@@ -14,7 +14,7 @@ details:
     content:
       -
         type: text
-        text: "Schools represented at the Boston Area School Fair include: Advent, Atrium, BB&N, Belmont Day, Birches School, Brimmer & May, British International School, Cambridge Friends, Chestnut Hill School, Fayerweather, Fessenden, German International School, International School of Boston, Kingsley Montessori, The Learning Project, Meadowbrook, Milton Academy, Shady Hill School, Tenacre Country Day School, St. John School, and of course, your host, Cambridge-Ellis School!\_"
+        text: "Schools represented at the Boston Area School Fair include: Advent, Atrium, BB&N, Belmont Day, Birches School, Brimmer & May, British International School, Cambridge Friends, Chestnut Hill School, Fayerweather, Fessenden, German International School, International School of Boston, Kingsley Montessori, The Learning Project, Lesley Ellis, Meadowbrook, Milton Academy, Park School, Shady Hill School, Tenacre Country Day School, St. John School, and of course, your host, Cambridge-Ellis School!\_"
   -
     type: paragraph
   -
@@ -32,5 +32,5 @@ details:
         type: text
         text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., and Irving St. There is also metered parking located on Cambridge St.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1691684165
+updated_at: 1692033292
 ---
