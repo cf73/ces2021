@@ -29,7 +29,11 @@
                     {{/if}}
                     <p class="spacerTop30">{{short_description}}</p>
             
-                {{details}}
+                <div class="spacer30">{{details}}</div>
+
+                {{if calendar_link}}
+                    <a href="{{calendar_link}}" target="_blank"><button>Add to Calendar</button></a>
+                {{/if}}
             </div>
         </div>
     </div>
