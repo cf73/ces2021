@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c18e1e71d2d818e253affe309d0c8df9",
+    "content-hash": "a6cf5e2f188823444bfe253aa695e62d",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -3760,6 +3760,61 @@
                 }
             ],
             "time": "2021-05-24T14:05:38+00:00"
+        },
+        {
+            "name": "plugrbase/statamic-maintenance-mode",
+            "version": "v1.07",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/plugrbase/statamic-maintenance-mode.git",
+                "reference": "93bd8c07b0bdf5d94a0d87d61e436556b6228f62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/plugrbase/statamic-maintenance-mode/zipball/93bd8c07b0bdf5d94a0d87d61e436556b6228f62",
+                "reference": "93bd8c07b0bdf5d94a0d87d61e436556b6228f62",
+                "shasum": ""
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.9",
+                "statamic/cms": "^3.1"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic maintenance mode",
+                    "description": "Statamic addon to set the website in maintenance mode and block all non-logged in users from accessing it.",
+                    "editions": [
+                        "free"
+                    ]
+                },
+                "laravel": {
+                    "providers": [
+                        "Plugrbase\\MaintenanceMode\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Plugrbase\\MaintenanceMode\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Julien Legrand",
+                    "email": "julien@nomala.com"
+                }
+            ],
+            "description": "Statamic addon to set the website in maintenance mode and block all non-logged in users from accessing it.",
+            "support": {
+                "issues": "https://github.com/plugrbase/statamic-maintenance-mode/issues",
+                "source": "https://github.com/plugrbase/statamic-maintenance-mode/tree/v1.07"
+            },
+            "time": "2023-09-19T19:30:13+00:00"
         },
         {
             "name": "psr/clock",
