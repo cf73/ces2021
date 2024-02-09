@@ -1,5 +1,6 @@
 ---
 id: bf3c65f4-5842-4478-a27d-e133afe96931
+published: false
 blueprint: promoted
 title: 'Community Welcome Night'
 subtitle: "Let's kick off the 2023-24 school year with our annual welcome event (previously known as Parent Orientation)!"
