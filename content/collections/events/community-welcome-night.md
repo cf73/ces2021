@@ -1,5 +1,6 @@
 ---
 id: 93191b3e-c120-4de8-8e66-23ee3bb8df23
+published: false
 blueprint: events
 title: 'Community Welcome Night'
 event_date: '2023-08-31'
