@@ -1,5 +1,6 @@
 ---
 id: ecbb3d41-19c6-47b5-a3de-417466f44ef7
+published: false
 blueprint: events
 title: 'Open House'
 event_date: '2023-11-04'
