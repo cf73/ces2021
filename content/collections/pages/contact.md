@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689180414
+updated_at: 1707860619
 add_content:
   -
     id: 8k7vQuWS
@@ -45,7 +45,7 @@ add_content:
                 type: bold
             text: Address
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: bold
@@ -62,7 +62,7 @@ add_content:
                 type: bold
             text: Phone
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: bold
@@ -79,7 +79,7 @@ add_content:
                 type: bold
             text: Fax
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: bold
@@ -96,7 +96,7 @@ add_content:
                 type: bold
             text: Email
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: bold
@@ -118,9 +118,9 @@ add_content:
                   title: null
               -
                 type: bold
-            text: 'Interim Director, Bekah Riley'
+            text: 'Executive Director, Bekah Riley'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -151,7 +151,7 @@ add_content:
                 type: bold
             text: 'Director of Admissions and Accreditation, Christina Isidoro'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -182,7 +182,7 @@ add_content:
                 type: bold
             text: 'Business Manager, Andy Griswold'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -213,7 +213,7 @@ add_content:
                 type: bold
             text: 'Language Program Coordinator, Elisabeth Guenette'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -244,7 +244,7 @@ add_content:
                 type: bold
             text: 'Director of Development, Kim Rogers'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -275,7 +275,7 @@ add_content:
                 type: bold
             text: 'Office Manager, Michelle Phoenix'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
@@ -306,7 +306,7 @@ add_content:
                 type: bold
             text: 'Arts Coordinator and Summer Program Director, Katie Clark'
           -
-            type: hard_break
+            type: hardBreak
             marks:
               -
                 type: link
