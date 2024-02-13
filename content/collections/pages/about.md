@@ -5,6 +5,7 @@ title: About
 template: flexpage
 add_content:
   -
+    id: eFjeuh9g
     text:
       -
         type: heading
@@ -23,6 +24,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: SOm1dGuT
     text:
       -
         type: heading
@@ -41,6 +43,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: 5zrBEVPS
     text:
       -
         type: heading
@@ -59,6 +62,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: mV4YIu5C
     text:
       -
         type: heading
@@ -73,14 +77,16 @@ add_content:
         content:
           -
             type: text
-            text: 'Our Library is where teachers gather to plan and collaborate throughout the day. Our shelves are home to more than 5,000 titles which are used to supplement classroom bookshelves and curriculum. La Sala, our indoor meeting and gross motor space. On Thursday evenings and Friday afternoons, we host our school-wide, weekly assemblies here. We are also fortunate to have a recently redesigned kitchen for classroom cooking projects, an important aspect of our curriculum.'
+            text: "Our Library is where teachers gather to plan and collaborate throughout the day. Our shelves are home to more than 5,000 titles which are used to supplement classroom bookshelves and curriculum. We are in the process of renovating and relicensing our upstairs space. Our plan is to keep this as a 'flex' space so it can be used for community events, small group classroom work, indoor gross motor space, and much more! We are also fortunate to have a recently redesigned kitchen for classroom cooking projects, an important aspect of our curriculum."
     type: text
     enabled: true
   -
+    id: Mql0sKdx
     image: 20201001_102723-1635523304.jpg
     type: image
     enabled: true
   -
+    id: TOj3Zcqe
     text:
       -
         type: heading
@@ -95,11 +101,11 @@ add_content:
         content:
           -
             type: text
-            text: 'Our two gated playgrounds are wonderful extensions of our indoor classrooms. Children develop their imaginations, physical strength, social skills and confidence during their daily outdoor time. Playground structures and equipment mirror the natural environment in which they are situated and encourage a multitude of opportunities for natural play and physical expression.'
+            text: 'Our two gated playgrounds are wonderful extensions of our indoor classrooms. Children develop their imaginations, physical strength, social skills and confidence during their daily outdoor time. Playground structures and equipment mirror the natural environment in which they are situated and encourage a multitude of opportunities for natural play and physical expression. On Thursday evenings and Friday afternoons, we host our school-wide, weekly assemblies here. '
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636064946
+updated_at: 1707840632
 include: true
 main_image: About.jpg
 ---
