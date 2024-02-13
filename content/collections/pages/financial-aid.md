@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Financial Aid'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839890
+updated_at: 1707841568
 add_content:
   -
     id: JgCUlm58
@@ -61,7 +61,10 @@ add_content:
         content:
           -
             type: text
-            text: 'Please contact our Business Manager, Andy Griswold at '
+            marks:
+              -
+                type: italic
+            text: 'For any questions regarding financial aid, please contact our Business Manager Andy Griswold at '
           -
             type: text
             marks:
@@ -72,10 +75,15 @@ add_content:
                   rel: null
                   target: null
                   title: null
-            text: andy@cambridge-ellis.org
+              -
+                type: italic
+            text: Andy@Cambridge-Ellis.org
           -
             type: text
-            text: ' if you have any questions about financial aid at CES.'
+            marks:
+              -
+                type: italic
+            text: .
     type: text
     enabled: true
 main_image: website1.jpg
