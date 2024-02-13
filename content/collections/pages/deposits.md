@@ -14,7 +14,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Deposits for the 2024-25 school year are due by February 24, 2023.'
+            text: 'Deposits for the 2024-25 school year are due by February 23, 2024.'
       -
         type: paragraph
       -
@@ -34,7 +34,7 @@ add_content:
                 text: 'non-refundable '
               -
                 type: text
-                text: "unless the enrolling family has submitted a written, dated, and signed statement withdrawing the student’s enrollment to the Director of Admissions by March 15, 2024.\_ The deposit will be credited toward the Student’s tuition obligation for the 2024-25 school year."
+                text: "unless the enrolling family has submitted a written, dated, and signed statement withdrawing the student’s enrollment to the Director of Admissions by March 15, 2024.\_The deposit will be credited toward the Student’s tuition obligation for the 2024-25 school year."
       -
         type: paragraph
     type: text
@@ -70,6 +70,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707860727
+updated_at: 1707861054
 main_image: 20210927_163507.jpg
 ---
