@@ -5,6 +5,7 @@ title: 'A Letter from the Director'
 template: flexpage
 add_content:
   -
+    id: S0hMSK10
     text:
       -
         type: paragraph
@@ -35,7 +36,7 @@ add_content:
         content:
           -
             type: text
-            text: 'I encourage you to schedule a visit to our school to experience the warm atmosphere of our classroom communities and watch our children and teachers at work. You’ll see children excited about learning: They might be exploring the rainforest through an emergent curriculum that builds confidence and expertise, while gaining exposure to everything from art and science to early literacy skills along the way. They could be expressing themselves through dance and fine arts in Arts Adventure, working on a special cooking project, or absorbing a new language in our unique immersion programs. Each classroom has its own distinct character, thanks to our charming, light-filled historic building. And as all parents of young children know, physical exertion and outdoor play are key to a happy, healthy preschooler. We benefit from two beautiful outdoor spaces designed with children’s creative spirits in mind.'
+            text: 'I encourage you to schedule a visit to our school to experience the warm atmosphere of our classroom communities and watch our children and teachers at work. You’ll see children excited about learning: They might be exploring the rainforest through an emergent curriculum that builds confidence and expertise, while gaining exposure to everything from art and science to early literacy skills along the way. They could be expressing themselves through dance and fine arts in Arts Adventure, working on a special cooking project, or absorbing a new language in our unique immersion programs. Each classroom has its own distinct character, thanks to our charming, light-filled historic building. And as all caregivers of young children know, outdoor play and a connection with nature are key to optimal development. We benefit from two beautiful outdoor spaces designed with children’s creative spirits in mind.'
       -
         type: paragraph
         content:
@@ -53,6 +54,5 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635522353
-main_image: IMG-1453.jpg
+updated_at: 1707839001
 ---
