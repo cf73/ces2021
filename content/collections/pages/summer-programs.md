@@ -4,7 +4,7 @@ blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
 description: |-
-  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm, 8:30-3:00pm, or 8:30-6pm programming for Toddlers and Preschoolers alike. Toddler-age classrooms are available for children 1.9 years and older. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.
+  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm and 8:30-3:00pm programming for Toddlers and Preschoolers alike. Toddler-age classrooms are available for children 1.9 years and older. Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years.
 
 
 
@@ -27,7 +27,7 @@ sessions:
   -
     id: v9xeLPP5
     session_title: 'Session A'
-    session_dates: 'June 12th – June 30th'
+    session_dates: 'June 17th – July 5th'
     programs_in_this_session:
       -
         id: voiW3WLF
@@ -35,13 +35,13 @@ sessions:
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
-        extended_day_time_and_price: '8:30-6pm, $2,465'
+        extended_day_time_and_price: 'Not available for summer 2024'
     type: session
     enabled: true
   -
     id: USbtNjUn
     session_title: 'Session B'
-    session_dates: 'July 3rd - July 21st'
+    session_dates: 'July 8th - July 26th'
     programs_in_this_session:
       -
         id: yL4BDPeX
@@ -49,7 +49,7 @@ sessions:
         full_day_time_and_price: '8:30 - 3pm, $1700'
         type: program
         enabled: true
-        extended_day_time_and_price: '8:30-6pm, $2,465'
+        extended_day_time_and_price: 'Not available for summer 2024'
     type: session
     enabled: true
 important_notes:
@@ -63,10 +63,10 @@ important_notes:
             type: bold
         text: 'Important Notes Regarding Registration:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -75,7 +75,7 @@ important_notes:
                 type: text
                 text: 'Limited spaces are available in all our programs. Once a program is full, you will have the option to add yourself to the waitlist. We will notify you if space becomes available.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -84,7 +84,7 @@ important_notes:
                 type: text
                 text: 'Children must be 3 years old at the start of the program in order to enroll in any of the Language Immersion programs.'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -99,20 +99,13 @@ important_notes:
         type: text
         marks:
           -
-            type: link
-            attrs:
-              href: 'https://cambridgeellis.campbrainregistration.com/'
-              rel: null
-              target: null
-              title: null
-          -
             type: bold
-        text: 'Summer Camp 2023 Registration'
+        text: 'Summer Camp 2024 Registration will be available for non-enrolled families on February 15th at 7am.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1676475867
+updated_at: 1707839571
 main_image: IMG_9044.jpg
-short_description: 'During the summer months, our English and Immersion Language summer camps are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
+short_description: 'During the summer months, our English and Immersion Language summer programs are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
   - summer.jpg
   - IMG_3422.jpg
