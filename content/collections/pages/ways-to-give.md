@@ -5,6 +5,7 @@ title: 'Ways to Give'
 template: flexpage
 add_content:
   -
+    id: KjBsDA9C
     text:
       -
         type: heading
@@ -34,7 +35,7 @@ add_content:
         content:
           -
             type: text
-            text: 'To learn more about the work of our Community Builders, reach the committee chair Emily Tatelbaum at ptachair2122@cambridge-ellis.org.'
+            text: 'To learn more about the work of our Community Builders, reach the committee chair Jess Tangren at pta2324@cambridge-ellis.org'
       -
         type: paragraph
         content:
@@ -49,7 +50,7 @@ add_content:
         content:
           -
             type: text
-            text: 'To learn more about the work of our Board Committees, reach out the Board Co-Chairs Rodrigo Verdi and Ambika Wali at cochairs2122@cambridge-ellis.org.'
+            text: 'To learn more about the work of our Board Committees, reach out the Board Co-Chairs Neil Tennenholtz and Hilary Rasmussen at cochairs2324@cambridge-ellis.org.'
       -
         type: paragraph
         content:
@@ -64,10 +65,11 @@ add_content:
         content:
           -
             type: text
-            text: 'To learn more about or share ideas for classroom collaboration, reach out to your child''s classroom teachers.'
+            text: "To learn more about or share ideas for classroom collaboration, reach out to your child's classroom teachers."
     type: text
     enabled: true
   -
+    id: CW0Hwlan
     text:
       -
         type: heading
@@ -93,7 +95,7 @@ add_content:
                 type: bold
             text: Checks
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: "All gifts should be made payable\_to Cambridge-Ellis School. Our mailing address is:"
@@ -136,7 +138,7 @@ add_content:
                 type: bold
             text: 'Matching gifts'
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Many corporate companies are willing to match a gift to an organization of your choice. Contact your personnel office to see if your employer is willing to match your gift to Cambridge-Ellis.'
@@ -150,13 +152,14 @@ add_content:
                 type: bold
             text: Securities
           -
-            type: hard_break
+            type: hardBreak
           -
             type: text
             text: 'Gifts of security may be made in various ways. Please check with your bank, broker or agent about their procedures if you are interested in transferring a gift of securities. We ask that you notify the school of your intention when making a stock donation.'
     type: text
     enabled: true
   -
+    id: rKazQNHg
     text:
       -
         type: paragraph
@@ -189,7 +192,7 @@ add_content:
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1644499649
+updated_at: 1707840458
 include: true
 main_image: IMG_2515.jpg
 ---
