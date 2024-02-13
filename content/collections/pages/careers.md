@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1690817666
+updated_at: 1707839198
 add_content:
   -
     id: CC854MBg
@@ -30,21 +30,21 @@ add_content:
             marks:
               -
                 type: bold
-            text: '2023-24 School Year - French Immersion Preschool Teacher'
+            text: '2024-25 School Year - French Immersion Preschool Teacher'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Position Type: Part Time'
+                    text: 'Position Type: School Year, Part Time'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -55,7 +55,7 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/114HzKl0gJpmOG3nD859H6wKBlWi0G7mUUSFrgmGCtIc/edit?usp=sharing'
+                          href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
@@ -73,30 +73,30 @@ add_content:
             marks:
               -
                 type: bold
-            text: '2023-24 School Year - Interim Mandarin Immersion Preschool Teacher'
+            text: 'Assistant Director and Language Program Director'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Position Type: Part Time'
+                    text: 'Position Type: Full Year, Full Time'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Position Dates: October 16, 2023-January 22, 2024'
+                    text: 'Applications due by March 1, 2024'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -107,7 +107,7 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/1uuAU6dNCxGNovIeCne-WP7cFpeNTWgJzeVit1TDUaFA/edit?usp=sharing'
+                          href: 'https://docs.google.com/document/d/14WvKKC5TNy9V61ANjN3I-72hngM4vFcqJXysSHm8uWI/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
