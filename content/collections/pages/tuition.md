@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1683213670
+updated_at: 1707841535
 add_content:
   -
     id: Tq9tLv9l
@@ -21,16 +21,15 @@ add_content:
         type: table
         content:
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 330
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -39,12 +38,11 @@ add_content:
                         type: text
                         text: 'Toddler                                                     '
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -53,16 +51,15 @@ add_content:
                         type: text
                         text: '                                             '
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 330
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -71,30 +68,28 @@ add_content:
                         type: text
                         text: 'Morning (Mon-Fri, 8:30-12pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: '$27,900'
+                        text: '$29,340'
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 330
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -103,33 +98,31 @@ add_content:
                         type: text
                         text: 'Full Day (Mon-Fri, 8:30-3pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: "$35,972\_"
+                        text: '$37,826'
       -
         type: table
         content:
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 332
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -138,26 +131,24 @@ add_content:
                         type: text
                         text: Preschool
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 332
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -166,30 +157,28 @@ add_content:
                         type: text
                         text: 'Morning (Mon-Fri, 8:30-12pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: "$24,545\_"
+                        text: '$25,810'
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 332
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -198,19 +187,18 @@ add_content:
                         type: text
                         text: 'Full Day (Mon-Fri, 8:30-3pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: '$32,675'
+                        text: '$34,360'
     type: text
     enabled: true
   -
@@ -232,29 +220,27 @@ add_content:
         type: table
         content:
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 248
-                  background: null
                 content:
                   -
                     type: paragraph
                   -
                     type: paragraph
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 146
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -263,12 +249,11 @@ add_content:
                         type: text
                         text: 'Language Program Only'
               -
-                type: table_header
+                type: tableHeader
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -277,16 +262,15 @@ add_content:
                         type: text
                         text: 'Day plus Language Program '
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 248
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -295,45 +279,42 @@ add_content:
                         type: text
                         text: 'Toddler (Mon-Fri, 3-6pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 146
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: '$15,677'
+                        text: '$16,240'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: "$12,030\_"
+                        text: '$14,240'
           -
-            type: table_row
+            type: tableRow
             content:
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 248
-                  background: null
                 content:
                   -
                     type: paragraph
@@ -342,34 +323,32 @@ add_content:
                         type: text
                         text: 'Preschool (Mon-Fri, 3-6pm)'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth:
                     - 146
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: '$16,042'
+                        text: '$16,620'
               -
-                type: table_cell
+                type: tableCell
                 attrs:
                   colspan: 1
                   rowspan: 1
                   colwidth: null
-                  background: null
                 content:
                   -
                     type: paragraph
                     content:
                       -
                         type: text
-                        text: '$12,145'
+                        text: '$14,620'
       -
         type: paragraph
       -
@@ -383,7 +362,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'All numbers above reflect our 2023-24 Tuition Model*'
+            text: 'All numbers above reflect our 2024-25 Tuition Model*'
     type: text
     enabled: true
   -
