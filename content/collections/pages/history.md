@@ -4,9 +4,10 @@ blueprint: flexible_content_page
 title: History
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635884270
+updated_at: 1707841602
 add_content:
   -
+    id: vcCKJ1eO
     text:
       -
         type: heading
@@ -25,6 +26,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: hQwxnnZs
     text:
       -
         type: heading
@@ -43,6 +45,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: XKK65eD2
     text:
       -
         type: heading
@@ -61,6 +64,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: EqU4IBAj
     text:
       -
         type: heading
@@ -79,6 +83,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: WoHQLvPR
     text:
       -
         type: heading
@@ -87,7 +92,7 @@ add_content:
         content:
           -
             type: text
-            text: '2007 | Redesigning our Outdoor Spaces'
+            text: '2007 | Redesigning our Preschool Outdoor Space'
       -
         type: paragraph
         content:
@@ -97,6 +102,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: Eqi9MKoN
     text:
       -
         type: heading
@@ -115,6 +121,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: m5khqofJ
     text:
       -
         type: heading
@@ -129,7 +136,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Cambridge-Ellis School celebrates it''s 40th Anniversary!'
+            text: "Cambridge-Ellis School celebrates it's 40th Anniversary!"
     type: text
     enabled: true
 main_image: IMG_3250.jpg
