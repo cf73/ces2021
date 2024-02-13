@@ -12,7 +12,7 @@ add_content:
         content:
           -
             type: text
-            text: "The first round of our 2023-34 Admissions Season is now closed. Families may still apply to be added to the 'waitpool' for our later admissions rounds. Read below for more information on how to apply."
+            text: "The first round of our 2024-25 Admissions Season is now closed. Families may still apply to be added to the 'waitpool' for our later admissions rounds. Read below for more information on how to apply."
     type: text
     enabled: true
   -
@@ -116,6 +116,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1675265659
+updated_at: 1707839752
 main_image: IMG_3005.jpg
 ---
