@@ -31,8 +31,8 @@ sessions:
     programs_in_this_session:
       -
         id: voiW3WLF
-        half_day_time_and_price: '8:30 - 12pm, $1525'
-        full_day_time_and_price: '8:30 - 3pm, $1700'
+        half_day_time_and_price: '8:30 - 12pm, $1500'
+        full_day_time_and_price: '8:30 - 3pm, $1660'
         type: program
         enabled: true
         extended_day_time_and_price: 'Not available for summer 2024'
@@ -45,8 +45,8 @@ sessions:
     programs_in_this_session:
       -
         id: yL4BDPeX
-        half_day_time_and_price: '8:30 - 12pm, $1525'
-        full_day_time_and_price: '8:30 - 3pm, $1700'
+        half_day_time_and_price: '8:30 - 12pm, $1725'
+        full_day_time_and_price: '8:30 - 3pm, $1925'
         type: program
         enabled: true
         extended_day_time_and_price: 'Not available for summer 2024'
@@ -103,7 +103,7 @@ important_notes:
         text: 'Summer Camp 2024 Registration will be available for non-enrolled families on February 15th at 7am.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839571
+updated_at: 1707841323
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer programs are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
