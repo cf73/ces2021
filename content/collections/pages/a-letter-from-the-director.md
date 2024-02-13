@@ -54,5 +54,6 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839001
+updated_at: 1707842059
+main_image: pxl_20230411_134447805.mp.jpg
 ---
