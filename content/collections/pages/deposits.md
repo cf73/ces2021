@@ -59,7 +59,7 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'https://bngn.blackbaud.school/?id=fpteaohrlfa'
+                  href: 'https://bngn.blackbaud.school/?id=yrwunmzuxfg#/home/'
                   rel: null
                   target: null
                   title: null
@@ -70,6 +70,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707840059
+updated_at: 1707860727
 main_image: 20210927_163507.jpg
 ---
