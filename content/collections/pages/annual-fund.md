@@ -5,6 +5,7 @@ title: 'Annual Fund'
 template: flexpage
 add_content:
   -
+    id: MNlnEpZy
     text:
       -
         type: paragraph
@@ -19,10 +20,10 @@ add_content:
             type: text
             text: 'At Cambridge-Ellis School, we encourage each member of the community to contribute to our annual fund goals. Annual Fund supports general operations in the following ways:'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -31,7 +32,7 @@ add_content:
                     type: text
                     text: 'Offset the tuition gap for the cost of each child'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -40,7 +41,7 @@ add_content:
                     type: text
                     text: "Provide\_financial aid opportunities"
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -49,7 +50,7 @@ add_content:
                     type: text
                     text: 'Maintain building & grounds'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -58,7 +59,7 @@ add_content:
                     type: text
                     text: 'Supplement Ann Murphy Artisan Program'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -69,6 +70,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: cZgDdmZL
     text:
       -
         type: paragraph
@@ -77,10 +79,10 @@ add_content:
             type: text
             text: 'We strive for 100% community participation, which demonstrates the strength of community in our constituents and provides a solid base for furthering our fundraising opportunities. Our annual giving is made up of a collective group that includes:'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -89,7 +91,7 @@ add_content:
                     type: text
                     text: 'Current families'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -98,7 +100,7 @@ add_content:
                     type: text
                     text: 'Alumni families'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -107,7 +109,7 @@ add_content:
                     type: text
                     text: 'Faculty & Staff'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -116,7 +118,7 @@ add_content:
                     type: text
                     text: Grandparents
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -133,6 +135,7 @@ add_content:
     type: text
     enabled: true
   -
+    id: oNbEV0H5
     text:
       -
         type: heading
@@ -191,6 +194,6 @@ add_content:
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635524538
+updated_at: 1707840348
 main_image: website-1635524536.jpg
 ---
