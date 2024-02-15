@@ -3,13 +3,15 @@ id: 75862a02-1182-48da-aeed-14e0714e846d
 blueprint: people
 template: bio
 title: 'Katie Clark'
-officialtitle: 'Art Coordinator'
+officialtitle: 'Art Coordinator and Summer Program Director'
 education:
   -
+    id: FeMNrX2L
     name_of_institution: 'M.Ed. Lesley University'
     type: institution
     enabled: true
   -
+    id: JcGbp8dy
     name_of_institution: 'B.A. University of Oklahoma'
     type: institution
     enabled: true
@@ -20,5 +22,5 @@ role:
   - leadership
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635175595
+updated_at: 1708020839
 ---
