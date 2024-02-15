@@ -17,15 +17,23 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Summer Camp 2024 is now open to enrolled families.'
+            text: 'Summer Program 2024 registration is now open for all families!'
       -
-        type: heading
-        attrs:
-          level: 3
+        type: paragraph
         content:
           -
             type: text
-            text: 'Registration will open to non-enrolled families on February 15th at 7am. '
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridgeellis.campbrainregistration.com/'
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: bold
+            text: 'Click here to register for the CES Summer Program'
     type: text
     enabled: true
   -
@@ -46,6 +54,6 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839694
+updated_at: 1708003984
 main_image: IMG_2566.JPG
 ---
