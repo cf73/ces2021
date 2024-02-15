@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839198
+updated_at: 1708020659
 add_content:
   -
     id: CC854MBg
@@ -125,7 +125,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'If you are interested in learning more about current and future career opportunities at our school, please reach out to our Assistant Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
+            text: 'If you are interested in learning more about current and future career opportunities at our school, please reach out to our Executive Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
     type: text
     enabled: true
   -
