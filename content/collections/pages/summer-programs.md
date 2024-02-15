@@ -99,11 +99,18 @@ important_notes:
         type: text
         marks:
           -
+            type: link
+            attrs:
+              href: 'https://cambridgeellis.campbrainregistration.com/'
+              rel: null
+              target: null
+              title: null
+          -
             type: bold
-        text: 'Summer Camp 2024 Registration will be available for non-enrolled families on February 15th at 7am.'
+        text: 'Click here to register for the CES Summer Program!'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707841323
+updated_at: 1708003927
 main_image: IMG_9044.jpg
 short_description: 'During the summer months, our English and Immersion Language summer programs are available to all children! Whether they have been previously enrolled at CES or are new to the community!'
 slideshow:
