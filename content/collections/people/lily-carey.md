@@ -3,9 +3,10 @@ id: 26b39d59-4809-47b7-9f13-650c6fc30bd5
 blueprint: people
 template: bio
 title: 'Lily Carey'
-officialtitle: 'Red Room Co-Head Teacher'
+officialtitle: 'Red Room Co-Head Teacher and Summer Program Coordinator'
 education:
   -
+    id: f7FwvJg2
     name_of_institution: 'B.A. Parsons New School of Design'
     type: institution
     enabled: true
@@ -18,7 +19,6 @@ programs:
 classrooms:
   - 448d749d-93d0-4c81-bd6f-806e5e431849
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1663102965
+updated_at: 1708020864
 photo: d1c0ac84-e329-4dd9-847f-4b5590e93ecb.jpeg
-published: true
 ---
