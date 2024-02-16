@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1708020659
+updated_at: 1708088523
 add_content:
   -
     id: CC854MBg
@@ -17,49 +17,6 @@ add_content:
           -
             type: text
             text: 'Cambridge-Ellis School is currently hiring for the following position(s):'
-    type: text
-    enabled: true
-  -
-    id: le5wsynm
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - French Immersion Preschool Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Part Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Description'
     type: text
     enabled: true
   -
@@ -108,6 +65,92 @@ add_content:
                         type: link
                         attrs:
                           href: 'https://docs.google.com/document/d/14WvKKC5TNy9V61ANjN3I-72hngM4vFcqJXysSHm8uWI/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Position Description'
+    type: text
+    enabled: true
+  -
+    id: le5wsynm
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '2024-25 School Year - French Immersion Preschool Co-Head Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Position Type: School Year, Part Time'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Position Description'
+    type: text
+    enabled: true
+  -
+    id: lsnjkj5d
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '2024-25 School Year - Spanish Immersion Preschool Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Position Type: School Year, Part Time'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1FpSBeXS0BgctKc5Yyrs1AOQGfGV3Bn9cVk5Q8rl2cFA/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
