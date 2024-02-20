@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1708088523
+updated_at: 1708443954
 add_content:
   -
     id: CC854MBg
@@ -17,6 +17,49 @@ add_content:
           -
             type: text
             text: 'Cambridge-Ellis School is currently hiring for the following position(s):'
+    type: text
+    enabled: true
+  -
+    id: lsujaqd7
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Summer 2024  - French Immersion Preschool Co-Teacher, Mandarin Immersion Preschool Co-Teacher, Floating Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Position Type: Summer Program, Full-Time and Part Time'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1XvQrPl3hxwKczj87MrAyMU_TEOBjui1bQIv921fFEqA/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Position Descriptions'
     type: text
     enabled: true
   -
