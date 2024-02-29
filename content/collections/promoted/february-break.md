@@ -1,5 +1,6 @@
 ---
 id: 6fa2d96e-c0b1-4308-8e81-58969f163116
+published: false
 blueprint: promoted
 title: 'February Break'
 subtitle: 'CES will be closed the week of February 19-23rd for February Break. We will return to school on Monday, February 26th.'
