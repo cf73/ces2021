@@ -1,5 +1,6 @@
 ---
 id: 8d4d1967-95b8-4fd9-a1f2-35ba4aed1e26
+published: false
 blueprint: events
 title: 'February Break'
 event_date: '2024-02-19'
