@@ -1,5 +1,6 @@
 ---
 id: d3cd3fa4-0f4e-4e31-9cca-abd017ba4b5c
+published: false
 blueprint: events
 title: 'Story Slam'
 event_date: '2024-03-07'
