@@ -1,5 +1,6 @@
 ---
 id: b72fd205-d2ad-41d5-95cf-a0ab17144a2f
+published: false
 blueprint: promoted
 title: 'Story Slam'
 subtitle: 'Join us for a night of storytelling and community!'
