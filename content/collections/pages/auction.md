@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Auction
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707840324
+updated_at: 1710514140
 add_content:
   -
     id: rKTGfMz5
@@ -36,7 +36,15 @@ add_content:
         content:
           -
             type: text
-            text: '2024 Auction Tickets will be available for purchase soon!'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://e.givesmart.com/events/xXk/'
+                  rel: null
+                  target: null
+                  title: null
+            text: '2024 Auction and Celebration tickets are now available for purchase!'
     type: text
     enabled: true
 main_image: 20200110_092446-1635524345.jpg
