@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1708443954
+updated_at: 1713826991
 add_content:
   -
     id: CC854MBg
@@ -63,58 +63,6 @@ add_content:
     type: text
     enabled: true
   -
-    id: lgxw0ops
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Assistant Director and Language Program Director'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: Full Year, Full Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Applications due by March 1, 2024'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/14WvKKC5TNy9V61ANjN3I-72hngM4vFcqJXysSHm8uWI/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Description'
-    type: text
-    enabled: true
-  -
     id: le5wsynm
     text:
       -
@@ -151,49 +99,6 @@ add_content:
                         type: link
                         attrs:
                           href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Description'
-    type: text
-    enabled: true
-  -
-    id: lsnjkj5d
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - Spanish Immersion Preschool Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Part Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1FpSBeXS0BgctKc5Yyrs1AOQGfGV3Bn9cVk5Q8rl2cFA/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
