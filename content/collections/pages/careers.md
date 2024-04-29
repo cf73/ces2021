@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1713826991
+updated_at: 1714416882
 add_content:
   -
     id: CC854MBg
@@ -99,6 +99,49 @@ add_content:
                         type: link
                         attrs:
                           href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Position Description'
+    type: text
+    enabled: true
+  -
+    id: lvlbhjog
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '2024-25 School Year - English Preschool Co-Head Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Position Type: School Year, Full Time'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1N_xOhpRK-g6RE0j8oJeNkLQ7v8nzy_IuSxsPdnazG8w/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
