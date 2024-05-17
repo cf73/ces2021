@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1714416882
+updated_at: 1715968955
 add_content:
   -
     id: CC854MBg
@@ -30,7 +30,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Summer 2024  - French Immersion Preschool Co-Teacher, Mandarin Immersion Preschool Co-Teacher, Floating Teacher'
+            text: 'Summer 2024  - French Immersion Preschool Co-Teacher and Mandarin Immersion Preschool Co-Teacher'
       -
         type: bulletList
         content:
