@@ -1,5 +1,6 @@
 ---
 id: 5866f185-59b9-4338-b0f4-ab738e61fc1f
+published: false
 blueprint: events
 title: 'Annual Auction and Community Celebration'
 event_date: '2024-04-27'
