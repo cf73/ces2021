@@ -1,5 +1,6 @@
 ---
 id: edb127b0-caf5-40be-9056-5fbfb4109b72
+published: false
 blueprint: promoted
 title: 'Summer Program 2024 Registration is now open for all Families!'
 subtitle: 'Our Summer Program is full of water play, outdoor fun, and Watermelon Fridays!'
