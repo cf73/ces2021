@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1715968955
+updated_at: 1719066394
 add_content:
   -
     id: CC854MBg
@@ -30,7 +30,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Summer 2024  - French Immersion Preschool Co-Teacher and Mandarin Immersion Preschool Co-Teacher'
+            text: '2024-25 School Year - Spanish Co-Head Teacher'
       -
         type: bulletList
         content:
@@ -42,7 +42,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Position Type: Summer Program, Full-Time and Part Time'
+                    text: 'Position Type: School Year, Part-Time'
           -
             type: listItem
             content:
@@ -55,15 +55,18 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/1XvQrPl3hxwKczj87MrAyMU_TEOBjui1bQIv921fFEqA/edit?usp=sharing'
+                          href: 'https://docs.google.com/document/d/12GtsJ1UaTl8Rq2ho8Pi2Xnk7B1A7Pi243RzDSvrXKpY/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
                     text: 'Position Descriptions'
+                  -
+                    type: text
+                    text: ' '
     type: text
     enabled: true
   -
-    id: le5wsynm
+    id: lxq7ngcc
     text:
       -
         type: paragraph
@@ -73,7 +76,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: '2024-25 School Year - French Immersion Preschool Co-Head Teacher'
+            text: '2024-25 School Year - Toddler Co-Head Teacher'
       -
         type: bulletList
         content:
@@ -85,7 +88,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Position Type: School Year, Part Time'
+                    text: 'Position Type: School Year, Part-Time'
           -
             type: listItem
             content:
@@ -98,54 +101,11 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/17XWXFFaaRN1Gmtr8zqVSpOZwGuwHurtNv2fpgeRkN1s/edit?usp=sharing'
+                          href: 'https://docs.google.com/document/d/1Jgv8RMe0qnfF3oFV8F0KS-YdaDVsMPrqNHy1RGyFa_0/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
-                    text: 'Position Description'
-    type: text
-    enabled: true
-  -
-    id: lvlbhjog
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - English Preschool Co-Head Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Full Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1N_xOhpRK-g6RE0j8oJeNkLQ7v8nzy_IuSxsPdnazG8w/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Description'
+                    text: 'Position Descriptions '
     type: text
     enabled: true
   -
