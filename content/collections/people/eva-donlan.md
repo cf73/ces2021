@@ -2,7 +2,7 @@
 id: 94d52126-ff66-46b3-a3eb-68ba74f9e72e
 blueprint: people
 title: 'Eva Donlan'
-officialtitle: 'Yellow Room Interim Co-Head Teacher'
+officialtitle: 'Blue Room Interim Co-Head Teacher'
 education:
   -
     id: AJ9HHKWf
@@ -15,5 +15,5 @@ photo: 39076c8b-5555-47a6-b1a5-408c715ae69e.jpeg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689605676
+updated_at: 1720637684
 ---
