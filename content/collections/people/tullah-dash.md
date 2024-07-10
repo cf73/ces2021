@@ -1,5 +1,6 @@
 ---
 id: b336b28f-cd15-4cb8-92b9-d5422addeb44
+published: false
 blueprint: people
 template: bio
 title: 'Tullah Dash'
