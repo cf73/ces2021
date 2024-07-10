@@ -15,11 +15,10 @@ bio: 'After graduating college and working briefly as a journalist, I rediscover
 photo: 07c00eeb-acd4-4922-916a-2f242c18b02e.jpeg
 role:
   - teacher
-  - board-of-directors
 programs:
   - day
 classrooms:
   - 9ae28b20-3a65-4e4b-8f56-4de6eef458f9
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689178996
+updated_at: 1720637630
 ---
