@@ -1,5 +1,6 @@
 ---
 id: 66d44e68-71be-43e4-9fba-85347355aa70
+published: false
 blueprint: people
 title: 'Gwladys Latrémé'
 officialtitle: 'French Room Co-Head Teacher'
