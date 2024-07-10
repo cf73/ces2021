@@ -1,5 +1,6 @@
 ---
 id: 8a96eea7-b3d3-4240-83ac-ef1b7b38bab3
+published: false
 blueprint: people
 template: bio
 title: 'Enrica Filippi'
@@ -20,5 +21,4 @@ classrooms:
   - c63dac32-3295-4368-bb8a-f4f1e23b718f
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
 updated_at: 1663102899
-published: true
 ---
