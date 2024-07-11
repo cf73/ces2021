@@ -1,5 +1,6 @@
 ---
 id: 29985e75-e0a5-45ec-8b15-f72a53123583
+published: false
 blueprint: promoted
 title: 'Last Days of School!'
 subtitle: "All families are invited to join us at CES for Last Day Celebrations! Classroom teachers will reach out with classroom specific details. We can't wait to celebrate our growth and learning with you!"
