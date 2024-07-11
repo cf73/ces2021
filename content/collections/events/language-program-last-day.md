@@ -1,5 +1,6 @@
 ---
 id: 554ffd25-93ec-4b5d-a049-bfdba809b95a
+published: false
 blueprint: events
 title: 'Language Program Last Day'
 event_date: '2024-06-06'
