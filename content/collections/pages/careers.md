@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1719066394
+updated_at: 1720708416
 add_content:
   -
     id: CC854MBg
@@ -109,6 +109,52 @@ add_content:
     type: text
     enabled: true
   -
+    id: lyhdb4u8
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: '2024-25 School Year - Mandarin Co-Head Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Position Type: School Year, Part-Time'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1cMSunNjTo7hatb3gh47KgmSZxXCtSc2oVX1zgEJl_68/edit?usp=drive_link'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Position Descriptions'
+                  -
+                    type: text
+                    text: ' '
+    type: text
+    enabled: true
+  -
     id: le5wn08q
     text:
       -
@@ -119,7 +165,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'If you are interested in learning more about current and future career opportunities at our school, please reach out to our Executive Director, Bekah Riley at Bekah@Cambridge-Ellis.org'
+            text: 'If you are interested in learning more about current and future career opportunities at our school, please reach out to our Assistant Director, Lindsey Freedman at Lindsey@Cambridge-Ellis.org'
     type: text
     enabled: true
   -
