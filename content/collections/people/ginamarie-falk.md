@@ -2,9 +2,10 @@
 id: ed13fae9-51d4-4926-a5b2-a2933038affd
 blueprint: people
 title: 'Gina Marie Falk'
-officialtitle: 'French Room Co-Head Teacher'
+officialtitle: 'French Room Head Teacher'
 education:
   -
+    id: ofNzUqE9
     name_of_institution: 'MA Bard College'
     type: institution
     enabled: true
@@ -13,6 +14,6 @@ bio: 'Engaging with others in French is a big, special part of my life, and work
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1668696080
+updated_at: 1721837944
 photo: gina-marie.JPG
 ---
