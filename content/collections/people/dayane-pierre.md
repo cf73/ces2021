@@ -1,5 +1,6 @@
 ---
 id: 2f05d078-eb5b-429d-a912-291c0322b790
+published: false
 blueprint: people
 title: 'Dayane Pierre'
 officialtitle: 'Rainbow Red Co-Head Teacher'
