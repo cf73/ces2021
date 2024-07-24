@@ -2,10 +2,11 @@
 id: c57e4fb9-2ffe-403f-9a2f-ea5b62d48ce3
 blueprint: people
 template: bio
-title: 'Natasha Dimas'
+title: 'Natasha Carr'
 officialtitle: 'Orange Room Co-Head Teacher'
 education:
   -
+    id: ZahMW8id
     name_of_institution: 'B.A. University of Massachusetts'
     type: institution
     enabled: true
@@ -18,7 +19,6 @@ programs:
 classrooms:
   - a289ada5-75ed-4478-a0ac-457b827c8850
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1660333136
+updated_at: 1721836932
 photo: 'Natasha Dimas.jpg'
-published: true
 ---
