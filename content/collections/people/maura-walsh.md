@@ -16,7 +16,7 @@ education:
     type: institution
     enabled: true
 email: Maura@Cambridge-Ellis.org
-bio: 'After working as a head preschool teacher and student teacher supervisor at Boston University, I joined Cambridge-Ellis as a head teacher in 2009. I particularly enjoy working with the young preschoolers, for whom every new experience is enthralling and expands their view of the world. I am trained in the Inquiry Approach to curriculum development and implement it each year, exploring a topic of the children’s interest in a year-long, in-depth study.'
+bio: 'I joined Cambridge-Ellis in 2009. I love working with wide age groups in which children can explore together, develop relationships, and learn from each other. I can’t wait to dive into our year-long child-directed inquiry this year and see where the children’s interests will take us! I also enjoy presenting at Early Childhood Education conferences, sharing our practices with other educators, particularly on curriculum development, nature education, and DEI work with young children. I live in Dedham with my husband, Tom, and children, Finn and Bonnie, both CES alums. In my free time, I love reading, knitting, hiking, and engaging in social justice work.'
 photo: 'Maura Walsh.jpg'
 role:
   - teacher
@@ -25,5 +25,5 @@ programs:
 classrooms:
   - eb19cc0e-2314-4252-8f6c-af927cfa0ab2
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689605768
+updated_at: 1722622754
 ---
