@@ -11,7 +11,7 @@ education:
     type: institution
     enabled: true
 email: Dee@Cambridge-Ellis.org
-bio: 'I received my Bachelors degree in elementary education and natural sciences at Lesley University. I went on to work in the Cambridge public schools, as well as Lexington and Brookline’s extended day programs before coming to Cambridge-Ellis in 2010. I love being part of a community that supports and encourages children as they explore and develop into problem solvers and community members. I live in Arlington with my daughter, and love yoga, kayaking, biking, and being active outdoors.'
+bio: 'I joined the CES community in 2010 as a Yellow Room teacher. I love Cambridge-Ellis and being part of a community that supports and encourages children as they explore and develop into problem solvers and community members. I live in Arlington with my daughter, Olivia, who is starting her junior year in college. When I am not at CES, I enjoy spending time with family and friends, hiking, biking, and being on my yoga mat. In 2022, I completed a 200 hour yoga teacher training with Breathe for Change and love to share my love of yoga with children.'
 photo: IMG_3043.JPG
 role:
   - teacher
@@ -20,5 +20,5 @@ programs:
 classrooms:
   - eb19cc0e-2314-4252-8f6c-af927cfa0ab2
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689605756
+updated_at: 1722622778
 ---
