@@ -21,9 +21,9 @@ bio: |-
   I grew up in Brookline and Cambridge. My grandmother’s joyful guidance, genuine interest in my ideas, and contagious passion for learning continues to inspire my work with children, parents, and teachers. 
 
   I spend my free time with my own adventurous preschooler, Gus. We love to splash in the waves at Nantasket beach, meander through the Arnold Arboretum, and read stacks of books.
-photo: freedman_lindsey_5.jpg
+photo: lindsey-freedman-headshot.jpg
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1720708080
+updated_at: 1722619958
 ---
