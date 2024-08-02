@@ -1,5 +1,6 @@
 ---
 id: c0602a05-a0f8-4ad1-ab3e-ec85642ca7ba
+published: false
 blueprint: people
 title: "Yu-Shiuan 'Carol' Shie"
 officialtitle: 'Mandarin Green Teacher'
