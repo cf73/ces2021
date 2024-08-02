@@ -3,9 +3,10 @@ id: 1c1cc7a8-4625-4982-a995-8044af5878cd
 blueprint: people
 template: bio
 title: 'An Fong'
-officialtitle: 'Mandarin Room Co-Head Teacher'
+officialtitle: 'Floating Teacher'
 education:
   -
+    id: 1rSj7878
     name_of_institution: 'South China University, Guangzhou'
     type: institution
     enabled: true
@@ -19,5 +20,5 @@ programs:
 classrooms:
   - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635173949
+updated_at: 1722620029
 ---
