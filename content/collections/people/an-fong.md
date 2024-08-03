@@ -7,7 +7,7 @@ officialtitle: 'Floating Teacher'
 education:
   -
     id: 1rSj7878
-    name_of_institution: 'South China University, Guangzhou'
+    name_of_institution: 'South China Normal University, Guangzhou'
     type: institution
     enabled: true
 email: An@Cambridge-Ellis.org
@@ -20,5 +20,5 @@ programs:
 classrooms:
   - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722721150
+updated_at: 1722725224
 ---
