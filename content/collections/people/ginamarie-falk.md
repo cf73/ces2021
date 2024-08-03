@@ -6,7 +6,12 @@ officialtitle: 'French Room Head Teacher'
 education:
   -
     id: ofNzUqE9
-    name_of_institution: 'MA Bard College'
+    name_of_institution: 'MM Longy School of Music of Bard College'
+    type: institution
+    enabled: true
+  -
+    id: lzeqef4g
+    name_of_institution: 'MA Middlebury College, In Progress'
     type: institution
     enabled: true
 email: GinaMarie@Cambridge-Ellis.org
@@ -14,6 +19,6 @@ bio: 'Engaging with others in French is a big, special part of my life, and work
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722721395
+updated_at: 1722725988
 photo: gina-marie-headshot.jpg
 ---
