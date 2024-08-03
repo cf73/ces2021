@@ -7,7 +7,7 @@ officialtitle: 'Mandarin Room Co-Head Teacher'
 education:
   -
     id: AtXcQpAF
-    name_of_institution: 'B.A. University of Massachusetts'
+    name_of_institution: 'B.A. University of Massachusetts, Amherst'
     type: institution
     enabled: true
 email: Mary@Cambridge-Ellis.org
@@ -18,5 +18,5 @@ role:
 programs:
   - day
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722723649
+updated_at: 1722725604
 ---
