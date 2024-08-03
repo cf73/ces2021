@@ -11,7 +11,7 @@ education:
     type: institution
     enabled: true
 email: Natasha@Cambridge-Ellis.org
-bio: 'I began volunteering at Cambridge-Ellis School when I was just sixteen years old! The field of early education immediately felt like home. Since then, I have worked with children from ages 0-6 in and out of the classroom. In 2019, I earned a BA from UMASS Boston, with a degree in Early education and a concentration in Inclusive Settings. My positive energy and creative nature allows me to provide an inspiring environment that fosters self-confidence, creativity and curiosity through play. Outside of school, I enjoys going to the beach, creating art, and hanging out with my bearded dragon Chili!'
+bio: 'I am proud to be a toddler mom and teacher! Cambridge-Ellis is where my love for childhood education sparked. I began volunteering at 16 years old and have been part of the community since! My experience has allowed me to work closely with children from ages 0-6, in and out of the classroom. In 2019, I earned a BA from UMASS Boston, with a degree in early education with a concentration in inclusive settings. Outside of school, I enjoy nature, art and spending time with loved ones!'
 role:
   - teacher
 programs:
@@ -19,6 +19,6 @@ programs:
 classrooms:
   - a289ada5-75ed-4478-a0ac-457b827c8850
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1721836956
+updated_at: 1722723831
 photo: 'Natasha Dimas.jpg'
 ---
