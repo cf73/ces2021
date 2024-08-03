@@ -16,10 +16,13 @@ education:
     type: institution
     enabled: true
 email: Elisabeth@Cambridge-Ellis.org
-bio: 'Growing up, I was exposed to French nursery rhymes and lullabies from my father, who passed them down from my French Canadian grandparents. This exposure from such a young age contributed to my love and proficiency for the French language. After graduating from college, I moved to Toulouse, France, where I taught English in French primary schools. The following year, I worked as a teacher in a 4th grade classroom while completing the 2nd year of my master’s degree and thesis. Newly relocated back to the US, I am very excited to pass on my love for the French language to a new generation of learners as part of the Cambridge-Ellis community. In my free time, I enjoy traveling, dancing and teaching dance, studying photography, hiking, and exploring outside!'
+bio: |-
+  The seeds of my love for languages were planted at an early age through exposure to French songs and expressions from family members. My curiosity and interest in languages, cultures, and education continued to grow as I studied French and Primary Education in college before moving to Toulouse, where I, over the course of three years, taught English, pursued a Master’s Degree in Primary Education at a French University, and taught 4th grade (CM1). 
+
+  Back in the US in 2018, I found my home at Cambridge-Ellis, a place where all the beliefs I held about best practices in education truly come to life, and where languages and cultures mix together in a rich diversity of experiences and language learning. As the Language Program Director, I have the privilege of supporting teachers in building skills through professional development, incorporating DEI learning and best practices in language learning into their curriculum, and helping our diverse learners to blossom. In addition, I focus on the strategic goals and growth of the Language Program, ensuring that we meet the needs of our community for many years to come.
 photo: 'Elisabeth Guenette.jpg'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722619980
+updated_at: 1722721293
 role:
   - leadership
 programs:
