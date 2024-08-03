@@ -11,7 +11,7 @@ education:
     type: institution
     enabled: true
 email: Lily@Cambridge-Ellis.org
-bio: 'I was born and raised in Cambridge just a block away from the Cambridge-Ellis School. Since I was a preschooler myself, I have always been drawn to the visual arts. I worked at a Reggio Emilia-inspired preschool in Boston for 6 years, and I am so excited to be able to share my experience and to learn so much more from the children and staff at Cambridge-Ellis.'
+bio: 'This is my sixth year at Cambridge Ellis but I’ve worked for over a decade as a toddler teacher. I am constantly amazed by how much your wonderful toddlers teach me through their curiosity, creativity, and growth. I come from a creative arts background and love sharing that with the class. In my free time, I enjoy spending time with my husband and daughter, a current CES student.'
 role:
   - teacher
 programs:
@@ -19,6 +19,6 @@ programs:
 classrooms:
   - 448d749d-93d0-4c81-bd6f-806e5e431849
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1708020864
-photo: d1c0ac84-e329-4dd9-847f-4b5590e93ecb.jpeg
+updated_at: 1722724378
+photo: lily-headshot.png
 ---
