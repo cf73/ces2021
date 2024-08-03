@@ -7,7 +7,7 @@ officialtitle: 'Language Program Director'
 education:
   -
     id: DI7GbuUx
-    name_of_institution: "M.A. L'Insitut Catholique de Toulouse"
+    name_of_institution: 'M.Ed Institut Supérieur de Formation de l’Enseignement Catholique de Toulouse'
     type: institution
     enabled: true
   -
@@ -22,7 +22,7 @@ bio: |-
   Back in the US in 2018, I found my home at Cambridge-Ellis, a place where all the beliefs I held about best practices in education truly come to life, and where languages and cultures mix together in a rich diversity of experiences and language learning. As the Language Program Director, I have the privilege of supporting teachers in building skills through professional development, incorporating DEI learning and best practices in language learning into their curriculum, and helping our diverse learners to blossom. In addition, I focus on the strategic goals and growth of the Language Program, ensuring that we meet the needs of our community for many years to come.
 photo: 'Elisabeth Guenette.jpg'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722721293
+updated_at: 1722725309
 role:
   - leadership
 programs:
