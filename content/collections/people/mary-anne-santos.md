@@ -6,15 +6,17 @@ title: 'Mary Anne Santos'
 officialtitle: 'Purple Room Head Teacher'
 education:
   -
+    id: LySJ31nB
     name_of_institution: 'M.A.T. Tufts University'
     type: institution
     enabled: true
   -
+    id: e932sLTU
     name_of_institution: 'B.A. Castleton State College'
     type: institution
     enabled: true
 email: MaryAnne@Cambridge-Ellis.org
-bio: 'After working briefly as a graphic designer for a small book publisher, I returned to school in order to live out my dream as an educator of young children. I’m passionate about fostering relationships in the Cambridge Ellis community and creating warm, nurturing environments for children to explore and connect with each day. In my spare time, I enjoy traveling with my family, and exploring the beauty of New England.'
+bio: 'After a brief career as a graphic designer, I returned to school to live out my dream as a Reggio-inspired educator of young children. I’m passionate about fostering relationships in the CES community and creating warm, nurturing environments for the children to explore and connect with each day. I love working with preschool children as they make connections and share their perspectives. Outside of work, I enjoy traveling with my husband and daughter, as well as spending time on the beaches of New England and beyond.'
 photo: 'Mary Anne Santos.jpg'
 role:
   - teacher
@@ -23,5 +25,5 @@ programs:
 classrooms:
   - 7c58e147-8daa-4bf1-9ef4-0c2d74ac028f
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635173796
+updated_at: 1722724103
 ---
