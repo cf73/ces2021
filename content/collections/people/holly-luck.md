@@ -12,7 +12,7 @@ education:
     enabled: true
   -
     id: Drivhqpb
-    name_of_institution: 'B.S. Northeaster University'
+    name_of_institution: 'B.S. Northeastern University'
     type: institution
     enabled: true
 email: Holly@Cambridge-Ellis.org
@@ -23,5 +23,5 @@ role:
 programs:
   - language
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722721236
+updated_at: 1722725186
 ---
