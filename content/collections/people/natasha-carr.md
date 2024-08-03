@@ -7,7 +7,7 @@ officialtitle: 'Orange Room Co-Head Teacher'
 education:
   -
     id: ZahMW8id
-    name_of_institution: 'B.A. University of Massachusetts'
+    name_of_institution: 'B.A. University of Massachusetts, Boston'
     type: institution
     enabled: true
 email: Natasha@Cambridge-Ellis.org
@@ -19,6 +19,6 @@ programs:
 classrooms:
   - a289ada5-75ed-4478-a0ac-457b827c8850
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722723831
+updated_at: 1722726051
 photo: 'Natasha Dimas.jpg'
 ---
