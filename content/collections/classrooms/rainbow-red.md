@@ -1,5 +1,6 @@
 ---
 id: c63dac32-3295-4368-bb8a-f4f1e23b718f
+published: false
 blueprint: classrooms
 title: 'Rainbow Red'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
