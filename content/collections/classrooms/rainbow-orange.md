@@ -1,5 +1,6 @@
 ---
 id: a289ada5-75ed-4478-a0ac-457b827c8850
+published: false
 blueprint: classrooms
 title: 'Rainbow Orange'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
