@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1720708416
+updated_at: 1724188404
 add_content:
   -
     id: CC854MBg
@@ -16,142 +16,33 @@ add_content:
         content:
           -
             type: text
-            text: 'Cambridge-Ellis School is currently hiring for the following position(s):'
+            text: 'Cambridge-Ellis is not currently hiring for any open positions. If you are interested in Substitute Teaching or Volunteering at CES, please send your resume to '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:elisabeth@cambridge-ellis.org'
+                  rel: null
+                  target: _blank
+                  title: null
+            text: elisabeth@cambridge-ellis.org
+          -
+            type: text
+            text: .
     type: text
     enabled: true
   -
     id: lsujaqd7
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - Spanish Co-Head Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Part-Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/12GtsJ1UaTl8Rq2ho8Pi2Xnk7B1A7Pi243RzDSvrXKpY/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Descriptions'
-                  -
-                    type: text
-                    text: ' '
     type: text
     enabled: true
   -
     id: lxq7ngcc
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - Toddler Co-Head Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Part-Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1Jgv8RMe0qnfF3oFV8F0KS-YdaDVsMPrqNHy1RGyFa_0/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Descriptions '
     type: text
     enabled: true
   -
     id: lyhdb4u8
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '2024-25 School Year - Mandarin Co-Head Teacher'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Position Type: School Year, Part-Time'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/1cMSunNjTo7hatb3gh47KgmSZxXCtSc2oVX1zgEJl_68/edit?usp=drive_link'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'Position Descriptions'
-                  -
-                    type: text
-                    text: ' '
     type: text
     enabled: true
   -
