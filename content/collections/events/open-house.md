@@ -54,5 +54,6 @@ details:
         type: text
         text: ' if you have any questions about this special event.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1724442296
+updated_at: 1724774054
+image: open-house-website-banner-(1).jpg
 ---
