@@ -1,6 +1,5 @@
 ---
 id: 28d307a1-5066-4d82-bbe0-7e5787034d0b
-published: false
 blueprint: people
 title: 'Liz Vance'
 officialtitle: 'Co-Head Teacher'
