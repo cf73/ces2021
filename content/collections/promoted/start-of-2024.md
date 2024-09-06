@@ -1,5 +1,6 @@
 ---
 id: 4cffd1c6-7fd3-4538-94d4-e13758ed790d
+published: false
 blueprint: promoted
 title: 'Start of 2024-25 School Year!'
 date_of_event: '2024-09-03'
