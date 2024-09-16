@@ -5,11 +5,6 @@ title: 'Liz Vance'
 officialtitle: 'Co-Head Teacher'
 education:
   -
-    id: m0o9xmd0
-    name_of_institution: 'Graduate Certificate School of the Museum of Fine Arts'
-    type: institution
-    enabled: true
-  -
     id: m0o9qemz
     name_of_institution: 'BA in Early Childhood Ed. Hampshire College'
     type: institution
@@ -29,5 +24,5 @@ photo: liz-vance-headshot.jpg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1725479581
+updated_at: 1726492312
 ---
