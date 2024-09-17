@@ -1,5 +1,6 @@
 ---
 id: 85447551-542f-4f4d-b377-d908f98c822a
+published: false
 blueprint: people
 template: bio
 title: 'Kim Rogers'
