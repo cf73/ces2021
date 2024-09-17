@@ -3,13 +3,15 @@ id: c2f68fc6-2439-4912-a545-f520fcd8dadb
 blueprint: people
 template: bio
 title: 'Christina Isidoro'
-officialtitle: 'Director of Admissions and Accredidation'
+officialtitle: 'Director of Admissions and Accreditation'
 education:
   -
+    id: h5jzFP7R
     name_of_institution: 'M.Ed. Wheelock College'
     type: institution
     enabled: true
   -
+    id: BGkj1Q9W
     name_of_institution: 'B.A. Wheelock College'
     type: institution
     enabled: true
@@ -18,6 +20,6 @@ bio: 'During my senior year at Wheelock College, I was lucky enough to be a stud
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635523473
+updated_at: 1726594847
 photo: IMG_3005-(1).JPG
 ---
