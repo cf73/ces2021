@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Financial Aid'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707841568
+updated_at: 1727463070
 add_content:
   -
     id: JgCUlm58
@@ -14,7 +14,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Cambridge-Ellis School has a history of helping families make an independent preschool education possible for their children. We currently dedicate approximately 10% of our tuition revenue towards scholarships and aim to increase this percentage by the end of our strategic financial plan year in 2025.'
+            text: 'Cambridge-Ellis School has a history of helping families make an independent preschool education possible for their children. We currently dedicate approximately 10% of our tuition revenue towards scholarships.'
       -
         type: paragraph
         content:
