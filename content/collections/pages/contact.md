@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727464321
+updated_at: 1727464488
 add_content:
   -
     id: 8k7vQuWS
@@ -154,19 +154,32 @@ add_content:
         content:
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridge-ellis.org/community/lindsey-freedman'
+                  rel: null
+                  target: null
+                  title: null
             text: 'Assistant Director, Lindsey Freedman'
       -
         type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: Lindsey@cambridge-ellis.org
+                  rel: null
+                  target: null
+                  title: null
             text: Lindsey@cambridge-ellis.org
       -
         type: paragraph
         content:
-          -
-            type: text
-            text: 'Associate '
           -
             type: text
             marks:
@@ -177,7 +190,7 @@ add_content:
                   rel: null
                   target: null
                   title: null
-            text: 'Director of Admissions and Accreditation, Christina Isidoro'
+            text: 'Associate Director of Admissions and Accreditation, Christina Isidoro'
           -
             type: hardBreak
             marks:
@@ -190,6 +203,14 @@ add_content:
                   title: null
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: Christina@Cambridge-Ellis.org
+                  rel: null
+                  target: null
+                  title: null
             text: Christina@Cambridge-Ellis.org
       -
         type: paragraph
@@ -217,6 +238,14 @@ add_content:
                   title: null
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: Andy@Cambridge-Ellis.org
+                  rel: null
+                  target: null
+                  title: null
             text: Andy@Cambridge-Ellis.org
       -
         type: paragraph
@@ -244,6 +273,14 @@ add_content:
                   title: null
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: Michelle@Cambridge-Ellis.org
+                  rel: null
+                  target: null
+                  title: null
             text: Michelle@Cambridge-Ellis.org
       -
         type: paragraph
@@ -271,6 +308,14 @@ add_content:
                   title: null
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: Katie@Cambridge-Ellis.org
+                  rel: null
+                  target: null
+                  title: null
             text: Katie@Cambridge-Ellis.org
     type: text
     enabled: true
