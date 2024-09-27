@@ -3,23 +3,18 @@ id: 66afe361-c739-4275-ad7d-b48d1cde227d
 blueprint: flexible_content_page
 title: 'Visit CES'
 template: flexpage
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1638064488
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1727463995
 add_content:
   -
+    id: yKdnHzoX
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Welcome to our community! With health and safety as the top priorities during this trying time, we are currently offering limited in-person and virtual tours of CES. '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In-person and virtual tours are available from October 1 to January 31, annually. During your tour with the Admissions Director, you will be able to learn more about the school, observe classrooms and teacher/child interactions, and meet with the Director and/or Assistant Director of our school. It is not mandatory to apply before scheduling a tour.'
+            text: 'Welcome to our community! In-person tours are available from October 1 to January 31, annually. During your tour with the Admissions Director, you will be able to learn more about the school, observe classrooms and teacher/child interactions, and meet with the Director and/or Assistant Director of our school. We ask that all families submit an application before their tour date.'
       -
         type: paragraph
         content:
@@ -35,7 +30,7 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::c2f68fc6-2439-4912-a545-f520fcd8dadb'
+                  href: 'https://cambridge-ellis.org/community/christina-isidoro'
                   rel: null
                   target: null
                   title: null
