@@ -12,7 +12,7 @@ add_content:
         content:
           -
             type: text
-            text: "The first round of our 2024-25 Admissions Season is now closed. Families may still apply to be added to the 'waitpool' for our later admissions rounds. Read below for more information on how to apply."
+            text: 'The admissions season for the 2025-26 school year will open on October 1st and last through January 31st. Read below for more information on how to apply.'
     type: text
     enabled: true
   -
@@ -34,7 +34,7 @@ add_content:
         content:
           -
             type: text
-            text: "First, fill out an\_"
+            text: 'First, fill out an '
           -
             type: text
             marks:
@@ -45,8 +45,6 @@ add_content:
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
             text: 'Inquiry Form'
           -
             type: text
@@ -56,13 +54,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Then,'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: ' '
+            text: 'Then, '
           -
             type: text
             marks:
@@ -73,12 +65,16 @@ add_content:
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
             text: 'create an online account on our application platform'
           -
             type: text
-            text: ' and submit the $55 application fee.'
+            text: ' and submit the $55 application fee. We ask families to submit their application before the day of their tour.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Families will be notified of our decisions in mid March. A signed contract, accompanied by an enrollment deposit, ensures a child’s placement for the fall. When the number of applicants exceeds the number of spaces, waitlist notifications will be sent, and families will be called from the waitlist as spots become available. Current and alumni families as well as children of staff are given enrollment priority.'
     type: text
     enabled: true
   -
@@ -116,6 +112,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707839752
+updated_at: 1727464074
 main_image: IMG_3005.jpg
 ---
