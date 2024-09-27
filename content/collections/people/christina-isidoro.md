@@ -20,6 +20,6 @@ bio: 'During my senior year at Wheelock College, I was lucky enough to be a stud
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1726594847
-photo: IMG_3005-(1).JPG
+updated_at: 1727463750
+photo: christina-isidoro.jpeg
 ---
