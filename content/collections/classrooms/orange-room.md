@@ -3,10 +3,10 @@ id: 73f44629-52d8-444e-8cc4-35a3a7569479
 blueprint: classrooms
 title: 'Orange Room'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1689179275
+updated_at: 1727458607
 program_type: day
 integer: 1
-description: "In the Orange room young toddlers find a warm, inviting space to explore and connect. With their interests in mind we provide open-ended materials and process art projects in order to stretch children’s thinking and deepen children's sense of wonder. We focus on building loving and supportive relationships with, and amongst, the children. Throughout the course of the year we embrace the many opportunities for children to practice sharing materials, space, and ideas for play, knowing these will be foundational pieces of their growing understanding of how to be part of a community."
+description: "In the Orange room, young toddlers (who have turned 1.9 years old by September 1st) find a warm, inviting space to explore and connect. With their interests in mind we provide open-ended materials and process art projects in order to stretch children’s thinking and deepen children's sense of wonder. We focus on building loving and supportive relationships with, and amongst, the children. Throughout the course of the year we embrace the many opportunities for children to practice sharing materials, space, and ideas for play, knowing these will be foundational pieces of their growing understanding of how to be part of a community."
 programs: day
 ages: toddler
 teachers:
