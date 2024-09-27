@@ -5,6 +5,7 @@ title: Admissions
 template: flexpage
 add_content:
   -
+    id: CfW4Imz5
     text:
       -
         type: heading
@@ -13,12 +14,15 @@ add_content:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: 'Enrollment Ages'
       -
-        type: bullet_list
+        type: bulletList
         content:
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -27,25 +31,25 @@ add_content:
                     type: text
                     text: 'Toddler Room (ages 1 year 9 months- 2 years 8 months by September)'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Lower Preschool (ages 2 years 9 months- 3 years 6 months by September)'
+                    text: 'Lower Preschool (ages 2 years 9 months by September)*'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Upper Preschool (ages 3 years 7 months- 5 years 3 months by September)'
+                    text: 'Upper Preschool (ages 3 years 7 months- 5 years by September)*'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
@@ -54,22 +58,20 @@ add_content:
                     type: text
                     text: 'After School Toddler Program (ages 1 year 9 months- 2 years 8 months by September)'
           -
-            type: list_item
+            type: listItem
             content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'After School Language Programs (ages 2 years 9 months- 6 years by September)'
+                    text: 'After School Language Programs (ages 2 years 9 months- 6 years by September)*'
       -
-        type: heading
-        attrs:
-          level: 3
+        type: paragraph
         content:
           -
             type: text
-            text: 'Diverse Learners'
+            text: '*age range will vary year to year depending on enrollment'
       -
         type: paragraph
         content:
@@ -78,8 +80,8 @@ add_content:
             text: "CES works collaboratively with a number of different agencies, public and private, as well as renowned experts in areas of child development, including a child development specialist, speech and language pathologist, and child psychologist. Our teaching faculty receives ongoing training and consultation by experts in the field. We welcome specialists and therapists into our classrooms to provide special support services to children during school hours.\_"
     type: text
     enabled: true
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1638064291
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1727463960
 include: true
 main_image: IMG_20191105_085648989_HDR_Original.jpg
 ---
