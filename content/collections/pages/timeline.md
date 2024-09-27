@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Timeline
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707848835
+updated_at: 1727464223
 add_content:
   -
     id: V0AodRHy
@@ -32,8 +32,6 @@ add_content:
               -
                 type: bold
             text: 'First Saturday in November | open house for perspective families'
-      -
-        type: paragraph
     type: text
     enabled: true
   -
@@ -47,7 +45,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'December 18 | re-enrollment and current and alumni sibling applications due'
+            text: 'December 16 | re-enrollment forms and current & alumni siblings applications due'
     type: text
     enabled: true
   -
@@ -61,9 +59,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'January 31 | new family and alumni sibling applications due'
-      -
-        type: paragraph
+            text: 'January 31 | new family applications due'
     type: text
     enabled: true
   -
@@ -77,9 +73,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'February 5 | financial aid applications and documents due'
-      -
-        type: paragraph
+            text: 'February 3 | financial aid applications and documents due'
     type: text
     enabled: true
   -
@@ -94,8 +88,6 @@ add_content:
               -
                 type: bold
             text: 'February 15 | re-enrollment and current sibling contracts go out'
-      -
-        type: paragraph
     type: text
     enabled: true
   -
@@ -123,9 +115,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'May 3 | visiting day for children and families newly admitted to Cambridge-Ellis'
-      -
-        type: paragraph
+            text: 'May 2 | visiting day for children and families newly admitted to Cambridge-Ellis'
     type: text
     enabled: true
 main_image: 20211005_152229.jpg
