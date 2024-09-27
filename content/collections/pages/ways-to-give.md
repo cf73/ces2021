@@ -20,7 +20,7 @@ add_content:
         content:
           -
             type: text
-            text: "Volunteerism is an essential component of the Cambridge-Ellis community. Board committee and PTA volunteer engagement occurs throughout the academic year, and parents will receive a request for participation in the early fall for volunteer involvement and throughout the year related to our CES PTA run events- parent involvement is voluntary and ranges from co-chairing an event to donating a baked good, for example.\_"
+            text: "Volunteer participation benefits all of our families, children and staff and is an essential component of the Cambridge-Ellis community. Families will receive a volunteer interest survey in the spring for volunteer involvement the following school year.\_ Committees and planning\_ the Community Builders begin in the first weeks of the school year.\_ Family involvement is voluntary with several options for the level of time commitment, from co-chairing a committee to donating baked goods for a classroom birthday party."
       -
         type: paragraph
         content:
@@ -30,12 +30,15 @@ add_content:
               -
                 type: bold
             text: 'Community Builders'
+          -
+            type: text
+            text: ' (formerly the Parent Teacher Association)'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'To learn more about the work of our Community Builders, reach the committee chair Jess Tangren at pta2324@cambridge-ellis.org'
+            text: 'To learn more about the work of our Community Builders, reach the committee chair Jess Tangren at pta@cambridge-ellis.org'
       -
         type: paragraph
         content:
@@ -50,7 +53,7 @@ add_content:
         content:
           -
             type: text
-            text: 'To learn more about the work of our Board Committees, reach out the Board Co-Chairs Neil Tennenholtz and Hilary Rasmussen at cochairs2324@cambridge-ellis.org.'
+            text: 'To learn more about the work of our Board Committees, reach out to the Board Co-Chairs Hilary Rasmussen and Rahul Khara at cochairs@cambridge-ellis.org..'
       -
         type: paragraph
         content:
@@ -84,7 +87,7 @@ add_content:
         content:
           -
             type: text
-            text: "In addition to becoming involved in the CES community, financial support in all amounts is welcomed. Financial gifts will\_support the financial aid needs of our community through tuition assistance for families, professional development opportunities for our faculty, as well as the many costs of running a school.\_Gifts to Cambridge-Ellis can be made in the following ways:"
+            text: 'Financial support in all amounts is welcomed. Financial gifts will support the financial aid needs of our community through tuition assistance for families, professional development opportunities for our faculty, as well as the many costs of running a school not fully covered by our tuition. Gifts to Cambridge-Ellis can be made in the following ways:'
       -
         type: paragraph
         content:
@@ -98,13 +101,7 @@ add_content:
             type: hardBreak
           -
             type: text
-            text: "All gifts should be made payable\_to Cambridge-Ellis School. Our mailing address is:"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Cambridge-Ellis School, 80 Trowbridge Street, Cambridge, MA 02138'
+            text: 'All gifts should be made payable to Cambridge-Ellis School. Our mailing address is: Cambridge-Ellis School, 80 Trowbridge Street, Cambridge, MA 02138'
       -
         type: paragraph
         content:
@@ -123,7 +120,7 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::4ab4d443-e760-4025-8d59-be82badb9f10'
+                  href: 'https://cambridge-ellis.org/donate'
                   rel: null
                   target: null
                   title: null
@@ -133,9 +130,6 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: 'Matching gifts'
           -
             type: hardBreak
@@ -147,15 +141,26 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: Securities
           -
             type: hardBreak
           -
             type: text
-            text: 'Gifts of security may be made in various ways. Please check with your bank, broker or agent about their procedures if you are interested in transferring a gift of securities. We ask that you notify the school of your intention when making a stock donation.'
+            text: 'Gifts of securities may be made in various ways. Please check with your bank, broker or agent about their procedures if you are interested in transferring a gift of securities. To facilitate a gift of stock, please contact Andy Griswold in the Business Office, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:andy@cambridge-ellis.org'
+                  rel: null
+                  target: null
+                  title: null
+            text: andy@cambridge-ellis.org
+          -
+            type: text
+            text: ".\_"
     type: text
     enabled: true
   -
@@ -192,7 +197,7 @@ add_content:
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707840458
+updated_at: 1727461475
 include: true
 main_image: IMG_2515.jpg
 ---
