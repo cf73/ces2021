@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707860619
+updated_at: 1727464321
 add_content:
   -
     id: 8k7vQuWS
@@ -27,7 +27,7 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::72301430-4743-448d-8a1f-70552c3c25eb'
+                  href: 'https://cambridge-ellis.org/contact/frequently-asked-questions'
                   rel: null
                   target: null
                   title: null
@@ -40,15 +40,9 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: Address
           -
             type: hardBreak
-            marks:
-              -
-                type: bold
           -
             type: text
             text: '80 Trowbridge St, Cambridge, MA 02138'
@@ -57,15 +51,9 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: Phone
           -
             type: hardBreak
-            marks:
-              -
-                type: bold
           -
             type: text
             text: '(617) 354-0014'
@@ -74,15 +62,9 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: Fax
           -
             type: hardBreak
-            marks:
-              -
-                type: bold
           -
             type: text
             text: '(617) 491-4313'
@@ -91,15 +73,9 @@ add_content:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: Email
           -
             type: hardBreak
-            marks:
-              -
-                type: bold
           -
             type: text
             text: Info@Cambridge-Ellis.org
@@ -112,12 +88,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::c237bba1-b7af-4e30-81ac-50072b37ef9f'
+                  href: 'https://cambridge-ellis.org/community/bekah-riley'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
             text: 'Executive Director, Bekah Riley'
           -
             type: hardBreak
@@ -125,14 +99,20 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::c237bba1-b7af-4e30-81ac-50072b37ef9f'
+                  href: 'https://cambridge-ellis.org/community/bekah-riley'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:Bekah@Cambridge-Ellis.org'
+                  rel: null
+                  target: null
+                  title: null
             text: Bekah@Cambridge-Ellis.org
       -
         type: paragraph
@@ -143,12 +123,60 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::c2f68fc6-2439-4912-a545-f520fcd8dadb'
+                  href: 'https://cambridge-ellis.org/community/andy-griswold'
                   rel: null
                   target: null
                   title: null
+            text: 'Language Program Director, Elisabeth Guenette'
+          -
+            type: hardBreak
+            marks:
               -
-                type: bold
+                type: link
+                attrs:
+                  href: 'https://cambridge-ellis.org/community/andy-griswold'
+                  rel: null
+                  target: null
+                  title: null
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:Elisabeth@Cambridge-Ellis.org'
+                  rel: null
+                  target: null
+                  title: null
+            text: Elisabeth@Cambridge-Ellis.org
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Assistant Director, Lindsey Freedman'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: Lindsey@cambridge-ellis.org
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Associate '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridge-ellis.org/community/christina-isidoro'
+                  rel: null
+                  target: null
+                  title: null
             text: 'Director of Admissions and Accreditation, Christina Isidoro'
           -
             type: hardBreak
@@ -156,12 +184,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::c2f68fc6-2439-4912-a545-f520fcd8dadb'
+                  href: 'https://cambridge-ellis.org/community/christina-isidoro'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
           -
             type: text
             text: Christina@Cambridge-Ellis.org
@@ -174,12 +200,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
+                  href: 'https://cambridge-ellis.org/community/andy-griswold'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
             text: 'Business Manager, Andy Griswold'
           -
             type: hardBreak
@@ -187,12 +211,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
+                  href: 'https://cambridge-ellis.org/community/andy-griswold'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
           -
             type: text
             text: Andy@Cambridge-Ellis.org
@@ -205,74 +227,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
+                  href: 'https://cambridge-ellis.org/community/michelle-phoenix'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
-            text: 'Language Program Coordinator, Elisabeth Guenette'
-          -
-            type: hardBreak
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://entry::7154caac-857b-4f19-8489-96fa5cd2edbd'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-          -
-            type: text
-            text: Elisabeth@Cambridge-Ellis.org
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://entry::85447551-542f-4f4d-b377-d908f98c822a'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-            text: 'Director of Development, Kim Rogers'
-          -
-            type: hardBreak
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://entry::85447551-542f-4f4d-b377-d908f98c822a'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
-          -
-            type: text
-            text: Kim@Cambridge-Ellis.org
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'statamic://entry::33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47'
-                  rel: null
-                  target: null
-                  title: null
-              -
-                type: bold
             text: 'Office Manager, Michelle Phoenix'
           -
             type: hardBreak
@@ -280,12 +238,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47'
+                  href: 'https://cambridge-ellis.org/community/michelle-phoenix'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
           -
             type: text
             text: Michelle@Cambridge-Ellis.org
@@ -298,12 +254,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::75862a02-1182-48da-aeed-14e0714e846d'
+                  href: 'https://cambridge-ellis.org/community/katie-clark'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
             text: 'Arts Coordinator and Summer Program Director, Katie Clark'
           -
             type: hardBreak
@@ -311,12 +265,10 @@ add_content:
               -
                 type: link
                 attrs:
-                  href: 'statamic://entry::75862a02-1182-48da-aeed-14e0714e846d'
+                  href: 'https://cambridge-ellis.org/community/katie-clark'
                   rel: null
                   target: null
                   title: null
-              -
-                type: bold
           -
             type: text
             text: Katie@Cambridge-Ellis.org
