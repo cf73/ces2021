@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Visit CES'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727463995
+updated_at: 1727966376
 add_content:
   -
     id: yKdnHzoX
@@ -23,7 +23,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'To arrange for a tour, please contact '
+            text: 'To arrange a tour, please contact '
           -
             type: text
             marks:
@@ -42,7 +42,20 @@ add_content:
             marks:
               -
                 type: italic
-            text: ' at Christina@Cambridge-Ellis.org'
+            text: ' at '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: christina@cambridge-ellis.org
+                  rel: null
+                  target: null
+                  title: null
+              -
+                type: italic
+            text: Christina@Cambridge-Ellis.org
     type: text
     enabled: true
 main_image: IMG_5420-1635523982.JPG
