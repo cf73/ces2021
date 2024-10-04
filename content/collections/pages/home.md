@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1664805669
+updated_at: 1728069584
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -15,26 +15,31 @@ hero:
 intro: "We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community's youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community."
 slideshow:
   -
+    id: Wueocp0N
     image: IMG_3862-(1).jpg
     happy_verb: 'We Play'
     type: image
     enabled: true
   -
+    id: RKxA0QNS
     image: IMG_0452.jpg
     happy_verb: 'We Wonder'
     type: image
     enabled: true
   -
+    id: YOdFVqmA
     image: 2WE-EXPLORE.jpg
     happy_verb: 'We Explore'
     type: image
     enabled: true
   -
+    id: FpNUTvKF
     image: hands.jpg
     happy_verb: 'We Make'
     type: image
     enabled: true
   -
+    id: gUqm4FM3
     image: IMG_4369.jpg
     happy_verb: 'We Grow'
     type: image
@@ -42,16 +47,19 @@ slideshow:
 welcome_line: 'Welcome to Cambridge-Ellis School!'
 at_a_glance:
   -
+    id: xL92rNlN
     number: '41'
     caption: 'years of nurturing young children'
     type: statistic
     enabled: true
   -
+    id: 8tUx5V8i
     caption: 'average child to teacher ratio'
     type: statistic
     enabled: true
     number: '5:1'
   -
+    id: i9ZL8wab
     number: '9'
     caption: 'years average tenure of our teachers'
     type: statistic
