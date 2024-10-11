@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Timeline
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727464223
+updated_at: 1728658090
 add_content:
   -
     id: V0AodRHy
@@ -31,7 +31,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'First Saturday in November | open house for perspective families'
+            text: 'First Saturday in November | Open House for perspective families'
     type: text
     enabled: true
   -
