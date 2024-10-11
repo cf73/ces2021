@@ -20,7 +20,7 @@ add_content:
         content:
           -
             type: text
-            text: "Volunteer participation benefits all of our families, children and staff and is an essential component of the Cambridge-Ellis community. Families will receive a volunteer interest survey in the spring for volunteer involvement the following school year.\_ Committees and planning\_ the Community Builders begin in the first weeks of the school year.\_ Family involvement is voluntary with several options for the level of time commitment, from co-chairing a committee to donating baked goods for a classroom birthday party."
+            text: "Volunteer participation benefits all of our families, children, and staff and is an essential component of the Cambridge-Ellis community. Families will receive a volunteer interest survey in the spring for volunteer involvement the following school year.\_ "
       -
         type: paragraph
         content:
@@ -33,6 +33,12 @@ add_content:
           -
             type: text
             text: ' (formerly the Parent Teacher Association)'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "The Community Builders begin forming committees and planning in the first weeks of the school year.\_ Family involvement is voluntary with several options for the level of time commitment, from co-chairing a committee to donating baked goods for a classroom birthday party."
       -
         type: paragraph
         content:
@@ -53,7 +59,7 @@ add_content:
         content:
           -
             type: text
-            text: 'To learn more about the work of our Board Committees, reach out to the Board Co-Chairs Hilary Rasmussen and Rahul Khara at cochairs@cambridge-ellis.org..'
+            text: 'To learn more about the work of our Board Committees, reach out to the Board Co-Chairs Hilary Rasmussen and Rahul Khara at cochairs@cambridge-ellis.org.'
       -
         type: paragraph
         content:
@@ -130,6 +136,9 @@ add_content:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: 'Matching gifts'
           -
             type: hardBreak
@@ -141,6 +150,9 @@ add_content:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: Securities
           -
             type: hardBreak
@@ -157,7 +169,7 @@ add_content:
                   rel: null
                   target: null
                   title: null
-            text: andy@cambridge-ellis.org
+            text: Andy@Cambridge-Ellis.org
           -
             type: text
             text: ".\_"
@@ -197,7 +209,7 @@ add_content:
     enabled: true
 parent: 6d48eb1a-4eb4-48b0-a408-df269842f815
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727461475
+updated_at: 1728659429
 include: true
 main_image: IMG_2515.jpg
 ---
