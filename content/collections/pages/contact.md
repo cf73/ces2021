@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727465488
+updated_at: 1728658177
 add_content:
   -
     id: 8k7vQuWS
@@ -184,7 +184,7 @@ add_content:
                   rel: null
                   target: null
                   title: null
-            text: Lindsey@cambridge-ellis.org
+            text: Lindsey@Cambridge-Ellis.org
       -
         type: paragraph
         content:
