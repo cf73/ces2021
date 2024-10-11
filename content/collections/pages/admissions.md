@@ -29,7 +29,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Toddler Room (ages 1 year 9 months- 2 years 8 months by September)'
+                    text: 'Toddler Room (ages 1 year 9 months - 2 years 8 months by September)'
           -
             type: listItem
             content:
@@ -47,7 +47,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Upper Preschool (ages 3 years 7 months- 5 years by September)*'
+                    text: 'Upper Preschool (ages 3 years 7 months - 5 years by September)*'
           -
             type: listItem
             content:
@@ -56,7 +56,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'After School Toddler Program (ages 1 year 9 months- 2 years 8 months by September)'
+                    text: 'After School Toddler Program (ages 1 year 9 months - 2 years 8 months by September)'
           -
             type: listItem
             content:
@@ -65,7 +65,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'After School Language Programs (ages 2 years 9 months- 6 years by September)*'
+                    text: 'After School Language Programs (ages 2 years 9 months - 6 years by September)*'
       -
         type: paragraph
         content:
@@ -81,7 +81,7 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727463960
+updated_at: 1728656844
 include: true
 main_image: IMG_20191105_085648989_HDR_Original.jpg
 ---
