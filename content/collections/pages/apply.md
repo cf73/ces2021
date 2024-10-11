@@ -68,7 +68,7 @@ add_content:
             text: 'create an online account on our application platform'
           -
             type: text
-            text: ' and submit the $55 application fee. We ask families to submit their application before the day of their tour.'
+            text: ' and submit the $55 application fee. We ask families to submit their applications before the day of their tour.'
       -
         type: paragraph
         content:
@@ -79,13 +79,6 @@ add_content:
     enabled: true
   -
     id: 339ZGsgN
-    text:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'A signed contract, accompanied by an enrollment deposit, ensures a child’s placement for the fall. When the number of applicants exceeds the number of spaces, waitlist notifications will be sent, and families will be called from the waitlist as spots become available. Current and alumni families as well as children of staff are given admission priority.'
     type: text
     enabled: true
   -
@@ -112,6 +105,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727464074
+updated_at: 1728657192
 main_image: IMG_3005.jpg
 ---
