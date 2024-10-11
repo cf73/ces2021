@@ -16,10 +16,10 @@ education:
     type: institution
     enabled: true
 email: Christina@Cambridge-Ellis.org
-bio: 'During my senior year at Wheelock College, I was lucky enough to be a student teacher at Cambridge-Ellis. As soon as I walked into the building for the first time, I realized this was a very special place. I began working at CES the Summer of 2008 and never looked back! Over the years, I have developed a love for the Reggio approach, and strive to create a comforting, nurturing, and inspiring environment for the children in our class. Using the environment as an additional “teacher,” I enjoy observing children play and learn through their experiences. My family is very important to me, so when I’m not at CES I soak up every moment with my husband and four children.'
+bio: 'As soon as I walked into Cambridge-Ellis for the first time, I realized this was a very special place. I began working at CES the Summer of 2008 as a toddler teacher and never looked back! I have taught in many CES classrooms over the years, and I’ve had the wonderful privilege of providing all four of my children the opportunity to grow here as well. I just had to share this experience with the wider community, and as the Associate Director of Admissions, I get to do exactly that! My family is very important to me, so when I’m not at CES I soak up every moment with my husband and four children.'
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727463750
+updated_at: 1728656602
 photo: christina-isidoro.jpeg
 ---
