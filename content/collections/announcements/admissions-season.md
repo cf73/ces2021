@@ -1,6 +1,5 @@
 ---
 id: 7bae662f-2f6e-4daa-a058-944758d25bdc
-published: false
 blueprint: announcements
 title: 'Now Accepting Applications for the 2025-26 School Year!'
 feature_on_homepage: true
