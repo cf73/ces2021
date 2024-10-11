@@ -100,11 +100,25 @@ add_content:
         content:
           -
             type: text
-            text: "For more information about Cambridge-Ellis' commitment to providing financial aid and the application process, visit our Financial Aid page."
+            text: "For more information about Cambridge-Ellis' commitment to providing financial aid and the application process, visit our "
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://cambridge-ellis.org/admissions/financial-aid'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Financial Aid page'
+          -
+            type: text
+            text: .
     type: text
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1728657192
+updated_at: 1728657339
 main_image: IMG_3005.jpg
 ---
