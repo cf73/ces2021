@@ -21,5 +21,5 @@ photo: 'Andy Griswold.jpg'
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727458821
+updated_at: 1728658259
 ---
