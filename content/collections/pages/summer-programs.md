@@ -103,14 +103,14 @@ important_notes:
         text: 'OUR SUMMER PROGRAM IS FULL FOR SUMMER 2024'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727463659
+updated_at: 1728660326
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
 
   Join the fun at the CES summer program! We have a rolling registration beginning February 1st for currently enrolled CES students, followed by siblings, new incoming families, alumni and the general public. Our hours are 8:30am to 4:00pm with an 8:30-noon option. Toddler-age classrooms are available for children 1.9-2.9. English preschool classes are for ages 2.9-5, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6. Email Katie@Cambridge-Ellis.org for more information.
 
-  Summer 2025 Dates: June 23rd through July 18th (*We are closed Friday July 4th) Hours: 8:30-noon or 8:30 - 4:00 
+  Summer 2025 Dates: June 23rd through July 18th (*We are closed Friday July 4th) Hours: 8:30-Noon or 8:30 - 4:00 
   Early Bird: 8:00-8:30
 slideshow:
   - summer.jpg
