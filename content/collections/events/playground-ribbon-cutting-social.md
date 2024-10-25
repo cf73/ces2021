@@ -1,5 +1,6 @@
 ---
 id: 12f05ade-fd49-46d5-a978-349b0eb04553
+published: false
 blueprint: events
 title: 'Playground Ribbon Cutting Social'
 event_date: '2024-10-17'
