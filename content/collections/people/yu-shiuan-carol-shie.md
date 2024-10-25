@@ -1,7 +1,7 @@
 ---
 id: 89f3addc-2951-465b-a6cb-4f3eec76d72b
 blueprint: people
-title: "Yu-Shiuan 'Carol' Shie"
+title: 'Carol Shie'
 officialtitle: 'Mandarin Room Co-Head Teacher'
 education:
   -
@@ -15,5 +15,5 @@ photo: yu-shiuan-carol-shie.jpeg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722627322
+updated_at: 1729864353
 ---
