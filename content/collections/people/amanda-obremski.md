@@ -16,14 +16,14 @@ education:
     type: institution
     enabled: true
 email: Amanda@Cambridge-Ellis.org
-bio: 'I feel very fortunate to be a Green Room teacher at Cambridge Ellis for the past 13 years. I knew I wanted to work at Cambridge-Ellis from the moment I stepped through the door because of the warm, nurturing, and play-based environment that fosters learning and creativity for children through real-life experiences and material exploration. CES has become a second home for me and I feel so honored to learn and grow alongside your children every day.'
+bio: 'I feel very fortunate to be a Green Room teacher at Cambridge Ellis for the past 13 years. I knew I wanted to work at Cambridge Ellis from the moment I stepped through the door because of the warm, nurturing, and play-based environment that fosters learning and creativity for children through real-life experiences and material exploration. CES has become a second home for me and I feel so honored to learn and grow alongside your children every day.'
 photo: amanda-headshot.png
 programs:
   - day
 classrooms:
   - 9ae28b20-3a65-4e4b-8f56-4de6eef458f9
 updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1730468797
+updated_at: 1730468860
 role:
   - teacher
 ---
