@@ -1,5 +1,6 @@
 ---
 id: 973c5464-c35a-4388-bde0-2989adba47e7
+published: false
 blueprint: events
 title: 'Outdoor Movie Night'
 event_date: '2024-11-02'
