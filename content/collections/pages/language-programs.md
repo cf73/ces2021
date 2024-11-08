@@ -8,11 +8,10 @@ classrooms:
   - 9f3c379b-1411-420e-a43b-8370437954d0
   - a446e4db-e4cc-4662-8a14-9b647d6ba7c2
   - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
-  - c63dac32-3295-4368-bb8a-f4f1e23b718f
   - a289ada5-75ed-4478-a0ac-457b827c8850
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1636028553
+updated_at: 1731100046
 program_image: 20210924_161120.jpg
 short_description: 'Our afternoon Language Program offers a unique, immersive experience for young children, whether they are fluent or just starting to explore the target language.'
 slideshow:
