@@ -1,5 +1,6 @@
 ---
 id: f4565d23-a220-4388-8f67-054986dfe81f
+published: false
 blueprint: promoted
 title: 'Join us for our Open House!'
 date_of_event: '2024-11-02'
