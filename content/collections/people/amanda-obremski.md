@@ -2,7 +2,7 @@
 id: 06f57a4f-cabc-45fa-a356-d2d9d3c079d1
 blueprint: people
 template: bio
-title: 'Amanda Obremski @ CES for 13 years'
+title: 'Amanda Obremski'
 officialtitle: 'Green Room Co-Head Teacher'
 education:
   -
@@ -23,7 +23,7 @@ programs:
 classrooms:
   - 9ae28b20-3a65-4e4b-8f56-4de6eef458f9
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1733239216
+updated_at: 1733239267
 role:
   - teacher
 ---
