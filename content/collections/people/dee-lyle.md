@@ -3,7 +3,7 @@ id: 3bb1c2b6-2776-4b43-a958-9dd30c3ceea3
 blueprint: people
 template: bio
 title: 'Dee Lyle'
-officialtitle: 'Amber Room Co-Head Teacher - 14 Years'
+officialtitle: 'Amber Room Co-Head Teacher'
 education:
   -
     id: DOWOYQAb
@@ -20,5 +20,5 @@ programs:
 classrooms:
   - eb19cc0e-2314-4252-8f6c-af927cfa0ab2
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1733858564
+updated_at: 1733858887
 ---
