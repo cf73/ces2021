@@ -9,17 +9,26 @@
         <div class="col-sm-7 col-xl-6">
             <p class="meta small">Official Title:</p>
             <h3>{{officialtitle}}</h3>
+            {{if joined_ces}}
+            <hr>
+            <p class="meta small">At CES since</p>
+            <h3>{{joined_ces | format('Y')}}</h3>
+            {{/if}}
             <hr>
             <p class="meta small">Email:</p>
             <h3>{{email}}</h3>
             <hr>
+            {{if education}}
             <p class="meta small">Education:</p>
             {{education}}
                 <h3>{{name_of_institution}}</h3>
             {{/education}}
             <hr>
+            {{/if}}
+            {{if bio}}
             <p class="meta small">Bio:</p>
             <p>{{bio}}</p>
+            {{/if}}
 
             <!-- <p>I teach in the</p>
             {{collection:classrooms :teachers:contains="id"}}

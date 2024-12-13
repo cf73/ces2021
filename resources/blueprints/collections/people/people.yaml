@@ -24,6 +24,22 @@ sections:
           icon: text
           listable: hidden
       -
+        handle: joined_ces
+        field:
+          mode: single
+          time_enabled: false
+          time_seconds_enabled: false
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Joined CES'
+          type: date
+          icon: date
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: education
         field:
           collapse: false
@@ -79,7 +95,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
