@@ -5,10 +5,10 @@
     <div class="announcebanner">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12">
                     <h3>{{title}}</h3>
                 </div>
-                <div class="col-sm-12 col-lg-6" style="text-align: right;">
+                <div class="col-sm-12" style="text-align: right;">
                     {{if link}}
                         <div>
                             <!-- <p class="meta small">Go to:</p> -->
@@ -40,6 +40,8 @@
         <div class="swiper-wrapper">
             <!-- Slides -->
             {{collection:promoted}}
+                {{if no_results}}
+                {{else}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
                 <h2>{{subtitle}}</h2>
@@ -48,6 +50,7 @@
                 <p>{{address}}</p>
                 <p>{{summary_or_additional_info}}</p>
             </div>
+            {{/if}}
             {{/collection:promoted}}
             ...
         </div>
@@ -82,7 +85,7 @@
     </div>
 </div> -->
 
-<div class="container homecard">
+<div class="container homecard" style="margin-top: ;">
 
 
     <div class="row welcometext">
