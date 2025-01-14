@@ -1,7 +1,7 @@
 ---
 id: d2edb398-828c-4f5a-adbd-a89657ee8617
 blueprint: people
-title: 'Justine Waddell'
+title: 'Justine Bathurst'
 officialtitle: 'Floating Teacher'
 education:
   -
@@ -20,5 +20,5 @@ photo: justine-waddell.jpeg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722620771
+updated_at: 1736874513
 ---
