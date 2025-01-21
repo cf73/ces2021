@@ -6,7 +6,7 @@ title: 'Summer Programs'
 description: |-
   June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm and 8:30-4:00pm programming for Toddlers and Preschoolers alike. 
 
-  Toddler-age classrooms are available for children 1.9-2.9. English preschool classes are for ages 2.9-5, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up to age 6.
+  Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up to age 6.11.
 
 
 
@@ -34,7 +34,7 @@ sessions:
       -
         id: voiW3WLF
         half_day_time_and_price: '8:30 - 12pm, $2300'
-        full_day_time_and_price: '8:30 - 3pm, $2600'
+        full_day_time_and_price: '8:30 - 4pm, $2600'
         type: program
         enabled: true
         extended_day_time_and_price: '4pm to 5pm, $400'
@@ -96,12 +96,12 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1737473225
+updated_at: 1737493230
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
 
-  Join the fun at the CES summer program! We have a rolling registration beginning February 1st for currently enrolled CES students, followed by siblings, new incoming families, alumni and the general public. Our hours are 8:30am to 4:00pm with an 8:30-noon option. Toddler-age classrooms are available for children 1.9-2.9. English preschool classes are for ages 2.9-5, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6. Email Katie@Cambridge-Ellis.org for more information.
+  Join the fun at the CES summer program! We have a rolling registration beginning February 1st for currently enrolled CES students, followed by siblings, new incoming families, alumni and the general public. Our hours are 8:30am to 4:00pm with an 8:30-noon option. Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6.11. Email Katie@Cambridge-Ellis.org for more information.
 
   Summer 2025 Dates: June 23rd through July 18th (We are closed Friday July 4th) Hours: 8:30-Noon or 8:30 - 4:00
 slideshow:
