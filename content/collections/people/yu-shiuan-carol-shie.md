@@ -15,5 +15,6 @@ photo: yu-shiuan-carol-shie.jpeg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1729864353
+updated_at: 1738688272
+joined_ces: '2024-09-09'
 ---
