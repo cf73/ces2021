@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707841535
+updated_at: 1738771543
 add_content:
   -
     id: Tq9tLv9l
@@ -79,7 +79,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$29,340'
+                        text: '$29,780'
           -
             type: tableRow
             content:
@@ -109,7 +109,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$37,826'
+                        text: '$38,395'
       -
         type: table
         content:
@@ -168,7 +168,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$25,810'
+                        text: '$26,200'
           -
             type: tableRow
             content:
@@ -198,7 +198,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$34,360'
+                        text: '$34,875'
     type: text
     enabled: true
   -
@@ -291,7 +291,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$16,240'
+                        text: '$18,550'
               -
                 type: tableCell
                 attrs:
@@ -304,7 +304,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,240'
+                        text: '$17,550*'
           -
             type: tableRow
             content:
@@ -335,7 +335,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$16,620'
+                        text: '$16,870'
               -
                 type: tableCell
                 attrs:
@@ -348,21 +348,106 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$14,620'
+                        text: '$15,870'
+    type: text
+    enabled: true
+  -
+    id: m6s3dvs3
+    text:
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Early Bird Care'
       -
         type: paragraph
         content:
           -
             type: text
-            text: '*'
+            text: 'Early Bird Care (5 days, 8:00am to 8:30am) $3045'
+    type: text
+    enabled: true
+  -
+    id: m6s3jp40
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
           -
             type: text
             marks:
               -
                 type: italic
-            text: 'All numbers above reflect our 2024-25 Tuition Model*'
+            text: 'NEW '
+          -
+            type: text
+            text: 'School Age After School Language Program (3:00-6:00 pm)'
+      -
+        type: table
+        content:
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Two Day Program'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$6,100'
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Three Day Program'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$9,150'
     type: text
     enabled: true
   -
