@@ -1,10 +1,10 @@
 ---
 id: 45a19839-c187-4be0-bedc-67f9f39aa5c5
 blueprint: flexible_content_page
-title: Tuition
+title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738771543
+updated_at: 1738772484
 add_content:
   -
     id: Tq9tLv9l
@@ -240,7 +240,7 @@ add_content:
                   colspan: 1
                   rowspan: 1
                   colwidth:
-                    - 146
+                    - 136
                 content:
                   -
                     type: paragraph
@@ -284,7 +284,7 @@ add_content:
                   colspan: 1
                   rowspan: 1
                   colwidth:
-                    - 146
+                    - 136
                 content:
                   -
                     type: paragraph
@@ -304,7 +304,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$17,550*'
+                        text: "$55,945 ($38,395\_+ $17,550)*"
           -
             type: tableRow
             content:
@@ -328,7 +328,7 @@ add_content:
                   colspan: 1
                   rowspan: 1
                   colwidth:
-                    - 146
+                    - 136
                 content:
                   -
                     type: paragraph
@@ -348,7 +348,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$15,870'
+                        text: "$50,745 ($34,875\_+ 15,870)*"
     type: text
     enabled: true
   -
