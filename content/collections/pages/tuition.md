@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738772484
+updated_at: 1738772602
 add_content:
   -
     id: Tq9tLv9l
@@ -349,6 +349,12 @@ add_content:
                       -
                         type: text
                         text: "$50,745 ($34,875\_+ 15,870)*"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Discounted Language/Rainbow Room program tuition applies to students enrolled in both the Morning & Afternoon Programs.'
     type: text
     enabled: true
   -
