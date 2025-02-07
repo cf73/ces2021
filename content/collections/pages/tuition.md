@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738940104
+updated_at: 1738940321
 add_content:
   -
     id: Tq9tLv9l
@@ -235,20 +235,6 @@ add_content:
                 attrs:
                   colspan: 1
                   rowspan: 1
-                  colwidth:
-                    - 136
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Language Only'
-              -
-                type: tableHeader
-                attrs:
-                  colspan: 1
-                  rowspan: 1
                   colwidth: null
                 content:
                   -
@@ -273,21 +259,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Toddler (Mon-Fri, 3-6pm)'
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth:
-                    - 136
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '$18,550'
+                        text: 'Toddler (Mon-Fri, 8:30-6pm)'
               -
                 type: tableCell
                 attrs:
@@ -317,21 +289,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Preschool (Mon-Fri, 3-6pm)'
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth:
-                    - 136
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '$16,870'
+                        text: 'Preschool (Mon-Fri, 8:30-6pm)'
               -
                 type: tableCell
                 attrs:
@@ -345,6 +303,93 @@ add_content:
                       -
                         type: text
                         text: '$50,745*'
+      -
+        type: table
+        content:
+          -
+            type: tableRow
+            content:
+              -
+                type: tableHeader
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 248
+                content:
+                  -
+                    type: paragraph
+                  -
+                    type: paragraph
+              -
+                type: tableHeader
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 248
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Toddler (Mon-Fri, 3-6pm)'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$18,550'
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 248
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Preschool (Mon-Fri, 3-6pm)'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$16,870'
       -
         type: paragraph
         content:
