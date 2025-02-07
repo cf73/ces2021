@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738940498
+updated_at: 1738941187
 add_content:
   -
     id: Tq9tLv9l
@@ -420,7 +420,7 @@ add_content:
         content:
           -
             type: text
-            text: 'If your child buses from a Cambridge Public School to CES for the Language Program, there is an additional fee to cover their pick up and childcare till programming begins at 3pm. Bus pick-up fees are based on the CPS busing schedule and are calculated individually for each family who participates in the program. The fee typically falls within the range of $525-825 per school year. '
+            text: 'If your child buses from a Cambridge Public School to CES for the Language Program, there is an additional fee to cover their pick up and childcare till programming begins at 3pm. Bus pick-up fees are based on the CPS busing schedule and are calculated individually for each family who participates in the program. The fee typically falls within the range of $525-$825 per school year. '
   -
     id: m6s3dvs3
     text:
