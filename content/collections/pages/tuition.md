@@ -1,10 +1,10 @@
 ---
 id: 45a19839-c187-4be0-bedc-67f9f39aa5c5
 blueprint: flexible_content_page
-title: 'Tuition for 2025-26'
+title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738940446
+updated_at: 1738940498
 add_content:
   -
     id: Tq9tLv9l
