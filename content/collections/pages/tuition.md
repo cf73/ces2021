@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738782226
+updated_at: 1738940104
 add_content:
   -
     id: Tq9tLv9l
@@ -202,10 +202,6 @@ add_content:
     type: text
     enabled: true
   -
-    id: t2KeOizQ
-    type: text
-    enabled: true
-  -
     id: zN5HqFrg
     text:
       -
@@ -247,7 +243,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Language Program Only'
+                        text: 'Language Only'
               -
                 type: tableHeader
                 attrs:
@@ -358,6 +354,25 @@ add_content:
     type: text
     enabled: true
   -
+    id: t2KeOizQ
+    type: text
+    enabled: true
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Bus Pick-Up Fee'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'If your child buses from a Cambridge Public School to CES for the Language Program, there is an additional fee to cover their pick up and childcare till programming begins at 3pm. Bus pick-up fees are based on the CPS busing schedule and are calculated individually for each family who participates in the program. The fee typically falls within the range of $525-825 per school year. '
+  -
     id: m6s3dvs3
     text:
       -
@@ -373,7 +388,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Early Bird Care (5 days, 8:00am to 8:30am) $3045'
+            text: 'Early Bird Care (Mon-Fri, 8-8:30am) $3045'
     type: text
     enabled: true
   -
@@ -411,7 +426,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Two Day Program'
+                        text: '1st-3rd Grade Program (2 Days)'
               -
                 type: tableCell
                 attrs:
@@ -440,7 +455,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Three Day Program'
+                        text: 'Kindergarten-1st Grade Program (3 Days)'
               -
                 type: tableCell
                 attrs:
@@ -467,7 +482,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'For any questions regarding tuition and financial aid, please contact our Business Manager Andy Griswold at Andy@Cambridge-Ellis.org.'
+            text: 'For any questions regarding tuition, bus pick-up fees, and financial aid, please contact our Business Manager Andy Griswold at Andy@Cambridge-Ellis.org.'
     type: text
     enabled: true
 main_image: IMG_2504.jpg
