@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738940357
+updated_at: 1738940446
 add_content:
   -
     id: Tq9tLv9l
@@ -431,7 +431,13 @@ add_content:
         content:
           -
             type: text
-            text: 'Early Bird Care'
+            text: 'Early Bird Care '
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: '(Limited Enrollment)'
       -
         type: paragraph
         content:
@@ -456,7 +462,7 @@ add_content:
             text: 'NEW '
           -
             type: text
-            text: 'School Age After School Language Program (3:00-6:00 pm)'
+            text: 'School Age After School Language Program '
       -
         type: table
         content:
@@ -475,7 +481,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '1st-3rd Grade Program (2 Days)'
+                        text: '1st-3rd Grade Program (2 Days, 3-6pm)'
               -
                 type: tableCell
                 attrs:
@@ -504,7 +510,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: 'Kindergarten-1st Grade Program (3 Days)'
+                        text: 'K-1st Grade Program (3 Days, 3-6pm)'
               -
                 type: tableCell
                 attrs:
