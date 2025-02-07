@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Tuition for 2025-26'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738940321
+updated_at: 1738940357
 add_content:
   -
     id: Tq9tLv9l
@@ -228,6 +228,10 @@ add_content:
                 content:
                   -
                     type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Day Program plus Language Program '
                   -
                     type: paragraph
               -
@@ -239,10 +243,6 @@ add_content:
                 content:
                   -
                     type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Day plus Language Program '
           -
             type: tableRow
             content:
@@ -319,6 +319,10 @@ add_content:
                 content:
                   -
                     type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Language Program Only'
                   -
                     type: paragraph
               -
