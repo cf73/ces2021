@@ -19,6 +19,7 @@ bio: 'Engaging with others in French is a big, special part of my life, and work
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722725988
+updated_at: 1739303476
 photo: gina-marie-headshot.jpg
+joined_ces: '2022-11-14'
 ---
