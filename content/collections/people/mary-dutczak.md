@@ -18,5 +18,6 @@ role:
 programs:
   - day
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1726170450
+updated_at: 1739303829
+joined_ces: '2021-10-13'
 ---
