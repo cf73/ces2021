@@ -23,8 +23,8 @@ programs:
 classrooms:
   - 9ae28b20-3a65-4e4b-8f56-4de6eef458f9
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738688005
+updated_at: 1739303072
 role:
   - teacher
-joined_ces: '2011-09-05'
+joined_ces: '2011-09-01'
 ---
