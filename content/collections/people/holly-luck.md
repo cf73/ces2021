@@ -23,5 +23,6 @@ role:
 programs:
   - language
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727811468
+updated_at: 1739302068
+joined_ces: '2021-03-17'
 ---
