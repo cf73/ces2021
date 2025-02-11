@@ -19,6 +19,7 @@ programs:
 classrooms:
   - 448d749d-93d0-4c81-bd6f-806e5e431849
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722724378
+updated_at: 1739303703
 photo: lily-headshot.png
+joined_ces: '2019-08-23'
 ---
