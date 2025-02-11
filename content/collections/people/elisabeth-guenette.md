@@ -22,12 +22,12 @@ bio: |-
   Back in the US in 2018, I found my home at Cambridge-Ellis, a place where all the beliefs I held about best practices in education truly come to life, and where languages and cultures mix together in a rich diversity of experiences and language learning. As the Language Program Director, I have the privilege of supporting teachers in building skills through professional development, incorporating DEI learning and best practices in language learning into their curriculum, and helping our diverse learners to blossom. In addition, I focus on the strategic goals and growth of the Language Program, ensuring that we meet the needs of our community for many years to come.
 photo: 'Elisabeth Guenette.jpg'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739290570
+updated_at: 1739303333
 role:
   - leadership
 programs:
   - language
 classrooms:
   - a446e4db-e4cc-4662-8a14-9b647d6ba7c2
-joined_ces: '2018-09-10'
+joined_ces: '2018-08-24'
 ---
