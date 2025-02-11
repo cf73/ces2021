@@ -20,5 +20,6 @@ programs:
 classrooms:
   - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738688208
+updated_at: 1739303100
+joined_ces: '2015-07-01'
 ---
