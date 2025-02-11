@@ -20,7 +20,7 @@ bio: 'As soon as I walked into Cambridge-Ellis for the first time, I realized th
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739290373
+updated_at: 1739303193
 photo: christina-isidoro.jpeg
-joined_ces: '2008-06-09'
+joined_ces: '2008-06-11'
 ---
