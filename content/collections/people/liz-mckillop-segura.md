@@ -7,6 +7,7 @@ title: 'Liz McKillop-Segura'
 officialtitle: 'Blue Room Co-Head Teacher'
 education:
   -
+    id: zXOTMU7G
     name_of_institution: 'B.A. Indiana University of Pennsylvania'
     type: institution
     enabled: true
@@ -20,5 +21,6 @@ programs:
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1635173689
+updated_at: 1739303377
+joined_ces: '2019-08-23'
 ---
