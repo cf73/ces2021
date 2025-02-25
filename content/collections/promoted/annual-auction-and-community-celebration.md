@@ -1,5 +1,6 @@
 ---
 id: aa8e7d5f-11d6-4857-bd62-6f4ecbe6be5b
+published: false
 blueprint: promoted
 title: 'Annual Auction and Community Celebration'
 subtitle: "Join CES' biggest party of the year!"
