@@ -10,6 +10,47 @@ sections:
           validate:
             - required
       -
+        handle: add_link
+        field:
+          collapse: false
+          previews: true
+          sets:
+            link:
+              display: Link
+              fields:
+                -
+                  handle: link_title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Link title'
+                    type: text
+                    icon: text
+                    instructions: 'This is what will show on the page'
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    validate:
+                      - required
+                -
+                  handle: link_address
+                  field:
+                    display: 'Link address'
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    validate:
+                      - required
+          display: 'Add link'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          max_sets: 1
+      -
         handle: subtitle
         field:
           antlers: false

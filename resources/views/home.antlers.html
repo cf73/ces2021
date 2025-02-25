@@ -44,9 +44,16 @@
                 {{else}}
             <div class="swiper-slide">
                 <h2>{{title}}</h2>
+                {{if add_link}}
+                {{add_link}}
+                <a href="{{link_address}}" target="_blank" style="color: white; text-decoration: underline;">{{link_title}}</a>
+                {{/add_link}}
+                {{/if}}
                 <h2>{{subtitle}}</h2>
                 <p>{{date_of_event}}</p>
+                {{if start_time}}
                 <p>{{start_time}}&mdash;{{end_time}}</p>
+                {{/if}}
                 <p>{{address}}</p>
                 <p>{{summary_or_additional_info}}</p>
             </div>
