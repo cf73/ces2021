@@ -1,6 +1,5 @@
 ---
 id: 549d8e76-c049-4758-af34-88240ebcb682
-published: false
 blueprint: events
 title: 'Spring Growth Conferences'
 event_date: '2025-03-14'
