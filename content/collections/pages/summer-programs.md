@@ -60,7 +60,26 @@ important_notes:
         marks:
           -
             type: bold
-        text: 'Important Notes Regarding Registration:'
+        text: 'Important Notes Regarding '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://cambridgeellis.campbrainregistration.com/'
+              rel: null
+              target: _blank
+              title: 'CampBrain Registration Link'
+          -
+            type: bold
+        text: Registration
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ':'
   -
     type: bulletList
     content:
@@ -93,12 +112,12 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738764084
+updated_at: 1741011955
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
 
-  Join the fun at the CES summer program! We have a rolling registration beginning February 1st for currently enrolled CES students, February 17th for siblings, February 24th for new incoming families, and alumni, and March 10th for the general public. 
+  Join the fun at the CES summer program! We have a rolling registration beginning February 1st for currently enrolled CES students, February 17th for siblings, February 24th for new incoming families, and alumni, and March 3rd for the general public. 
 
   Our hours are 8:30am to 4:00pm with an 8:30 to Noon option. Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6.11. Email Katie@Cambridge-Ellis.org for more information.
 
