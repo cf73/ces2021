@@ -26,7 +26,19 @@ add_content:
             text: 'submit your application'
           -
             type: text
-            text: ' and schedule a tour by April 10th. Contact the Director of Admissions, '
+            text: ' and schedule a tour by April 10th. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Please note that details about the second round application process and timeline will be emailed to you directly after submission of your application. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Contact the Director of Admissions, '
           -
             type: text
             marks:
@@ -41,6 +53,8 @@ add_content:
           -
             type: text
             text: ', with any questions.'
+      -
+        type: paragraph
     type: text
     enabled: true
   -
@@ -56,7 +70,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Application Process'
+            text: 'First Round Application Process'
       -
         type: paragraph
         content:
@@ -147,6 +161,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1741884214
+updated_at: 1741886102
 main_image: IMG_3005.jpg
 ---
