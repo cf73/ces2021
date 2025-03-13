@@ -12,7 +12,7 @@ add_content:
         content:
           -
             type: text
-            text: "Limited spots are still available in our afternoon Language Program for the 2025-26 school year!\_"
+            text: 'If you would like to be considered in our second round of admissions for the 2025-26 school, please '
           -
             type: text
             marks:
@@ -21,32 +21,26 @@ add_content:
                 attrs:
                   href: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
                   rel: null
-                  target: _blank
+                  target: null
                   title: null
-            text: 'Please click here'
+            text: 'submit your application'
           -
             type: text
-            text: "\_to apply for our after school\_program for\_children ages 2.9-6 years old, or for our new School Age Mandarin Program for\_children entering Kindergarten-3rd grade. Contact the Language Program Director,\_"
+            text: ' and schedule a tour by April 10th. Contact the Director of Admissions, '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'mailto:elisabeth@cambridge-ellis.org'
+                  href: christina@cambridge-ellis.org
                   rel: null
-                  target: _blank
+                  target: null
                   title: null
-            text: 'Elisabeth Guenette'
+            text: 'Christina Isidoro'
           -
             type: text
             text: ', with any questions.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'The admissions season for the 2025-26 school year will open on October 1st and last through January 31st. Read below for more information on how to apply.'
     type: text
     enabled: true
   -
@@ -153,6 +147,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1741101087
+updated_at: 1741884214
 main_image: IMG_3005.jpg
 ---
