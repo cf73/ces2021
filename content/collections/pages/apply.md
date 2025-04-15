@@ -12,7 +12,7 @@ add_content:
         content:
           -
             type: text
-            text: 'If you would like to be considered in our second round of admissions for the 2025-26 school, please '
+            text: 'Spots are still available in our After School Language Immersion Program for the 2025-26 School Year. '
           -
             type: text
             marks:
@@ -23,16 +23,13 @@ add_content:
                   rel: null
                   target: null
                   title: null
-            text: 'submit your application'
-          -
-            type: text
-            text: ' and schedule a tour by April 10th. '
+            text: 'Please click here to submit your application!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Please note that details about the second round application process and timeline will be emailed to you directly after submission of your application. '
+            text: 'Details about the application process, scheduling a school visit, and timeline will be emailed to you directly after submission of your application.'
       -
         type: paragraph
         content:
@@ -118,7 +115,7 @@ add_content:
             type: text
             text: 'Families will be notified of our decisions in mid March. A signed contract, accompanied by an enrollment deposit, ensures a child’s placement for the fall. When the number of applicants exceeds the number of spaces, waitlist notifications will be sent, and families will be called from the waitlist as spots become available. Current and alumni families as well as children of staff are given enrollment priority.'
     type: text
-    enabled: true
+    enabled: false
   -
     id: 339ZGsgN
     type: text
@@ -161,6 +158,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1741886102
+updated_at: 1744737756
 main_image: IMG_3005.jpg
 ---
