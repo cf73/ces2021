@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739384697
+updated_at: 1746711602
 add_content:
   -
     id: CC854MBg
@@ -16,33 +16,246 @@ add_content:
         content:
           -
             type: text
-            text: 'Cambridge-Ellis is not currently hiring for any open positions. If you are interested in Substitute Teaching or Volunteering at CES, please send your resume to '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'mailto:elisabeth@cambridge-ellis.org'
-                  rel: null
-                  target: _blank
-                  title: null
-            text: Bekah@cambridge-ellis.org
-          -
-            type: text
-            text: .
+            text: 'Cambridge-Ellis is currently hiring for the following positions for the 2025-26 school year.'
     type: text
     enabled: true
   -
     id: lsujaqd7
     type: text
     enabled: true
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Associate Director of Development'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Part-Time, In-person and remote work'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Summer 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/10INWjwxAEKzDQRCSFOyTYnOvDNA2m10UZBnBEYxgCnk/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'See Job Description for more details'
+  -
+    id: lyhdb4u8
+    type: text
+    enabled: true
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Afternoon Floating Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Part-Time, 12:30-6:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fall 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1Q8Ihrizzr9-_hftNpjNJ6qYNM-y7gy4EFf9NiGU3UyY/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'See Job Description for more details'
   -
     id: lxq7ngcc
     type: text
     enabled: true
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Afternoon Toddler Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Part-Time, 12:30-6:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fall 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/110qeH6jmAWOMfSx8LCxpb72avEWdLA1pBaaLaSnz-wM/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'See Job Description for more details'
   -
-    id: lyhdb4u8
+    id: mafdx895
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Afternoon Spanish Immersion Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Part-Time, 12:30-6:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fall 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'See Job Description for more details'
+    type: text
+    enabled: true
+  -
+    id: mafdxqku
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Afternoon French Immersion Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Part-Time, 12:30-6:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fall 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'See Job Description for more details'
     type: text
     enabled: true
   -
