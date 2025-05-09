@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1746723772
+updated_at: 1746804984
 add_content:
   -
     id: CC854MBg
@@ -212,7 +212,15 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Check back soon for Job Description'
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1FpSBeXS0BgctKc5Yyrs1AOQGfGV3Bn9cVk5Q8rl2cFA/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'See Job Description for more details'
     type: text
     enabled: true
   -
