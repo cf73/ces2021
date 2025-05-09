@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1746804984
+updated_at: 1746805161
 add_content:
   -
     id: CC854MBg
@@ -70,6 +70,57 @@ add_content:
                           target: null
                           title: null
                     text: 'See Job Description for more details'
+  -
+    id: magymilp
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Preschool Co-Head Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full-Time, 7:45-3:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fall 2025 Start Date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1N_xOhpRK-g6RE0j8oJeNkLQ7v8nzy_IuSxsPdnazG8w/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'See Job Description for more details'
+    type: text
+    enabled: true
   -
     id: lyhdb4u8
     type: text
