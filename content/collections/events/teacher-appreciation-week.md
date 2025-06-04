@@ -1,5 +1,6 @@
 ---
 id: faec0f17-fff6-4b71-9d50-dd7f0ddda612
+published: false
 blueprint: events
 title: 'Teacher Appreciation Week'
 event_date: '2025-03-10'
