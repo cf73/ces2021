@@ -1,6 +1,5 @@
 ---
 id: 04b9e12d-12b7-4af3-bca5-9fa38b992a66
-published: false
 blueprint: events
 title: 'Day Program Last Day'
 event_date: '2025-06-13'
