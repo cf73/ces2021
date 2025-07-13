@@ -1,15 +1,17 @@
 module.exports = {
-    purge: {
-      content: [
+    content: [
         './resources/**/*.antlers.html',
         './resources/**/*.blade.php',
         './content/**/*.md'
-      ]
-    },
-    important: true,
+    ],
     theme: {
-      extend: {},
+        extend: {
+            fontFamily: {
+                'sans': ['"Avenir LT W01_45 Book1475508"', 'sans-serif'],
+            },
+        },
     },
-    variants: {},
-    plugins: [],
-  }
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
+}

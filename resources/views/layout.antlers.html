@@ -6,14 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1363d994-8fdb-4522-aa09-be3adfa8199c.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="/css/ces.css">
+        <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/splide.min.css">
         <script src="/js/splide.min.js"></script>
         <link rel="stylesheet" href="/css/all.css">
@@ -24,58 +23,72 @@
 
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
-    <body>
-        <div id="colorlib-page">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" style="z-index: 9999999; position: fixed; left: 0; background-color: white; height:69px;"><i></i></a>
-            <aside id="colorlib-aside" role="complementary" class="js-fullheight">
-                <nav id="colorlib-main-menu" role="navigation" style="display: flex;flex-direction: column; justify-content: space-between; height: 100%;">
-                    <ul>
-                        <a href="/"><img src="/assets/CESHouseLogo.png" alt="{{title}}" style="margin-bottom: 30px; width: 50%; opacity: .7;"></a>
-                        {{ nav include_home="false" }}
-                        {{if include}}
-                            <li {{ if is_current || is_parent }} class="colorlib-active" {{ /if }}>
-                                <a href="{{ url }}">
-                                {{ title }}
-                                </a>
-                            </li>
-                        {{/if}}
-                    {{ /nav }}
-                    </ul>                   
+    <body class="font-sans text-gray-800 leading-relaxed text-base">
+        <!-- Top Navigation -->
+        {{ partial:top-navigation }}
+        
+        <div id="colorlib-page" class="flex">
+            <!-- Sidebar Navigation (Desktop) -->
+            <aside id="colorlib-aside" role="complementary" class="js-fullheight hidden lg:block w-80 flex-shrink-0 bg-white border-r border-gray-200">
+                <nav id="colorlib-main-menu" role="navigation" class="h-full flex flex-col justify-between p-8">
                     <div>
-                        <p class="meta small">
-                            80 Trowbridge St. <br>
-                            Cambridge, MA 02138</p>
-                        <p class="meta small">P: 617-354-0014</p>
-                        <p class="meta small">F: 617-491-4313</p>
-                        <p class="meta small spacer30"><a href="mailto:info@cambridge-ellis.org">Contact Us</a></p>
-                        <a href="https://www.instagram.com/cambridgeellis/" target="_blank"><i class="lab la-instagram" style="font-size: 48px; margin-left: -10px;"></i></a>
-                        <a href="https://www.facebook.com/CambridgeEllisSchool/" target="_blank"><i class="lab la-facebook" style="font-size: 48px;"></i></a>
+                        <div class="mb-8">
+                            <a href="/"><img src="/assets/CESHouseLogo.png" alt="{{title}}" class="w-1/2 opacity-70 hover:opacity-100 transition-opacity"></a>
+                        </div>
+                        
+                        <ul class="space-y-4">
+                            {{ nav include_home="false" }}
+                            {{if include}}
+                                <li>
+                                    <a href="{{ url }}" class="text-gray-800 hover:text-green-600 font-medium transition-colors duration-200 {{ if is_current || is_parent }}text-green-600{{ /if }}">
+                                        {{ title }}
+                                    </a>
+                                </li>
+                            {{/if}}
+                            {{ /nav }}
+                        </ul>
                     </div>
-                    <a href="/donate" style="margin-left: -5px;"><button>Donate Now</button></a>
+                    
+                    <div class="space-y-4">
+                        <div class="text-sm font-mono">
+                            <p class="mb-2">80 Trowbridge St.<br>Cambridge, MA 02138</p>
+                            <p class="mb-1">P: 617-354-0014</p>
+                            <p class="mb-1">F: 617-491-4313</p>
+                            <p class="mb-4"><a href="mailto:info@cambridge-ellis.org" class="text-green-600 hover:text-gray-800">Contact Us</a></p>
+                        </div>
+                        
+                        <div class="flex space-x-4">
+                            <a href="https://www.instagram.com/cambridgeellis/" target="_blank" class="text-gray-800 hover:text-green-600">
+                                <i class="lab la-instagram text-4xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/CambridgeEllisSchool/" target="_blank" class="text-gray-800 hover:text-green-600">
+                                <i class="lab la-facebook text-4xl"></i>
+                            </a>
+                        </div>
+                        
+                        <a href="/donate" class="block">
+                            <button class="w-full bg-green-600 hover:bg-gray-800 text-white font-medium px-6 py-3 rounded-full transition-colors duration-200">
+                                Donate Now
+                            </button>
+                        </a>
+                    </div>
                 </nav>
             </aside> <!-- END COLORLIB-ASIDE -->
     
-            <div id="colorlib-main">
-                <section class="ftco-section pt-4 mb-5 ftco-intro">
-                    <div class="container-fluid px-3 px-md-0">
-                        <div class="row">
-                            <div class="col-md-12 mb-4">
-                                {{ template_content }}
-                            </div>
-                            <!-- <div class="footer" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                                <h2 style="color: white;">the footer</h2>
-                            </div> -->
+            <!-- Main Content -->
+            <div id="colorlib-main" class="flex-1 min-h-screen">
+                <section class="pt-4 mb-5">
+                    <div class="container mx-auto px-4 md:px-8">
+                        <div class="w-full">
+                            {{ template_content }}
                         </div>
                     </div>
                 </section>
             </div><!-- END COLORLIB-MAIN -->
         </div><!-- END COLORLIB-PAGE -->
 
-        </section>
-    
         <script src="/js/jquery.min.js"></script>
         <script src="/js/popper.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
         <script src="/js/main.js"></script>
         
 

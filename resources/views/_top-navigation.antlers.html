@@ -1,0 +1,78 @@
+<nav class="bg-white shadow-lg fixed top-0 left-0 right-0 z-50 px-4 md:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+        <!-- Logo -->
+        <div class="flex items-center">
+            <a href="/" class="flex items-center">
+                <img src="/assets/CESHouseLogo.png" alt="{{site:name}}" class="h-8 md:h-12 opacity-70 hover:opacity-100 transition-opacity">
+            </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+            {{ nav include_home="false" }}
+                {{if include}}
+                    <a href="{{ url }}" class="text-gray-800 hover:text-green-600 font-medium transition-colors duration-200 {{ if is_current || is_parent }}text-green-600{{ /if }}">
+                        {{ title }}
+                    </a>
+                {{/if}}
+            {{ /nav }}
+            
+            <!-- Donate Button -->
+            <a href="/donate" class="bg-green-600 hover:bg-gray-800 text-white font-medium px-4 py-2 rounded-full transition-colors duration-200">
+                Donate Now
+            </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+            <button id="mobile-menu-toggle" class="text-gray-800 hover:text-green-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+        <div class="px-4 py-6 space-y-4">
+            {{ nav include_home="false" }}
+                {{if include}}
+                    <a href="{{ url }}" class="block text-gray-800 hover:text-green-600 font-medium transition-colors duration-200 {{ if is_current || is_parent }}text-green-600{{ /if }}">
+                        {{ title }}
+                    </a>
+                {{/if}}
+            {{ /nav }}
+            
+            <!-- Mobile Donate Button -->
+            <div class="pt-4 border-t border-gray-200">
+                <a href="/donate" class="block bg-green-600 hover:bg-gray-800 text-white font-medium px-4 py-2 rounded-full transition-colors duration-200 text-center">
+                    Donate Now
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Spacer to prevent content from being hidden behind fixed navigation -->
+<div class="h-16 md:h-20"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (mobileMenuToggle && mobileMenu) {
+        mobileMenuToggle.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!mobileMenuToggle.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    }
+});
+</script> 

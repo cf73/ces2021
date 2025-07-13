@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles that need to be preserved */
+@import url('//fast.fonts.net/cssapi/1363d994-8fdb-4522-aa09-be3adfa8199c.css');
+
+/* Minimal custom component styles - only what can't be done with native Tailwind */
+@layer components {
+    .slide {
+        @apply bg-cover bg-center h-screen flex flex-col justify-center items-center text-center;
+    }
+    
+    .subslide {
+        @apply h-screen;
+    }
+    
+    .polaroid {
+        @apply w-96 h-96 bg-white rounded-sm shadow-lg p-5 pb-16 mb-8;
+    }
+    
+    .bread {
+        @apply w-full h-18 p-2 px-24 z-50 border-b border-gray-300 fixed flex flex-wrap flex-row items-center top-0 left-0 bg-white/90;
+    }
+    
+    .navigation {
+        @apply fixed top-0 left-0 right-0 px-8 h-24 z-50 shadow-lg bg-white flex flex-row items-center justify-between;
+    }
+    
+    .card {
+        @apply rounded-3xl overflow-hidden;
+    }
+    
+    .shadow {
+        @apply shadow-lg;
+    }
+    
+    .footer {
+        @apply bg-gray-800 text-white p-8;
+    }
+}
+
+@layer utilities {
+    .h-18 {
+        height: 4.5rem;
+    }
+} 
