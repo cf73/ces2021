@@ -29,6 +29,7 @@ admin:
     - 'delete other authors announcements entries'
     - 'delete other authors events entries'
     - 'delete other authors pages entries'
+    - 'access default site'
 editor:
   title: Editor
   permissions:
@@ -107,3 +108,4 @@ editor:
     - 'move assets assets'
     - 'rename assets assets'
     - 'delete assets assets'
+    - 'access default site'
