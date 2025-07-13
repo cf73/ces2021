@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1749564996
+updated_at: 1750701085
 add_content:
   -
     id: CC854MBg
@@ -19,57 +19,6 @@ add_content:
             text: 'Cambridge-Ellis is currently hiring for the following positions for the 2025-26 school year.'
     type: text
     enabled: true
-  -
-    id: lsujaqd7
-    type: text
-    enabled: true
-    text:
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Associate Director of Development'
-      -
-        type: bulletList
-        content:
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Part-Time, In-person and remote work'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Summer 2025 Start Date'
-          -
-            type: listItem
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://docs.google.com/document/d/10INWjwxAEKzDQRCSFOyTYnOvDNA2m10UZBnBEYxgCnk/edit?usp=sharing'
-                          rel: null
-                          target: null
-                          title: null
-                    text: 'See Job Description for more details'
   -
     id: lxq7ngcc
     type: text
