@@ -1,47 +1,59 @@
-{{partial:breadcrumb}}
-
-<div class="container extra-padding" style="margin-top: 45px;">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1>{{title}}</h1>
+<div class="container mx-auto px-4 md:px-8 lg:px-12 mt-12">
+    <div class="flex flex-col lg:flex-row gap-8">
+        <!-- Main Content -->
+        <div class="w-full lg:w-1/2">
+            <h1 class="text-4xl md:text-5xl font-bold text-green-600 mb-8">{{title}}</h1>
+            
+            <div class="space-y-6">
+                <div>
+                    <p class="text-sm font-mono text-gray-600 mb-2">Official Title:</p>
+                    <h3 class="text-2xl font-bold text-gray-800">{{officialtitle}}</h3>
+                </div>
+                
+                {{if joined_ces}}
+                <hr class="border-gray-200">
+                <div>
+                    <p class="text-sm font-mono text-gray-600 mb-2">At CES since</p>
+                    <h3 class="text-2xl font-bold text-gray-800">{{joined_ces | format('Y')}}</h3>
+                </div>
+                {{/if}}
+                
+                <hr class="border-gray-200">
+                <div>
+                    <p class="text-sm font-mono text-gray-600 mb-2">Email:</p>
+                    <h3 class="text-2xl font-bold text-gray-800">{{email}}</h3>
+                </div>
+                
+                {{if education}}
+                <hr class="border-gray-200">
+                <div>
+                    <p class="text-sm font-mono text-gray-600 mb-2">Education:</p>
+                    {{education}}
+                        <h3 class="text-2xl font-bold text-gray-800">{{name_of_institution}}</h3>
+                    {{/education}}
+                </div>
+                {{/if}}
+                
+                {{if bio}}
+                <hr class="border-gray-200">
+                <div>
+                    <p class="text-sm font-mono text-gray-600 mb-2">Bio:</p>
+                    <div class="prose prose-lg max-w-none">
+                        {{bio}}
+                    </div>
+                </div>
+                {{/if}}
+            </div>
         </div>
         
-        <div class="col-sm-7 col-xl-6">
-            <p class="meta small">Official Title:</p>
-            <h3>{{officialtitle}}</h3>
-            {{if joined_ces}}
-            <hr>
-            <p class="meta small">At CES since</p>
-            <h3>{{joined_ces | format('Y')}}</h3>
-            {{/if}}
-            <hr>
-            <p class="meta small">Email:</p>
-            <h3>{{email}}</h3>
-            <hr>
-            {{if education}}
-            <p class="meta small">Education:</p>
-            {{education}}
-                <h3>{{name_of_institution}}</h3>
-            {{/education}}
-            <hr>
-            {{/if}}
-            {{if bio}}
-            <p class="meta small">Bio:</p>
-            <p>{{bio}}</p>
-            {{/if}}
-
-            <!-- <p>I teach in the</p>
-            {{collection:classrooms :teachers:contains="id"}}
-                <a href="{{url}}"><button>{{title}}</button></a>
-            {{/collection:classrooms}} -->
-        </div>
-        <div class="col-sm-5 col-xl-6">
+        <!-- Photo -->
+        <div class="w-full lg:w-1/2">
             {{if photo}}
-            <div class="polaroid" style="{{ switch between='transform: rotate(3deg);|transform: rotate(-3deg);' }}">
-                <div style="height: 100%; width: 100%; margin-bottom: 30px; border-radius: 3px; border: solid thin lightgrey; background-image: url('{{photo}}'); background-size: cover; background-position: center;"></div>
+            <div class="w-96 h-96 bg-white rounded-sm shadow-lg p-5 pb-16 mb-8 transform rotate-3">
+                <div class="h-full w-full mb-8 rounded-sm border border-gray-300 bg-cover bg-center" style="background-image: url('{{photo}}');"></div>
             </div>
             {{else}}
-            <img src="/assets/avatar.svg" alt="{{title}}" width="60%" style="border-radius: 10px;">
+            <img src="/assets/avatar.svg" alt="{{title}}" class="w-3/5 rounded-lg">
             {{/if}}
         </div>
     </div>

@@ -1,22 +1,18 @@
-{{partial:breadcrumb}}
-
-<div class="container extra-padding spacerTop60">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1>Events</h1>
-            <div class="row">
-                {{collection:events sort="event_date:asc"}}
-                    {{if no_results}}
-                    <div class="col-lg-12">
-                        <p>There are no events currently scheduled.</p>
-                    </div>
-                    {{else}}
-                    <div class="col-lg-12">
-                        {{partial:eventcard}}
-                    </div>
+<div class="container mx-auto px-4 md:px-8 lg:px-12 mt-16">
+    <div class="w-full">
+        <h1 class="text-4xl md:text-5xl font-bold text-green-600 mb-8">Events</h1>
+        <div class="space-y-8">
+            {{collection:events sort="event_date:asc"}}
+                {{if no_results}}
+                <div class="w-full">
+                    <p class="text-lg text-gray-600">There are no events currently scheduled.</p>
+                </div>
+                {{else}}
+                <div class="w-full">
+                    {{partial:eventcard}}
+                </div>
                 {{/if}}
             {{/collection:events}}
-            </div>
         </div>
     </div>
 </div>

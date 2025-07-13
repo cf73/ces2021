@@ -1,7 +1,5 @@
-{{partial:breadcrumb}}
-
 {{if slideshow}}
-    <div class="splide" style="margin-top: 45px; margin-bottom: 30px;">
+    <div class="splide mt-12 mb-8">
         <div class="splide__track">
             <div class="splide__list">
                 {{slideshow}}                            
@@ -12,26 +10,31 @@
     </div>
 {{/if}}
 
-<div class="container extra-padding">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1>{{title}}</h1>
-            <h2>{{description}}</h2>
-            <hr>
-            <div class="row spacerTop30">
-                {{classrooms}}
-                    <div class="col-sm-6 col-xl-4 spacer60">
-                        <h3>{{title}}</h3>
-                        <p>{{description}}</p>
-                        {{if teachers}}
-                        <p class="meta small" style="margin-bottom: 12px;">Teachers:</p>
-                        {{teachers}}
-                            <a href="{{url}}"><button>{{title}}</button></a>
-                        {{/teachers}}
-                        {{/if}}
+<div class="container mx-auto px-4 md:px-8 lg:px-12">
+    <div class="w-full">
+        <h1 class="text-4xl md:text-5xl font-bold text-green-600 mb-4">{{title}}</h1>
+        <h2 class="text-xl md:text-2xl text-gray-700 mb-8">{{description}}</h2>
+        <hr class="border-gray-200 mb-8">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{classrooms}}
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">{{title}}</h3>
+                    <p class="text-gray-600 mb-6">{{description}}</p>
+                    {{if teachers}}
+                    <div>
+                        <p class="text-sm font-mono text-gray-600 mb-3">Teachers:</p>
+                        <div class="space-y-2">
+                            {{teachers}}
+                                <a href="{{url}}" class="inline-block bg-green-600 hover:bg-gray-800 text-white font-medium px-4 py-2 rounded-full transition-colors duration-200 text-sm">
+                                    {{title}}
+                                </a>
+                            {{/teachers}}
+                        </div>
                     </div>
-                {{/classrooms}}
-            </div>
+                    {{/if}}
+                </div>
+            {{/classrooms}}
         </div>
     </div>
 </div>

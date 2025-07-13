@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/css/style.css">
+
         <link rel="stylesheet" href="/css/app.css">
         <link rel="stylesheet" href="/css/splide.min.css">
         <script src="/js/splide.min.js"></script>
@@ -27,65 +27,14 @@
         <!-- Top Navigation -->
         {{ partial:top-navigation }}
         
-        <div id="colorlib-page" class="flex">
-            <!-- Sidebar Navigation (Desktop) -->
-            <aside id="colorlib-aside" role="complementary" class="js-fullheight hidden lg:block w-80 flex-shrink-0 bg-white border-r border-gray-200">
-                <nav id="colorlib-main-menu" role="navigation" class="h-full flex flex-col justify-between p-8">
-                    <div>
-                        <div class="mb-8">
-                            <a href="/"><img src="/assets/CESHouseLogo.png" alt="{{title}}" class="w-1/2 opacity-70 hover:opacity-100 transition-opacity"></a>
-                        </div>
-                        
-                        <ul class="space-y-4">
-                            {{ nav include_home="false" }}
-                            {{if include}}
-                                <li>
-                                    <a href="{{ url }}" class="text-gray-800 hover:text-green-600 font-medium transition-colors duration-200 {{ if is_current || is_parent }}text-green-600{{ /if }}">
-                                        {{ title }}
-                                    </a>
-                                </li>
-                            {{/if}}
-                            {{ /nav }}
-                        </ul>
-                    </div>
-                    
-                    <div class="space-y-4">
-                        <div class="text-sm font-mono">
-                            <p class="mb-2">80 Trowbridge St.<br>Cambridge, MA 02138</p>
-                            <p class="mb-1">P: 617-354-0014</p>
-                            <p class="mb-1">F: 617-491-4313</p>
-                            <p class="mb-4"><a href="mailto:info@cambridge-ellis.org" class="text-green-600 hover:text-gray-800">Contact Us</a></p>
-                        </div>
-                        
-                        <div class="flex space-x-4">
-                            <a href="https://www.instagram.com/cambridgeellis/" target="_blank" class="text-gray-800 hover:text-green-600">
-                                <i class="lab la-instagram text-4xl"></i>
-                            </a>
-                            <a href="https://www.facebook.com/CambridgeEllisSchool/" target="_blank" class="text-gray-800 hover:text-green-600">
-                                <i class="lab la-facebook text-4xl"></i>
-                            </a>
-                        </div>
-                        
-                        <a href="/donate" class="block">
-                            <button class="w-full bg-green-600 hover:bg-gray-800 text-white font-medium px-6 py-3 rounded-full transition-colors duration-200">
-                                Donate Now
-                            </button>
-                        </a>
-                    </div>
-                </nav>
-            </aside> <!-- END COLORLIB-ASIDE -->
-    
-            <!-- Main Content -->
-            <div id="colorlib-main" class="flex-1 min-h-screen">
-                <section class="pt-4 mb-5">
-                    <div class="container mx-auto px-4 md:px-8">
-                        <div class="w-full">
-                            {{ template_content }}
-                        </div>
-                    </div>
-                </section>
-            </div><!-- END COLORLIB-MAIN -->
-        </div><!-- END COLORLIB-PAGE -->
+        <!-- Main Content -->
+        <main class="min-h-screen w-full">
+            <section class="pt-4 mb-5">
+                <div class="w-full">
+                    {{ template_content }}
+                </div>
+            </section>
+        </main>
 
         <script src="/js/jquery.min.js"></script>
         <script src="/js/popper.js"></script>

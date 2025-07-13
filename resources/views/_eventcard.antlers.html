@@ -1,24 +1,23 @@
-<div class="card">
-    <div class="datearea">
-        <h3 class="">{{ event_date | iso_format('MMMM') | upper }}</h3>
-        <h1 class="showifxl">{{ event_date | iso_format('Do') }}</h1>
-        <h3 class="hideifxl">{{ event_date | iso_format('Do') }}</h3>
-        <h3 class="">{{ event_date | iso_format('YYYY') | upper }}</h3>
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+    <div class="bg-green-600 text-white p-6 text-center">
+        <h3 class="text-sm font-mono uppercase tracking-wide">{{ event_date | iso_format('MMMM') | upper }}</h3>
+        <h1 class="text-4xl font-bold">{{ event_date | iso_format('Do') }}</h1>
+        <h3 class="text-sm font-mono uppercase tracking-wide">{{ event_date | iso_format('YYYY') | upper }}</h3>
     </div>
-    <div class="eventdetailarea">
-        <h2>{{title}}</h2>
+    <div class="p-6">
+        <h2 class="text-xl font-bold text-gray-800 mb-4">{{title}}</h2>
         {{if location}}
-        <p class="meta" style="margin: 0;"><i class="las la-map-marker-alt"></i> {{location}}</p>
+        <p class="text-sm font-mono text-gray-600 mb-2"><i class="las la-map-marker-alt mr-2"></i> {{location}}</p>
         {{/if}}
         {{if start_time}}
-        <p class="meta" style="margin: 0;"><i class="lar la-clock"></i> {{ start_time | iso_format('h A') }} {{if end_time}} &mdash; {{end_time | iso_format('h A') }} {{/if}}</p>
+        <p class="text-sm font-mono text-gray-600 mb-2"><i class="lar la-clock mr-2"></i> {{ start_time | iso_format('h A') }} {{if end_time}} &mdash; {{end_time | iso_format('h A') }} {{/if}}</p>
         {{/if}}
         {{if zoom_link}}
-        <p class="meta" style="margin: 0;"><i class="las la-video"></i> <a href="{{zoom_link}}" target="_blank">{{zoom_link}}</a></p>
+        <p class="text-sm font-mono text-gray-600 mb-4"><i class="las la-video mr-2"></i> <a href="{{zoom_link}}" target="_blank" class="text-green-600 hover:text-gray-800">{{zoom_link}}</a></p>
         {{/if}}
-        <p class="spacerTop30">{{short_description}}</p>
-        <a href="{{url}}">
-            <p class="meta">More details <i class="las la-arrow-right"></i></p>
+        <p class="text-gray-700 mb-4">{{short_description}}</p>
+        <a href="{{url}}" class="inline-flex items-center text-sm font-mono text-green-600 hover:text-gray-800">
+            More details <i class="las la-arrow-right ml-1"></i>
         </a>
     </div>
 </div>

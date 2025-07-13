@@ -1,30 +1,29 @@
-{{partial:breadcrumb}}
-
-<div class="container extra-padding spacerTop30" style="margin-top: 45px;">
-    <div class="row">
-       <div class="col-sm-12">
-           <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;" class="spacer60">
-               <div>
-                    <h1>{{title}}</h1>
-                   <h2>{{description}}</h2>
-               </div>
-           </div>
-            {{ nav :from="uri" }}
-                {{ unless no_results }}
-                    <div class="row spacer60 flex {{ switch between='flex-row|flex-row-reverse' }}">
-                        <div class="col-xl-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                            <div class="polaroid" style="{{ switch between='transform: rotate(3deg);|transform: rotate(-3deg);' }}">
-                                <div style="height: 100%; width: 100%; margin-bottom: 30px; border-radius: 3px; border: solid thin lightgrey; background-image: url({{program_image}}); background-size: cover; background-position: center;"></div>
-                            </div>
+<div class="container mx-auto px-4 md:px-8 lg:px-12 mt-12 mb-16">
+    <div class="w-full">
+        <div class="flex flex-col md:flex-row justify-between items-center mb-16">
+            <div>
+                <h1 class="text-4xl md:text-5xl font-bold text-green-600 mb-4">{{title}}</h1>
+                <h2 class="text-xl md:text-2xl text-gray-700">{{description}}</h2>
+            </div>
+        </div>
+        
+        {{ nav :from="uri" }}
+            {{ unless no_results }}
+                <div class="flex flex-col lg:flex-row items-center gap-8 mb-16 {{ switch between='lg:flex-row|lg:flex-row-reverse' }}">
+                    <div class="w-full lg:w-1/2 flex justify-center">
+                        <div class="w-96 h-96 bg-white rounded-sm shadow-lg p-5 pb-16 mb-8 transform rotate-3">
+                            <div class="h-full w-full mb-8 rounded-sm border border-gray-300 bg-cover bg-center" style="background-image: url({{program_image}});"></div>
                         </div>
-                        <div class="col-xl-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                            <h3 style="text-align: center;">{{title}}</h3>
-                            <p style="text-align: center;">{{short_description}}</p>
-                            <a href="{{url}}"><button>Explore</button></a>
-                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 flex flex-col items-center text-center">
+                        <h3 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">{{title}}</h3>
+                        <p class="text-lg text-gray-600 mb-6">{{short_description}}</p>
+                        <a href="{{url}}" class="inline-block bg-green-600 hover:bg-gray-800 text-white font-medium px-6 py-3 rounded-full transition-colors duration-200">
+                            Explore
+                        </a>
+                    </div>
                 </div>
-                {{ /unless }}
-            {{ /nav }}
-       </div>
+            {{ /unless }}
+        {{ /nav }}
     </div>
 </div>

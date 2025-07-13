@@ -1,39 +1,37 @@
-<div class="container spacerTop30">
-    <div class="row">
-        <div class="col-sm-12">
-            <a href="/{{segment_1}}">{{segment_1 | title }}</a> / <a href="/{{segment_1}}/{{programs:slug}}">{{programs:title}} Program</a>
+<div class="container mx-auto px-4 md:px-8 lg:px-12 mt-12">
+    <div class="w-full">
+        <nav class="text-sm text-gray-600 mb-8">
+            <a href="/{{segment_1}}" class="hover:text-green-600">{{segment_1 | title }}</a> / <a href="/{{segment_1}}/{{programs:slug}}" class="hover:text-green-600">{{programs:title}} Program</a>
+        </nav>
 
-            <h1>{{title}}</h1>
+        <h1 class="text-4xl md:text-5xl font-bold text-green-600 mb-8">{{title}}</h1>
 
-            <h3>{{ages:title}}</h3>
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">{{ages:title}}</h3>
 
-            <p>{{description}}</p>
-        </div>
+        <p class="text-lg text-gray-700 mb-12">{{description}}</p>
     </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>Teachers</h3>
-            <div class="row">
-                {{collection:people classrooms:contains="{id}"}}
-                <div class="col-sm-4">
-                    <div class="card" style="padding: 20px;">
-                        <img src="{{photo}}" alt="{{title}}" class="spacer30" style="border-radius: 15px;">
-                        <h2>{{title}}</h2>
-                        <h3>{{officialtitle}}</h3>
-                        <h5>{{email}}</h5>
-                        <hr>
-                        <h5>{{education}}{{name_of_institution}}{{/education}}</h5>
-                        <p>{{bio}}</p>
-                    </div>
-                </div>
-                {{if no_results}}
-                    No teachers added yet!
-                {{/if}}
-            {{/collection:people}}
+    <div class="w-full">
+        <h3 class="text-2xl font-bold text-gray-800 mb-8">Teachers</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{collection:people classrooms:contains="{id}"}}
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <img src="{{photo}}" alt="{{title}}" class="w-full h-48 object-cover rounded-lg mb-4">
+                <h2 class="text-xl font-bold text-gray-800 mb-2">{{title}}</h2>
+                <h3 class="text-lg font-medium text-green-600 mb-2">{{officialtitle}}</h3>
+                <p class="text-sm text-gray-600 mb-2">{{email}}</p>
+                <hr class="border-gray-200 my-4">
+                <h5 class="text-sm font-medium text-gray-800 mb-2">{{education}}{{name_of_institution}}{{/education}}</h5>
+                <p class="text-gray-700">{{bio}}</p>
             </div>
-            
+            {{if no_results}}
+                <div class="col-span-full text-center text-gray-600 py-8">
+                    No teachers added yet!
+                </div>
+            {{/if}}
+        {{/collection:people}}
         </div>
+        
     </div>
-            
+        
 
 </div>

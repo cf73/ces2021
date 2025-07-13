@@ -1,27 +1,23 @@
-<div class="row">
-    <div class="col-sm-12   ">
-        <div class="row">
-            <div class="col">
-                {{if main_image}}
-                    <img src="{{main_image}}" width="100%" alt="{{title}}">
-                {{/if}}
-            </div>
+<div class="container mx-auto px-4 md:px-8 lg:px-12 mt-12">
+    <div class="w-full">
+        <div class="w-full">
+            {{if main_image}}
+                <img src="{{main_image}}" alt="{{title}}" class="w-full rounded-lg shadow-lg">
+            {{/if}}
         </div>
-       <div class="row">
-            <div class="col-sm-12">
+       <div class="w-full mt-8">
+            <div class="w-full">
                 {{intro_text}}
-                    <div class="row">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {{taxonomy:{{program_type}}{{value}}{{/program_type}}}}
-                        <div class="col-md-6">
-                            <div class="card" style="padding: 12px;">
-                                <h3>{{title}}</h3>
-                                <h4>{{officialtitle}}</h4>
-                                <strong>{{email}}</strong>
-                                {{classrooms}}
-                                    <a href="{{url}}">{{title}}</a>
-                                {{/classrooms}}
-                                <p style="margin-top: 12px;">{{bio}}</p>
-                            </div>
+                        <div class="bg-white rounded-lg shadow-lg p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">{{title}}</h3>
+                            <h4 class="text-lg font-medium text-green-600 mb-2">{{officialtitle}}</h4>
+                            <p class="text-sm font-medium text-gray-600 mb-4">{{email}}</p>
+                            {{classrooms}}
+                                <a href="{{url}}" class="text-green-600 hover:text-gray-800">{{title}}</a>
+                            {{/classrooms}}
+                            <p class="text-gray-700 mt-4">{{bio}}</p>
                         </div>
                         {{/taxonomy:{{program_type}}{{value}}{{/program_type}}}}
                     </div>
