@@ -6,7 +6,7 @@ event_date: '2025-11-01'
 start_time: '10:00'
 end_time: '12:00'
 location: '80 Trowbridge St, Cambridge'
-short_description: 'Come see what makes Cambridge-Ellis School such a joyous place for children and their families! Join us on November 2nd anytime between 10am and 12pm for a self-guided tour of our beautiful indoor and outdoor spaces.'
+short_description: 'Come see what makes Cambridge-Ellis School such a joyous place for children and their families! Join us on November 1st anytime between 10am and 12pm for a self-guided tour of our beautiful indoor and outdoor spaces.'
 details:
   -
     type: paragraph
@@ -53,6 +53,5 @@ details:
         type: text
         text: ' if you have any questions about this special event.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1752587624
-image: open-house-website-banner-1728579309.jpg
+updated_at: 1752587983
 ---
