@@ -1,5 +1,6 @@
 ---
 id: c5f5b264-3321-4d94-8116-941075511bb3
+published: false
 blueprint: people
 title: 'Hilary Rasmussen'
 officialtitle: 'Board Co-Chair'
