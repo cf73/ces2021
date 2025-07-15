@@ -1,5 +1,6 @@
 ---
 id: e00d8cf8-bb4a-46e4-aa49-7b8579ce1fda
+published: false
 blueprint: people
 template: bio
 title: 'Cindy Lehmann'
