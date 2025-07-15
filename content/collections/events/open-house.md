@@ -1,9 +1,8 @@
 ---
 id: ecbb3d41-19c6-47b5-a3de-417466f44ef7
-published: false
 blueprint: events
 title: 'Open House'
-event_date: '2024-11-02'
+event_date: '2025-11-01'
 start_time: '10:00'
 end_time: '12:00'
 location: '80 Trowbridge St, Cambridge'
@@ -54,6 +53,6 @@ details:
         type: text
         text: ' if you have any questions about this special event.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1728579315
+updated_at: 1752587624
 image: open-house-website-banner-1728579309.jpg
 ---
