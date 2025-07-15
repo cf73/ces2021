@@ -3,7 +3,7 @@ id: c237bba1-b7af-4e30-81ac-50072b37ef9f
 blueprint: people
 template: bio
 title: 'Bekah Riley'
-officialtitle: 'Executive Director'
+officialtitle: 'Executive Director; Leadership Representative'
 education:
   -
     id: xJUGbhiz
@@ -17,6 +17,6 @@ role:
   - leadership
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739304061
+updated_at: 1752590264
 joined_ces: '2018-08-24'
 ---
