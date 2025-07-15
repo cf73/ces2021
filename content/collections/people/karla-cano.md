@@ -1,5 +1,6 @@
 ---
 id: 216940bc-4a00-404a-9af6-77f10bc771c5
+published: false
 blueprint: people
 title: 'Karla Cano'
 officialtitle: 'Spanish Teacher'
