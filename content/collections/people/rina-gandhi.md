@@ -1,5 +1,6 @@
 ---
 id: fc16d5a5-8bdc-49e1-be6d-edfc8c83a9dc
+published: false
 blueprint: people
 title: 'Rina Gandhi'
 officialtitle: 'Board Member'
