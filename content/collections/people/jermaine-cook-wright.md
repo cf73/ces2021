@@ -3,7 +3,7 @@ id: 55c6d51a-07ca-41c5-b091-a98abc416aa0
 blueprint: people
 template: bio
 title: 'Jermaine Cook-Wright'
-officialtitle: 'Blue Room Teacher'
+officialtitle: 'Blue Room Teacher; Faculty Board Representative'
 education:
   -
     id: GmQTyVVr
@@ -20,6 +20,6 @@ programs:
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303594
+updated_at: 1752593948
 joined_ces: '2000-02-01'
 ---
