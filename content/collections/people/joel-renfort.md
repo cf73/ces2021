@@ -1,5 +1,6 @@
 ---
 id: b17491fb-44b0-47a7-a8ca-173b1fd71eaa
+published: false
 blueprint: people
 title: 'Joel Renfort'
 officialtitle: 'French Teacher'
