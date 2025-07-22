@@ -1,5 +1,6 @@
 ---
 id: 31a80cc0-b6a1-4840-ba78-b18525b82485
+published: false
 blueprint: events
 title: 'Last Day of the Summer Program'
 event_date: '2025-07-18'
