@@ -18,7 +18,7 @@ programs_offered:
     program_title: 'Music with Anna'
     program_description: 'Each month, children develop their musical roots and celebrate the international language of music with our specialist, Anna Laufenberg. Through songs and creative movement Anna introduces students to beats, rhythms, and scales. She delights and inspires children with her array of musical instruments from flute to contrabass.'
     type: program
-    enabled: true
+    enabled: false
   -
     id: i9sHm5z1
     program_title: 'Nature Program'
@@ -33,7 +33,7 @@ programs_offered:
     enabled: true
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1727463231
+updated_at: 1753191396
 slideshow:
   - IMG_4061.jpg
   - 20210927_163507.jpg
