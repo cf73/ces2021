@@ -1,5 +1,6 @@
 ---
 id: ea30215b-0147-4ca1-9bff-65b7c041b0d5
+published: false
 blueprint: people
 title: 'Molly Howard'
 officialtitle: 'Board Member'
