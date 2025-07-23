@@ -1,5 +1,6 @@
 ---
 id: 24a03bef-6647-4438-9ca9-b53f664b51ea
+published: false
 blueprint: people
 title: 'Nathalie Roberts'
 officialtitle: 'Board Member'
