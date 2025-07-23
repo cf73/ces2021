@@ -1,6 +1,5 @@
 ---
 id: 1fd40086-9bbb-4eea-8a66-77c2bfa4acf1
-published: false
 blueprint: people
 title: 'Jessica Tangren'
 officialtitle: 'Board Clerk'
