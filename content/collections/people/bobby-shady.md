@@ -1,6 +1,5 @@
 ---
 id: 13b18063-e959-439e-84e0-936fc2d97c8e
-published: false
 blueprint: people
 title: 'Bobby Shady'
 officialtitle: 'Board Member'
