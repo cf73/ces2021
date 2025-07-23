@@ -1,5 +1,6 @@
 ---
 id: c5ead9da-5be7-477d-b882-1cbdaa1f3f0b
+published: false
 blueprint: people
 title: 'Nisha Deo'
 officialtitle: 'Diversity, Equity, & Inclusion (DEI) Committee Co-Chair'
