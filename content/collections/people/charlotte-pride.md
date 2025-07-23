@@ -1,5 +1,6 @@
 ---
 id: fb148191-0943-43e6-912c-a201bad7dae8
+published: false
 blueprint: people
 title: 'Charlotte Pride'
 officialtitle: 'Co-Head French Teacher; Faculty Board Representative'
