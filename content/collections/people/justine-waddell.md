@@ -1,6 +1,5 @@
 ---
 id: d2edb398-828c-4f5a-adbd-a89657ee8617
-published: false
 blueprint: people
 title: 'Justine Bathurst'
 officialtitle: 'Floating Teacher'
