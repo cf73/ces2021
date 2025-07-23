@@ -1,6 +1,5 @@
 ---
 id: a7453a82-54e3-4ff3-8936-927e77945555
-published: false
 blueprint: people
 title: 'Ashley Green'
 officialtitle: 'Board Co-Chair'
