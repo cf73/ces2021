@@ -1,5 +1,6 @@
 ---
 id: ab22daab-a42d-4ca8-b1bc-448af0e5445f
+published: false
 blueprint: people
 title: 'Kaitlyn Kelley'
 officialtitle: 'Board Member'
