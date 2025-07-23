@@ -1,6 +1,5 @@
 ---
 id: ba5e2e4c-de54-4db5-ad38-4fa3e305efd6
-published: false
 blueprint: people
 title: 'Michelle Huang'
 officialtitle: 'Treasurer and Finance Committee'
