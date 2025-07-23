@@ -15,11 +15,12 @@ bio: 'I am originally from Jamaica. As a child, I always wanted to be in the mil
 photo: jermaine-headshot.jpg
 role:
   - teacher
+  - board-of-directors
 programs:
   - day
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1752593948
+updated_at: 1753290594
 joined_ces: '2000-02-01'
 ---
