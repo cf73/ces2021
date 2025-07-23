@@ -1,6 +1,5 @@
 ---
 id: e73d0602-ec2b-4ac2-bdf0-991a63ed9ee6
-published: false
 blueprint: people
 title: 'Dan Kanter'
 officialtitle: 'Governance Committee Chair'
