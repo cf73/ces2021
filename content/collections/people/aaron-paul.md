@@ -1,6 +1,5 @@
 ---
 id: 7155850a-b6ed-4491-a59f-be71de8ba8a2
-published: false
 blueprint: people
 title: 'Aaron Paul'
 officialtitle: 'Buildings and Grounds Committee Chair'
