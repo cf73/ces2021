@@ -1,6 +1,5 @@
 ---
 id: d44d47e6-dae6-4451-b9d5-4a6fe87c9400
-published: false
 blueprint: people
 title: 'Shantia Gary'
 officialtitle: 'Diversity Equity & Inclusion Committee'
