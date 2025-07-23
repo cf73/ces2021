@@ -1,6 +1,5 @@
 ---
 id: cc72ac48-e946-4e08-bd5d-4067afa5fe87
-published: false
 blueprint: people
 title: 'Carolyn Olshan'
 officialtitle: 'Auction Committee Chair'
