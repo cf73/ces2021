@@ -3,7 +3,7 @@ id: 94d52126-ff66-46b3-a3eb-68ba74f9e72e
 published: false
 blueprint: people
 title: 'Eva Donlan'
-officialtitle: 'Blue Room Interim Co-Head Teacher'
+officialtitle: 'French Class Teacher'
 education:
   -
     id: AJ9HHKWf
@@ -16,6 +16,6 @@ photo: eva-headshot.jpg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1753378459
+updated_at: 1753378585
 joined_ces: '2022-08-29'
 ---
