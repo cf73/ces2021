@@ -1,6 +1,5 @@
 ---
 id: 94d52126-ff66-46b3-a3eb-68ba74f9e72e
-published: false
 blueprint: people
 title: 'Eva Donlan'
 officialtitle: 'French Class Teacher'
