@@ -6,7 +6,7 @@ event_date: '2025-09-27'
 start_time: '10:00'
 end_time: '12:00'
 location: '80 Trowbridge St, Cambridge'
-short_description: 'Where else will you have the opportunity to chat with admissions representatives from over 25 Boston area preK through 12th grade independent and public schools all in one place? On Saturday, September 27th from 10am to 12pm, Cambridge-Ellis is the place you’ll want to be! Come see what makes each school unique, have all your questions answered, and head home with loads of information and some pretty awesome swag to boot! Schools represented at the Boston Area School Fair will include: Check back in early September for a list of participating schools.'
+short_description: 'Where else will you have the opportunity to chat with admissions representatives from over 25 Boston area preK through 12th grade independent and public schools all in one place? On Saturday, September 27th from 10am to 12pm, Cambridge-Ellis is the place you’ll want to be! Come see what makes each school unique, have all your questions answered, and head home with loads of information and some pretty awesome swag to boot! Schools represented at the Boston Area School Fair will include: Atrium School,BB&N, Belmont Day School, Birches School, Brimmer & May, Cambridge Friends School, Cambridge Public Schools, Cambridge-Ellis School, Charles River School, Chestnut Hill School, Dexter Southfield, Fayerweather Street School, Fusion Academy, German International School Boston, International School of Boston, Kingsley Montessori School, Lesley Ellis, Meadowbrook, Milton Academy, Prospect Hill Academy, SELA: The International Private School, Shady Hill School, Tenacre Country Day School, The Advent School, The Fessenden School, The Learning Project Elementary School, The Park School, and Wellan Montessori.'
 details:
   -
     type: paragraph
@@ -21,7 +21,7 @@ details:
         type: text
         text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., Roberts Rd., and Irving St. There is also metered parking located on Cambridge St.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1752675314
-calendar_link: 'https://calendar.google.com/calendar/u/0/r/day/2024/9/28?amp;tmeid=MDRwNWY4c2sydjF1YjY1cTM4aXBtdXJvbnIgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&amp;tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com'
-image: school-fair-email-banner-2025.jpg
+updated_at: 1753903737
+calendar_link: '<a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NDBkdTQ5ajRqamZqN3FwdGJjMjNmaTM0NTMgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&amp;tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en.gif" alt="Google Calendar"></a>'
+image: school-fair-website-2025.jpg
 ---
