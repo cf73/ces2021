@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1750701085
+updated_at: 1755018197
 add_content:
   -
     id: CC854MBg
@@ -22,7 +22,7 @@ add_content:
   -
     id: lxq7ngcc
     type: text
-    enabled: true
+    enabled: false
     text:
       -
         type: heading
@@ -120,7 +120,7 @@ add_content:
                           title: null
                     text: 'See Job Description for more details'
     type: text
-    enabled: true
+    enabled: false
   -
     id: mafdxqku
     text:
@@ -131,7 +131,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Afternoon French Immersion Teacher'
+            text: 'Afternoon School Age Mandarin Immersion Teacher'
       -
         type: bulletList
         content:
@@ -165,7 +165,7 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/1ZlMnnBo_hdBmW3gFkq4GyUE_QrJKtBvYoseIHkxsFGQ/edit?tab=t.0'
+                          href: 'https://docs.google.com/document/d/1ASakIdz7TjyEgyYLEwNxQ9Sb68lw6lms2KG1vKIqNIo/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
