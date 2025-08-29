@@ -53,5 +53,6 @@ details:
         type: text
         text: ' if you have any questions about this special event.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1752587983
+updated_at: 1756493329
+image: open-house-website-2025.jpg
 ---
