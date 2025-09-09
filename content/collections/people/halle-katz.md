@@ -1,5 +1,6 @@
 ---
 id: cb1a5038-e967-419b-831d-13fb45969cae
+published: false
 blueprint: people
 title: 'Halle Katz'
 officialtitle: 'Coverage Coordinator'
