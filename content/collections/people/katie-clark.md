@@ -3,7 +3,7 @@ id: 75862a02-1182-48da-aeed-14e0714e846d
 blueprint: people
 template: bio
 title: 'Katie Clark'
-officialtitle: 'Art Coordinator and Summer Program Director'
+officialtitle: 'Arts Coordinator'
 education:
   -
     id: FeMNrX2L
@@ -22,6 +22,6 @@ role:
   - leadership
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303638
+updated_at: 1757452611
 joined_ces: '2010-09-07'
 ---
