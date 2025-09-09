@@ -2,7 +2,7 @@
 id: c1da77d0-719a-4bc9-8d93-dc8136490a5d
 blueprint: people
 title: 'Lindsey Freedman'
-officialtitle: 'Assistant Director'
+officialtitle: 'Director of Education'
 education:
   -
     id: lyhd3f9u
@@ -25,5 +25,5 @@ photo: lindsey.jpg
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739291535
+updated_at: 1757452508
 ---
