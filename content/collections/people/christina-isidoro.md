@@ -3,7 +3,7 @@ id: c2f68fc6-2439-4912-a545-f520fcd8dadb
 blueprint: people
 template: bio
 title: 'Christina Isidoro'
-officialtitle: 'Director of Admissions and Accreditation'
+officialtitle: 'Director of Admissions'
 education:
   -
     id: h5jzFP7R
@@ -20,7 +20,7 @@ bio: 'As soon as I walked into Cambridge-Ellis for the first time, I realized th
 role:
   - leadership
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303193
+updated_at: 1757452561
 photo: christina-isidoro.jpeg
 joined_ces: '2008-06-11'
 ---
