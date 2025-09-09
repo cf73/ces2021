@@ -1,6 +1,5 @@
 ---
 id: 3c7a9eb5-fd7a-4dc0-b150-93868993baa1
-published: false
 blueprint: people
 template: bio
 title: 'Liz McKillop-Segura'
@@ -21,6 +20,6 @@ programs:
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303377
+updated_at: 1757450410
 joined_ces: '2019-08-23'
 ---
