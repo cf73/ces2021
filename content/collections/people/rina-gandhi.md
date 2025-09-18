@@ -7,5 +7,6 @@ email: rina.b.gandhi@hotmail.com
 role:
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1758203195
+updated_at: 1758203247
+photo: rina-gandhi-1758203238.jpg
 ---
