@@ -74,7 +74,7 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'After School 2 or 3 Day Mandarin Immersion Program for Kindergarten - 3rd Grade'
+                    text: 'After School Mandarin Immersion Program for Kindergarten - 4th Grade'
       -
         type: paragraph
         content:
@@ -90,7 +90,7 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1741101020
+updated_at: 1758811281
 include: true
 main_image: IMG_20191105_085648989_HDR_Original.jpg
 ---
