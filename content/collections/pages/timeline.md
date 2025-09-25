@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Timeline
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1728658090
+updated_at: 1758813877
 add_content:
   -
     id: V0AodRHy
@@ -45,7 +45,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'December 16 | re-enrollment forms and current & alumni siblings applications due'
+            text: 'December 15 | re-enrollment forms and current & alumni siblings applications due'
     type: text
     enabled: true
   -
@@ -73,7 +73,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'February 3 | financial aid applications and documents due'
+            text: 'February 2 | financial aid applications and documents due'
     type: text
     enabled: true
   -
@@ -115,7 +115,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'May 2 | visiting day for children and families newly admitted to Cambridge-Ellis'
+            text: 'May 8 | visiting day for children and families newly admitted to Cambridge-Ellis'
     type: text
     enabled: true
 main_image: 20211005_152229.jpg
