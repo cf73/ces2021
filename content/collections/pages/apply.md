@@ -131,6 +131,129 @@ add_content:
     id: 339ZGsgN
     type: text
     enabled: true
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'How to Apply'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: 'The Admissions Season for the 2026-27 school year will open on October 1st and run through January 31st. Please make sure you have completed the following steps before the January 31st deadline:'
+      -
+        type: orderedList
+        attrs:
+          start: 1
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://cambridge-ellis.myschoolapp.com/app/embed?svcid=edu#inquiry/40349'
+                          rel: null
+                          target: _blank
+                          title: null
+                      -
+                        type: italic
+                    text: 'Submit an Inquiry'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'Schedule your Day Program/Day Program plus Language Program tour '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://calendly.com/ces-admissions/parent-tour'
+                          rel: null
+                          target: _blank
+                          title: null
+                      -
+                        type: italic
+                    text: 'with Christina'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: ', or your Language Program only tour '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://calendly.com/elisabethces/language-program'
+                          rel: null
+                          target: _blank
+                          title: null
+                      -
+                        type: italic
+                    text: 'with Elisabeth'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
+                          rel: null
+                          target: _blank
+                          title: null
+                      -
+                        type: italic
+                    text: 'Submit an application'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: ' before your tour date'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: "All late applicants will be added to our waitlist and be considered if later decision rounds are necessary.\_"
   -
     id: iENR7N03
     text:
@@ -169,6 +292,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1744737832
+updated_at: 1758813755
 main_image: IMG_3005.jpg
 ---
