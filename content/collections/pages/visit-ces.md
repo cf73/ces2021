@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Visit CES'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1728656902
+updated_at: 1758811324
 add_content:
   -
     id: yKdnHzoX
@@ -14,7 +14,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Welcome to our community! In-person tours are available from October 1 to January 31, annually. During your tour with the Admissions Director, you will be able to learn more about the school, observe classrooms and teacher/child interactions, and meet with the Director and/or Assistant Director of our school. We ask that all families submit an application before their tour date.'
+            text: 'Welcome to our community! In-person tours are available from October 1 to January 31, annually. During your tour with the Admissions Director, you will be able to learn more about the school, observe classrooms and teacher/child interactions, and meet with the Director of our school. We ask that all families submit an application before their tour date.'
       -
         type: paragraph
         content:
