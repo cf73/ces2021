@@ -1,5 +1,6 @@
 ---
 id: c4feb5e5-5430-4c3d-849f-dae09b90a7f9
+published: false
 blueprint: events
 title: 'Boston Area School Fair'
 event_date: '2025-09-27'
