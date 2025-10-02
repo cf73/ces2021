@@ -1,11 +1,12 @@
 ---
 id: 8b87e474-816a-435f-ab1e-5d5e42f22e45
+published: false
 blueprint: promoted
 title: 'Spots available in our after school Language Immersion Program! Apply for the 2025-26 school year today!'
 link: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
 image: 15219634_1141044685963611_3316175230264602101_n.jpg
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1744650973
+updated_at: 1759421945
 add_link:
   -
     id: m7kug0k7
