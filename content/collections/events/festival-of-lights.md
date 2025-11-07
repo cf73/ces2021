@@ -1,6 +1,5 @@
 ---
 id: 7b2cfe8c-6aca-4b47-9fe7-f6e6372471a3
-published: false
 blueprint: events
 title: 'Festival of Lights'
 event_date: '2025-12-06'
