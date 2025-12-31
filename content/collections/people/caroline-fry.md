@@ -7,11 +7,11 @@ joined_ces: '2025-08-22'
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1757449654
+updated_at: 1767214208
 education:
   -
     id: mfd02yzf
-    name_of_institution: 'Lycée La Martinière Duchère Goethe Institute'
+    name_of_institution: 'Université Lumière Lyon 2'
     type: institution
     enabled: true
 email: Caroline@Cambridge-Ellis.org
