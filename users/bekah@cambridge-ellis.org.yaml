@@ -10,3 +10,5 @@ preferences:
         - title
         - slug
         - date_of_event
+    classrooms:
+      after_save: continue_editing
