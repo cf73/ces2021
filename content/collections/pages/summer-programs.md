@@ -15,26 +15,26 @@ programs_offered:
     program_title: 'Young Explorers- English Summer Camp'
     program_description: 'Our Young Explorers toddler and preschool programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
     type: program
-    enabled: true
+    enabled: false
   -
     id: Srgy3CK2
     program_title: 'Globetrotters - Language Immersion Summer Camp'
     program_description: 'We offer Spanish, French, and Mandarin language programs for children who are completely new to foreign languages, fluent, or anywhere in between.'
     type: program
-    enabled: true
+    enabled: false
 sessions:
   -
     id: v9xeLPP5
     session_title: 'Summer 2025'
-    session_dates: 'June 23rd – July 18th (We are closed Friday July 4th)'
+    session_dates: 'June 22nd – July 17th (We are closed Friday July 4th)'
     programs_in_this_session:
       -
         id: voiW3WLF
-        half_day_time_and_price: '8:30 - 12pm, $2300'
-        full_day_time_and_price: '8:30 - 4pm, $2600'
+        half_day_time_and_price: '8:30 - 12pm, $2400'
+        full_day_time_and_price: '8:30 - 4pm, $2750'
         type: program
         enabled: true
-        extended_day_time_and_price: '4pm - 5pm, $400'
+        extended_day_time_and_price: '4pm - 5pm, $3150'
     type: session
     enabled: false
   -
@@ -112,7 +112,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1753191470
+updated_at: 1767990828
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
