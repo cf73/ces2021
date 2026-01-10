@@ -1,9 +1,9 @@
 ---
 id: 9eb88d65-ada5-400c-b868-56bd69ee0744
 published: false
-blueprint: flexible_content_page
+blueprint: programsumbrella
+template: programsumbrella
 title: 'School Age Mandarin - Grades K through 3'
-template: flexpage
 add_content:
   -
     id: mjvnt9gf
