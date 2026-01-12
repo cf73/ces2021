@@ -1,9 +1,9 @@
 ---
 id: 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
 blueprint: classrooms
-title: 'Mandarin Rooms'
+title: 'Mandarin Green & Purple'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1767793880
+updated_at: 1768249711
 description: 'The Mandarin Rooms welcome children from 2.9 to 6 years old. Through immersion in the Mandarin language, and an emergent and play-based curriculum with a focus on the arts and outdoor exploration, we are able to accommodate students at all levels of Mandarin learning, and individually challenge them based on where they are in their language development. We expose children to the different traditions of the Mandarin-speaking cultures through the exploration of food, dance, holiday celebrations, and music.'
 programs: language
 ages: preschool
