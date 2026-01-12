@@ -4,7 +4,7 @@ blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
 description: |-
-  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm, a8:30-4:00pm, and 8:30 to 5:00pm programming for Toddlers and Preschoolers alike. 
+  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm, 8:30-4:00pm, and 8:30 to 5:00pm programming for Toddlers and Preschoolers alike. 
 
   Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children ages 3 to 6.11.
 
@@ -112,7 +112,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1768235069
+updated_at: 1768235146
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
