@@ -5,7 +5,7 @@ blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Summer Programs'
 description: |-
-  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm and 8:30-4:00pm programming for Toddlers and Preschoolers alike. 
+  June and July are full of fun, exploration, and water play at CES summer camp! We offer 8:30-12:00pm, a8:30-4:00pm, and 8:30 to 5:00pm programming for Toddlers and Preschoolers alike. 
 
   Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children ages 3 to 6.11.
 
@@ -27,7 +27,7 @@ sessions:
   -
     id: v9xeLPP5
     session_title: 'Summer 2025'
-    session_dates: 'June 22nd – July 17th (We are closed Friday July 4th)'
+    session_dates: 'June 22nd – July 17th (We are closed Friday July 3rd)'
     programs_in_this_session:
       -
         id: voiW3WLF
@@ -35,7 +35,7 @@ sessions:
         full_day_time_and_price: '8:30 - 4pm, $2750'
         type: program
         enabled: true
-        extended_day_time_and_price: '4pm - 5pm, $3150'
+        extended_day_time_and_price: '8:30 - 5pm, $3150'
     type: session
     enabled: false
   -
@@ -110,15 +110,15 @@ important_notes:
             content:
               -
                 type: text
-                text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw sessions or cancel completely, you may inform us by April 1 to be refunded.'
+                text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1767990885
+updated_at: 1768235051
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
 
-  Our hours are 8:30am to 4:00pm with an 8:30 to Noon option. Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6.11. Email Katie@Cambridge-Ellis.org for more information.
+  Our hours are 8:30am to 4:00pm, 8:30 to Noon or 8:30 to 5 option. Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children over the age of 3 years and up through age 6.11. Email Katie@Cambridge-Ellis.org for more information.
 slideshow:
   - summer.jpg
   - IMG_3422.jpg
