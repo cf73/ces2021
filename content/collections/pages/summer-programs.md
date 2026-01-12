@@ -60,26 +60,7 @@ important_notes:
         marks:
           -
             type: bold
-        text: 'Important Notes Regarding '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://cambridgeellis.campbrainregistration.com/'
-              rel: null
-              target: _blank
-              title: 'CampBrain Registration Link'
-          -
-            type: bold
-        text: Registration
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: ':'
+        text: 'Important Notes Regarding Registration:'
   -
     type: bulletList
     content:
@@ -112,7 +93,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1 to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1768235241
+updated_at: 1768235334
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Immersion Language programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
