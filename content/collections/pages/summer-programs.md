@@ -9,19 +9,6 @@ description: |-
   Toddler-age classrooms are available for children 1.9-2.8. English preschool classes are for ages 2.9-5.11, and Language Immersion classrooms in French, Mandarin, and Spanish are available for children ages 3 to 6.11.
 
   Email Katie@Cambridge-Ellis.org for more information.
-programs_offered:
-  -
-    id: MM623Jbi
-    program_title: 'Young Explorers- English Summer Camp'
-    program_description: 'Our Young Explorers toddler and preschool programs both explore a variety of topics including arts, music and movement, nature, and science. They include CES traditions such as weekly cooking projects and lots of outdoor play.'
-    type: program
-    enabled: false
-  -
-    id: Srgy3CK2
-    program_title: 'Globetrotters - Language Immersion Summer Camp'
-    program_description: 'We offer Spanish, French, and Mandarin language programs for children who are completely new to foreign languages, fluent, or anywhere in between.'
-    type: program
-    enabled: false
 sessions:
   -
     id: v9xeLPP5
@@ -102,7 +89,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1st to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1768402468
+updated_at: 1768402507
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Language Immersion programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
