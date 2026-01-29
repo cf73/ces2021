@@ -9,9 +9,10 @@ classrooms:
   - a446e4db-e4cc-4662-8a14-9b647d6ba7c2
   - 1bdc622f-5bcd-4d93-ab82-89cac9bc1b49
   - a289ada5-75ed-4478-a0ac-457b827c8850
+  - 129326ec-4081-45fd-a12d-bbce6e3d1cc4
 parent: 261c91f6-648b-409b-8457-02a740156d6a
-updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1768247918
+updated_by: b863e707-3140-4001-859f-3487e09c5881
+updated_at: 1769650180
 program_image: 20210924_161120.jpg
 short_description: 'Our afternoon Language Program offers a unique, immersive experience in French, Mandarin, or Spanish for children ages 2.9 through 6 years old, whether they are fluent or just starting to explore the target language. Children in 1st through 4th grade may join our Mandarin Jade classroom. Toddler programming, primarily in English, is also available for children ages 1.9 to 2.9.'
 slideshow:
