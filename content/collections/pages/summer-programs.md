@@ -22,7 +22,6 @@ sessions:
         type: program
         enabled: true
         extended_day_time_and_price: '8:30 - 5pm, $3150'
-        program_title: 'Class Availability'
     type: session
     enabled: true
 important_notes:
@@ -67,7 +66,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1st to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1769802415
+updated_at: 1769802564
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Language Immersion programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
@@ -78,4 +77,10 @@ slideshow:
   - IMG_3422.jpg
   - IMG_0051-1635514734.jpg
 program_image: IMG_1507.jpg
+programs_offered:
+  -
+    id: ml1ape2m
+    program_title: 'Toddlers and Preschoolers'
+    type: program
+    enabled: true
 ---
