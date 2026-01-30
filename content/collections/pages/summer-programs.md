@@ -66,7 +66,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1st to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1769802628
+updated_at: 1769802662
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Language Immersion programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
@@ -80,7 +80,7 @@ program_image: IMG_1507.jpg
 programs_offered:
   -
     id: ml1ape2m
-    program_title: 'Toddler Classes and Preschool Classes in English, French, Mandarin, and Spanish'
+    program_title: 'Toddler Classes or Preschool Classes in English, French, Mandarin, or Spanish'
     type: program
     enabled: true
 ---
