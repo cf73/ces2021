@@ -45,7 +45,7 @@ important_notes:
             content:
               -
                 type: text
-                text: 'Registration opens to the public on Sunday, February 1st at 9pm.'
+                text: 'Registration opens to the public on Sunday, February 22nd at 9pm.'
       -
         type: listItem
         content:
@@ -66,7 +66,7 @@ important_notes:
                 text: 'A deposit is required to complete your registration. Your deposit amount is shown in the “Payment Plan(s)” section at checkout. The remainder of the balance must be paid by April 15. If you need to withdraw or cancel completely, you may inform us by April 1st to be refunded.'
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1769802662
+updated_at: 1770651637
 main_image: IMG_9044.jpg
 short_description: |-
   In June and July, our English and Language Immersion programs drive our enriching and joyful summer program. Our playgrounds are transformed into outdoor classrooms with water play, art experiences, building materials, books and mud kitchens.
