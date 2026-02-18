@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1771427233
+updated_at: 1771427402
 add_content:
   -
     id: Tq9tLv9l
@@ -563,7 +563,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'For any questions regarding tuition, bus pick-up fees, and financial aid, please contact our Business Manager Andy Griswold at Andy@Cambridge-Ellis.org.'
+            text: 'For any questions regarding tuition, bus pick-up fees, and financial aid, please contact our Business Manager, Andy Griswold at Andy@Cambridge-Ellis.org.'
     type: text
     enabled: true
 main_image: IMG_2504.jpg
