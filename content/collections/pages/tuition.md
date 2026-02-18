@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1738941187
+updated_at: 1771427233
 add_content:
   -
     id: Tq9tLv9l
@@ -16,7 +16,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Day Program'
+            text: '2026-27 Day Program'
       -
         type: table
         content:
@@ -79,7 +79,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$29,780'
+                        text: '$31,360'
           -
             type: tableRow
             content:
@@ -109,7 +109,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$38,395'
+                        text: '$40,315'
       -
         type: table
         content:
@@ -168,7 +168,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$26,200'
+                        text: '$27,500'
           -
             type: tableRow
             content:
@@ -198,7 +198,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$34,875'
+                        text: '$36,620'
     type: text
     enabled: true
   -
@@ -211,7 +211,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Language Program'
+            text: '2026-27 Language Program'
       -
         type: table
         content:
@@ -272,7 +272,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$55,945*'
+                        text: '$58,745*'
           -
             type: tableRow
             content:
@@ -302,7 +302,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$50,745*'
+                        text: '$53,280*'
       -
         type: table
         content:
@@ -363,7 +363,7 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$18,550'
+                        text: '$19,480'
           -
             type: tableRow
             content:
@@ -393,13 +393,119 @@ add_content:
                     content:
                       -
                         type: text
-                        text: '$16,870'
+                        text: '$17,710'
       -
         type: paragraph
         content:
           -
             type: text
             text: '*Discounted Language/Rainbow Room program tuition applies to students enrolled in both the Morning & Afternoon Programs.'
+    type: text
+    enabled: true
+  -
+    id: m6s3jp40
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '2026-27 School Age Mandarin Program '
+      -
+        type: table
+        content:
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 299
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '1st-4th Grade Program (2 Days, 3-6pm)'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$7,000'
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 299
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '1st-4th Grade Program (3 Days, 3-6pm)'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$10,500'
+          -
+            type: tableRow
+            content:
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth:
+                    - 299
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '1st-4th Grade Program (5 Days, 3-6pm)'
+              -
+                type: tableCell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: '$16,000'
     type: text
     enabled: true
   -
@@ -443,87 +549,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Early Bird Care (Mon-Fri, 8-8:30am) $3045'
-    type: text
-    enabled: true
-  -
-    id: m6s3jp40
-    text:
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: 'NEW '
-          -
-            type: text
-            text: 'School Age After School Language Program '
-      -
-        type: table
-        content:
-          -
-            type: tableRow
-            content:
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '1st-3rd Grade Program (2 Days, 3-6pm)'
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '$6,100'
-          -
-            type: tableRow
-            content:
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'K-1st Grade Program (3 Days, 3-6pm)'
-              -
-                type: tableCell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '$9,150'
+            text: 'Early Bird Care (Mon-Fri, 8-8:30am) $3,045'
     type: text
     enabled: true
   -
