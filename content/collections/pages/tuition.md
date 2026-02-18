@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1771427402
+updated_at: 1771429653
 add_content:
   -
     id: Tq9tLv9l
@@ -537,7 +537,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Early Bird Care '
+            text: '2026-27 Early Bird Care '
           -
             type: text
             marks:
@@ -549,7 +549,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Early Bird Care (Mon-Fri, 8-8:30am) $3,045'
+            text: 'Early Bird Care (Mon-Fri, 8-8:30am) $3,200'
     type: text
     enabled: true
   -
