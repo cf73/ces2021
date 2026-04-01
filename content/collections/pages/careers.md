@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1775050655
+updated_at: 1775050681
 add_content:
   -
     id: CC854MBg
@@ -17,6 +17,10 @@ add_content:
           -
             type: text
             text: 'Cambridge-Ellis is currently hiring for the 2026-27 School Year:'
+    type: text
+    enabled: true
+  -
+    id: mng3c79t
     type: text
     enabled: true
   -
