@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1775050623
+updated_at: 1775050655
 add_content:
   -
     id: CC854MBg
@@ -23,12 +23,13 @@ add_content:
     id: le5wn08q
     text:
       -
-        type: heading
-        attrs:
-          level: 3
+        type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
             text: 'Afternoon Spanish Teacher'
       -
         type: paragraph
