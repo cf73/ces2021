@@ -1,6 +1,5 @@
 ---
 id: 8b87e474-816a-435f-ab1e-5d5e42f22e45
-published: false
 blueprint: promoted
 title: 'We anticipate spots opening in our Language Immersion Program! Apply for the 2026-27 school year today!'
 link: 'https://cambridge-ellis.myschoolapp.com/app#login/apply'
