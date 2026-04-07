@@ -135,7 +135,7 @@ add_content:
         content:
           -
             type: text
-            text: 'The admissions season for the 2026-27 school year has officially closed, but we are still accepting applications to be considered for our waitlist. We do anticipate spots opening up in our after school Language Program, so please reach out to '
+            text: 'The admissions season for the 2026-27 school year has officially closed, but we are still accepting applications to be considered for our waitlist. We do anticipate spots opening up in our after school Language Program, so please reach out to our Language Program Director, '
           -
             type: text
             marks:
@@ -149,7 +149,27 @@ add_content:
             text: 'Elisabeth Guenette'
           -
             type: text
-            text: ' if you want to learn more about that unique program.'
+            text: ', if you want to learn more about that unique program.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Contact our Admissions Director, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: christina@cambridge-ellis.org
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Christina Isidoro'
+          -
+            type: text
+            text: ', for all other inquiries.'
     type: text
     enabled: true
   -
@@ -317,6 +337,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1775584597
+updated_at: 1775584881
 main_image: IMG_3005.jpg
 ---
