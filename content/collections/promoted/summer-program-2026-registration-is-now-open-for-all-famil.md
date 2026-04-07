@@ -1,5 +1,6 @@
 ---
 id: edb127b0-caf5-40be-9056-5fbfb4109b72
+published: false
 blueprint: promoted
 title: 'Summer Program 2026 Registration is now open for all Families!'
 subtitle: 'June and July are full of fun, exploration, and water play at our CES summer program!'
