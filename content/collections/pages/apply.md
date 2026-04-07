@@ -64,7 +64,7 @@ add_content:
       -
         type: paragraph
     type: text
-    enabled: true
+    enabled: false
   -
     id: SmHOyMeB
     text:
@@ -151,7 +151,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: 'The Admissions Season for the 2026-27 school year will open on October 1st and run through January 31st. Please make sure you have completed the following steps before the January 31st deadline:'
+            text: 'Our admissions season begins on October 1st and runs through January. Please make sure you have completed the following steps before the January 31st deadline:'
       -
         type: orderedList
         attrs:
@@ -292,6 +292,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1758813755
+updated_at: 1775583541
 main_image: IMG_3005.jpg
 ---
