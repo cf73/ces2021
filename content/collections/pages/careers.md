@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1775050681
+updated_at: 1776092834
 add_content:
   -
     id: CC854MBg
@@ -23,6 +23,66 @@ add_content:
     id: mng3c79t
     type: text
     enabled: true
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Toddler Co-Head Teacher'
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hours:'
+                  -
+                    type: text
+                    text: ' Monday-Friday, 7:45-3:15pm'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Starting Salary:'
+                  -
+                    type: text
+                    text: ' $53,000-68,000'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/1LrV7JQx34qumFCaYJD6E_2ysQefe89bGfVoGPAtepdI/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Click Here to Learn more and Apply!'
   -
     id: le5wn08q
     text:
@@ -36,43 +96,55 @@ add_content:
                 type: bold
             text: 'Afternoon Spanish Teacher'
       -
-        type: paragraph
+        type: bulletList
         content:
           -
-            type: text
-            marks:
+            type: listItem
+            content:
               -
-                type: bold
-            text: 'Hours:'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hours:'
+                  -
+                    type: text
+                    text: ' Monday-Friday, 12:30-6:15pm'
           -
-            type: text
-            text: ' Monday-Friday, 12:30-6pm'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+            type: listItem
+            content:
               -
-                type: bold
-            text: 'Starting Salary:'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Starting Salary:'
+                  -
+                    type: text
+                    text: ' $40,000-44,000'
           -
-            type: text
-            text: ' $40,000-44,000'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+            type: listItem
+            content:
               -
-                type: link
-                attrs:
-                  href: 'https://docs.google.com/document/d/18c8A6yOi7R5C06F-UJbFF0geAPXxm4bIJy51Ve2R98E/edit?usp=sharing'
-                  rel: null
-                  target: null
-                  title: null
-            text: 'Click Here to Learn more and Apply!'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://docs.google.com/document/d/18c8A6yOi7R5C06F-UJbFF0geAPXxm4bIJy51Ve2R98E/edit?usp=sharing'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Click Here to Learn more and Apply!'
     type: text
     enabled: true
   -
