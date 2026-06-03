@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1776092834
+updated_at: 1780491889
 add_content:
   -
     id: CC854MBg
@@ -22,7 +22,7 @@ add_content:
   -
     id: mng3c79t
     type: text
-    enabled: true
+    enabled: false
     text:
       -
         type: paragraph
@@ -94,7 +94,7 @@ add_content:
             marks:
               -
                 type: bold
-            text: 'Afternoon Spanish Teacher'
+            text: 'Afternoon Floating Teacher'
       -
         type: bulletList
         content:
@@ -127,7 +127,7 @@ add_content:
                     text: 'Starting Salary:'
                   -
                     type: text
-                    text: ' $40,000-44,000'
+                    text: ' $40,000-45,000'
           -
             type: listItem
             content:
@@ -140,7 +140,7 @@ add_content:
                       -
                         type: link
                         attrs:
-                          href: 'https://docs.google.com/document/d/18c8A6yOi7R5C06F-UJbFF0geAPXxm4bIJy51Ve2R98E/edit?usp=sharing'
+                          href: 'https://docs.google.com/document/d/1Q8Ihrizzr9-_hftNpjNJ6qYNM-y7gy4EFf9NiGU3UyY/edit?usp=sharing'
                           rel: null
                           target: null
                           title: null
