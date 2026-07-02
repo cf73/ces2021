@@ -232,7 +232,7 @@ add_content:
                     marks:
                       -
                         type: italic
-                    text: 'Schedule your Day Program/Day Program plus Language Program tour '
+                    text: 'Schedule your Day or Language Program tour '
                   -
                     type: text
                     marks:
@@ -246,25 +246,6 @@ add_content:
                       -
                         type: italic
                     text: 'with Christina'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: ', or your Language Program only tour '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://calendly.com/elisabethces/language-program'
-                          rel: null
-                          target: _blank
-                          title: null
-                      -
-                        type: italic
-                    text: 'with Elisabeth'
           -
             type: listItem
             content:
@@ -290,6 +271,15 @@ add_content:
                       -
                         type: italic
                     text: ' before your tour date'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Apply for Financial Aid if needed before the first Monday in February'
       -
         type: paragraph
         content:
@@ -337,6 +327,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1775584881
+updated_at: 1783016556
 main_image: IMG_3005.jpg
 ---
