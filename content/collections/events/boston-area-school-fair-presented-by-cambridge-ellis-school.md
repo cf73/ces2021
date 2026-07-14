@@ -42,5 +42,6 @@ details:
         type: text
         text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., Roberts Rd., and Irving St. There is also metered parking located on Cambridge St.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1783015676
+updated_at: 1784046676
+image: school-fair-website-graphic.jpg
 ---
