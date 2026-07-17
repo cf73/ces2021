@@ -19,7 +19,133 @@ details:
     content:
       -
         type: text
+        text: 'Acera School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Allium Montessori School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Atrium School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'BB&N School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Belmont Day School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Birches School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Brimmer and May'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'Cambridge-Ellis School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Chestnut Hill School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'EFB - Ecole Française de Boston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Fayerweather Street School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'German International School Boston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'International School of Boston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Kingsley Montessori School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Learning Project Elementary School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lesley Ellis School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Meadowbrook School of Weston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Milton Academy'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The Park School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Shady Hill School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Tenacre Country Day School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Wellan Montessori School'
   -
     type: paragraph
     content:
@@ -28,7 +154,7 @@ details:
         marks:
           -
             type: bold
-        text: '*List of all schools coming soon!*'
+        text: '*Full list of schools coming soon!*'
   -
     type: paragraph
     content:
@@ -42,6 +168,6 @@ details:
         type: text
         text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., Roberts Rd., and Irving St. There is also metered parking located on Cambridge St.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1784046676
+updated_at: 1784303570
 image: school-fair-website-graphic.jpg
 ---
