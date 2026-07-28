@@ -61,6 +61,12 @@ details:
     content:
       -
         type: text
+        text: 'British International School of Boston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'Cambridge-Ellis School'
   -
     type: paragraph
@@ -68,6 +74,12 @@ details:
       -
         type: text
         text: 'The Chestnut Hill School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Dexter Southfield'
   -
     type: paragraph
     content:
@@ -92,6 +104,12 @@ details:
       -
         type: text
         text: 'International School of Boston'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Jackson Walnut Park School'
   -
     type: paragraph
     content:
@@ -133,6 +151,12 @@ details:
     content:
       -
         type: text
+        text: 'Prospect Hill Academy'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'Shady Hill School'
   -
     type: paragraph
@@ -140,6 +164,18 @@ details:
       -
         type: text
         text: 'Tenacre Country Day School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Thacher Montessori School'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Torit Montessori School'
   -
     type: paragraph
     content:
@@ -168,6 +204,6 @@ details:
         type: text
         text: 'Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., Roberts Rd., and Irving St. There is also metered parking located on Cambridge St.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1784303570
+updated_at: 1785250129
 image: school-fair-website-graphic.jpg
 ---
