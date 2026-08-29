@@ -557,6 +557,44 @@ const config = [
   },
 
   /**
+   * Generated registry output: the shadcn `use-mobile` hook.
+   *
+   * `hooks/use-mobile.ts` is emitted verbatim by `shadcn@4.19.0 add` — it is the
+   * `use-mobile` registry item, a registry dependency of `sidebar`, and the hook
+   * `SidebarProvider` requires. `eslint-config-next@16.3.3` ships
+   * `react-hooks/set-state-in-effect` at error severity, and the unmodified
+   * output trips it on the one line that reads the initial viewport width after
+   * subscribing to the media query:
+   *
+   *     mql.addEventListener("change", onChange)
+   *     setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)   // <- flagged
+   *
+   * That is the standard subscribe-then-read-initial-value pattern for a media
+   * query, not a cascading render: the effect has an empty dependency array and
+   * the value is derived from an external system rather than from state, so it
+   * settles in exactly one extra render on mount. React's preferred spelling is
+   * `useSyncExternalStore`, which is why the rule fires at all.
+   *
+   * The rule is relaxed here rather than fixed at the source, because AAP §0.3.5
+   * scopes generated registry internals out of authored-code rules: editing the
+   * file would break byte-fidelity with the pinned registry and turn the next
+   * `shadcn add` into an overwrite prompt instead of a no-op. An inline
+   * eslint-disable comment is not an option for the same reason — regeneration
+   * would drop it.
+   *
+   * Scope is deliberately one rule and one file. `components/ui/**` stays
+   * unignored per the block above; if generated output there ever trips a rule,
+   * it gets its own narrow override rather than widening this one.
+   */
+  {
+    name: "ces/generated-registry-hooks",
+    files: ["hooks/use-mobile.ts"],
+    rules: {
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
+
+  /**
    * The test suite, last so it can relax what the preceding blocks set.
    *
    * `tests/support/test-db.ts` and `test-admin.ts` bootstrap the local Supabase
