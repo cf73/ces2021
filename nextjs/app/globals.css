@@ -1,0 +1,690 @@
+/**
+ * Cambridge-Ellis School — the single design-token stylesheet.
+ *
+ * This file is the SOLE authoritative declaration of every design token in the
+ * project. `components.json` names it as `tailwind.css`, `package.json`'s
+ * Prettier block points `tailwindStylesheet` at it, `scripts/audit-tokens.mjs`
+ * parses it as the only source of declared tokens, and effectively every UI
+ * file lists it as a dependency. A token that is missing here is a token a
+ * sibling component references and does not get.
+ *
+ * Authority for every value below is the technical specification, §0.3.3
+ * ("Token Mapping"), whose values were computed from the legacy SCSS layer
+ * rather than estimated. Do not round, re-derive or "improve" them. The legacy
+ * sources are `resources/sass/{grid,colors,typography,elements,layout,
+ * adjustments}.scss`, imported in that order, so a later declaration wins —
+ * which is why `$body` resolves to its third declaration, `#374035`, and
+ * `$highlight` to its second, `#ff6768`.
+ *
+ * No user-specified rules were provided for this project (`review_rules`
+ * returns none, and §0.8 states the same). That is not licence to lower the
+ * bar: §0.3.3, §0.3.5, §0.3.1, §0.4.5, §0.7.2 and §0.9.3 are the governing
+ * standards, and they are cited inline where they bind.
+ *
+ * ## THE THREE BLOCKS, AND WHY EACH ONE EXISTS
+ *
+ * In Tailwind 4 a colour utility such as `bg-background` exists ONLY if a
+ * `--color-*` entry exists in the theme; a bare `--background` custom property
+ * creates no utility at all. Meanwhile the generated shadcn components read
+ * `var(--background)` directly. Satisfying both at once takes two layers, and
+ * guaranteeing the tokens survive to runtime takes a third:
+ *
+ *   1. `:root`               — the 32 SEMANTIC colour values. Generated shadcn
+ *                              components read these directly. Plain CSS, so
+ *                              always emitted.
+ *   2. `@theme inline`       — one `--color-<name>: var(--<name>)` alias per
+ *                              semantic colour. This is what makes the utility
+ *                              exist, and `inline` is what makes it compile to
+ *                              `background-color: var(--background)` rather
+ *                              than to a copy of the value. Verified output.
+ *   3. `@theme static`       — every namespaced scale, plus the six colours
+ *                              whose names already sit in the colour namespace
+ *                              and therefore need no alias.
+ *
+ * ## WHY `static` RATHER THAN A BARE `@theme` — THIS IS LOAD-BEARING
+ *
+ * A bare `@theme { }` TREE-SHAKES tokens that no utility references out of the
+ * emitted CSS. That was measured, not assumed: declared in a plain `@theme`,
+ * `--z-edit`, `--duration-base` and `--size-datechip` were all absent from the
+ * compiled output. Tailwind 4.3.3 has no `--z-*`, `--size-*` or `--duration-*`
+ * namespace, so those groups generate no utility and exist purely to be read as
+ * `var(--z-edit)` by a component — and a tree-shaken token is an undefined
+ * variable at runtime. `@theme static` emits every token it declares while
+ * still generating utilities on demand for the namespaces that have them, so
+ * the contract in §0.3.3 is guaranteed present in full. The cost is a few
+ * hundred compressed bytes against a 40,000-byte Brotli ceiling (§0.9.3).
+ *
+ * ## INVARIANTS — each one is checked in this file's validation
+ *
+ *   - NO `tailwind.config.js` and NO `@config`. Tailwind 4 is configured here.
+ *   - NO `.dark { }` block and NO `next-themes`. One light theme ships
+ *     (§0.3.3, "Colour mode"). `@variant dark` inside `shadcn/tailwind.css`
+ *     resolves against Tailwind's built-in variant, so no custom variant is
+ *     declared — verified by compiling.
+ *   - NO `!important` anywhere. The legacy stylesheets leaned on it; the
+ *     reduced-motion block below shows why it is not needed.
+ *   - NO `vh` unit. Every viewport-height height in the legacy layer is a
+ *     measured responsive defect (§0.7.2) and is retired in favour of the
+ *     aspect-ratio tokens. `dvh` appears exactly once, in `--size-hero-max`,
+ *     which §0.3.5 adds precisely so a true viewport hero has a token instead
+ *     of an inline literal.
+ *   - NO custom property is declared outside `:root` and `@theme*`. One
+ *     declared against a selector is scoped to that selector rather than being
+ *     a design token, and `audit-tokens.mjs` reports it as an anomaly.
+ *   - Literal values appear only in token DEFINITIONS, which is what a
+ *     definition is. Every rule in `@layer base` resolves through `var()`.
+ */
+
+@import "tailwindcss";
+@import "shadcn/tailwind.css";
+@import "tw-animate-css";
+
+/* ==========================================================================
+   1. `:root` — the semantic colour values
+   ==========================================================================
+   The 32 values the `@theme inline` block below aliases, in the shape the
+   generated shadcn components expect. `baseColor: stone` (§0.3.1) supplies the
+   neutral ramp through `@import "tailwindcss"`; every brand value is overridden
+   here.
+   ========================================================================== */
+
+:root {
+  /* --- Surfaces ---------------------------------------------------------- */
+
+  /* Legacy `body { background-color: #fafafa }` — the whole of layout.scss. */
+  --background: oklch(98.5% 0 90);
+  /* Legacy `$body` (third and live declaration, #374035). 10.33:1 on
+     --background, so body prose clears WCAG AA with room to spare. */
+  --foreground: oklch(36% 0.022 140);
+  --card: oklch(100% 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(100% 0 0);
+  --popover-foreground: var(--foreground);
+
+  /* --- Brand and action -------------------------------------------------- */
+
+  /* = #30871d, 4.56:1. DARKENED from `$band5` #459b34, which measures 3.51:1
+     and FAILS AA at body size — one of the four deliberate contrast
+     corrections in §0.3.3, not a gap. Same hue and chroma. */
+  --primary: oklch(55% 0.162 140.6);
+  --primary-foreground: oklch(100% 0 0);
+  /* = #007cc2, 4.54:1. DARKENED from the link colour `$blue` #2593da, which
+     measures 3.21:1 and FAILS AA. Same hue and chroma. */
+  --secondary: oklch(56.4% 0.142 243.2);
+  --secondary-foreground: oklch(100% 0 0);
+
+  /* --- Neutral and quiet ------------------------------------------------- */
+
+  --muted: oklch(96.5% 0.008 103.2);
+  /* 6.3:1 on --background and 6.0:1 on --muted, so secondary text is legible
+     on either surface. */
+  --muted-foreground: oklch(48% 0.015 140);
+  /* The cream. */
+  --accent: oklch(97.5% 0.045 100);
+  --accent-foreground: var(--foreground);
+
+  /* --- State ------------------------------------------------------------- */
+
+  --destructive: oklch(52% 0.19 25);
+  --destructive-foreground: oklch(100% 0 0); /* measured 6.08:1 */
+  /* BLITZY [A11Y]: §0.3.3 specifies this value AND annotates it "3.1:1
+     against --background". Those two claims are mutually inconsistent and the
+     value is the one that governs. Measured, this is 1.29:1 against
+     --background — below WCAG 2.2 SC 1.4.11 Non-text Contrast, which asks 3:1
+     for a UI component boundary. The annotation is an arithmetic slip, not the
+     value: reaching 3:1 against a 98.5%-lightness ground needs roughly #767676,
+     a mid-dark stroke that is not an input border, would not match --border
+     (oklch(94% 0.017 103.2)) one step lighter in the same warm hue family, and
+     is darker than shadcn's own stone default (oklch(0.923 0.003 48.717)).
+     The design source therefore wins on precedence and is implemented EXACTLY,
+     with this flag raised for designer review, rather than silently darkened —
+     the UI guidelines forbid auto-correcting rendered output to satisfy a
+     minimum. Mitigation already in place: form controls are never identified by
+     their border alone, since --ring (4.31:1 on --background) carries
+     :focus-visible and every control is labelled. Resolving this needs a
+     designer decision on the input stroke, not a unilateral token edit. */
+  --input: oklch(90% 0.012 103.2);
+  /* THE token that restores the focus indicator. `public/css/style.css:8169`
+     sets `outline: none !important` on `a:hover, a:focus`, killing the ring
+     site-wide: across 15 measured mobile tab stops and every on-screen desktop
+     link not one showed an indicator, and `:focus-visible` appears zero times
+     in all six legacy stylesheets (§0.7.2). */
+  --ring: var(--secondary);
+  /* Legacy `$glow` #edecdf, EXACT. Serves as the border token and as the
+     shadow tint --shadow-glow references, so the two cannot drift. */
+  --border: oklch(94% 0.017 103.2);
+
+  /* --- Sidebar ----------------------------------------------------------- */
+
+  --sidebar: oklch(100% 0 0);
+  --sidebar-foreground: var(--foreground);
+  /* Legacy sidebar active #63793F, EXACT — already 4.84:1, so it needed no
+     correction. */
+  --sidebar-primary: oklch(54.4% 0.087 126.2);
+  --sidebar-primary-foreground: oklch(100% 0 0);
+  --sidebar-accent: var(--accent);
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
+
+  /* --- Charts ------------------------------------------------------------ */
+
+  /* Exactly as the shadcn registry emits them, UNMODIFIED. No chart exists on
+     this site; they are retained solely so a future `shadcn add` does not
+     conflict (§0.3.4). Do not retune them to the brand palette. */
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+
+  /* --- The event gradient ------------------------------------------------ */
+
+  /* Read from `elements.scss` as
+     `linear-gradient(161deg, rgba(14,226,211,1) 0%, rgba(74,219,68,1) 49%,
+     rgba(231,233,48,1) 100%)` and preserved exactly, angle included. These
+     three stops are the ONLY hex literals permitted outside a `--color-*`
+     definition, and only inside this token's own definition (§0.3.5).
+     It lives in `:root` rather than the theme because a gradient generates no
+     colour utility, and it must always be emitted for `background-image:
+     var(--gradient-event)` to resolve.
+     What is NOT preserved is the foreground: the legacy
+     `.datearea h1, h2, h3 { color: white !important }` measures 1.30–1.83:1
+     against a 3:1 AA-large minimum. Consumers pair this gradient with
+     --foreground, which measures 6.59 / 5.91 / 8.27:1 across the three
+     stops. */
+  --gradient-event: linear-gradient(
+    161deg,
+    #0ee2d3 0%,
+    #4adb44 49%,
+    #e7e930 100%
+  );
+}
+
+/* ==========================================================================
+   2. `@theme inline` — the alias layer that makes the utilities exist
+   ==========================================================================
+   One entry per semantic colour above. `inline` matters: it makes
+   `bg-background` compile to `background-color: var(--background)`, which is
+   the contract the generated components rely on. Miss one alias and its
+   utility silently does not exist.
+   ========================================================================== */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+/* ==========================================================================
+   3. `@theme static` — the namespaced scales
+   ==========================================================================
+   Declared straight in the theme with NO alias, because these namespaces
+   generate their utilities directly; aliasing them would produce nothing.
+   `static` guarantees every one is emitted even where Tailwind has no matching
+   namespace and therefore no utility to pull it in — see the header note.
+   ========================================================================== */
+
+@theme static {
+  /* --- Colours whose names already sit in the colour namespace ----------- */
+
+  /* These six take no `:root` entry and no alias: their names are already
+     `--color-*`, so the theme entry both generates the utility and emits the
+     variable. `--color-brand-display` in particular MUST be a theme entry,
+     because §0.3.5 governs a `text-brand-display` utility. */
+
+  /* `$band5` #459b34, EXACT. Passes AA-large at 3.36:1, so every existing `h1`
+     keeps its precise colour. §0.3.5 restricts it to text at >= 24px and
+     weight 700; body-size brand text uses --primary instead. */
+  --color-brand-display: oklch(61.4% 0.162 140.6);
+  /* An INTENTIONAL change, not preservation. The legacy announcement banner is
+     `$band5Trans` — `rgb(165 197 68 / 84%)` — with white text, measuring
+     1.78:1. This opaque lime paired with --foreground measures 5.48:1. The hue
+     and the recognizable lime identity are what carry across. */
+  --color-brand-banner: oklch(77.5% 0.158 122.1);
+
+  /* The warmth palette: four legacy declarations promoted from dead code to
+     live tokens. This is the warmth the brief asks for, drawn from the
+     school's own palette rather than invented. */
+  --color-warm-cream: #fff8d4; /* legacy $warm   */
+  --color-warm-blush: #fff3e5; /* legacy $bisque */
+  --color-accent-lilac: #ffd4fe; /* legacy $lilac  */
+  --color-accent-coral: #ff6768; /* legacy $highlight, second and live decl. */
+
+  /* --- Fonts ------------------------------------------------------------- */
+
+  /* Bound to the variables `app/layout.tsx` declares through `next/font`.
+     Nunito and Space Mono are RETAINED on the domain evidence in §0.4.3:
+     high-x-height sans faces read best for parents on phones. `Inter` (fetched
+     at nine weights, referenced by no rule) and the Monotype Avenir kit (which
+     fails to load on every route) are both dropped.
+     `--font-nunito` / `--font-space-mono` are declared by `next/font` rather
+     than here by design — a font family injected at the document root cannot
+     be a static token — and `--font-*` is not one of `audit-tokens.mjs`'s
+     checked namespaces, so referencing them across that boundary is sound.
+
+     EACH INNER `var()` CARRIES ITS OWN FALLBACK, and that is load-bearing
+     rather than belt-and-braces. A `var()` with no fallback that references an
+     undefined property makes the WHOLE declaration invalid at computed-value
+     time, so `--font-sans` would compute to nothing at all and the trailing
+     `system-ui, sans-serif` would never apply — the tail cannot rescue a
+     poisoned declaration. Measured in a browser with the font layer absent:
+     without the inner fallbacks both tokens resolved to the empty string, and
+     `.font-mono` silently rendered in the SANS stack, quietly losing the Space
+     Mono accent voice that `--text-meta` exists to carry. With them, the
+     degradation is a real generic-family stack in both roles. */
+  --font-sans: var(--font-nunito, ui-sans-serif), system-ui, sans-serif;
+  --font-mono: var(--font-space-mono, ui-monospace), monospace;
+
+  /* --- The eleven type roles -------------------------------------------- */
+
+  /* A fluid `clamp()` ramp replaces the legacy step changes: the `h1` jumped
+     30px -> 96px at 768px and `.happyverb` 60px -> 108px at 576px, which is
+     what made the headings unmanageable between breakpoints. Requirement 8
+     grants this freedom explicitly ("do not be overly tethered to the existing
+     typography"). The `--line-height`, `--letter-spacing` and `--font-weight`
+     companion keys are Tailwind 4's, so `text-body` carries its own metrics
+     and no call site restates them. */
+
+  /* The home `.happyverb` statement. Legacy line-height equalled font-size at
+     both breakpoints (60/60 and 108/108), so 1 is exact. */
+  --text-hero: clamp(3rem, 8vw + 1rem, 6.75rem);
+  --text-hero--line-height: 1;
+  --text-hero--letter-spacing: -0.01em;
+  --text-hero--font-weight: 700;
+
+  /* Page `h1`. Legacy leading was 1.2em at 30px and 1em at 96px; a fluid ramp
+     resolves to one value, and 1.1 sits between them, nearer the large-screen
+     figure because the ramp reaches 6rem. Tracking is tightened from the
+     inherited body 0.02em, which is too loose at display sizes. */
+  --text-display: clamp(2.5rem, 6vw + 1rem, 6rem);
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.01em;
+  --text-display--font-weight: 700;
+
+  /* Section headings and bard `heading` level 2. Legacy 24px -> 36px, leading
+     1.3em and `letter-spacing: 0em` explicitly, both preserved. */
+  --text-h2: clamp(1.75rem, 2.5vw + 1rem, 3rem);
+  --text-h2--line-height: 1.3;
+  --text-h2--letter-spacing: 0em;
+  --text-h2--font-weight: 700;
+
+  /* Card titles and bard level 3. Legacy 18px -> 24px, leading 1.3. */
+  --text-h3: clamp(1.375rem, 1vw + 1rem, 1.875rem);
+  --text-h3--line-height: 1.3;
+  --text-h3--font-weight: 700;
+
+  /* Bard level 4 and field labels in edit mode. Legacy 20px, leading 1.3. */
+  --text-h4: clamp(1.125rem, 0.5vw + 1rem, 1.375rem);
+  --text-h4--line-height: 1.3;
+  --text-h4--font-weight: 700;
+
+  /* Page intros and the `summary` field. */
+  --text-lead: clamp(1.1875rem, 0.5vw + 1rem, 1.5rem);
+  --text-lead--line-height: 1.4;
+
+  /* ALL PROSE. PRESERVED EXACTLY at the legacy 17px / 1.6 / 0.02em — §0.3.3
+     calls this "the one typographic decision the current site gets right", so
+     it is the one role in the ramp that is deliberately NOT fluid. */
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-body--letter-spacing: 0.02em;
+
+  /* Secondary detail. */
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.5;
+
+  /* `.meta` — dates, roles, labels. Space Mono is the site's recognizable
+     accent voice, which is why this role is the mono one. */
+  --text-meta: 0.875rem;
+  --text-meta--line-height: 1.4;
+  --text-meta--letter-spacing: 0.06em;
+
+  /* Bard `blockquote`, the four quote replicator sets, `inspiring_quotes`.
+     Sized as --text-lead and rendered italic by its consumer. */
+  --text-quote: clamp(1.1875rem, 0.5vw + 1rem, 1.5rem);
+  --text-quote--line-height: 1.5;
+
+  /* Image captions and field help text. Legacy `.small` was 13px / 1.75, and
+     both figures are exact. */
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.75;
+
+  /* --- Radius ------------------------------------------------------------ */
+
+  /* Exact matches from `elements.scss`. */
+  --radius-sm: 0.1875rem; /* 3px    .polaroid                    */
+  --radius-md: 0.625rem; /* 10px   .peoplecard / .announcebanner */
+  --radius-lg: 1.125rem; /* 18px   .swiper-slide                 */
+  --radius-pill: 1.875rem; /* 30px   button / .card                */
+  --radius-full: 9999px; /* 50%    portrait                      */
+  /* Compatibility shim: generated shadcn output may read a bare `--radius`.
+     Aliased to --radius-md so the registry compiles without patching, per the
+     conditional in this file's brief. It introduces no new value. */
+  --radius: var(--radius-md);
+
+  /* --- Breakpoints ------------------------------------------------------- */
+
+  /* Exact matches from `grid.scss`. These REPLACE Tailwind's rem defaults, so
+     `lg:` becomes 992px rather than 64rem. The 1400px step is declared but
+     unused in the legacy layer and becomes live here.
+     `--breakpoint-lg` is referenced by name by `components/site/
+     SiteSidebar.tsx` for the 992px drawer-to-persistent hand-off. Do not omit
+     or rename it. */
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  /* --- Spacing ----------------------------------------------------------- */
+
+  /* Tailwind's default scale already covers the legacy 12/18/24/30/60/90px
+     steps, so only the three it does not are added. */
+  --spacing-45: 2.8125rem; /* 45px  .datearea padding-left      */
+  --spacing-75: 4.6875rem; /* 75px  .homecard inline padding    */
+  --spacing-110: 6.875rem; /* 110px .homecard padding-bottom    */
+
+  /* --- Elevation --------------------------------------------------------- */
+
+  /* --shadow-glow references --border rather than repeating #edecdf, so the
+     border colour and the shadow tint cannot drift apart. */
+  --shadow-glow: 0 12px 50px 0 var(--border);
+  --shadow-card: 0 8px 30px oklch(36% 0.022 140 / 0.06);
+  --shadow-popover: 0 4px 16px oklch(36% 0.022 140 / 0.1);
+  --shadow-modal: 0 24px 64px oklch(36% 0.022 140 / 0.18);
+  /* `.cta`'s `0 8px 30px #a7187ba6` is RETIRED: `.cta` is referenced only by
+     commented-out markup. */
+
+  /* --- Layering ---------------------------------------------------------- */
+
+  /* Target-only, and the reason they exist as tokens is that the legacy layer
+     used `z-index: 9999999`, `99999` and `9999` with no ordering discipline.
+     The edit chrome must sit above every public overlay, which is why
+     --z-edit is the ceiling.
+     Tailwind 4 has no `--z-*` namespace, so these generate no `z-*` utility:
+     consumers read them as `z-(--z-edit)` or `var(--z-edit)`. `static` is what
+     keeps them in the output. */
+  --z-sticky: 20;
+  --z-nav: 30;
+  --z-dropdown: 40;
+  --z-overlay: 50;
+  --z-modal: 60;
+  --z-toast: 70;
+  --z-edit: 80;
+
+  /* --- Containers and chrome sizes --------------------------------------- */
+
+  /* `--container-*` IS a Tailwind namespace, so these three generate
+     `max-w-prose` / `max-w-page` / `max-w-wide` directly.
+
+     `--size-*` IS NOT A NAMESPACE, and that asymmetry is a trap worth naming.
+     There is no `w-datechip`, `h-nav` or `w-*` utility for anything below:
+     writing one silently yields a full-width block rather than the token, and
+     nothing errors. Verified in a browser — an element classed `w-datechip`
+     computed to the full 320px viewport width, not 275px. Consume these as
+     `w-(--size-datechip)` / `h-(--size-nav)` arbitrary values, or as
+     `var(--size-nav)` inside a declaration. The same applies to `--z-*` and
+     `--duration-*` below. */
+  --container-prose: 68ch;
+  --container-page: 75rem;
+  --container-wide: 90rem;
+  --size-nav: 6rem; /* 96px   legacy .navigation height        */
+  --size-bread: 4.375rem; /* 70px   legacy .bread height            */
+  --size-datechip: 17.1875rem; /* 275px  legacy .datearea width >= 1200px */
+
+  /* --- Aspect ratios ----------------------------------------------------- */
+
+  /* THESE ARE THE TOKENS THAT REPLACE EVERY `vh` HEIGHT, and they are the
+     heart of requirement 7. The legacy layer sized boxes off viewport height
+     with no media override, which §0.7.2 measured as three separate defects:
+     `.slide { height: 94vh }` pushed the `h1` and all content below the fold
+     at every breakpoint (846px against a 900px viewport, 793.36 against 844,
+     962.55 against 1024); `.polaroid { width: 50vh; height: 60vh }` computed
+     to 422px on a 390px-wide screen, putting 76px of frame and 58.7px of photo
+     off-screen and unreachable, masked by `#colorlib-page { overflow: hidden }`
+     so a scrollWidth check reads clean while the visitor loses the image; and
+     `.subslide { height: 70vh }` plus `top: -15vh` on `.promoted`/`.homecard`
+     compounded it. Sizing a photograph in `vh` also makes it resize with
+     window HEIGHT on desktop, which is never what anyone wants. */
+  --aspect-square: 1;
+  --aspect-portrait: 5 / 6;
+  --aspect-hero-sm: 4 / 5;
+  --aspect-hero-md: 3 / 2;
+  --aspect-hero-lg: 16 / 9;
+  --aspect-embed: 4 / 5;
+
+  /* --- Control sizes ----------------------------------------------------- */
+
+  --size-target-min: 1.5rem; /* the WCAG 2.2 minimum                     */
+  --size-control: 2rem; /* pointer                                  */
+  --size-control-touch: 2.75rem; /* 44px touch, and the confirm/cancel pair  */
+  /* Added to this group by §0.3.5 by name, so the hero's maximum height is a
+     token rather than an inline literal. This is the ONE permitted use of a
+     viewport-height unit in the project, and `dvh` rather than `vh` so mobile
+     browser chrome does not make it lie. */
+  --size-hero-max: 80dvh;
+
+  /* --- Motion ------------------------------------------------------------ */
+
+  /* Every animation references these, and every one is suppressed under
+     `prefers-reduced-motion: reduce` by the unlayered block at the end of this
+     file. Occurrences of `prefers-reduced-motion` in the legacy authored
+     stylesheets: `ces.css` 0, `splide.min.css` 0, `all.css` 0 — the
+     two-second hero fade and its autoplay are both completely ungated today,
+     which is the measured WCAG 2.2.2 failure (§0.7.2).
+     Tailwind 4 has no `--duration-*` namespace, so these are read as
+     `duration-(--duration-base)` or `var(--duration-base)`. */
+  --duration-fast: 120ms;
+  --duration-base: 240ms;
+  --duration-slow: 480ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ==========================================================================
+   4. `@layer base` — the element defaults
+   ==========================================================================
+   Every value here resolves through `var()`. The only literals are keywords
+   and the focus-ring width, which this file's brief specifies verbatim.
+   Nothing here declares a custom property: one declared against a selector is
+   scoped to that selector rather than being a design token, and
+   `audit-tokens.mjs` reports it as an anomaly.
+   ========================================================================== */
+
+@layer base {
+  /* The shadcn base reset. `border-color` defaults to the token so a bordered
+     element needs only `border` and not a colour, and `box-sizing` is stated
+     explicitly rather than relying on Preflight alone. */
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-border);
+    box-sizing: border-box;
+  }
+
+  /* SCROLL COMPENSATION (§0.4.5). Computed from the chrome tokens rather than
+     from a magic number, so moving the header height moves this with it. This
+     is also the mechanism that makes the focus ring "clear the sticky bars":
+     when the browser scrolls a keyboard-focused element into view it honours
+     `scroll-padding`, so a focused control never lands underneath the fixed
+     header and breadcrumb. The legacy sticky breadcrumb bar had no scroll
+     compensation at all, which is why it obscured whichever section heading
+     you scrolled to (§0.7.3). */
+  html {
+    scroll-padding-top: calc(var(--size-nav) + var(--size-bread));
+  }
+
+  /* The preserved body typography, read from the type-role tokens so the
+     17px / 1.6 / 0.02em figures are stated exactly once in this file.
+     `overflow-wrap` is the defensive rule from the UI guidelines: long unbroken
+     strings in a constrained container wrap instead of overflowing. */
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    letter-spacing: var(--text-body--letter-spacing);
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+  }
+
+  /* Headings inherit their colour, matching the legacy
+     `h1, h2, h3, h4, h5, h6 { color: inherit }` so a presenter or the authored
+     `Typography` component decides it. Sizing and weight belong to the type
+     roles, applied by those components, NOT imposed here — imposing them would
+     fight the component that owns them. `text-wrap: balance` keeps the fluid
+     display heading from leaving one orphaned word at a narrow viewport, which
+     is what §0.4.5 means by "wraps freely, no truncation". */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: inherit;
+    text-wrap: balance;
+  }
+
+  /* ANCHOR TARGETS. Same computed offset, so a jump to `#faq-3` does not park
+     the heading behind the header. `:target` covers hash navigation; the
+     `[id]` heading selectors cover a heading scrolled to programmatically. */
+  :target,
+  h1[id],
+  h2[id],
+  h3[id],
+  h4[id],
+  h5[id],
+  h6[id] {
+    scroll-margin-top: calc(var(--size-nav) + var(--size-bread));
+  }
+
+  /* THE FOCUS RING. `:focus-visible`, not `:focus`, so the ring appears for
+     keyboard users and not on mouse clicks. This is the direct repair of
+     `public/css/style.css:8169`, whose `outline: none !important` on
+     `a:hover, a:focus` suppressed the indicator site-wide — measured across 15
+     mobile tab stops and every on-screen desktop link with not one indicator
+     shown, against zero `:focus-visible` rules in all six legacy stylesheets
+     (§0.7.2). `outline: none` MUST NOT appear anywhere in this project, with
+     or without `!important`. The 2px width and offset are the values this
+     file's brief specifies verbatim.
+
+     `outline-offset` IS LOAD-BEARING FOR WCAG SC 1.4.11 — DO NOT DROP IT TO 0.
+     Measured in a browser: the ring colour resolves to rgb(0,124,194), which
+     is 4.32:1 against --background but only 1.01:1 against the --primary green
+     button fill. The offset is what lifts the ring off the control so the
+     colour it actually sits against is the page ground rather than the fill.
+     At offset 0 the ring would be effectively invisible on every primary
+     button while still satisfying any test that only asserts outline-style,
+     width and colour — so the offset needs asserting in its own right. */
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+
+  /* Motion is opt-in. Smooth scrolling is offered only where the visitor has
+     not asked for reduced motion, per the UI guidelines' requirement that
+     animations and transitions sit inside a no-preference query. */
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/* ==========================================================================
+   5. The sticky-chrome safe-area contract (§0.4.5)
+   ==========================================================================
+   The header, the breadcrumb bar, the edit toolbar and the mobile CTA bar all
+   sit inside `env(safe-area-inset-*)` padding, so nothing lands under a home
+   indicator or a notch. Expressed as utilities the components apply rather
+   than as rules bound to class names this file cannot see.
+
+   These set the safe-area padding on the OUTER sticky element; any additional
+   padding belongs on an inner wrapper, because a second padding utility on the
+   same element and axis would override rather than compose with these. That
+   division is deliberate — composing them would need a custom property, and a
+   custom property declared outside `:root` and `@theme` is not a design token.
+
+   `0px` is the fallback where the platform reports no inset, which is the
+   permitted zero literal.
+   ========================================================================== */
+
+@utility chrome-safe-top {
+  padding-block-start: env(safe-area-inset-top, 0px);
+}
+
+@utility chrome-safe-bottom {
+  padding-block-end: env(safe-area-inset-bottom, 0px);
+}
+
+@utility chrome-safe-inline {
+  padding-inline-start: env(safe-area-inset-left, 0px);
+  padding-inline-end: env(safe-area-inset-right, 0px);
+}
+
+/* ==========================================================================
+   6. Reduced motion — deliberately UNLAYERED
+   ==========================================================================
+   This block sits outside every `@layer` on purpose. Unlayered declarations
+   outrank layered ones in the CSS cascade, so this beats Tailwind's own
+   `utilities` layer — a `duration-300` on some component cannot defeat it —
+   and it does so WITHOUT `!important`, which §0.3.5 forbids and which the
+   legacy stylesheets used freely. Moving this inside `@layer base` would
+   silently make it losable.
+
+   Durations collapse to 1ms rather than to `none`: Radix-based components wait
+   for `animationend` before unmounting, and `animation: none` never fires that
+   event, so suppressing motion that way would leave overlays mounted. 1ms
+   removes the perceptible motion while keeping every control functional, which
+   is exactly what §0.4.5 asks for. It is a literal because it is a behavioural
+   floor rather than a design value, so no token expresses it.
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 1ms;
+    animation-delay: 1ms;
+    animation-iteration-count: 1;
+    transition-duration: 1ms;
+    transition-delay: 1ms;
+    scroll-behavior: auto;
+  }
+}
