@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T10:12:33.337Z",
+  "generated_at": "2026-08-29T11:30:28.739Z",
   "generator": "tools/src/build-asset-manifest.ts",
   "source_commit": "052173f17f72441d787bf17a6781b8e95d3a07ad",
   "counts": {
@@ -1149,7 +1149,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/2024-25-school-year-calendar---sheet1.pdf is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "2025-26-aaron-paul-head-shot.jpg",
@@ -4509,7 +4511,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/Photos-(4).zip is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "Photos-(5).zip",
@@ -4531,7 +4535,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/Photos-(5).zip is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "Photos-(9).zip",
@@ -4553,7 +4559,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/Photos-(9).zip is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "Qiaoling Zheng.jpg",
@@ -4619,7 +4627,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/Staff.zip is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "Story-Slam.pdf",
@@ -4641,7 +4651,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/Story-Slam.pdf is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "Tullah Dash.jpg",
@@ -5041,7 +5053,8 @@
         }
       ],
       "notes": [
-        "sidecar records size 915 but the file is 1,001 bytes; the filesystem is authoritative"
+        "sidecar records size 915 but the file is 1,001 bytes; the filesystem is authoritative",
+        "classification override: retired — template-referenced, so the reference rule alone would classify this as \"deployed\"; archived instead because the target replaces it with the shadcn AvatarFallback component and the binary is never served again (AAP §0.7.1)"
       ]
     },
     {
@@ -6294,7 +6307,9 @@
       "focus": null,
       "alt": null,
       "referenced_by": [],
-      "notes": []
+      "notes": [
+        "retention: pending school approval — /assets/lindsey-freedman-headshot.docx is preserved verbatim by file placement, and this file stays \"archived\"; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention"
+      ]
     },
     {
       "legacy_ref": "lindsey-freedman-headshot.jpg",

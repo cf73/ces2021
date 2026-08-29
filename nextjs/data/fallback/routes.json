@@ -1,0 +1,1000 @@
+{
+  "table": "content_routes",
+  "count": 142,
+  "rows": [
+    {
+      "path": "/",
+      "kind": "page",
+      "id": "7654aa19-9424-52ff-8ae7-a0e8fbf680e5",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/about",
+      "kind": "page",
+      "id": "af5e9ddc-81ce-5fbb-ac28-14d0e5c34083",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/about/a-letter-from-the-director",
+      "kind": "page",
+      "id": "f3c00139-9069-5ba2-bbab-74407e172561",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/about/careers",
+      "kind": "page",
+      "id": "11df63c4-52f3-5980-bfa7-002798cd0a5e",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/about/history",
+      "kind": "page",
+      "id": "ac617bc5-0498-5d1a-927c-25b7df66fbfa",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/about/mission-and-philosophy",
+      "kind": "page",
+      "id": "117722f4-4c74-5d91-b3e7-2af70a80a297",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions",
+      "kind": "page",
+      "id": "3bf730dd-6223-5c8a-a0df-821d9cc5e685",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/apply",
+      "kind": "page",
+      "id": "433d9cd7-317d-5d9c-b0d2-b666b3f627fb",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/deposits",
+      "kind": "page",
+      "id": "0a1bf8ec-0a2a-5ff1-9fad-f996b0a998a2",
+      "precedence": 1,
+      "published": false
+    },
+    {
+      "path": "/admissions/financial-aid",
+      "kind": "page",
+      "id": "2425a75e-2c85-5781-8a7d-bf42ba7488a5",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/request-information",
+      "kind": "page",
+      "id": "63a888c3-c1a3-5ba2-a60c-0563b0f99779",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/timeline",
+      "kind": "page",
+      "id": "895752ce-c26f-5da9-9894-01de74fdd82b",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/tuition",
+      "kind": "page",
+      "id": "6d3ffca6-4b83-5e0d-a3d8-f760819ec2a1",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/admissions/visit-ces",
+      "kind": "page",
+      "id": "928407a4-2d26-537d-85d3-253074787ea3",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community",
+      "kind": "page",
+      "id": "f671e3da-092e-5df8-b30a-72690bccdb07",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community/board-of-directors",
+      "kind": "page",
+      "id": "87483de2-64e8-523b-8bdf-0a19c75345ce",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community/families",
+      "kind": "page",
+      "id": "fb4dcea9-b8a3-5f64-bf86-e2948fea358c",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community/leadership-team",
+      "kind": "page",
+      "id": "882abaab-0aec-5341-a4cf-c0c23a8097bc",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community/partnerships",
+      "kind": "page",
+      "id": "5586c7f2-766f-59a6-b4bc-ffcea28bbdbb",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/community/teaching-team",
+      "kind": "page",
+      "id": "33f4e0e7-28d4-56d6-af42-b74f6b261f6c",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/contact",
+      "kind": "page",
+      "id": "712e7158-b25f-5d78-acad-802af2d330c1",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/contact/frequently-asked-questions",
+      "kind": "page",
+      "id": "fe804674-b387-52b9-a544-221e0db640df",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/donate",
+      "kind": "page",
+      "id": "84341527-3148-5ea3-9d4c-6fa74fb88768",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/events",
+      "kind": "page",
+      "id": "e11bc9da-291c-5711-9366-4e315e9c5bc0",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/giving",
+      "kind": "page",
+      "id": "4601a04c-6460-593e-8678-24fc10edf075",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/giving/annual-fund",
+      "kind": "page",
+      "id": "5f2bd150-b486-5c43-83d2-29442f533976",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/giving/auction",
+      "kind": "page",
+      "id": "a451c757-e9ad-5a3e-921b-f39030c218cc",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/giving/ways-to-give",
+      "kind": "page",
+      "id": "c6c42af0-689d-58b7-8963-c3bcb8cf3c3b",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs",
+      "kind": "page",
+      "id": "b6294e86-00b7-5bb2-8fa3-50798665d2c4",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs/day-programs",
+      "kind": "page",
+      "id": "672819c5-30db-519c-b93c-aaa8da656768",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs/enrichment-programs",
+      "kind": "page",
+      "id": "bc5039be-8517-59c4-991c-49bb4f110e20",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs/language-programs",
+      "kind": "page",
+      "id": "dd52699c-d9cf-56ea-bf27-5ab620c6c9ee",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs/school-age-mandarin-for-grades-k-through-3rd",
+      "kind": "page",
+      "id": "08391226-0edc-5a9f-9673-8568490131fb",
+      "precedence": 1,
+      "published": false
+    },
+    {
+      "path": "/programs/summer-programs",
+      "kind": "page",
+      "id": "d6ddc669-687b-5270-8465-4e19d846c075",
+      "precedence": 1,
+      "published": true
+    },
+    {
+      "path": "/programs/amber-room",
+      "kind": "classroom",
+      "id": "e2699258-4a45-5403-95e1-4e0e13e60021",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/blue-room",
+      "kind": "classroom",
+      "id": "45a14bcd-95b2-5bbf-944c-ebedc4e1dd26",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/french-room",
+      "kind": "classroom",
+      "id": "aa92f471-203a-580c-be21-aa3d61d14619",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/green-room",
+      "kind": "classroom",
+      "id": "1579d53f-556a-50a8-b86d-4b6b6e1eb780",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/mandarin-jade",
+      "kind": "classroom",
+      "id": "1fb2cd47-135f-5eeb-9a0f-f0b58a279056",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/mandarin-room",
+      "kind": "classroom",
+      "id": "a908053b-7341-5f53-b993-94cd369df474",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/orange-room",
+      "kind": "classroom",
+      "id": "29207db4-d3a2-54e4-bbeb-37a8c1fd5050",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/purple-room",
+      "kind": "classroom",
+      "id": "bb934aaf-2e2d-5f7e-b6e3-779fda12f77f",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/rainbow-red",
+      "kind": "classroom",
+      "id": "f3e96d86-34d8-5901-826a-98733c7f65a1",
+      "precedence": 2,
+      "published": false
+    },
+    {
+      "path": "/programs/rainbow-room",
+      "kind": "classroom",
+      "id": "d229af9e-2c68-5c35-946e-94ffb8ecf014",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/red-room",
+      "kind": "classroom",
+      "id": "c01ba74e-0e53-547b-8589-0915c5fdd453",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/spanish-room",
+      "kind": "classroom",
+      "id": "23784199-790f-5ef4-b573-47625a4ede81",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/programs/yellow-room",
+      "kind": "classroom",
+      "id": "d91935b0-25d8-528d-8dcf-14d34bc7da5a",
+      "precedence": 2,
+      "published": true
+    },
+    {
+      "path": "/community/aaron-paul",
+      "kind": "person",
+      "id": "df230415-de1e-5862-a494-fae8b2386f4e",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/alex-danton-klein",
+      "kind": "person",
+      "id": "0a7c14fa-6263-5c7b-bded-8cd01c1b7067",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/amanda-obremski",
+      "kind": "person",
+      "id": "b900e03c-b5c5-5f32-b78b-2f3b12715299",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/an-fong",
+      "kind": "person",
+      "id": "d8b7c1d1-e3c6-5604-a108-34667513e28f",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/andrea-connelly",
+      "kind": "person",
+      "id": "b8d05e37-3813-54a0-916b-bbe0c0a49ba7",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/andy-griswold",
+      "kind": "person",
+      "id": "b1102f3b-504a-5e6e-9b63-8d44b2d3a83f",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/annie-underwood",
+      "kind": "person",
+      "id": "4cf2253a-8102-5ec7-ad8c-45fe86416f30",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/ashley-green",
+      "kind": "person",
+      "id": "9147b32c-31be-550b-a0b4-b935ba100ebf",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/bekah-riley",
+      "kind": "person",
+      "id": "4ca0fb7a-c020-55cd-9cd8-bf056d75744e",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/bobby-shady",
+      "kind": "person",
+      "id": "b6ab79d9-1155-5662-9035-b6c2d14b16c6",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/caroline-fry",
+      "kind": "person",
+      "id": "868ed966-1121-5102-9d66-d92849a98e84",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/carolyn-olshan",
+      "kind": "person",
+      "id": "6a4967b3-0db7-586d-be7d-480cedda4045",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/charlotte-pride",
+      "kind": "person",
+      "id": "931554f0-0095-5de5-9194-78da02f34c85",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/christina-hanley",
+      "kind": "person",
+      "id": "1412d3a9-98d7-56c6-9f0a-e632c958f76d",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/christina-isidoro",
+      "kind": "person",
+      "id": "866efb53-b40b-5143-bfa9-6e4c467996bb",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/cindy-lehmann",
+      "kind": "person",
+      "id": "2933c393-1aac-5a31-9525-44f4ffe7e0db",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/claudia-allevato",
+      "kind": "person",
+      "id": "a198cc92-f9ae-5441-9f53-20b4b95bcdc5",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/daniel-kanter",
+      "kind": "person",
+      "id": "7353e914-6675-5e39-ba2d-1afce0797b12",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/dayane-pierre",
+      "kind": "person",
+      "id": "3fc541e7-27e1-5a4c-9bef-7b8f628c8f49",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/dee-lyle",
+      "kind": "person",
+      "id": "22e9859d-dfd4-538d-995c-8705d9a44a92",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/domarie-diaz-sanchez",
+      "kind": "person",
+      "id": "e5f8cfc2-f31a-5944-996d-91c5e3243e00",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/eileen-edmondson",
+      "kind": "person",
+      "id": "2fc02842-9dbc-5803-bee7-9c703df53166",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/elisabeth-guenette",
+      "kind": "person",
+      "id": "d3c5d835-a1d1-51f7-ba47-ccb6518e3429",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/enrica-filippi",
+      "kind": "person",
+      "id": "c1c252fe-6a39-5661-bb06-d20245e55dd0",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/eva-donlan",
+      "kind": "person",
+      "id": "a96bedfe-57e7-5c91-8b81-ed8d9e5ffa07",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/ginamarie-falk",
+      "kind": "person",
+      "id": "ea8fb113-d3dc-56a3-a9c5-3ae903bf2b9b",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/gwladys-latreme",
+      "kind": "person",
+      "id": "06eaf83c-6836-54ca-8df6-44734e107b7e",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/halle-katz",
+      "kind": "person",
+      "id": "bc1be932-e7e2-5970-ab2d-a9f91da93224",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/hilary-lambert",
+      "kind": "person",
+      "id": "db2d8a87-e4f5-5ac6-be28-2a2e77d49c7a",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/holly-luck",
+      "kind": "person",
+      "id": "02e9b29c-569e-5d95-8b20-cf8f9c256906",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/janine-robinson",
+      "kind": "person",
+      "id": "86ab0979-e1b3-59b0-9360-2cb085fdbf08",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/jeanette-herrera",
+      "kind": "person",
+      "id": "a531c047-24b3-5dfd-a99e-ca3aa150b3d8",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/jermaine-cook-wright",
+      "kind": "person",
+      "id": "5d00f494-4eb2-5466-b03a-c0a375065a25",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/jessica-tangren",
+      "kind": "person",
+      "id": "7577a218-7c8b-5c97-b555-98c22304ad61",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/joel-renfort",
+      "kind": "person",
+      "id": "4048c758-70c3-54b8-8f82-eac8ab261003",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/justine-waddell",
+      "kind": "person",
+      "id": "b95a36e4-a368-566b-888b-3e0e5f63f5f1",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/kaitlyn-kelley",
+      "kind": "person",
+      "id": "6c1745da-0f11-5fd8-bffd-fc9f26dbd78f",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/karla-cano",
+      "kind": "person",
+      "id": "debea487-e77b-5665-9bdb-6f286b1f0493",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/kate-faust",
+      "kind": "person",
+      "id": "8ea1c676-6631-5d61-99d8-e0292a03f684",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/katie-clark",
+      "kind": "person",
+      "id": "0149bc64-d977-501a-b325-98deda9dfe7d",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/kim-rogers",
+      "kind": "person",
+      "id": "5b5e1c69-cdee-5e5a-861c-086933a84c6c",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/laura-colarusso",
+      "kind": "person",
+      "id": "9eeeaac1-4fa3-56d8-ae62-b0d558424db8",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/laura-kelly",
+      "kind": "person",
+      "id": "4bd3b4bb-623e-52a2-9faf-198fce9b3d64",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/leguan-xie",
+      "kind": "person",
+      "id": "9d81616e-5889-592d-a591-12425daa5c7b",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/lily-carey",
+      "kind": "person",
+      "id": "2af70dba-81aa-59a3-ac1a-981cf5305681",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/lindsey-freedman",
+      "kind": "person",
+      "id": "3bad727d-2f4f-51aa-9c4a-b1da5a1f13c3",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/liz-mckillop-segura",
+      "kind": "person",
+      "id": "4f1c37a1-a2dd-5a08-bc9b-ebee282a86de",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/liz-tedesco",
+      "kind": "person",
+      "id": "d77f5a19-7e18-5685-a1b7-54b57b521fc1",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/liz-vance",
+      "kind": "person",
+      "id": "9c6f7d48-2ae4-5375-8e30-912deba1ee18",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/maraliz-ramos",
+      "kind": "person",
+      "id": "7f35fe80-0aa2-53cb-8f91-9fcda72810fe",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/mary-anne-santos",
+      "kind": "person",
+      "id": "7b3f867e-3106-5143-a230-cb824dd1fd11",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/mary-dutczak",
+      "kind": "person",
+      "id": "2f9cf353-a494-5221-9a9b-4263cf1ecb96",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/maura-walsh",
+      "kind": "person",
+      "id": "1fddba1c-aa8d-5058-98cc-8d0eee63a29b",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/maya-bonanno",
+      "kind": "person",
+      "id": "8beba1c7-fd30-59f9-9c2c-f5157e2aa10e",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/michelle-huang",
+      "kind": "person",
+      "id": "7bb84d47-bb5b-58cb-9c8f-a7f7acf0baf1",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/michelle-phoenix",
+      "kind": "person",
+      "id": "4f81e68c-d219-5b9e-9353-1c4ea66092a4",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/molly-cohen",
+      "kind": "person",
+      "id": "26ff1dbc-d520-5d72-94a7-b1635e19b1e0",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/molly-howard",
+      "kind": "person",
+      "id": "27373003-c784-5ff9-ba23-d8014f0c0675",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/nancy-goldberg",
+      "kind": "person",
+      "id": "9836f8b8-4896-551e-9692-c86b063a50eb",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/natasha-carr",
+      "kind": "person",
+      "id": "9f1e6a62-82dc-5059-9cf6-66075195e364",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/nathalie-roberts",
+      "kind": "person",
+      "id": "b4ec7767-1d34-5689-91e6-bc44692d49a1",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/neil-tennenholtz",
+      "kind": "person",
+      "id": "cb42dcb6-d8dc-538f-8745-d3ea89418ef0",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/nisha-deo",
+      "kind": "person",
+      "id": "ac1a1126-5fba-56b1-9c33-da4e528eccdb",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/petra-loney",
+      "kind": "person",
+      "id": "7429c0bb-f83f-5e21-b33c-658072cbfb74",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/qiaoling-zheng",
+      "kind": "person",
+      "id": "d0648dc4-a28f-5977-ad9b-e0939edfcd89",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/qiurong-chen",
+      "kind": "person",
+      "id": "1221f32e-2b74-56b7-a8e8-e507867dd8b4",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/rahul-khara",
+      "kind": "person",
+      "id": "8f37efa0-b2bd-5610-a51f-bceeb19cfbcc",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/rina-gandhi",
+      "kind": "person",
+      "id": "33373b5a-93d6-5ea7-a653-ff4ec348082c",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/sara-angres",
+      "kind": "person",
+      "id": "9babcb5c-5820-5704-92b0-b641299296bc",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/shantia-gary",
+      "kind": "person",
+      "id": "3d54e97f-f5e7-5878-82f9-f38139ff505d",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/trevor-freeman",
+      "kind": "person",
+      "id": "c7eaddc8-f3fc-5de0-aa03-29271f923e0a",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/tullah-dash",
+      "kind": "person",
+      "id": "ee5f3dbc-3468-51a7-a78e-856d33153074",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/ursula-arruda",
+      "kind": "person",
+      "id": "cee8d1ee-7a36-5e62-a442-bc651274f93f",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/vilmari-gonzalez",
+      "kind": "person",
+      "id": "5b15ba8c-1104-5b2b-a864-a1e2a88054bd",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/wendy-henderson",
+      "kind": "person",
+      "id": "1a9bd16f-20b9-5ad3-9f72-624de7bb2803",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/community/yiting-wu",
+      "kind": "person",
+      "id": "6c78d7d6-b664-53cb-ad69-36cb18373030",
+      "precedence": 3,
+      "published": false
+    },
+    {
+      "path": "/community/yu-shiuan-carol-shie",
+      "kind": "person",
+      "id": "451fe342-63cd-5da7-a7c5-bddb0333988f",
+      "precedence": 3,
+      "published": true
+    },
+    {
+      "path": "/events/annual-auction-and-community-celebration",
+      "kind": "event",
+      "id": "434e99cf-1fb4-55b6-8dbf-5979a8c93fca",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/boston-area-school-fair-presented-by-cambridge-ellis-school",
+      "kind": "event",
+      "id": "fc3a0ddd-bb8f-5165-9ea1-fdf374ec7e3f",
+      "precedence": 4,
+      "published": true
+    },
+    {
+      "path": "/events/community-welcome-night",
+      "kind": "event",
+      "id": "3cb7489d-a2eb-532a-a527-86ed32f51536",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/day-program-last-day",
+      "kind": "event",
+      "id": "e9e5e9e2-3f61-5170-9764-aaa646cb1124",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/fall-growth-conferences",
+      "kind": "event",
+      "id": "18b87722-9f8d-5d5e-a6b9-1a177cdde9a1",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/february-break",
+      "kind": "event",
+      "id": "ffd814f3-4595-5c07-9206-25a56ba972fa",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/festival-of-lights",
+      "kind": "event",
+      "id": "52bcbbf1-7965-5f8e-9814-c6cf99e97fff",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/language-program-last-day",
+      "kind": "event",
+      "id": "0a63b2b7-1d59-5dc3-bbb4-f26889eacd9a",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/last-day-of-the-summer-program",
+      "kind": "event",
+      "id": "ed63ff36-68be-54f8-8ace-659edef614fa",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/let-s-play",
+      "kind": "event",
+      "id": "3f0c2673-30e6-50e4-8dbd-2244add3ac2c",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/open-house",
+      "kind": "event",
+      "id": "2055bb4f-fc40-5f75-812f-dbe802510ba9",
+      "precedence": 4,
+      "published": true
+    },
+    {
+      "path": "/events/outdoor-movie-night",
+      "kind": "event",
+      "id": "74e43cfe-f3e3-5501-880d-91a858ce658d",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/pictureday",
+      "kind": "event",
+      "id": "c13be782-e5d9-5597-83c9-88a6e248c114",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/playground-ribbon-cutting-social",
+      "kind": "event",
+      "id": "fbcb1a5a-907b-5710-922f-0d16f69df61b",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/spring-growth-conferences",
+      "kind": "event",
+      "id": "ca922756-5ea7-5951-83a8-12dbae3ff80c",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/start-of-summer-program",
+      "kind": "event",
+      "id": "42a8e7ec-ecc3-5e9d-b0eb-13c98eb0fcae",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/story-slam",
+      "kind": "event",
+      "id": "13a30679-0f40-5b26-bbd1-0c29bed2884c",
+      "precedence": 4,
+      "published": false
+    },
+    {
+      "path": "/events/teacher-appreciation-week",
+      "kind": "event",
+      "id": "9cdaa343-18bf-5594-a819-38fa8a58fca5",
+      "precedence": 4,
+      "published": false
+    }
+  ]
+}

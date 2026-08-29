@@ -1499,8 +1499,30 @@ function utilityColourLiteral(utility, declaredTokens) {
 
 /**
  * Strip the trailing `/modifier` (an opacity or group name) from a utility,
- * leaving `bg-white` from `bg-white/20`. Brackets are respected so
- * `bg-[url(a/b)]` is untouched.
+ * leaving `bg-white` from `bg-white/20`. Brackets are respected, so a slash
+ * INSIDE a bracketed arbitrary value — a background utility whose bracketed
+ * value is a path containing a separator, or an aspect ratio written as one
+ * number over another — is not mistaken for a modifier, and the utility is
+ * returned untouched.
+ *
+ * Those examples are described rather than written out as classes, and
+ * deliberately so. There is no `tailwind.config.js` on this project (§0.3.3),
+ * so Tailwind 4 uses automatic source detection and harvests class candidates
+ * from the raw text of every file it scans — this one included, comments
+ * included, because the extractor is content agnostic. Spelling out a
+ * background-image utility with a bracketed relative path therefore mints a
+ * real utility whose declaration is that same path, which Turbopack then tries
+ * to resolve as a module, failing the production build with "Module not
+ * found". Observed, not theorised: it broke `next build` the moment
+ * `app/layout.tsx` imported `app/globals.css`. It is a build-breaking false
+ * positive with no runtime cause. Keep example class names out of this file's
+ * prose — describe them instead.
+ *
+ * `app/globals.css` additionally excludes this directory from source detection.
+ * The two defences are complementary rather than alternatives, and both are
+ * kept: the exclusion covers any future script that documents a utility, and
+ * this paraphrasing keeps the file safe if the exclusion is ever narrowed or
+ * a scanner reaches it by another path.
  *
  * @param {string} utility
  * @returns {string}

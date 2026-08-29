@@ -1,0 +1,71 @@
+{
+  "table": "inspiring_quotes",
+  "count": 5,
+  "rows": [
+    {
+      "id": "c559bf4e-237b-5999-a66e-3dc5162784da",
+      "legacy_ref": "9db25766-8dcb-4163-ace6-e89a21f814cd",
+      "slug": "children-are-likely-to-live-up-to-what-you-believe-of-them",
+      "quote": "Children are likely to live up to what you believe of them.",
+      "attribution": "Lady Bird Johnson",
+      "published": true,
+      "legacy": {
+        "blueprint": "inspiring_quotes"
+      },
+      "source_updated_at": "2021-10-28T17:10:33.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "4fef5848-780a-5a53-b80d-195f66c15683",
+      "legacy_ref": "e695a68a-9a62-4c66-9e80-e9b041d1ecb5",
+      "slug": "children-are-not-things-to-be-molded-but-are-people-to-be-unfolded",
+      "quote": "Children are not things to be molded, but are people to be unfolded.",
+      "attribution": "Jess Lair",
+      "published": true,
+      "legacy": {
+        "blueprint": "inspiring_quotes"
+      },
+      "source_updated_at": "2021-10-28T17:12:25.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "a8eb7872-6cb5-5d86-8de1-1d6724777fa6",
+      "legacy_ref": "66015434-ef0d-4767-892b-2bb4b753c99d",
+      "slug": "children-must-be-taught-how-to-think-not-what-to-think",
+      "quote": "Children must be taught how to think, not what to think.",
+      "attribution": "Margaret Mead",
+      "published": true,
+      "legacy": {
+        "blueprint": "inspiring_quotes"
+      },
+      "source_updated_at": "2021-10-28T17:10:59.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "1c28b69e-aa30-55b4-899c-c6c124144e5c",
+      "legacy_ref": "66fa58e6-abd5-4051-8e91-d0a3f2dcfa62",
+      "slug": "our-heritage-and-ideals-our-code-and-standards-the-things-we-live-by-and-teach-our-children-are-preserved-or-diminished-by-how-freely-we-exchange-ideas-and-feelings",
+      "quote": "Our heritage and ideals, our code and standards – the things we live by and teach our children – are preserved or diminished by how freely we exchange ideas and feelings.",
+      "attribution": "Walt Disney",
+      "published": true,
+      "legacy": {
+        "blueprint": "inspiring_quotes"
+      },
+      "source_updated_at": "2021-10-28T17:15:51.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "6aeb7eea-abaf-5219-94ce-23ab9aec01d4",
+      "legacy_ref": "4fc47c84-1807-442a-8e9e-46a5b58433af",
+      "slug": "while-we-try-to-teach-our-children-all-about-life-our-children-teach-us-what-life-is-all-about",
+      "quote": "While we try to teach our children all about life, Our children teach us what life is all about.",
+      "attribution": "Angela Schwindt",
+      "published": true,
+      "legacy": {
+        "blueprint": "inspiring_quotes"
+      },
+      "source_updated_at": "2021-10-28T17:11:20.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    }
+  ]
+}

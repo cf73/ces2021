@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-08-29T12:13:04.421Z",
+  "generator": "tools/src/extract-statamic-content.ts",
+  "source_commit": "052173f17f72441d787bf17a6781b8e95d3a07ad",
+  "note": "The reconciler of record for every count this migration states. Nodes, marks and replicator set kinds are separate sections on purpose: a `text` replicator set and a ProseMirror `text` node are both `type: \"text\"`, and adding the two together is what produces the phantom 417 text-node figure the specification reports.",
+  "entries": {
+    "total": 163,
+    "by_collection": {
+      "pages": 34,
+      "people": 77,
+      "events": 18,
+      "classrooms": 13,
+      "promoted": 12,
+      "announcements": 4,
+      "inspiring_quotes": 5
+    }
+  },
+  "publish": {
+    "drafts": {
+      "total": 55,
+      "by_collection": {
+        "pages": 2,
+        "people": 21,
+        "events": 16,
+        "classrooms": 1,
+        "promoted": 12,
+        "announcements": 3,
+        "inspiring_quotes": 0
+      }
+    },
+    "published": 108
+  },
+  "routes": {
+    "total": 142,
+    "published": 102,
+    "draft": 40,
+    "by_kind": {
+      "classroom": 13,
+      "event": 18,
+      "page": 34,
+      "person": 77
+    }
+  },
+  "prosemirror_nodes": {
+    "blockquote": 2,
+    "bulletList": 6,
+    "hardBreak": 10,
+    "heading": 38,
+    "listItem": 28,
+    "orderedList": 1,
+    "paragraph": 265,
+    "table": 5,
+    "tableCell": 22,
+    "tableHeader": 8,
+    "tableRow": 15,
+    "text": 352
+  },
+  "prosemirror_marks": {
+    "bold": 36,
+    "italic": 20,
+    "link": 40
+  },
+  "replicator_sets": {
+    "total": 167,
+    "by_kind": {
+      "image": 6,
+      "institution": 81,
+      "link": 1,
+      "program": 6,
+      "quote": 4,
+      "session": 1,
+      "statistic": 3,
+      "text": 65
+    },
+    "by_handle": {
+      "add_content": 70,
+      "add_link": 1,
+      "at_a_glance": 3,
+      "education": 81,
+      "programs_in_this_session": 1,
+      "programs_offered": 5,
+      "sessions": 1,
+      "slideshow": 5
+    },
+    "without_source_id": {
+      "total": 22,
+      "by_handle": {
+        "add_content": 15,
+        "education": 7
+      }
+    }
+  },
+  "bard": {
+    "fields_by_handle": {
+      "add_content.text": 29,
+      "details": 4,
+      "important_notes": 1
+    },
+    "pages_with_add_content": 23,
+    "replicator_text_sets": 65,
+    "standalone_details": 4,
+    "standalone_important_notes": 1
+  },
+  "table_family": {
+    "nodes": 50,
+    "entries": 1,
+    "entry_paths": [
+      "content/collections/pages/tuition.md"
+    ]
+  },
+  "links": {
+    "total_marks": 40,
+    "absolute_same_origin": 4,
+    "internal_scheme": 2,
+    "bare_email": 5,
+    "existing_mailto": 13,
+    "mixed_case_mailto": 9,
+    "untouched": 29,
+    "transformed": 11
+  },
+  "nbsp": {
+    "entries_with_escape": 8,
+    "entries": [
+      "content/collections/pages/admissions.md",
+      "content/collections/pages/annual-fund.md",
+      "content/collections/pages/apply.md",
+      "content/collections/pages/deposits.md",
+      "content/collections/pages/frequently-asked-questions.md",
+      "content/collections/pages/giving.md",
+      "content/collections/pages/partnerships.md",
+      "content/collections/pages/ways-to-give.md"
+    ]
+  },
+  "tables": {
+    "taxonomy_terms": 3,
+    "assets": 289,
+    "pages": 34,
+    "page_sections": 79,
+    "page_classrooms": 12,
+    "people": 77,
+    "person_education": 80,
+    "person_roles": 82,
+    "events": 18,
+    "classrooms": 13,
+    "classroom_teachers": 41,
+    "promoted": 12,
+    "promoted_links": 1,
+    "announcements": 4,
+    "inspiring_quotes": 5,
+    "site_globals": 26,
+    "nav_items": 38
+  },
+  "page_sections": {
+    "total": 79,
+    "by_kind": {
+      "faq_item": 11,
+      "image": 16,
+      "program": 6,
+      "quote": 4,
+      "session": 1,
+      "slide": 5,
+      "statistic": 3,
+      "testimonial": 3,
+      "text": 30
+    },
+    "disabled": 6,
+    "nested": 1
+  },
+  "nav_items": {
+    "total": 38,
+    "roots": 3,
+    "invisible": 3,
+    "label_only": 3,
+    "distinct_targets": 33
+  },
+  "assets": {
+    "total": 289,
+    "deployed": 110,
+    "draft_only": 24,
+    "archived": 155,
+    "bundled": 117,
+    "url_aliases": 7,
+    "focal_points": 18,
+    "focal_zoom_above_one": 5,
+    "entry_references": 133,
+    "template_references": 1,
+    "resolved_references": 134,
+    "bytes": 362904172
+  },
+  "classroom_relation": {
+    "forward": 32,
+    "reverse": 24,
+    "both": 15,
+    "union": 41,
+    "forward_only": [
+      {
+        "classroom": "french-room",
+        "person": "charlotte-pride"
+      },
+      {
+        "classroom": "french-room",
+        "person": "caroline-fry"
+      },
+      {
+        "classroom": "mandarin-jade",
+        "person": "leguan-xie"
+      },
+      {
+        "classroom": "mandarin-room",
+        "person": "mary-dutczak"
+      },
+      {
+        "classroom": "mandarin-room",
+        "person": "yu-shiuan-carol-shie"
+      },
+      {
+        "classroom": "mandarin-room",
+        "person": "qiurong-chen"
+      },
+      {
+        "classroom": "orange-room",
+        "person": "natasha-carr"
+      },
+      {
+        "classroom": "orange-room",
+        "person": "wendy-henderson"
+      },
+      {
+        "classroom": "purple-room",
+        "person": "sara-angres"
+      },
+      {
+        "classroom": "rainbow-red",
+        "person": "dayane-pierre"
+      },
+      {
+        "classroom": "rainbow-room",
+        "person": "christina-hanley"
+      },
+      {
+        "classroom": "rainbow-room",
+        "person": "maya-bonanno"
+      },
+      {
+        "classroom": "spanish-room",
+        "person": "domarie-diaz-sanchez"
+      },
+      {
+        "classroom": "spanish-room",
+        "person": "maraliz-ramos"
+      },
+      {
+        "classroom": "spanish-room",
+        "person": "andrea-connelly"
+      },
+      {
+        "classroom": "yellow-room",
+        "person": "ursula-arruda"
+      },
+      {
+        "classroom": "yellow-room",
+        "person": "liz-vance"
+      }
+    ],
+    "reverse_only": [
+      {
+        "classroom": "french-room",
+        "person": "elisabeth-guenette"
+      },
+      {
+        "classroom": "mandarin-room",
+        "person": "an-fong"
+      },
+      {
+        "classroom": "mandarin-room",
+        "person": "yiting-wu"
+      },
+      {
+        "classroom": "orange-room",
+        "person": "tullah-dash"
+      },
+      {
+        "classroom": "purple-room",
+        "person": "cindy-lehmann"
+      },
+      {
+        "classroom": "rainbow-red",
+        "person": "enrica-filippi"
+      },
+      {
+        "classroom": "rainbow-room",
+        "person": "natasha-carr"
+      },
+      {
+        "classroom": "spanish-room",
+        "person": "vilmari-gonzalez"
+      },
+      {
+        "classroom": "yellow-room",
+        "person": "wendy-henderson"
+      }
+    ]
+  },
+  "faq": {
+    "top_level_nodes": 23,
+    "items": 11
+  },
+  "integrity": {
+    "stale_parent_references": 4,
+    "dangling_announcement_links": 1,
+    "missing_required_fields": 2,
+    "promoted_link_duplication": 1,
+    "grandfathered_over_length": 6,
+    "disabled_records": 7,
+    "disabled_by_table": {
+      "page_sections": 6,
+      "person_education": 1
+    }
+  },
+  "notes": [
+    "content/collections/events/story-slam.md: zoom_link is not a URL (\"Zoom link to come\"). Migrated unchanged; the renderer emits it as text with no href."
+  ]
+}

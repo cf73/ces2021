@@ -1,0 +1,33 @@
+{
+  "table": "taxonomy_terms",
+  "count": 3,
+  "rows": [
+    {
+      "id": "1f205f12-b535-520e-b223-9bd1fde95a2b",
+      "legacy_ref": "board-of-directors",
+      "taxonomy": "role",
+      "slug": "board-of-directors",
+      "title": "Board of Directors",
+      "source_updated_at": "2021-10-03T18:13:44.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "b7a34aad-2bf8-5110-aad2-c4473b69a53e",
+      "legacy_ref": "leadership",
+      "taxonomy": "role",
+      "slug": "leadership",
+      "title": "Leadership",
+      "source_updated_at": "2021-10-03T18:13:37.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "13345644-868a-592d-aef9-abbf72d77f84",
+      "legacy_ref": "teacher",
+      "taxonomy": "role",
+      "slug": "teacher",
+      "title": "Teacher",
+      "source_updated_at": "2021-10-03T18:13:21.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    }
+  ]
+}

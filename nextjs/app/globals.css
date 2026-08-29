@@ -79,6 +79,42 @@
 @import "shadcn/tailwind.css";
 @import "tw-animate-css";
 
+/* CONTENT SOURCES. `scripts/` is excluded from Tailwind's source detection, and
+   this is a build fix rather than an optimisation.
+
+   There is no `tailwind.config.js` on this project (§0.3.3), so Tailwind 4 uses
+   automatic source detection: it scans every non-ignored file in the tree and
+   harvests utility candidates from raw text, comments included, because the
+   extractor is content agnostic. `scripts/audit-tokens.mjs` is a corpus of
+   detector patterns by construction — it necessarily documents the very utility
+   forms it exists to reject, and carries palette and named-colour lists as
+   data. Left in scope, two things follow. Colour utilities the components never
+   use are emitted into the compiled stylesheet, which is bloat against the
+   40,000-byte compressed CSS ceiling in §0.9.3. Worse, one documented
+   arbitrary-value candidate — a background-image utility whose bracketed value
+   is a relative path — compiles to a real `background-image` declaration, and
+   Turbopack then tries to resolve that path as a module and fails the
+   production build with "Module not found", reported against THIS file rather
+   than against the comment that caused it.
+
+   Measured, not theorised: the failure surfaces only once an App Router entry
+   imports this stylesheet, so it stays invisible until `app/layout.tsx` exists.
+   Excluding the directory fixes the cause rather than editing documentation
+   that was correct — nothing under `scripts/` renders markup or holds class
+   strings, so no real utility can be lost, and a future script documenting a
+   utility cannot reintroduce the break. `audit-tokens.mjs` skips its own
+   directory for the same reason, which it records as the scan being circular
+   otherwise. Verified by compiling: the stray colour rules disappear and every
+   utility the components actually use still generates.
+
+   Two details are load-bearing. The path is relative to THIS stylesheet, not to
+   the project root, which is why it climbs out of `app/`; a root-relative
+   spelling silently matches nothing and the build failure returns. And this
+   comment deliberately describes the offending candidate instead of reproducing
+   it, exactly as the JSDoc in `audit-tokens.mjs` now does — writing it out is
+   what caused the break in the first place. */
+@source not "../scripts";
+
 /* ==========================================================================
    1. `:root` — the semantic colour values
    ==========================================================================

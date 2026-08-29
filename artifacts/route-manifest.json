@@ -1,0 +1,1343 @@
+{
+  "generated_at": "2026-08-29T12:11:26.681Z",
+  "generator": "tools/src/extract-statamic-content.ts",
+  "source_commit": "052173f17f72441d787bf17a6781b8e95d3a07ad",
+  "note": "Every content path the legacy site resolved, with the status each caller must receive. NOT ONE PATH MAY CHANGE: they are indexed and printed in school materials, and the migration introduces no redirect layer. A null status is one this program cannot determine rather than one it declined to state.",
+  "counts": {
+    "content_paths": 142,
+    "published": 102,
+    "draft": 40,
+    "by_kind": {
+      "classroom": 13,
+      "event": 18,
+      "page": 34,
+      "person": 77
+    },
+    "system_routes": 5
+  },
+  "routes": [
+    {
+      "path": "/",
+      "kind": "page",
+      "legacy_ref": "home",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/about",
+      "kind": "page",
+      "legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/about/a-letter-from-the-director",
+      "kind": "page",
+      "legacy_ref": "d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/about/careers",
+      "kind": "page",
+      "legacy_ref": "a0f1b991-763a-4fbd-a494-914d601d634e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/about/history",
+      "kind": "page",
+      "legacy_ref": "af114a97-d3b3-4535-a2b9-f9b31735b609",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/about/mission-and-philosophy",
+      "kind": "page",
+      "legacy_ref": "fe10778f-dff3-47af-bf1b-b1972057450f",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions",
+      "kind": "page",
+      "legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/apply",
+      "kind": "page",
+      "legacy_ref": "a1104c2b-9a1c-4e71-a25b-cdab3a77e936",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/deposits",
+      "kind": "page",
+      "legacy_ref": "170aeb94-05ca-42ee-befb-15b71d78c305",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/admissions/financial-aid",
+      "kind": "page",
+      "legacy_ref": "b131b608-32c3-4073-9050-ebf8b6c9dc7f",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/request-information",
+      "kind": "page",
+      "legacy_ref": "95e957e5-9cd2-4652-a6ef-662b38a19d8d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/timeline",
+      "kind": "page",
+      "legacy_ref": "172c7bc4-6a88-4e1c-bc3c-1ce9ceb0ec84",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/tuition",
+      "kind": "page",
+      "legacy_ref": "45a19839-c187-4be0-bedc-67f9f39aa5c5",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/admissions/visit-ces",
+      "kind": "page",
+      "legacy_ref": "66afe361-c739-4275-ad7d-b48d1cde227d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community",
+      "kind": "page",
+      "legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/board-of-directors",
+      "kind": "page",
+      "legacy_ref": "69ccd1a0-7018-443a-aadc-3dd3dfe1bc06",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/families",
+      "kind": "page",
+      "legacy_ref": "68ab3ced-2c3f-4d30-8c42-1eeb2f3f2300",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/leadership-team",
+      "kind": "page",
+      "legacy_ref": "0d5bb459-de3b-466b-827f-89b37430222d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/partnerships",
+      "kind": "page",
+      "legacy_ref": "9d1c2779-c059-4c7d-9bdc-2a26cef3877e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/teaching-team",
+      "kind": "page",
+      "legacy_ref": "ca8bb0dd-e555-4cd3-81e7-4e545259047c",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/contact",
+      "kind": "page",
+      "legacy_ref": "80db4d25-4d83-49ad-8d90-62f26c47a7b9",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/contact/frequently-asked-questions",
+      "kind": "page",
+      "legacy_ref": "72301430-4743-448d-8a1f-70552c3c25eb",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/donate",
+      "kind": "page",
+      "legacy_ref": "4ab4d443-e760-4025-8d59-be82badb9f10",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/events",
+      "kind": "page",
+      "legacy_ref": "58a3827b-888a-4051-815b-563fd036e1ee",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/giving",
+      "kind": "page",
+      "legacy_ref": "6d48eb1a-4eb4-48b0-a408-df269842f815",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/giving/annual-fund",
+      "kind": "page",
+      "legacy_ref": "2bb91e42-3c1d-4e5d-b864-467efadb8d58",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/giving/auction",
+      "kind": "page",
+      "legacy_ref": "7c9e5336-9d8b-40d0-b884-0e0e0712dcff",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/giving/ways-to-give",
+      "kind": "page",
+      "legacy_ref": "2d2dfb77-be33-43a8-8b81-ea5fb25d09f3",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs",
+      "kind": "page",
+      "legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/day-programs",
+      "kind": "page",
+      "legacy_ref": "8621d55b-cbfc-4cd1-b7c6-97a5a38e471b",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/enrichment-programs",
+      "kind": "page",
+      "legacy_ref": "06a2913a-6fe2-4d75-ae0c-77f0ecb6b5b3",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/language-programs",
+      "kind": "page",
+      "legacy_ref": "a4fe025d-3d9c-4131-8481-ec2718833b30",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/school-age-mandarin-for-grades-k-through-3rd",
+      "kind": "page",
+      "legacy_ref": "9eb88d65-ada5-400c-b868-56bd69ee0744",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/programs/summer-programs",
+      "kind": "page",
+      "legacy_ref": "21904ad8-20a4-4672-a6eb-51204901e0e7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/amber-room",
+      "kind": "classroom",
+      "legacy_ref": "eb19cc0e-2314-4252-8f6c-af927cfa0ab2",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/blue-room",
+      "kind": "classroom",
+      "legacy_ref": "af22aa7b-08f2-4f3a-b509-10c03031eee4",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/french-room",
+      "kind": "classroom",
+      "legacy_ref": "a446e4db-e4cc-4662-8a14-9b647d6ba7c2",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/green-room",
+      "kind": "classroom",
+      "legacy_ref": "9ae28b20-3a65-4e4b-8f56-4de6eef458f9",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/mandarin-jade",
+      "kind": "classroom",
+      "legacy_ref": "129326ec-4081-45fd-a12d-bbce6e3d1cc4",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/mandarin-room",
+      "kind": "classroom",
+      "legacy_ref": "1bdc622f-5bcd-4d93-ab82-89cac9bc1b49",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/orange-room",
+      "kind": "classroom",
+      "legacy_ref": "73f44629-52d8-444e-8cc4-35a3a7569479",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/purple-room",
+      "kind": "classroom",
+      "legacy_ref": "7c58e147-8daa-4bf1-9ef4-0c2d74ac028f",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/rainbow-red",
+      "kind": "classroom",
+      "legacy_ref": "c63dac32-3295-4368-bb8a-f4f1e23b718f",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/programs/rainbow-room",
+      "kind": "classroom",
+      "legacy_ref": "a289ada5-75ed-4478-a0ac-457b827c8850",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/red-room",
+      "kind": "classroom",
+      "legacy_ref": "448d749d-93d0-4c81-bd6f-806e5e431849",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/spanish-room",
+      "kind": "classroom",
+      "legacy_ref": "9f3c379b-1411-420e-a43b-8370437954d0",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/programs/yellow-room",
+      "kind": "classroom",
+      "legacy_ref": "8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/aaron-paul",
+      "kind": "person",
+      "legacy_ref": "7155850a-b6ed-4491-a59f-be71de8ba8a2",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/alex-danton-klein",
+      "kind": "person",
+      "legacy_ref": "42675d8c-d572-4c5a-83d1-d8576f089a35",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/amanda-obremski",
+      "kind": "person",
+      "legacy_ref": "06f57a4f-cabc-45fa-a356-d2d9d3c079d1",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/an-fong",
+      "kind": "person",
+      "legacy_ref": "1c1cc7a8-4625-4982-a995-8044af5878cd",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/andrea-connelly",
+      "kind": "person",
+      "legacy_ref": "e1cb2b8e-7150-465b-b287-0f00c9ae794b",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/andy-griswold",
+      "kind": "person",
+      "legacy_ref": "7154caac-857b-4f19-8489-96fa5cd2edbd",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/annie-underwood",
+      "kind": "person",
+      "legacy_ref": "8e1241f8-042f-4dcf-85f7-7ba29f331650",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/ashley-green",
+      "kind": "person",
+      "legacy_ref": "a7453a82-54e3-4ff3-8936-927e77945555",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/bekah-riley",
+      "kind": "person",
+      "legacy_ref": "c237bba1-b7af-4e30-81ac-50072b37ef9f",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/bobby-shady",
+      "kind": "person",
+      "legacy_ref": "13b18063-e959-439e-84e0-936fc2d97c8e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/caroline-fry",
+      "kind": "person",
+      "legacy_ref": "e8ac136c-ebf2-485a-9240-f3233bad51e7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/carolyn-olshan",
+      "kind": "person",
+      "legacy_ref": "cc72ac48-e946-4e08-bd5d-4067afa5fe87",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/charlotte-pride",
+      "kind": "person",
+      "legacy_ref": "fb148191-0943-43e6-912c-a201bad7dae8",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/christina-hanley",
+      "kind": "person",
+      "legacy_ref": "70683307-d0b0-4e8e-b4bf-2bae5c3a0167",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/christina-isidoro",
+      "kind": "person",
+      "legacy_ref": "c2f68fc6-2439-4912-a545-f520fcd8dadb",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/cindy-lehmann",
+      "kind": "person",
+      "legacy_ref": "e00d8cf8-bb4a-46e4-aa49-7b8579ce1fda",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/claudia-allevato",
+      "kind": "person",
+      "legacy_ref": "d120d817-6a1f-4fac-ab04-8804189991d3",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/daniel-kanter",
+      "kind": "person",
+      "legacy_ref": "e73d0602-ec2b-4ac2-bdf0-991a63ed9ee6",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/dayane-pierre",
+      "kind": "person",
+      "legacy_ref": "2f05d078-eb5b-429d-a912-291c0322b790",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/dee-lyle",
+      "kind": "person",
+      "legacy_ref": "3bb1c2b6-2776-4b43-a958-9dd30c3ceea3",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/domarie-diaz-sanchez",
+      "kind": "person",
+      "legacy_ref": "e1eef63c-70fd-46bf-8a52-d565876832dc",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/eileen-edmondson",
+      "kind": "person",
+      "legacy_ref": "0dd8615e-e014-42a0-8254-405642a7b31c",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/elisabeth-guenette",
+      "kind": "person",
+      "legacy_ref": "2a9c0592-e852-4a9f-8894-532ad4e08e0e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/enrica-filippi",
+      "kind": "person",
+      "legacy_ref": "8a96eea7-b3d3-4240-83ac-ef1b7b38bab3",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/eva-donlan",
+      "kind": "person",
+      "legacy_ref": "94d52126-ff66-46b3-a3eb-68ba74f9e72e",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/ginamarie-falk",
+      "kind": "person",
+      "legacy_ref": "ed13fae9-51d4-4926-a5b2-a2933038affd",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/gwladys-latreme",
+      "kind": "person",
+      "legacy_ref": "66d44e68-71be-43e4-9fba-85347355aa70",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/halle-katz",
+      "kind": "person",
+      "legacy_ref": "cb1a5038-e967-419b-831d-13fb45969cae",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/hilary-lambert",
+      "kind": "person",
+      "legacy_ref": "c5f5b264-3321-4d94-8116-941075511bb3",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/holly-luck",
+      "kind": "person",
+      "legacy_ref": "91f0cb69-d693-44ac-9b9f-1dfbc8e3978d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/janine-robinson",
+      "kind": "person",
+      "legacy_ref": "7eeffe6b-8ee3-4c8a-b7df-452c9f0f385e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/jeanette-herrera",
+      "kind": "person",
+      "legacy_ref": "328dac6a-39bb-4cfe-bfca-9d8b36a34b5c",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/jermaine-cook-wright",
+      "kind": "person",
+      "legacy_ref": "55c6d51a-07ca-41c5-b091-a98abc416aa0",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/jessica-tangren",
+      "kind": "person",
+      "legacy_ref": "1fd40086-9bbb-4eea-8a66-77c2bfa4acf1",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/joel-renfort",
+      "kind": "person",
+      "legacy_ref": "b17491fb-44b0-47a7-a8ca-173b1fd71eaa",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/justine-waddell",
+      "kind": "person",
+      "legacy_ref": "d2edb398-828c-4f5a-adbd-a89657ee8617",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/kaitlyn-kelley",
+      "kind": "person",
+      "legacy_ref": "ab22daab-a42d-4ca8-b1bc-448af0e5445f",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/karla-cano",
+      "kind": "person",
+      "legacy_ref": "216940bc-4a00-404a-9af6-77f10bc771c5",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/kate-faust",
+      "kind": "person",
+      "legacy_ref": "b62f667c-6790-4e04-a4d4-0c1eb26fd8cf",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/katie-clark",
+      "kind": "person",
+      "legacy_ref": "75862a02-1182-48da-aeed-14e0714e846d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/kim-rogers",
+      "kind": "person",
+      "legacy_ref": "85447551-542f-4f4d-b377-d908f98c822a",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/laura-colarusso",
+      "kind": "person",
+      "legacy_ref": "3e78b585-dab9-4146-a11f-68eefd1c9303",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/laura-kelly",
+      "kind": "person",
+      "legacy_ref": "db36433f-8439-45d3-9081-38ee0d9bef74",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/leguan-xie",
+      "kind": "person",
+      "legacy_ref": "6099fb98-b07d-4e5c-907f-0a1e517d2d0f",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/lily-carey",
+      "kind": "person",
+      "legacy_ref": "26b39d59-4809-47b7-9f13-650c6fc30bd5",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/lindsey-freedman",
+      "kind": "person",
+      "legacy_ref": "c1da77d0-719a-4bc9-8d93-dc8136490a5d",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/liz-mckillop-segura",
+      "kind": "person",
+      "legacy_ref": "3c7a9eb5-fd7a-4dc0-b150-93868993baa1",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/liz-tedesco",
+      "kind": "person",
+      "legacy_ref": "53c49a4d-7fd4-4ad9-99a2-2659a9283bc6",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/liz-vance",
+      "kind": "person",
+      "legacy_ref": "28d307a1-5066-4d82-bbe0-7e5787034d0b",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/maraliz-ramos",
+      "kind": "person",
+      "legacy_ref": "e0a9289c-a6ee-4e10-9270-aa2d3fef591c",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/mary-anne-santos",
+      "kind": "person",
+      "legacy_ref": "9b517d7d-3b1c-432e-b9f9-700da7d5eb6b",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/mary-dutczak",
+      "kind": "person",
+      "legacy_ref": "b5bb8cd0-648d-4365-b5ed-6d82d8c1a81c",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/maura-walsh",
+      "kind": "person",
+      "legacy_ref": "e2a0afb3-a63a-45a1-b534-2b52fc413bd2",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/maya-bonanno",
+      "kind": "person",
+      "legacy_ref": "ec4dc537-40cc-432f-b7fe-d4037bbce162",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/michelle-huang",
+      "kind": "person",
+      "legacy_ref": "ba5e2e4c-de54-4db5-ad38-4fa3e305efd6",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/michelle-phoenix",
+      "kind": "person",
+      "legacy_ref": "33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/molly-cohen",
+      "kind": "person",
+      "legacy_ref": "f54515d7-328e-4abf-8548-3c133ca48529",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/molly-howard",
+      "kind": "person",
+      "legacy_ref": "ea30215b-0147-4ca1-9bff-65b7c041b0d5",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/nancy-goldberg",
+      "kind": "person",
+      "legacy_ref": "303b5eab-1970-4da9-84ae-9782c7b58fee",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/natasha-carr",
+      "kind": "person",
+      "legacy_ref": "c57e4fb9-2ffe-403f-9a2f-ea5b62d48ce3",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/nathalie-roberts",
+      "kind": "person",
+      "legacy_ref": "24a03bef-6647-4438-9ca9-b53f664b51ea",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/neil-tennenholtz",
+      "kind": "person",
+      "legacy_ref": "ec6d455d-6bbd-4bfd-8c42-384ef7eff45e",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/nisha-deo",
+      "kind": "person",
+      "legacy_ref": "c5ead9da-5be7-477d-b882-1cbdaa1f3f0b",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/petra-loney",
+      "kind": "person",
+      "legacy_ref": "d75cb51c-d24c-4c43-84a2-7ec8feb995f6",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/qiaoling-zheng",
+      "kind": "person",
+      "legacy_ref": "d55c3300-37a9-45f6-9ad6-f6adee381cc2",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/qiurong-chen",
+      "kind": "person",
+      "legacy_ref": "c9517f69-24af-4d2c-b524-2133e2ed9aa7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/rahul-khara",
+      "kind": "person",
+      "legacy_ref": "bef2a16f-4191-4bfb-b85b-f2016280ca91",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/rina-gandhi",
+      "kind": "person",
+      "legacy_ref": "fc16d5a5-8bdc-49e1-be6d-edfc8c83a9dc",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/sara-angres",
+      "kind": "person",
+      "legacy_ref": "da9b7489-43e6-42f9-837e-d46dfa84983a",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/shantia-gary",
+      "kind": "person",
+      "legacy_ref": "d44d47e6-dae6-4451-b9d5-4a6fe87c9400",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/trevor-freeman",
+      "kind": "person",
+      "legacy_ref": "cfa1f635-908f-4d30-9812-cfe881bcddc7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/tullah-dash",
+      "kind": "person",
+      "legacy_ref": "b336b28f-cd15-4cb8-92b9-d5422addeb44",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/ursula-arruda",
+      "kind": "person",
+      "legacy_ref": "8cd47516-62bd-4fac-98bb-5ee4df634967",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/vilmari-gonzalez",
+      "kind": "person",
+      "legacy_ref": "db9ed644-ea57-461f-bbdd-1eb82e53a8ce",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/wendy-henderson",
+      "kind": "person",
+      "legacy_ref": "56014be6-3e8c-4ff6-b500-039549190c03",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/community/yiting-wu",
+      "kind": "person",
+      "legacy_ref": "a2b61a23-cc9e-4ba3-ac3f-1b65b1025223",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/community/yu-shiuan-carol-shie",
+      "kind": "person",
+      "legacy_ref": "89f3addc-2951-465b-a6cb-4f3eec76d72b",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/events/annual-auction-and-community-celebration",
+      "kind": "event",
+      "legacy_ref": "5866f185-59b9-4338-b0f4-ab738e61fc1f",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/boston-area-school-fair-presented-by-cambridge-ellis-school",
+      "kind": "event",
+      "legacy_ref": "c4feb5e5-5430-4c3d-849f-dae09b90a7f9",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/events/community-welcome-night",
+      "kind": "event",
+      "legacy_ref": "93191b3e-c120-4de8-8e66-23ee3bb8df23",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/day-program-last-day",
+      "kind": "event",
+      "legacy_ref": "04b9e12d-12b7-4af3-bca5-9fa38b992a66",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/fall-growth-conferences",
+      "kind": "event",
+      "legacy_ref": "43e15d45-86d8-4d2a-9b9c-627f7e4e953f",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/february-break",
+      "kind": "event",
+      "legacy_ref": "8d4d1967-95b8-4fd9-a1f2-35ba4aed1e26",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/festival-of-lights",
+      "kind": "event",
+      "legacy_ref": "7b2cfe8c-6aca-4b47-9fe7-f6e6372471a3",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/language-program-last-day",
+      "kind": "event",
+      "legacy_ref": "554ffd25-93ec-4b5d-a049-bfdba809b95a",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/last-day-of-the-summer-program",
+      "kind": "event",
+      "legacy_ref": "31a80cc0-b6a1-4840-ba78-b18525b82485",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/let-s-play",
+      "kind": "event",
+      "legacy_ref": "da8ac21d-cd3b-4fb2-8351-0b7dbb0b9509",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/open-house",
+      "kind": "event",
+      "legacy_ref": "ecbb3d41-19c6-47b5-a3de-417466f44ef7",
+      "published": true,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": null
+    },
+    {
+      "path": "/events/outdoor-movie-night",
+      "kind": "event",
+      "legacy_ref": "973c5464-c35a-4388-bde0-2989adba47e7",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/pictureday",
+      "kind": "event",
+      "legacy_ref": "4cf66e60-371a-40f2-908c-ca55230b2633",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/playground-ribbon-cutting-social",
+      "kind": "event",
+      "legacy_ref": "12f05ade-fd49-46d5-a978-349b0eb04553",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/spring-growth-conferences",
+      "kind": "event",
+      "legacy_ref": "549d8e76-c049-4758-af34-88240ebcb682",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/start-of-summer-program",
+      "kind": "event",
+      "legacy_ref": "5b679a60-577f-4b84-97bb-4d97e2363433",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/story-slam",
+      "kind": "event",
+      "legacy_ref": "d3cd3fa4-0f4e-4e31-9cca-abd017ba4b5c",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/events/teacher-appreciation-week",
+      "kind": "event",
+      "legacy_ref": "faec0f17-fff6-4b71-9d50-dd7f0ddda612",
+      "published": false,
+      "anonymous_status": 404,
+      "authenticated_status": 200,
+      "note": "draft: the entry carries `published: false`"
+    },
+    {
+      "path": "/sitemap.xml",
+      "kind": "system",
+      "legacy_ref": null,
+      "published": null,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": "generated from content_routes filtered to published rows; no legacy equivalent exists"
+    },
+    {
+      "path": "/robots.txt",
+      "kind": "system",
+      "legacy_ref": null,
+      "published": null,
+      "anonymous_status": 200,
+      "authenticated_status": 200,
+      "note": "public content open, /admin, /auth and /api excluded, sitemap advertised"
+    },
+    {
+      "path": "/auth/sign-in",
+      "kind": "system",
+      "legacy_ref": null,
+      "published": null,
+      "anonymous_status": 200,
+      "authenticated_status": null,
+      "note": "replaces the Statamic control panel login at /cp. An already-authenticated request is redirected, and the destination is the application's to define, so the authenticated status is left unasserted rather than guessed."
+    },
+    {
+      "path": "/auth/callback",
+      "kind": "system",
+      "legacy_ref": null,
+      "published": null,
+      "anonymous_status": null,
+      "authenticated_status": null,
+      "note": "a route handler, not a page: it exchanges a PKCE, invitation or recovery code and redirects. A bare GET carries no code, so no status is asserted for either caller."
+    },
+    {
+      "path": "/admin/**",
+      "kind": "system",
+      "legacy_ref": null,
+      "published": null,
+      "anonymous_status": null,
+      "authenticated_status": 200,
+      "note": "the control-panel capabilities with no public counterpart. An anonymous request is refused by the segment layout and by proxy.ts; whether that is a redirect or a 404 is the application's choice and is asserted there, not here."
+    }
+  ]
+}

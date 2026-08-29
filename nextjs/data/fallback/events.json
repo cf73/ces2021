@@ -1,0 +1,860 @@
+{
+  "table": "events",
+  "count": 18,
+  "rows": [
+    {
+      "id": "434e99cf-1fb4-55b6-8dbf-5979a8c93fca",
+      "legacy_ref": "5866f185-59b9-4338-b0f4-ab738e61fc1f",
+      "slug": "annual-auction-and-community-celebration",
+      "title": "Annual Auction and Community Celebration",
+      "event_date": "2024-04-27",
+      "start_time": "06:30",
+      "end_time": "11:00",
+      "location": "Harry Parker Boathouse, 20 Nonatum Rd, Brighton, MA",
+      "zoom_link": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "short_description": "Join CES' biggest celebration of the year! Dinner, drinks, dancing, and fun are included in the price of your ticket. In keeping with our Artisan Program, the theme of this year's event will be Yoga movement and flow.",
+      "details": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://e.givesmart.com/events/xXk/",
+                      "rel": null,
+                      "target": null,
+                      "title": null
+                    }
+                  }
+                ],
+                "text": "Auction and Community Celebration tickets are now available for purchase!"
+              }
+            ]
+          }
+        ]
+      },
+      "calendar_link": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWpzNXI1OXFxZWw3dmIxc2xxMDYzOTg3YTIgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com",
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-03-15T14:56:37.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "fc3a0ddd-bb8f-5165-9ea1-fdf374ec7e3f",
+      "legacy_ref": "c4feb5e5-5430-4c3d-849f-dae09b90a7f9",
+      "slug": "boston-area-school-fair-presented-by-cambridge-ellis-school",
+      "title": "Boston Area School Fair",
+      "event_date": "2026-09-26",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": "bf83f15a-6f5d-5144-8ed6-9fd305b75372",
+      "short_description": "Where else will you have the opportunity to chat with admissions representatives from over 25 Boston area preK through 12th grade independent and public schools all in one place? On Saturday, September 26th from 10am to 12pm, Cambridge-Ellis is the place you’ll want to be! Come see what makes each school unique, have all your questions answered, and head home with loads of information and some pretty awesome swag to boot!",
+      "details": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Schools represented at the Boston Area School Fair will include:"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Acera School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Advent School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Allium Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Atrium School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "BB&N School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Belmont Day School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Birches School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Brimmer and May"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "British International School of Boston"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cambridge-Ellis School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Cambridge Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Chestnut Hill School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Dexter Southfield"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "EFB - Ecole Française de Boston"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Fayerweather Street School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "German International School Boston"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "International School of Boston"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Jackson Walnut Park School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Kingsley Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Learning Project Elementary School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lesley Ellis School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Meadowbrook School of Weston"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Milton Academy"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The Park School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Prospect Hill Academy"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Shady Hill School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Tenacre Country Day School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Thacher Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Torit Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Wellan Montessori School"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bring your prospective students, or come solo. It will be a fun and informative event for all ages! Our playground will be open during the hours of the event (please make sure an adult is supervising your child at all times)."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Our parking lot will be reserved for our vendors and their tents. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., Roberts Rd., and Irving St. There is also metered parking located on Cambridge St."
+              }
+            ]
+          }
+        ]
+      },
+      "calendar_link": null,
+      "published": true,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2026-08-25T12:39:23.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "3cb7489d-a2eb-532a-a527-86ed32f51536",
+      "legacy_ref": "93191b3e-c120-4de8-8e66-23ee3bb8df23",
+      "slug": "community-welcome-night",
+      "title": "Community Welcome Night",
+      "event_date": "2023-08-31",
+      "start_time": "17:00",
+      "end_time": "20:00",
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Let's kick off the 2023-24 school year with our annual welcome event (previously known as Parent Orientation)! Meet our faculty, families, and enjoy beverages and snacks on the CES playground. Reminder: This is an in person, adult only event.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2023-08-08T00:54:16.000Z",
+      "source_updated_by": "conrad.fulbrook@gmail.com"
+    },
+    {
+      "id": "e9e5e9e2-3f61-5170-9764-aaa646cb1124",
+      "legacy_ref": "04b9e12d-12b7-4af3-bca5-9fa38b992a66",
+      "slug": "day-program-last-day",
+      "title": "Day Program Last Day",
+      "event_date": "2025-06-13",
+      "start_time": "08:30",
+      "end_time": "12:00",
+      "location": "80 Trowbridge St. Cambridge, MA",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Day Program Teachers will reach out to classroom members with details about their last day celebration! Dismissal is at 12pm. We hope to see you there!",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-07-15T13:54:41.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "18b87722-9f8d-5d5e-a6b9-1a177cdde9a1",
+      "legacy_ref": "43e15d45-86d8-4d2a-9b9c-627f7e4e953f",
+      "slug": "fall-growth-conferences",
+      "title": "Fall Growth Conferences",
+      "event_date": "2024-10-25",
+      "start_time": null,
+      "end_time": null,
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "The school will be closed to students on Friday, October 25th, as we host Fall Growth Conferences. Join your child's classroom teachers for a discussion of development and goals as they begin the school year.",
+      "details": null,
+      "calendar_link": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDQ4NmpjOTdhazhhcnFxZHFlcmkwaGtybDYgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com",
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events",
+        "duplicated_from": "549d8e76-c049-4758-af34-88240ebcb682"
+      },
+      "source_updated_at": "2024-09-25T19:15:01.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "ffd814f3-4595-5c07-9206-25a56ba972fa",
+      "legacy_ref": "8d4d1967-95b8-4fd9-a1f2-35ba4aed1e26",
+      "slug": "february-break",
+      "title": "February Break",
+      "event_date": "2024-02-19",
+      "start_time": null,
+      "end_time": null,
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "CES will be closed the week of February 19-23rd for February Break. We will return to school on Monday, February 26th.",
+      "details": null,
+      "calendar_link": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MjdvdHNrY2xobGVlZWY1dmRpdXRkcjBnNmwgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com",
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-02-13T18:11:05.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "52bcbbf1-7965-5f8e-9814-c6cf99e97fff",
+      "legacy_ref": "7b2cfe8c-6aca-4b47-9fe7-f6e6372471a3",
+      "slug": "festival-of-lights",
+      "title": "Festival of Lights",
+      "event_date": "2025-12-06",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "location": "Big Playground",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "The Festival of Lights is a popular CES family event with plenty of activities, delicious food and hot drinks, and a special arts performer to bring everyone together! It is hosted by the Community Builders and shaped by volunteer participation; CES community members volunteer to share a family tradition around lights. If you would like to share a tradition, lead an activity, or help with set up, please contact pta@cambridge-ellis.org.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2026-01-14T15:57:40.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "0a63b2b7-1d59-5dc3-bbb4-f26889eacd9a",
+      "legacy_ref": "554ffd25-93ec-4b5d-a049-bfdba809b95a",
+      "slug": "language-program-last-day",
+      "title": "Language Program Last Day",
+      "event_date": "2025-06-12",
+      "start_time": "03:00",
+      "end_time": "06:00",
+      "location": "80 Trowbridge St. Cambridge, MA",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Language Program Teachers will reach out to classroom members with details about their last day celebration! We hope to see you there!",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-07-15T13:54:31.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "ed63ff36-68be-54f8-8ace-659edef614fa",
+      "legacy_ref": "31a80cc0-b6a1-4840-ba78-b18525b82485",
+      "slug": "last-day-of-the-summer-program",
+      "title": "Last Day of the Summer Program",
+      "event_date": "2025-07-18",
+      "start_time": null,
+      "end_time": null,
+      "location": "CES",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Goodbye until the 2025-26 school year!",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-06-04T00:11:57.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "3f0c2673-30e6-50e4-8dbd-2244add3ac2c",
+      "legacy_ref": "da8ac21d-cd3b-4fb2-8351-0b7dbb0b9509",
+      "slug": "let-s-play",
+      "title": "Let's Play!",
+      "event_date": "2026-01-14",
+      "start_time": null,
+      "end_time": null,
+      "location": "Cambridge-Ellis School",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Let's Play",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2026-01-14T16:00:20.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "2055bb4f-fc40-5f75-812f-dbe802510ba9",
+      "legacy_ref": "ecbb3d41-19c6-47b5-a3de-417466f44ef7",
+      "slug": "open-house",
+      "title": "Open House",
+      "event_date": "2026-11-07",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Come see what makes Cambridge-Ellis School such a joyous place for children and their families! Join us on November 7th anytime between 10am and 12pm for a self-guided tour of our beautiful indoor and outdoor spaces.",
+      "details": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "As you walk through our campus, you will be greeted by a variety of Cambridge-Ellis community members including teachers, current families, Board members, and Leadership members. We will be here to chat with you and answer any questions you may have about our amazing programs, so we hope to see you all there!"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Bring your prospective student, or come solo. It will be a fun and informative event for all ages!"
+              },
+              {
+                "type": "hardBreak"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Our parking lot will be reserved for community volunteers. Parking considerations have been granted through the city of Cambridge on the day of the event between 10am-1pm on Trowbridge St., Kirkland St., and Irving St. There is also metered parking located on Cambridge St."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "hardBreak"
+              },
+              {
+                "type": "text",
+                "text": "Reach out to "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "mailto:christina@cambridge-ellis.org",
+                      "rel": null,
+                      "target": null,
+                      "title": null
+                    }
+                  }
+                ],
+                "text": "Christina"
+              },
+              {
+                "type": "text",
+                "text": " if you have any questions about this special event."
+              }
+            ]
+          }
+        ]
+      },
+      "calendar_link": null,
+      "published": true,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2026-07-02T15:48:42.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "74e43cfe-f3e3-5501-880d-91a858ce658d",
+      "legacy_ref": "973c5464-c35a-4388-bde0-2989adba47e7",
+      "slug": "outdoor-movie-night",
+      "title": "Outdoor Movie Night",
+      "event_date": "2024-11-02",
+      "start_time": "17:00",
+      "end_time": null,
+      "location": "Big Playground",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "The Community Building Committee is hosting an Outdoor Movie Night on the CES playground on Sat 11/2 from 5-7pm. More details to come. \n\n﻿For questions, to volunteer to help, or to suggest a short for us to show, email the Community Building Committee at pta@cambridge-ellis.org.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-09-25T19:17:59.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "c13be782-e5d9-5597-83c9-88a6e248c114",
+      "legacy_ref": "4cf66e60-371a-40f2-908c-ca55230b2633",
+      "slug": "pictureday",
+      "title": "Picture Day!",
+      "event_date": "2024-10-29",
+      "start_time": null,
+      "end_time": null,
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Picture Day for all enrolled students. The rain date will be October 30, 2024.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-09-25T19:11:08.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "fbcb1a5a-907b-5710-922f-0d16f69df61b",
+      "legacy_ref": "12f05ade-fd49-46d5-a978-349b0eb04553",
+      "slug": "playground-ribbon-cutting-social",
+      "title": "Playground Ribbon Cutting Social",
+      "event_date": "2024-10-17",
+      "start_time": "19:00",
+      "end_time": "20:30",
+      "location": "Small Playground",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "This adult-only event will be held on Thursday, October 17 from 7-8:30 pm on our newly renovated Small Playground! Our CES playgrounds spread a magic that is felt by all within the community, and we hope to share that magic back with you at our ribbon-cutting event! As the new Assistant Director and Language Program Director, we want to express our gratitude, socialize, and celebrate over drinks and light refreshments. We hope to see you there!",
+      "details": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Please "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://docs.google.com/forms/d/1N5cwwddhRbKrOoKw8saEcGxAJVCKv6j8itWiPHqhXSA/edit",
+                      "rel": null,
+                      "target": null,
+                      "title": null
+                    }
+                  }
+                ],
+                "text": "RSVP"
+              }
+            ]
+          }
+        ]
+      },
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-10-04T19:14:24.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "ca922756-5ea7-5951-83a8-12dbae3ff80c",
+      "legacy_ref": "549d8e76-c049-4758-af34-88240ebcb682",
+      "slug": "spring-growth-conferences",
+      "title": "Spring Growth Conferences",
+      "event_date": "2025-03-14",
+      "start_time": null,
+      "end_time": null,
+      "location": "80 Trowbridge St, Cambridge",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "The school will be closed to students on Friday, March 14th as we host Spring Growth Conferences. Join your child's classroom teachers for a discussion of growth and development since the fall conference and to set goals for the remainder of the school year.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-02-28T17:55:44.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "42a8e7ec-ecc3-5e9d-b0eb-13c98eb0fcae",
+      "legacy_ref": "5b679a60-577f-4b84-97bb-4d97e2363433",
+      "slug": "start-of-summer-program",
+      "title": "Start of Summer Program",
+      "event_date": "2025-06-23",
+      "start_time": null,
+      "end_time": null,
+      "location": "CES",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Our Summer Program kicks off on June 23rd! Please ensure the school has your child's necessary paperwork before the start of the program.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-07-15T13:55:17.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "13a30679-0f40-5b26-bbd1-0c29bed2884c",
+      "legacy_ref": "d3cd3fa4-0f4e-4e31-9cca-abd017ba4b5c",
+      "slug": "story-slam",
+      "title": "Story Slam",
+      "event_date": "2024-03-07",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "location": "Upstairs Space at CES\n80 Trowbridge St, Cambridge",
+      "zoom_link": "Zoom link to come",
+      "image_asset_id": "9d9dd449-7c03-56f9-9d8d-e621ad209aa4",
+      "short_description": "Join us for a night of stories and community. Think The Moth from NPR. Community members can choose to join us in person or to watch the Zoom broadcast.",
+      "details": null,
+      "calendar_link": "https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MGVjajlmbG5rOTd2anU3bDJxampmZmRpZXUgY19mNDRmNTg2NWYwNTVlNmM5MTVmNGQxY2RkZjliNzRjMzFjOGQ0YWUxZjNlZjkyZWY2ZDU4ZDllNTc2NTQ5OTc0QGc&tmsrc=c_f44f5865f055e6c915f4d1cddf9b74c31c8d4ae1f3ef92ef6d58d9e576549974%40group.calendar.google.com",
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2024-02-13T18:14:38.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "9cdaa343-18bf-5594-a819-38fa8a58fca5",
+      "legacy_ref": "faec0f17-fff6-4b71-9d50-dd7f0ddda612",
+      "slug": "teacher-appreciation-week",
+      "title": "Teacher Appreciation Week",
+      "event_date": "2025-03-10",
+      "start_time": null,
+      "end_time": null,
+      "location": "Cambridge-Ellis School",
+      "zoom_link": null,
+      "image_asset_id": null,
+      "short_description": "Shower your classroom teachers with a little extra love this week. Please contact the Community Builders if you'd like to support with school-wide efforts.",
+      "details": null,
+      "calendar_link": null,
+      "published": false,
+      "seo_title": null,
+      "seo_description": null,
+      "og_image_id": null,
+      "legacy": {
+        "blueprint": "events"
+      },
+      "source_updated_at": "2025-02-28T17:57:25.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    }
+  ]
+}

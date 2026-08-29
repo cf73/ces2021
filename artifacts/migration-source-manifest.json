@@ -1,0 +1,5708 @@
+{
+  "generator": "tools/src/extract-statamic-content.ts",
+  "schema_version": "20260901121800",
+  "source_commit": "052173f17f72441d787bf17a6781b8e95d3a07ad",
+  "note": "The handoff. Per consumed source file: its SHA-256, the keys it yielded, the target table and legacy_ref it produced, the route and publish status, its relations and its asset references. This is verify-parity.ts's AUTHORITY, which is what lets parity run again after content/ has been deleted — at that point the flat files are gone and this record is the only statement of which source file produced which row. It carries no timestamp on purpose: meta.json records its checksum, and a stamp that moved on every run would make that checksum meaningless.",
+  "counts": {
+    "files": 172,
+    "by_role": {
+      "addon": 1,
+      "entry": 163,
+      "taxonomy": 1,
+      "taxonomy-term": 3,
+      "template": 3,
+      "tree": 1
+    },
+    "by_collection": {
+      "announcements": 4,
+      "classrooms": 13,
+      "events": 18,
+      "inspiring_quotes": 5,
+      "pages": 34,
+      "people": 77,
+      "promoted": 12
+    }
+  },
+  "files": [
+    {
+      "path": "content/addons/plugrbase-maintenance-mode.yaml",
+      "sha256": "11207e182485e19a7a30314a3e2b1c5cd417617d47fa3fb268f7f17144a688e9",
+      "role": "addon",
+      "collection": null,
+      "slug": null,
+      "keys": [
+        "maintenance_mode_enabled",
+        "maintenance_mode_title",
+        "maintenance_mode_message"
+      ],
+      "target_table": "site_globals",
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "maintenance title and message migrate VERBATIM, \"Stay tooned!\" included: that spelling is not the one authorized copy edit, so it is not this migration's to fix"
+      ]
+    },
+    {
+      "path": "content/collections/announcements/2023-24-admissions-season-now-open-apply-today.md",
+      "sha256": "262e3d87aa0ab45ddec103512363176363968a2249536453623394f240e013fa",
+      "role": "entry",
+      "collection": "announcements",
+      "slug": "2023-24-admissions-season-now-open-apply-today",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "link",
+        "feature_on_homepage",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "announcements",
+      "legacy_ref": "377340dc-5ec0-473a-9ed0-c1b272d64aba",
+      "route": null,
+      "published": true,
+      "relations": {
+        "link_page_path": null
+      },
+      "asset_references": [],
+      "notes": [
+        "announcements declares no route; the slug comes from the filename and deliberately does not match the title"
+      ]
+    },
+    {
+      "path": "content/collections/announcements/admissions-season.md",
+      "sha256": "5a3ddcca0ba3159b6901919daaf0603f52b45659fde9f091139ca653ffc78d0d",
+      "role": "entry",
+      "collection": "announcements",
+      "slug": "admissions-season",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "feature_on_homepage",
+        "updated_by",
+        "updated_at",
+        "link"
+      ],
+      "target_table": "announcements",
+      "legacy_ref": "7bae662f-2f6e-4daa-a058-944758d25bdc",
+      "route": null,
+      "published": false,
+      "relations": {
+        "link_page_path": "/admissions/apply"
+      },
+      "asset_references": [],
+      "notes": [
+        "announcements declares no route; the slug comes from the filename and deliberately does not match the title"
+      ]
+    },
+    {
+      "path": "content/collections/announcements/summer-camp-registration-begins-february-1st.md",
+      "sha256": "36946822a69340fa0a5b17d381aadf565cd031298f00dd937bd11461d373fba0",
+      "role": "entry",
+      "collection": "announcements",
+      "slug": "summer-camp-registration-begins-february-1st",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "link",
+        "feature_on_homepage",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "announcements",
+      "legacy_ref": "c87329d7-663c-4b54-9d95-d51c4822a827",
+      "route": null,
+      "published": false,
+      "relations": {
+        "link_page_path": "/programs/summer-programs"
+      },
+      "asset_references": [],
+      "notes": [
+        "announcements declares no route; the slug comes from the filename and deliberately does not match the title"
+      ]
+    },
+    {
+      "path": "content/collections/announcements/tickets-now-on-sale-for-our-annual-ac.md",
+      "sha256": "8dd25890750d1f310698766d1e2490cc36001d31a5158db2bdde86c4989c08dd",
+      "role": "entry",
+      "collection": "announcements",
+      "slug": "tickets-now-on-sale-for-our-annual-ac",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "link",
+        "feature_on_homepage",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "announcements",
+      "legacy_ref": "5e838742-845e-4316-9c5f-3419cdef2b2d",
+      "route": null,
+      "published": false,
+      "relations": {
+        "link_page_path": "/giving/auction"
+      },
+      "asset_references": [],
+      "notes": [
+        "announcements declares no route; the slug comes from the filename and deliberately does not match the title"
+      ]
+    },
+    {
+      "path": "content/collections/classrooms/amber-room.md",
+      "sha256": "7f0d588e5da8fe1191762acac2771866ae3c37a58696260c283ebf8393df4495",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "amber-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "eb19cc0e-2314-4252-8f6c-af927cfa0ab2",
+      "route": "/programs/amber-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "e2a0afb3-a63a-45a1-b534-2b52fc413bd2",
+          "3bb1c2b6-2776-4b43-a958-9dd30c3ceea3"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/blue-room.md",
+      "sha256": "210a266455089ea83b5ed15cbde77779571508f369ecac117a25153dd3c66f56",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "blue-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "af22aa7b-08f2-4f3a-b509-10c03031eee4",
+      "route": "/programs/blue-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "53c49a4d-7fd4-4ad9-99a2-2659a9283bc6",
+          "3c7a9eb5-fd7a-4dc0-b150-93868993baa1",
+          "55c6d51a-07ca-41c5-b091-a98abc416aa0"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/french-room.md",
+      "sha256": "b1563c982d9ad7436d13b1b1f8a4a9a357fa308bbf4dc05494c8991596647255",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "french-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "programs",
+        "ages",
+        "description",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "a446e4db-e4cc-4662-8a14-9b647d6ba7c2",
+      "route": "/programs/french-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "fb148191-0943-43e6-912c-a201bad7dae8",
+          "e8ac136c-ebf2-485a-9240-f3233bad51e7"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/green-room.md",
+      "sha256": "1c3c88df93ccf2746d714f27e7f5738adacf9c8e61a051faccdf25b121ac5810",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "green-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "9ae28b20-3a65-4e4b-8f56-4de6eef458f9",
+      "route": "/programs/green-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "06f57a4f-cabc-45fa-a356-d2d9d3c079d1",
+          "db36433f-8439-45d3-9081-38ee0d9bef74"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/mandarin-jade.md",
+      "sha256": "428136774b58694fb0ddaa40afe4cd0afc59de97ed366fcc2bbff0a482aee864",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "mandarin-jade",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "teachers",
+        "updated_by",
+        "updated_at",
+        "description"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "129326ec-4081-45fd-a12d-bbce6e3d1cc4",
+      "route": "/programs/mandarin-jade",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "6099fb98-b07d-4e5c-907f-0a1e517d2d0f"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/mandarin-room.md",
+      "sha256": "b9b5946b7da5be3e26f878311dc17b6c436c26f2749968974bb33c2264bcc79b",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "mandarin-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "1bdc622f-5bcd-4d93-ab82-89cac9bc1b49",
+      "route": "/programs/mandarin-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "d55c3300-37a9-45f6-9ad6-f6adee381cc2",
+          "b5bb8cd0-648d-4365-b5ed-6d82d8c1a81c",
+          "89f3addc-2951-465b-a6cb-4f3eec76d72b",
+          "c9517f69-24af-4d2c-b524-2133e2ed9aa7"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/orange-room.md",
+      "sha256": "5a7c4ac65f705b29ce9d2afb3be7ba4b02eac90fd70d0de49ed02adf508fd58b",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "orange-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "program_type",
+        "integer",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "73f44629-52d8-444e-8cc4-35a3a7569479",
+      "route": "/programs/orange-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "d120d817-6a1f-4fac-ab04-8804189991d3",
+          "c57e4fb9-2ffe-403f-9a2f-ea5b62d48ce3",
+          "56014be6-3e8c-4ff6-b500-039549190c03"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/purple-room.md",
+      "sha256": "c9261d20ef51b5970ed5cca25b907fd6427d3dffba7004b5d710fee9097f128a",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "purple-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "7c58e147-8daa-4bf1-9ef4-0c2d74ac028f",
+      "route": "/programs/purple-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "9b517d7d-3b1c-432e-b9f9-700da7d5eb6b",
+          "da9b7489-43e6-42f9-837e-d46dfa84983a"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/rainbow-red.md",
+      "sha256": "97e41f85d19ca84a89ab45251b73cd69de63c50082ccd0e8205e82eec02b788e",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "rainbow-red",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "description",
+        "age_range",
+        "program_type",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "c63dac32-3295-4368-bb8a-f4f1e23b718f",
+      "route": "/programs/rainbow-red",
+      "published": false,
+      "relations": {
+        "teachers": [
+          "2f05d078-eb5b-429d-a912-291c0322b790"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/rainbow-room.md",
+      "sha256": "8f815c7977dd579a01f65a187c871644f1d453023af2bf17cc20fdb2ac7b8985",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "rainbow-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "age_range",
+        "program_type",
+        "description",
+        "programs",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "a289ada5-75ed-4478-a0ac-457b827c8850",
+      "route": "/programs/rainbow-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "70683307-d0b0-4e8e-b4bf-2bae5c3a0167",
+          "d120d817-6a1f-4fac-ab04-8804189991d3",
+          "ec4dc537-40cc-432f-b7fe-d4037bbce162"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/red-room.md",
+      "sha256": "a7634436c7e731aeda9ad7d3b50de44fc53d27539392ad7eaf5bdeb9d139b53d",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "red-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "program_type",
+        "ages",
+        "programs",
+        "integer",
+        "description",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "448d749d-93d0-4c81-bd6f-806e5e431849",
+      "route": "/programs/red-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "7eeffe6b-8ee3-4c8a-b7df-452c9f0f385e",
+          "26b39d59-4809-47b7-9f13-650c6fc30bd5",
+          "d55c3300-37a9-45f6-9ad6-f6adee381cc2"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/spanish-room.md",
+      "sha256": "b59ef13934c3ee8a5e4aa2500affb7f99e7b481edbb97b4ffd4fe44c8d58bdfe",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "spanish-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "programs",
+        "description",
+        "ages",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "9f3c379b-1411-420e-a43b-8370437954d0",
+      "route": "/programs/spanish-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "328dac6a-39bb-4cfe-bfca-9d8b36a34b5c",
+          "e1eef63c-70fd-46bf-8a52-d565876832dc",
+          "e0a9289c-a6ee-4e10-9270-aa2d3fef591c",
+          "e1cb2b8e-7150-465b-b287-0f00c9ae794b"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/classrooms/yellow-room.md",
+      "sha256": "e2f994a2070c6ce62f29ed74072cf45f4e326d20c86cdaacbf8af3e74f330ad8",
+      "role": "entry",
+      "collection": "classrooms",
+      "slug": "yellow-room",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "updated_by",
+        "updated_at",
+        "programs",
+        "ages",
+        "integer",
+        "description",
+        "teachers"
+      ],
+      "target_table": "classrooms",
+      "legacy_ref": "8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba",
+      "route": "/programs/yellow-room",
+      "published": true,
+      "relations": {
+        "teachers": [
+          "8cd47516-62bd-4fac-98bb-5ee4df634967",
+          "28d307a1-5066-4d82-bbe0-7e5787034d0b"
+        ]
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/annual-auction-and-community-celebration.md",
+      "sha256": "296f225ee7f8a95b6dac98f7c711252b5d05301741fe433c9c893fc30c9b22cb",
+      "role": "entry",
+      "collection": "events",
+      "slug": "annual-auction-and-community-celebration",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "image",
+        "short_description",
+        "details",
+        "calendar_link",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "5866f185-59b9-4338-b0f4-ab738e61fc1f",
+      "route": "/events/annual-auction-and-community-celebration",
+      "published": false,
+      "relations": {},
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/boston-area-school-fair-presented-by-cambridge-ellis-school.md",
+      "sha256": "f8541a77088a454bf7c59e7c7b045bbacc4d837bdec18f007204799090f30380",
+      "role": "entry",
+      "collection": "events",
+      "slug": "boston-area-school-fair-presented-by-cambridge-ellis-school",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "details",
+        "updated_by",
+        "updated_at",
+        "image"
+      ],
+      "target_table": "events",
+      "legacy_ref": "c4feb5e5-5430-4c3d-849f-dae09b90a7f9",
+      "route": "/events/boston-area-school-fair-presented-by-cambridge-ellis-school",
+      "published": true,
+      "relations": {},
+      "asset_references": [
+        "school-fair-website-graphic.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/community-welcome-night.md",
+      "sha256": "726571a5ce06e52e77ab8550bcfad476ea63285c57ae06f70666ab9532258799",
+      "role": "entry",
+      "collection": "events",
+      "slug": "community-welcome-night",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "93191b3e-c120-4de8-8e66-23ee3bb8df23",
+      "route": "/events/community-welcome-night",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/day-program-last-day.md",
+      "sha256": "846886a767e10ba0cfb259764b1c4d0954329c95d6c6dd8d856e9b9f391d8672",
+      "role": "entry",
+      "collection": "events",
+      "slug": "day-program-last-day",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "04b9e12d-12b7-4af3-bca5-9fa38b992a66",
+      "route": "/events/day-program-last-day",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/fall-growth-conferences.md",
+      "sha256": "ac5a0cc0a6c758349d2888c7d990b74092f1228846f3fe0f38e2ea2d9e12dfc3",
+      "role": "entry",
+      "collection": "events",
+      "slug": "fall-growth-conferences",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "calendar_link",
+        "updated_by",
+        "updated_at",
+        "duplicated_from"
+      ],
+      "target_table": "events",
+      "legacy_ref": "43e15d45-86d8-4d2a-9b9c-627f7e4e953f",
+      "route": "/events/fall-growth-conferences",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/february-break.md",
+      "sha256": "77b4e457e344b00fc5ca354cf4efa39f48274a91a0cb5455ea92c746bfbe3add",
+      "role": "entry",
+      "collection": "events",
+      "slug": "february-break",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "calendar_link",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "8d4d1967-95b8-4fd9-a1f2-35ba4aed1e26",
+      "route": "/events/february-break",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/festival-of-lights.md",
+      "sha256": "c4576bb5d2a3fe1f9fa91be4fcc3d233f5c5f45bf2faba6b036ad74173394d10",
+      "role": "entry",
+      "collection": "events",
+      "slug": "festival-of-lights",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "7b2cfe8c-6aca-4b47-9fe7-f6e6372471a3",
+      "route": "/events/festival-of-lights",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/language-program-last-day.md",
+      "sha256": "3c4e9459c7e260f024e882e1a7a979a2bdca8cae82cedb57a64984696f56f897",
+      "role": "entry",
+      "collection": "events",
+      "slug": "language-program-last-day",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "554ffd25-93ec-4b5d-a049-bfdba809b95a",
+      "route": "/events/language-program-last-day",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/last-day-of-the-summer-program.md",
+      "sha256": "048538f80daebbd75492189d76ca35803421feb24f36c14ec708c577b1f14eb6",
+      "role": "entry",
+      "collection": "events",
+      "slug": "last-day-of-the-summer-program",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "31a80cc0-b6a1-4840-ba78-b18525b82485",
+      "route": "/events/last-day-of-the-summer-program",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/let-s-play.md",
+      "sha256": "07f5828a87b3823d0457629d69f4fa6afd151a12050dbe19944e46acda7158a1",
+      "role": "entry",
+      "collection": "events",
+      "slug": "let-s-play",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "da8ac21d-cd3b-4fb2-8351-0b7dbb0b9509",
+      "route": "/events/let-s-play",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/open-house.md",
+      "sha256": "c9dcf6a759ab9e15636290455f4af5bb31dceaff5e530d9fe9838f4ee0af9fa7",
+      "role": "entry",
+      "collection": "events",
+      "slug": "open-house",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "details",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "ecbb3d41-19c6-47b5-a3de-417466f44ef7",
+      "route": "/events/open-house",
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/outdoor-movie-night.md",
+      "sha256": "c1b374e55806ba311cb54dda64c634223b70930a7ce597eb618f88b2b85d4969",
+      "role": "entry",
+      "collection": "events",
+      "slug": "outdoor-movie-night",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "973c5464-c35a-4388-bde0-2989adba47e7",
+      "route": "/events/outdoor-movie-night",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/pictureday.md",
+      "sha256": "a13b51cced66cc5090390c7114a596efaf727c6c4d695549ea61856b3ceb198d",
+      "role": "entry",
+      "collection": "events",
+      "slug": "pictureday",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "4cf66e60-371a-40f2-908c-ca55230b2633",
+      "route": "/events/pictureday",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/playground-ribbon-cutting-social.md",
+      "sha256": "fd6d8234a57ebb78a2d1ba61b622eb83387b12a2525ceb9a87a746227053af05",
+      "role": "entry",
+      "collection": "events",
+      "slug": "playground-ribbon-cutting-social",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "short_description",
+        "details",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "12f05ade-fd49-46d5-a978-349b0eb04553",
+      "route": "/events/playground-ribbon-cutting-social",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/spring-growth-conferences.md",
+      "sha256": "53fb9cd5fa79cd2b179eebdd12f0bf50423f4c9044c3b3ba8b3491ee9bf2e033",
+      "role": "entry",
+      "collection": "events",
+      "slug": "spring-growth-conferences",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "549d8e76-c049-4758-af34-88240ebcb682",
+      "route": "/events/spring-growth-conferences",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/start-of-summer-program.md",
+      "sha256": "55c007291a938679beb9c0319df19a77de65f98035bfbc34f301280ab34b0653",
+      "role": "entry",
+      "collection": "events",
+      "slug": "start-of-summer-program",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "5b679a60-577f-4b84-97bb-4d97e2363433",
+      "route": "/events/start-of-summer-program",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/story-slam.md",
+      "sha256": "fab1d7e09aa45145a360d24e98365f619250db5a90271b3e997626e8b685d72f",
+      "role": "entry",
+      "collection": "events",
+      "slug": "story-slam",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "start_time",
+        "end_time",
+        "location",
+        "zoom_link",
+        "image",
+        "short_description",
+        "calendar_link",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "d3cd3fa4-0f4e-4e31-9cca-abd017ba4b5c",
+      "route": "/events/story-slam",
+      "published": false,
+      "relations": {},
+      "asset_references": [
+        "story-slam-reschedule.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/events/teacher-appreciation-week.md",
+      "sha256": "cdefd6d7d1b462bb99509e69d0ec6cabe8d5d4464bf430ab0600753847b5070a",
+      "role": "entry",
+      "collection": "events",
+      "slug": "teacher-appreciation-week",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "event_date",
+        "location",
+        "short_description",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "events",
+      "legacy_ref": "faec0f17-fff6-4b71-9d50-dd7f0ddda612",
+      "route": "/events/teacher-appreciation-week",
+      "published": false,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/inspiring_quotes/children-are-likely-to-live-up-to-what-you-believe-of-them.md",
+      "sha256": "3d46093708d4ee25587e048cae267f40350585490fe8d1b269d858b240a6ef46",
+      "role": "entry",
+      "collection": "inspiring_quotes",
+      "slug": "children-are-likely-to-live-up-to-what-you-believe-of-them",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "attribution",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "inspiring_quotes",
+      "legacy_ref": "9db25766-8dcb-4163-ace6-e89a21f814cd",
+      "route": null,
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "no published key in this collection: all five entries are live"
+      ]
+    },
+    {
+      "path": "content/collections/inspiring_quotes/children-are-not-things-to-be-molded-but-are-people-to-be-unfolded.md",
+      "sha256": "1e0b401d2aabb5f603eee64745549a178e09f2cd819c7b35abf434f16a25d680",
+      "role": "entry",
+      "collection": "inspiring_quotes",
+      "slug": "children-are-not-things-to-be-molded-but-are-people-to-be-unfolded",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "attribution",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "inspiring_quotes",
+      "legacy_ref": "e695a68a-9a62-4c66-9e80-e9b041d1ecb5",
+      "route": null,
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "no published key in this collection: all five entries are live"
+      ]
+    },
+    {
+      "path": "content/collections/inspiring_quotes/children-must-be-taught-how-to-think-not-what-to-think.md",
+      "sha256": "960394a660d82200ab793b2018fa046ea147e893f5628bc0ca62d67b04763f15",
+      "role": "entry",
+      "collection": "inspiring_quotes",
+      "slug": "children-must-be-taught-how-to-think-not-what-to-think",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "attribution",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "inspiring_quotes",
+      "legacy_ref": "66015434-ef0d-4767-892b-2bb4b753c99d",
+      "route": null,
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "no published key in this collection: all five entries are live"
+      ]
+    },
+    {
+      "path": "content/collections/inspiring_quotes/our-heritage-and-ideals-our-code-and-standards-the-things-we-live-by-and-teach-our-children-are-preserved-or-diminished-by-how-freely-we-exchange-ideas-and-feelings.md",
+      "sha256": "8a079c93a38127f1b44526a08bc5135ab3f15c8a0b672347012943d597cce904",
+      "role": "entry",
+      "collection": "inspiring_quotes",
+      "slug": "our-heritage-and-ideals-our-code-and-standards-the-things-we-live-by-and-teach-our-children-are-preserved-or-diminished-by-how-freely-we-exchange-ideas-and-feelings",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "attribution",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "inspiring_quotes",
+      "legacy_ref": "66fa58e6-abd5-4051-8e91-d0a3f2dcfa62",
+      "route": null,
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "no published key in this collection: all five entries are live"
+      ]
+    },
+    {
+      "path": "content/collections/inspiring_quotes/while-we-try-to-teach-our-children-all-about-life-our-children-teach-us-what-life-is-all-about.md",
+      "sha256": "e50f54b988fcca334051a8a6eb214ab91e39fd8d3aab2f304f63351aabff0c67",
+      "role": "entry",
+      "collection": "inspiring_quotes",
+      "slug": "while-we-try-to-teach-our-children-all-about-life-our-children-teach-us-what-life-is-all-about",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "attribution",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "inspiring_quotes",
+      "legacy_ref": "4fc47c84-1807-442a-8e9e-46a5b58433af",
+      "route": null,
+      "published": true,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "no published key in this collection: all five entries are live"
+      ]
+    },
+    {
+      "path": "content/collections/pages/a-letter-from-the-director.md",
+      "sha256": "22fa04626ca6d03909cb3bf7562739f0d2c3176ff7ef7d03194afe0b7c79c9e8",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "a-letter-from-the-director",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "updated_by",
+        "updated_at",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "d45b3a16-f89d-4ed5-b078-81bbe6b0c5aa",
+      "route": "/about/a-letter-from-the-director",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "pxl_20230411_134447805.mp.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/about.md",
+      "sha256": "5b82403a3b0c3b7069db56d054d263ac7c102b38d722264407739f3615b2c551",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "about",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "updated_by",
+        "updated_at",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+      "route": "/about",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "About.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/admissions.md",
+      "sha256": "faa1c1b70943c8abbee93c55a940d429ee26be535b7ecbdcb4b6e35aa6eef10d",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "admissions",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "updated_by",
+        "updated_at",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+      "route": "/admissions",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_20191105_085648989_HDR_Original.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/annual-fund.md",
+      "sha256": "64301e1b866c3da143f5b73816737581947a18354291471b49211343684b647a",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "annual-fund",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "2bb91e42-3c1d-4e5d-b864-467efadb8d58",
+      "route": "/giving/annual-fund",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "6d48eb1a-4eb4-48b0-a408-df269842f815",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "website-1635524536.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/apply.md",
+      "sha256": "75ed3480d76c9651490baf84505484d18b28ded5e2f98ef64d65378345325f90",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "apply",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "a1104c2b-9a1c-4e71-a25b-cdab3a77e936",
+      "route": "/admissions/apply",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 3,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_3005.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/auction.md",
+      "sha256": "e920d8e412cdc3f9ba31dbc7160f4b8e12a471660e6b58e405017ba0ff18536a",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "auction",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "7c9e5336-9d8b-40d0-b884-0e0e0712dcff",
+      "route": "/giving/auction",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "6d48eb1a-4eb4-48b0-a408-df269842f815",
+        "page_sections": 2,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "20200110_092446-1635524345.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/board-of-directors.md",
+      "sha256": "cb9786b1f42fac0552287603f4eb32f10d5d8cb33998d51ea7dd14d593fb979a",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "board-of-directors",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "parent",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "69ccd1a0-7018-443a-aadc-3dd3dfe1bc06",
+      "route": "/community/board-of-directors",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+        "page_sections": 0,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/careers.md",
+      "sha256": "eea32f234bbc80c26208919c911dde8f0b8d5fabccccf1dcd2c2ffa8040933a9",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "careers",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "a0f1b991-763a-4fbd-a494-914d601d634e",
+      "route": "/about/careers",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+        "page_sections": 4,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_5104-1635179815.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/community.md",
+      "sha256": "34c026a82fc3159e7c57250e6bb66393c933e72202b3dd7393f97f90086e026c",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "community",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+      "route": "/community",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 4,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_4454.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/contact.md",
+      "sha256": "6330b317d5c3e073b379a40a91f2199f6921513db897f117fcc56588648c450f",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "contact",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "80db4d25-4d83-49ad-8d90-62f26c47a7b9",
+      "route": "/contact",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "20210916_160904-1653418523.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/day-programs.md",
+      "sha256": "cca754ad48d624121a8a9be27ac29911dc9e1ff3f81a92eef33a1288e7c8e9d5",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "day-programs",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "classrooms",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "program_image",
+        "short_description",
+        "slideshow"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "8621d55b-cbfc-4cd1-b7c6-97a5a38e471b",
+      "route": "/programs/day-programs",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+        "page_sections": 4,
+        "page_classrooms": 7
+      },
+      "asset_references": [
+        "IMG_7782_Original.JPG",
+        "IMG_5430.JPG",
+        "IMG_0971-1636028441.jpg",
+        "IMG_2289.JPG",
+        "20210913_112628-1635953342.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/deposits.md",
+      "sha256": "327e23ceab95fcfdebe8ce8201ddaf39c810a4f4c4b0bb7b5b1a8e22e1052fbf",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "deposits",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "170aeb94-05ca-42ee-befb-15b71d78c305",
+      "route": "/admissions/deposits",
+      "published": false,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 2,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "20210927_163507.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/donate.md",
+      "sha256": "bc8f82c12497402ac4832ec74296942d61ed04389cd2858ca972fde9af99c5cf",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "donate",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "include"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "4ab4d443-e760-4025-8d59-be82badb9f10",
+      "route": "/donate",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/enrichment-programs.md",
+      "sha256": "34412be605acfb5e6fdc0c21b73e589838cf40aa5e50f614a9c4bb4b9e48f962",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "enrichment-programs",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "program_image",
+        "short_description",
+        "description",
+        "programs_offered",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "slideshow"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "06a2913a-6fe2-4d75-ae0c-77f0ecb6b5b3",
+      "route": "/programs/enrichment-programs",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+        "page_sections": 8,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_4061.jpg",
+        "20210927_163507.jpg",
+        "IMG_4064.JPG",
+        "69617404_523065031569707_108148148602370874_n.jpg",
+        "20210920_162107-1635515402.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/events.md",
+      "sha256": "b4809a76dd9d8fd01b5694a24f0500b80568bfa869b326f39bac107e4e32c2ad",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "events",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "updated_by",
+        "updated_at",
+        "include"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "58a3827b-888a-4051-815b-563fd036e1ee",
+      "route": "/events",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 0,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/families.md",
+      "sha256": "ec905e63a9b0967abdd8ed5f081082e069197bf9f72606a7be98abb5027d3889",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "families",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "68ab3ced-2c3f-4d30-8c42-1eeb2f3f2300",
+      "route": "/community/families",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_1716-1635524643.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/financial-aid.md",
+      "sha256": "3826460303ebb13bca705bbd4cd29d756fb76bac6047e36d1a8f5e4207c006c0",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "financial-aid",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "b131b608-32c3-4073-9050-ebf8b6c9dc7f",
+      "route": "/admissions/financial-aid",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "website1.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/frequently-asked-questions.md",
+      "sha256": "ce9d3e2ba15d78265714c9cfcbb26ac7a3b1305bf20172d38cccf538efa16e53",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "frequently-asked-questions",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "72301430-4743-448d-8a1f-70552c3c25eb",
+      "route": "/contact/frequently-asked-questions",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "80db4d25-4d83-49ad-8d90-62f26c47a7b9",
+        "page_sections": 12,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "unnamed-(2).jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/giving.md",
+      "sha256": "922e9744b4aeaa5baf5db8d794eb15b485ce5d63f04d51c21749ec888fb51235",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "giving",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "updated_by",
+        "updated_at",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "6d48eb1a-4eb4-48b0-a408-df269842f815",
+      "route": "/giving",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_3756-1635524474.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/history.md",
+      "sha256": "79c6a45650d356301791d3f5d19a3e953b0fa3b5cb780db070f275907ab83072",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "history",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "af114a97-d3b3-4535-a2b9-f9b31735b609",
+      "route": "/about/history",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_3250.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/home.md",
+      "sha256": "29f31ca75b513de84d6ed69b9010c01bc837ee2940714714043b6caddbbb3050",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "home",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "hero",
+        "intro",
+        "slideshow",
+        "welcome_line",
+        "at_a_glance",
+        "testimonial_1",
+        "testimonial_1_image",
+        "testimonial_2",
+        "testimonial_2_image",
+        "testimonial_3",
+        "testimonial_3_image",
+        "testimonial_1_attribution",
+        "testimonial_2_attribution",
+        "testimonial_3_attribution"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "home",
+      "route": "/",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 11,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "xcooking.jpg",
+        "Xcoolkids.jpg",
+        "XGerlinde1.jpg",
+        "1WE-PLAY.jpg",
+        "2WE-EXPLORE.jpg",
+        "hands.jpg",
+        "IMG_3862-(1).jpg",
+        "IMG_0452.jpg",
+        "2WE-EXPLORE.jpg",
+        "hands.jpg",
+        "IMG_4369.jpg",
+        "1WE-PLAY.jpg",
+        "20210505_111230.jpg",
+        "IMG_2147-1635971874.jpg"
+      ],
+      "notes": [
+        "the tree names this entry by the literal string `home`, not a uuid"
+      ]
+    },
+    {
+      "path": "content/collections/pages/language-programs.md",
+      "sha256": "363b8cff6c425f58967e0ce2fe708092841be8cf845f2cd26be622b68b31fe7a",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "language-programs",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "classrooms",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "program_image",
+        "short_description",
+        "slideshow"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "a4fe025d-3d9c-4131-8481-ec2718833b30",
+      "route": "/programs/language-programs",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+        "page_sections": 4,
+        "page_classrooms": 5
+      },
+      "asset_references": [
+        "IMG_0728.JPG",
+        "IMG_0528.JPG",
+        "IMG_2919.jpg",
+        "IMG_1021.JPG",
+        "20210924_161120.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/leadership-team.md",
+      "sha256": "c267c55883ab8a050ed7d8aeb6fd0ec9f42d850c224e836491d5bdc40729bafa",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "leadership-team",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "parent",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "0d5bb459-de3b-466b-827f-89b37430222d",
+      "route": "/community/leadership-team",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+        "page_sections": 0,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/mission-and-philosophy.md",
+      "sha256": "b22751e3460fbfbed0f5bfdc60e1628411be8e7ac5da03b4092810b65d4b6256",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "mission-and-philosophy",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "fe10778f-dff3-47af-bf1b-b1972057450f",
+      "route": "/about/mission-and-philosophy",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "523d62db-c1ac-4068-af18-6950b8a80ff7",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "20201001_102723-1635523304.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/partnerships.md",
+      "sha256": "f00d53563312c941911b7cc5ca5a2ae207aa3856b2f04dee878ff496315c6610",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "partnerships",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "9d1c2779-c059-4c7d-9bdc-2a26cef3877e",
+      "route": "/community/partnerships",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_6082.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/programs.md",
+      "sha256": "a990fbe429c123fb2330b53173394d38fd2cf875fef4b8af2001343794013250",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "programs",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "updated_by",
+        "updated_at",
+        "include"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+      "route": "/programs",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": null,
+        "page_sections": 0,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/request-information.md",
+      "sha256": "eabc7cab3a8aa7ae21185733cade9322837b7f431cd5329912ffc11dbbe720b0",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "request-information",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "main_image",
+        "published"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "95e957e5-9cd2-4652-a6ef-662b38a19d8d",
+      "route": "/admissions/request-information",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "happy.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/school-age-mandarin-for-grades-k-through-3rd.md",
+      "sha256": "af60e2b61cebd8f7aea1dfa9d8d92ed39a2691ad1f789ec1616c54c5621d746d",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "school-age-mandarin-for-grades-k-through-3rd",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "9eb88d65-ada5-400c-b868-56bd69ee0744",
+      "route": "/programs/school-age-mandarin-for-grades-k-through-3rd",
+      "published": false,
+      "relations": {
+        "parent_legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+        "page_sections": 2,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/summer-programs.md",
+      "sha256": "1c670229c76a846c0098760deeeb7efea5f632e5f155def7cbb254edfda95e41",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "summer-programs",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "sessions",
+        "important_notes",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "main_image",
+        "short_description",
+        "slideshow",
+        "program_image",
+        "programs_offered"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "21904ad8-20a4-4672-a6eb-51204901e0e7",
+      "route": "/programs/summer-programs",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "7039e0d2-553e-4204-9541-d39edf1ff500",
+        "page_sections": 6,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "summer.jpg",
+        "IMG_3422.jpg",
+        "IMG_0051-1635514734.jpg",
+        "IMG_9044.jpg",
+        "IMG_1507.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/teaching-team.md",
+      "sha256": "86baa302e0f33fe0add9114a40d0af173494bea91c15b82d04175ca90a51ec1a",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "teaching-team",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "description",
+        "parent",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "ca8bb0dd-e555-4cd3-81e7-4e545259047c",
+      "route": "/community/teaching-team",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "b6be47de-19f3-467c-9983-5629d08418ef",
+        "page_sections": 0,
+        "page_classrooms": 0
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/timeline.md",
+      "sha256": "4d1dd744a8beda6c7db168ad684b62e534f2beb8ba3c3bd71b657f3199f494f3",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "timeline",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "172c7bc4-6a88-4e1c-bc3c-1ce9ceb0ec84",
+      "route": "/admissions/timeline",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "20211005_152229.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/tuition.md",
+      "sha256": "eacf24448c01b5a607b25b776f96b8449aad00119f0a1e1325bb33114f862fec",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "tuition",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "45a19839-c187-4be0-bedc-67f9f39aa5c5",
+      "route": "/admissions/tuition",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_2504.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/visit-ces.md",
+      "sha256": "143ee4e704b021a24451542ad82fd500522a3ecd274ba9f2e71ac02c2827dd06",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "visit-ces",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "updated_by",
+        "updated_at",
+        "add_content",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "66afe361-c739-4275-ad7d-b48d1cde227d",
+      "route": "/admissions/visit-ces",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "c122c5f5-7df6-4f26-8080-0888c282b224",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_5420-1635523982.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/pages/ways-to-give.md",
+      "sha256": "a3eec5d1875472ba102a95a9567c3e66b34f7866bd3e1f71b8be8d5636a30e31",
+      "role": "entry",
+      "collection": "pages",
+      "slug": "ways-to-give",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "template",
+        "add_content",
+        "parent",
+        "updated_by",
+        "updated_at",
+        "include",
+        "main_image"
+      ],
+      "target_table": "pages",
+      "legacy_ref": "2d2dfb77-be33-43a8-8b81-ea5fb25d09f3",
+      "route": "/giving/ways-to-give",
+      "published": true,
+      "relations": {
+        "parent_legacy_ref": "6d48eb1a-4eb4-48b0-a408-df269842f815",
+        "page_sections": 1,
+        "page_classrooms": 0
+      },
+      "asset_references": [
+        "IMG_2515.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/aaron-paul.md",
+      "sha256": "2980a2b0abc8193a59133125a36bc554298286c333d666f0f7f6b56624004058",
+      "role": "entry",
+      "collection": "people",
+      "slug": "aaron-paul",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "7155850a-b6ed-4491-a59f-be71de8ba8a2",
+      "route": "/community/aaron-paul",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "aaron-paul.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/alex-danton-klein.md",
+      "sha256": "79510ffd63fb592912fdea2e8dfaabaf65f4c09c38bf937934872121b3410cab",
+      "role": "entry",
+      "collection": "people",
+      "slug": "alex-danton-klein",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "education",
+        "email",
+        "photo",
+        "bio"
+      ],
+      "target_table": "people",
+      "legacy_ref": "42675d8c-d572-4c5a-83d1-d8576f089a35",
+      "route": "/community/alex-danton-klein",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 1,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-alex-head-shot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/amanda-obremski.md",
+      "sha256": "ca44b92dfd1bc8228c99ef212e9bb17808519f5750c2df0f467ec8ab57e7f144",
+      "role": "entry",
+      "collection": "people",
+      "slug": "amanda-obremski",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "role",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "06f57a4f-cabc-45fa-a356-d2d9d3c079d1",
+      "route": "/community/amanda-obremski",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "9ae28b20-3a65-4e4b-8f56-4de6eef458f9"
+        ]
+      },
+      "asset_references": [
+        "amanda-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/an-fong.md",
+      "sha256": "022e69c46bdd32de8b7f2c334c94e2f35e16db8fa33bac6698e4cef95ae04e61",
+      "role": "entry",
+      "collection": "people",
+      "slug": "an-fong",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "1c1cc7a8-4625-4982-a995-8044af5878cd",
+      "route": "/community/an-fong",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "1bdc622f-5bcd-4d93-ab82-89cac9bc1b49"
+        ]
+      },
+      "asset_references": [
+        "an-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/andrea-connelly.md",
+      "sha256": "0c2cf93b481972aadff0787f6b692c3858060f084fcb137e7fd31b4f75cc9981",
+      "role": "entry",
+      "collection": "people",
+      "slug": "andrea-connelly",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "education",
+        "email",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e1cb2b8e-7150-465b-b287-0f00c9ae794b",
+      "route": "/community/andrea-connelly",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-andrea-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/andy-griswold.md",
+      "sha256": "5b969ee7869ba3ea3861db4e435a2facbbd7239e98d279fe0fb8d0a064ab66c2",
+      "role": "entry",
+      "collection": "people",
+      "slug": "andy-griswold",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "7154caac-857b-4f19-8489-96fa5cd2edbd",
+      "route": "/community/andy-griswold",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "Andy Griswold.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/annie-underwood.md",
+      "sha256": "a986f4efc4476b4cf6877887cb8cad1d5af4e93a5fdfc51c1645a9c8a338f31d",
+      "role": "entry",
+      "collection": "people",
+      "slug": "annie-underwood",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "education",
+        "email",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "8e1241f8-042f-4dcf-85f7-7ba29f331650",
+      "route": "/community/annie-underwood",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-annie-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/ashley-green.md",
+      "sha256": "ef2e068bc603583dea4b423981aa7b28ae3e32860bd25fe70e8cd4a9283bdb67",
+      "role": "entry",
+      "collection": "people",
+      "slug": "ashley-green",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "a7453a82-54e3-4ff3-8936-927e77945555",
+      "route": "/community/ashley-green",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "ashley-green-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/bekah-riley.md",
+      "sha256": "85f2c1084db2630dc9b7fd4d43a108b723940ab91d6d45934eb9a5d813e7b1d5",
+      "role": "entry",
+      "collection": "people",
+      "slug": "bekah-riley",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c237bba1-b7af-4e30-81ac-50072b37ef9f",
+      "route": "/community/bekah-riley",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership",
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "7566a0ee-8434-4779-b3e2-2b4a338bbf85.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/bobby-shady.md",
+      "sha256": "d4c61718ae74ab6ea4133730a97c91ca89021ea8b326220939110799dadd5816",
+      "role": "entry",
+      "collection": "people",
+      "slug": "bobby-shady",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "13b18063-e959-439e-84e0-936fc2d97c8e",
+      "route": "/community/bobby-shady",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "bobby-shady.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/caroline-fry.md",
+      "sha256": "4e65fef24cfb62749cf54e29d2c4a6954357117cacfce775fd4be2330538cbbe",
+      "role": "entry",
+      "collection": "people",
+      "slug": "caroline-fry",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "education",
+        "email",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e8ac136c-ebf2-485a-9240-f3233bad51e7",
+      "route": "/community/caroline-fry",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-caroline-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/carolyn-olshan.md",
+      "sha256": "7400d5ee300c0f93be63cc8a65cd7168dc04252af50d137319de98256397a4d8",
+      "role": "entry",
+      "collection": "people",
+      "slug": "carolyn-olshan",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "cc72ac48-e946-4e08-bd5d-4067afa5fe87",
+      "route": "/community/carolyn-olshan",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "carolyn-olshan-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/charlotte-pride.md",
+      "sha256": "e1a752632dd06fd4e3ca21fb045d3a2314344464f3bc11b26b1945924e44b50b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "charlotte-pride",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces",
+        "education",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "fb148191-0943-43e6-912c-a201bad7dae8",
+      "route": "/community/charlotte-pride",
+      "published": true,
+      "relations": {
+        "person_education": 3,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher",
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-charlotte-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/christina-hanley.md",
+      "sha256": "3c1fba7fad6a2ccb99a3bbd0a934c4dfe8fc0611880ad6cabcbc4e9f2f378a54",
+      "role": "entry",
+      "collection": "people",
+      "slug": "christina-hanley",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "70683307-d0b0-4e8e-b4bf-2bae5c3a0167",
+      "route": "/community/christina-hanley",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "christina-hanley.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/christina-isidoro.md",
+      "sha256": "714b00194b6409d60e7d7831109c9504a75f1c638f8ff016ceb435d5302c3f36",
+      "role": "entry",
+      "collection": "people",
+      "slug": "christina-isidoro",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c2f68fc6-2439-4912-a545-f520fcd8dadb",
+      "route": "/community/christina-isidoro",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "christina-isidoro.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/cindy-lehmann.md",
+      "sha256": "ce9d4836452fd3dfb602714e3ae72db4a98339958791bcd8b2e62a01006e667a",
+      "role": "entry",
+      "collection": "people",
+      "slug": "cindy-lehmann",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "updated_by",
+        "updated_at",
+        "role",
+        "programs",
+        "classrooms",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e00d8cf8-bb4a-46e4-aa49-7b8579ce1fda",
+      "route": "/community/cindy-lehmann",
+      "published": false,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "7c58e147-8daa-4bf1-9ef4-0c2d74ac028f"
+        ]
+      },
+      "asset_references": [
+        "cindy-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/claudia-allevato.md",
+      "sha256": "1dd458b68ac8c57c988312aed599bf747e6d12e6ba11cb969fbee1d7fa007a65",
+      "role": "entry",
+      "collection": "people",
+      "slug": "claudia-allevato",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "d120d817-6a1f-4fac-ab04-8804189991d3",
+      "route": "/community/claudia-allevato",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "73f44629-52d8-444e-8cc4-35a3a7569479",
+          "a289ada5-75ed-4478-a0ac-457b827c8850"
+        ]
+      },
+      "asset_references": [
+        "claudia-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/daniel-kanter.md",
+      "sha256": "6b837d3207b8da83ec27784140a60c1cf0a88eba935ff774901bee25bf630389",
+      "role": "entry",
+      "collection": "people",
+      "slug": "daniel-kanter",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e73d0602-ec2b-4ac2-bdf0-991a63ed9ee6",
+      "route": "/community/daniel-kanter",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "daniel-kanter-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/dayane-pierre.md",
+      "sha256": "ade38163070616b7dd2a40f6d8ede188be3415602644b6e091d07bd8417f853b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "dayane-pierre",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "2f05d078-eb5b-429d-a912-291c0322b790",
+      "route": "/community/dayane-pierre",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "dayane.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/dee-lyle.md",
+      "sha256": "381784e2eb68227fa81b0cbc9752a04f857243c768d5fb4c8119503376a57a81",
+      "role": "entry",
+      "collection": "people",
+      "slug": "dee-lyle",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "3bb1c2b6-2776-4b43-a958-9dd30c3ceea3",
+      "route": "/community/dee-lyle",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "eb19cc0e-2314-4252-8f6c-af927cfa0ab2"
+        ]
+      },
+      "asset_references": [
+        "dee-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/domarie-diaz-sanchez.md",
+      "sha256": "77365163fa8b78026b1e065828ff4156170f40ac2149dff88108f8db6a05d0f0",
+      "role": "entry",
+      "collection": "people",
+      "slug": "domarie-diaz-sanchez",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e1eef63c-70fd-46bf-8a52-d565876832dc",
+      "route": "/community/domarie-diaz-sanchez",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "domarie-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/eileen-edmondson.md",
+      "sha256": "795e9b22f9117c25089e5a0226825685e604cb71cfcfa8963f5a34b8fe05bd5c",
+      "role": "entry",
+      "collection": "people",
+      "slug": "eileen-edmondson",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "0dd8615e-e014-42a0-8254-405642a7b31c",
+      "route": "/community/eileen-edmondson",
+      "published": false,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "Eileen Edmondson.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/elisabeth-guenette.md",
+      "sha256": "24c4e9c58e622ac9b4c37969feba11b424a95e4a921ef7c032b98a96069917bc",
+      "role": "entry",
+      "collection": "people",
+      "slug": "elisabeth-guenette",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "updated_by",
+        "updated_at",
+        "role",
+        "programs",
+        "classrooms",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "2a9c0592-e852-4a9f-8894-532ad4e08e0e",
+      "route": "/community/elisabeth-guenette",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": [
+          "a446e4db-e4cc-4662-8a14-9b647d6ba7c2"
+        ]
+      },
+      "asset_references": [
+        "Elisabeth Guenette.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/enrica-filippi.md",
+      "sha256": "97df16188cb72926f21ed787e1fb14927b8e907f91b0e3e0a7edaa07b356ff97",
+      "role": "entry",
+      "collection": "people",
+      "slug": "enrica-filippi",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "8a96eea7-b3d3-4240-83ac-ef1b7b38bab3",
+      "route": "/community/enrica-filippi",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "c63dac32-3295-4368-bb8a-f4f1e23b718f"
+        ]
+      },
+      "asset_references": [
+        "7c74a18d-1055-43e2-a625-242ba7165acf.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/eva-donlan.md",
+      "sha256": "3683640ce59d4f28fa5c9f2448323a1ab92767014be66ff03d4ff10a74dfdd97",
+      "role": "entry",
+      "collection": "people",
+      "slug": "eva-donlan",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "94d52126-ff66-46b3-a3eb-68ba74f9e72e",
+      "route": "/community/eva-donlan",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "eva-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/ginamarie-falk.md",
+      "sha256": "a29f71ecf8f8d34af71680cf10d545266f6cc4ba3c57a3ffffba93844a600b43",
+      "role": "entry",
+      "collection": "people",
+      "slug": "ginamarie-falk",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ed13fae9-51d4-4926-a5b2-a2933038affd",
+      "route": "/community/ginamarie-falk",
+      "published": false,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "gina-marie-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/gwladys-latreme.md",
+      "sha256": "8cbe5cb7e0349ff7a93b3a0cf4218d04f166cdd854aed4e4c7f844b160a0fd57",
+      "role": "entry",
+      "collection": "people",
+      "slug": "gwladys-latreme",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "66d44e68-71be-43e4-9fba-85347355aa70",
+      "route": "/community/gwladys-latreme",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "gwladys-latreme---informal-headshot-1708020734.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/halle-katz.md",
+      "sha256": "c55787bdba0c9ce62024af957d8a27636f95f19f186d32959fb67a6141f44782",
+      "role": "entry",
+      "collection": "people",
+      "slug": "halle-katz",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "cb1a5038-e967-419b-831d-13fb45969cae",
+      "route": "/community/halle-katz",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "halle-katz-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/hilary-lambert.md",
+      "sha256": "32b0f956c2e86b0fb1d75e2a1c409ceea971a5228dd988f408182084fee0b9c2",
+      "role": "entry",
+      "collection": "people",
+      "slug": "hilary-lambert",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c5f5b264-3321-4d94-8116-941075511bb3",
+      "route": "/community/hilary-lambert",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "hillary-rasmussen-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/holly-luck.md",
+      "sha256": "89e3c7215360edb0e81b7a1d091111dfb917d8cad0967c77b0bb4cd75d2c0c17",
+      "role": "entry",
+      "collection": "people",
+      "slug": "holly-luck",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "91f0cb69-d693-44ac-9b9f-1dfbc8e3978d",
+      "route": "/community/holly-luck",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2425-holly-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/janine-robinson.md",
+      "sha256": "5531991fd9742cb5913e3e8b53cbdab3d7fe7bfdd8892b0046ce8491216358ab",
+      "role": "entry",
+      "collection": "people",
+      "slug": "janine-robinson",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "role",
+        "classrooms",
+        "bio",
+        "updated_by",
+        "updated_at",
+        "officialtitle",
+        "education",
+        "email",
+        "programs",
+        "photo",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "7eeffe6b-8ee3-4c8a-b7df-452c9f0f385e",
+      "route": "/community/janine-robinson",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "448d749d-93d0-4c81-bd6f-806e5e431849"
+        ]
+      },
+      "asset_references": [
+        "IMG_3066.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/jeanette-herrera.md",
+      "sha256": "aeaf0907d39577babdf386cca236a216ddfb493cb01c857b80f38025bf668e0b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "jeanette-herrera",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "updated_by",
+        "updated_at",
+        "role",
+        "programs",
+        "classrooms",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "328dac6a-39bb-4cfe-bfca-9d8b36a34b5c",
+      "route": "/community/jeanette-herrera",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "9f3c379b-1411-420e-a43b-8370437954d0"
+        ]
+      },
+      "asset_references": [
+        "jeanette-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/jermaine-cook-wright.md",
+      "sha256": "88e76cc41bbf4fe2624a6de54c9d5b0eda2a01526b63893ea3a78e683024945b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "jermaine-cook-wright",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "55c6d51a-07ca-41c5-b091-a98abc416aa0",
+      "route": "/community/jermaine-cook-wright",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher",
+          "board-of-directors"
+        ],
+        "classrooms": [
+          "af22aa7b-08f2-4f3a-b509-10c03031eee4"
+        ]
+      },
+      "asset_references": [
+        "jermaine-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/jessica-tangren.md",
+      "sha256": "c83780ea64f415086369a49f1a75d105e85fa90f975e0400754be6e8993b0a15",
+      "role": "entry",
+      "collection": "people",
+      "slug": "jessica-tangren",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "1fd40086-9bbb-4eea-8a66-77c2bfa4acf1",
+      "route": "/community/jessica-tangren",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "jessica-tangren-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/joel-renfort.md",
+      "sha256": "cd2543cb28508d4f7c31b67a1ea8d2acf2a4cb9c69b97c5705dca4c19c006867",
+      "role": "entry",
+      "collection": "people",
+      "slug": "joel-renfort",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "b17491fb-44b0-47a7-a8ca-173b1fd71eaa",
+      "route": "/community/joel-renfort",
+      "published": false,
+      "relations": {
+        "person_education": 3,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "joel-renfort.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/justine-waddell.md",
+      "sha256": "c224e7d5d21f859275ad840510c5a94e14e0b24981b0873dddd774a34a5d4572",
+      "role": "entry",
+      "collection": "people",
+      "slug": "justine-waddell",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "d2edb398-828c-4f5a-adbd-a89657ee8617",
+      "route": "/community/justine-waddell",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "justine-waddell.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/kaitlyn-kelley.md",
+      "sha256": "2781c1e0b070c037babb4d4249bd068065e39a745904e695258d0afdca511d21",
+      "role": "entry",
+      "collection": "people",
+      "slug": "kaitlyn-kelley",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ab22daab-a42d-4ca8-b1bc-448af0e5445f",
+      "route": "/community/kaitlyn-kelley",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "kaitlyn-kelley-headshot-1742218602.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/karla-cano.md",
+      "sha256": "219b376f7112617fc2b8925edb301cb2adc2014ce14cc0c7f558d4a0a2436d86",
+      "role": "entry",
+      "collection": "people",
+      "slug": "karla-cano",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "216940bc-4a00-404a-9af6-77f10bc771c5",
+      "route": "/community/karla-cano",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "karla-cano-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/kate-faust.md",
+      "sha256": "805eb6ea454c7c09b71206df5b3940953bd8aca52f2fd1a674bbb25f8f91728d",
+      "role": "entry",
+      "collection": "people",
+      "slug": "kate-faust",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "b62f667c-6790-4e04-a4d4-0c1eb26fd8cf",
+      "route": "/community/kate-faust",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "kate-taylor-faust-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/katie-clark.md",
+      "sha256": "029cd522acc4c635130f414e2bb798633720996c81794caf5c5ed0e0e38aa11a",
+      "role": "entry",
+      "collection": "people",
+      "slug": "katie-clark",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "75862a02-1182-48da-aeed-14e0714e846d",
+      "route": "/community/katie-clark",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership",
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "IMG-8342-2.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/kim-rogers.md",
+      "sha256": "20d8277da4bea671e0c1287e81d308398e9c79a4c981abd888665986c1f5cd3c",
+      "role": "entry",
+      "collection": "people",
+      "slug": "kim-rogers",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "85447551-542f-4f4d-b377-d908f98c822a",
+      "route": "/community/kim-rogers",
+      "published": false,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "Kim Rogers.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/laura-colarusso.md",
+      "sha256": "47a61f918c57d96fcdda0bfb698b9d04dbf717366b210c7be9c36c2b848eda5c",
+      "role": "entry",
+      "collection": "people",
+      "slug": "laura-colarusso",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "3e78b585-dab9-4146-a11f-68eefd1c9303",
+      "route": "/community/laura-colarusso",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/laura-kelly.md",
+      "sha256": "fd838f4960964ed1899f35aedc729182f4aa0a6e00f0899e388305b725a00302",
+      "role": "entry",
+      "collection": "people",
+      "slug": "laura-kelly",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "db36433f-8439-45d3-9081-38ee0d9bef74",
+      "route": "/community/laura-kelly",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "9ae28b20-3a65-4e4b-8f56-4de6eef458f9"
+        ]
+      },
+      "asset_references": [
+        "laura-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/leguan-xie.md",
+      "sha256": "a6b76c72a9274c8b6d5daff8337ba7784d1dc4bbf0725a31d26147c4b680a0ff",
+      "role": "entry",
+      "collection": "people",
+      "slug": "leguan-xie",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "6099fb98-b07d-4e5c-907f-0a1e517d2d0f",
+      "route": "/community/leguan-xie",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-leguan-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/lily-carey.md",
+      "sha256": "d6866f1049aa683fab9cba56348ec698c426bd47abc0cec92ccce0069d1bdde6",
+      "role": "entry",
+      "collection": "people",
+      "slug": "lily-carey",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "26b39d59-4809-47b7-9f13-650c6fc30bd5",
+      "route": "/community/lily-carey",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "448d749d-93d0-4c81-bd6f-806e5e431849"
+        ]
+      },
+      "asset_references": [
+        "lily-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/lindsey-freedman.md",
+      "sha256": "f68b2260b32b6f9166f8afb2f0f59b57594f7dd008a19338c9a3385d450acf03",
+      "role": "entry",
+      "collection": "people",
+      "slug": "lindsey-freedman",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c1da77d0-719a-4bc9-8d93-dc8136490a5d",
+      "route": "/community/lindsey-freedman",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "lindsey.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/liz-mckillop-segura.md",
+      "sha256": "1031e19430671e76247e21e1311d7bfb716663665b4a2d0b26bef60eb44f4e0e",
+      "role": "entry",
+      "collection": "people",
+      "slug": "liz-mckillop-segura",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "3c7a9eb5-fd7a-4dc0-b150-93868993baa1",
+      "route": "/community/liz-mckillop-segura",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "af22aa7b-08f2-4f3a-b509-10c03031eee4"
+        ]
+      },
+      "asset_references": [
+        "Liz McKillop-Segura.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/liz-tedesco.md",
+      "sha256": "0882b1800e9b7355d4c20d309ad3530e5bda4ce00b2d8b17d371f54f79111b10",
+      "role": "entry",
+      "collection": "people",
+      "slug": "liz-tedesco",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "role",
+        "bio",
+        "photo",
+        "updated_by",
+        "updated_at",
+        "classrooms",
+        "programs",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "53c49a4d-7fd4-4ad9-99a2-2659a9283bc6",
+      "route": "/community/liz-tedesco",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "af22aa7b-08f2-4f3a-b509-10c03031eee4"
+        ]
+      },
+      "asset_references": [
+        "liz-t-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/liz-vance.md",
+      "sha256": "eb42f652561f603baa98ddf1287443152c2b10334f6d83ce1ee706ac0ef4e586",
+      "role": "entry",
+      "collection": "people",
+      "slug": "liz-vance",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "28d307a1-5066-4d82-bbe0-7e5787034d0b",
+      "route": "/community/liz-vance",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "liz-vance-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/maraliz-ramos.md",
+      "sha256": "82d3a53ab7ca3afa2d61de9a9ad442265c6d5b6d6a501f4e1c00b57f70c68077",
+      "role": "entry",
+      "collection": "people",
+      "slug": "maraliz-ramos",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "bio",
+        "photo",
+        "education"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e0a9289c-a6ee-4e10-9270-aa2d3fef591c",
+      "route": "/community/maraliz-ramos",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-maraliz-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/mary-anne-santos.md",
+      "sha256": "02b29334b12afa7a13c978b7bd9846ceb57be7d5a346b2d6982675c0b3c581ac",
+      "role": "entry",
+      "collection": "people",
+      "slug": "mary-anne-santos",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "9b517d7d-3b1c-432e-b9f9-700da7d5eb6b",
+      "route": "/community/mary-anne-santos",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "7c58e147-8daa-4bf1-9ef4-0c2d74ac028f"
+        ]
+      },
+      "asset_references": [
+        "Mary Anne Santos.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/mary-dutczak.md",
+      "sha256": "729e0eac2c1e064e4b86ab220a8c6389af9b428be44c3379b5345e94e01ac395",
+      "role": "entry",
+      "collection": "people",
+      "slug": "mary-dutczak",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "b5bb8cd0-648d-4365-b5ed-6d82d8c1a81c",
+      "route": "/community/mary-dutczak",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "mary-dutczak-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/maura-walsh.md",
+      "sha256": "be2b6e8eb3e4798513bd968e8802f8367e3361d712b64a42e51692efae1e16b8",
+      "role": "entry",
+      "collection": "people",
+      "slug": "maura-walsh",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "e2a0afb3-a63a-45a1-b534-2b52fc413bd2",
+      "route": "/community/maura-walsh",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "eb19cc0e-2314-4252-8f6c-af927cfa0ab2"
+        ]
+      },
+      "asset_references": [
+        "maura-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/maya-bonanno.md",
+      "sha256": "3b24d766d87265ef0b2d1ab97da905b78c6dceebe51872f34c7b4bc20b21583f",
+      "role": "entry",
+      "collection": "people",
+      "slug": "maya-bonanno",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "joined_ces",
+        "role",
+        "updated_by",
+        "updated_at",
+        "education",
+        "email",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ec4dc537-40cc-432f-b7fe-d4037bbce162",
+      "route": "/community/maya-bonanno",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-maya-b.-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/michelle-huang.md",
+      "sha256": "22a00c25403f21ceb3cb3c22575054e42959b83635c5e4e54ec13beea0ff227a",
+      "role": "entry",
+      "collection": "people",
+      "slug": "michelle-huang",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ba5e2e4c-de54-4db5-ad38-4fa3e305efd6",
+      "route": "/community/michelle-huang",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "michelle-huang-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/michelle-phoenix.md",
+      "sha256": "1367589359c4792a93bf935b27fb49a06452f28645e079f6c85ffc13fa20b57b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "michelle-phoenix",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "33a7ddbf-7537-404a-8dd7-ce4b3a4b4f47",
+      "route": "/community/michelle-phoenix",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "leadership"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "mp-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/molly-cohen.md",
+      "sha256": "2b9fd64721f227334befbe5b49f6f892cd08b08005b0ce4d60cbca840fa1e245",
+      "role": "entry",
+      "collection": "people",
+      "slug": "molly-cohen",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "f54515d7-328e-4abf-8548-3c133ca48529",
+      "route": "/community/molly-cohen",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "molly-cohen-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/molly-howard.md",
+      "sha256": "1e4a2ba75dd24895a7037459b4920d046bddabde7937ce6f23c18582874608fc",
+      "role": "entry",
+      "collection": "people",
+      "slug": "molly-howard",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ea30215b-0147-4ca1-9bff-65b7c041b0d5",
+      "route": "/community/molly-howard",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "molly-howard-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/nancy-goldberg.md",
+      "sha256": "752a55fc179ae9bee6d84be44bb85db25fe7818780f025ed9915fae9de2d9e76",
+      "role": "entry",
+      "collection": "people",
+      "slug": "nancy-goldberg",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "303b5eab-1970-4da9-84ae-9782c7b58fee",
+      "route": "/community/nancy-goldberg",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "nancy-headshot.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/natasha-carr.md",
+      "sha256": "d55b31e11ebedcefcbea04cea8c90e28a0a71fe5beb135389ee06fdb2185b385",
+      "role": "entry",
+      "collection": "people",
+      "slug": "natasha-carr",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c57e4fb9-2ffe-403f-9a2f-ea5b62d48ce3",
+      "route": "/community/natasha-carr",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "a289ada5-75ed-4478-a0ac-457b827c8850"
+        ]
+      },
+      "asset_references": [
+        "Natasha Dimas.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/nathalie-roberts.md",
+      "sha256": "eb9b246e05ad7709093529d8a069d9f635aca5f23659c8134559af214ca5cdc8",
+      "role": "entry",
+      "collection": "people",
+      "slug": "nathalie-roberts",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "24a03bef-6647-4438-9ca9-b53f664b51ea",
+      "route": "/community/nathalie-roberts",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "nathalie-roberts-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/neil-tennenholtz.md",
+      "sha256": "aaefdad21ff0f219f4db2c5afe7779152c641c0d41a87c181a7ac787477d7076",
+      "role": "entry",
+      "collection": "people",
+      "slug": "neil-tennenholtz",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "ec6d455d-6bbd-4bfd-8c42-384ef7eff45e",
+      "route": "/community/neil-tennenholtz",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "neil-tenenholtz-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/nisha-deo.md",
+      "sha256": "b20b4492559dbb3a5741b1d7459be943b84e0f506d9ff2cff4603ea5b379551e",
+      "role": "entry",
+      "collection": "people",
+      "slug": "nisha-deo",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c5ead9da-5be7-477d-b882-1cbdaa1f3f0b",
+      "route": "/community/nisha-deo",
+      "published": false,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/petra-loney.md",
+      "sha256": "90e9f37e77ebf040f6dffc87f3e4eddfc0f350d142f9497ac4d7bc733c1f17d2",
+      "role": "entry",
+      "collection": "people",
+      "slug": "petra-loney",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "d75cb51c-d24c-4c43-84a2-7ec8feb995f6",
+      "route": "/community/petra-loney",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "526138ff-778e-4e0e-a3fd-d1f5e7491961.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/qiaoling-zheng.md",
+      "sha256": "4955aa1bfdf755fb85ebaf2c96b5eaa2fbea697e88d14b226958e77c914f0937",
+      "role": "entry",
+      "collection": "people",
+      "slug": "qiaoling-zheng",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "d55c3300-37a9-45f6-9ad6-f6adee381cc2",
+      "route": "/community/qiaoling-zheng",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "448d749d-93d0-4c81-bd6f-806e5e431849",
+          "1bdc622f-5bcd-4d93-ab82-89cac9bc1b49"
+        ]
+      },
+      "asset_references": [
+        "qiaoling-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/qiurong-chen.md",
+      "sha256": "4888b5ddf1caf157f39f01d176e818f751c03234415c4492e02af89b352811f8",
+      "role": "entry",
+      "collection": "people",
+      "slug": "qiurong-chen",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "c9517f69-24af-4d2c-b524-2133e2ed9aa7",
+      "route": "/community/qiurong-chen",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "qiurong.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/rahul-khara.md",
+      "sha256": "0ab055952328f5199ef9f2de69e7e5b5df98b7803655bdf0ae9b2480cf3b64f2",
+      "role": "entry",
+      "collection": "people",
+      "slug": "rahul-khara",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "email",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "bef2a16f-4191-4bfb-b85b-f2016280ca91",
+      "route": "/community/rahul-khara",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "rahul-khara-headshot.JPG"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/rina-gandhi.md",
+      "sha256": "9c9f4bb0383de3bf0c3d92ddb9fa1dd944046459b465fb39fd5aeea5fd7ea47d",
+      "role": "entry",
+      "collection": "people",
+      "slug": "rina-gandhi",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "fc16d5a5-8bdc-49e1-be6d-edfc8c83a9dc",
+      "route": "/community/rina-gandhi",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "rina-gandhi-1758203238.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/sara-angres.md",
+      "sha256": "0f4e93fe5134ceced40be01e00251ee07dad28c19b3d6991f9c56139e7dfd83b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "sara-angres",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces",
+        "education",
+        "email",
+        "bio",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "da9b7489-43e6-42f9-837e-d46dfa84983a",
+      "route": "/community/sara-angres",
+      "published": true,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "2025-26-sara-head-shot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/shantia-gary.md",
+      "sha256": "ad731320c6b79bde63d818d2c7cf8445a370863dd000e67943dccc7505d3c409",
+      "role": "entry",
+      "collection": "people",
+      "slug": "shantia-gary",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "email",
+        "role",
+        "updated_by",
+        "updated_at",
+        "photo"
+      ],
+      "target_table": "people",
+      "legacy_ref": "d44d47e6-dae6-4451-b9d5-4a6fe87c9400",
+      "route": "/community/shantia-gary",
+      "published": true,
+      "relations": {
+        "person_education": 0,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "board-of-directors"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "shantia-gary.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/trevor-freeman.md",
+      "sha256": "51d456ecee508194ef731104cee5c58695a4c7950e41cbcf67aed7d5f2d8c766",
+      "role": "entry",
+      "collection": "people",
+      "slug": "trevor-freeman",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "cfa1f635-908f-4d30-9812-cfe881bcddc7",
+      "route": "/community/trevor-freeman",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "trevor-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/tullah-dash.md",
+      "sha256": "eaafe94f3297369d0fcd92a732dd8374b770e601d73ad0e36c5ae22e4b1cdae9",
+      "role": "entry",
+      "collection": "people",
+      "slug": "tullah-dash",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "b336b28f-cd15-4cb8-92b9-d5422addeb44",
+      "route": "/community/tullah-dash",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "73f44629-52d8-444e-8cc4-35a3a7569479"
+        ]
+      },
+      "asset_references": [
+        "83fbb7b2-268a-44fe-abb2-f9498698a179.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/ursula-arruda.md",
+      "sha256": "9352ece960988a735ae9a5ce6e4bbb952864a82db9add1be50baf6f4a640052b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "ursula-arruda",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "8cd47516-62bd-4fac-98bb-5ee4df634967",
+      "route": "/community/ursula-arruda",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "ursula-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/vilmari-gonzalez.md",
+      "sha256": "5d0664e0c9225b820df6e996de110f6f7847fb56acb589f40e379478e3318a8c",
+      "role": "entry",
+      "collection": "people",
+      "slug": "vilmari-gonzalez",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "db9ed644-ea57-461f-bbdd-1eb82e53a8ce",
+      "route": "/community/vilmari-gonzalez",
+      "published": false,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher",
+          "board-of-directors"
+        ],
+        "classrooms": [
+          "9f3c379b-1411-420e-a43b-8370437954d0"
+        ]
+      },
+      "asset_references": [
+        "vilmari-headshot.jpg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/wendy-henderson.md",
+      "sha256": "9f4fdebb4697b2ae327aa71cb88179a4f1910d0ed44d108854aec18c40bba554",
+      "role": "entry",
+      "collection": "people",
+      "slug": "wendy-henderson",
+      "keys": [
+        "id",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "56014be6-3e8c-4ff6-b500-039549190c03",
+      "route": "/community/wendy-henderson",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "8f6909ad-b9a1-41e8-b54e-b0f90bfc48ba"
+        ]
+      },
+      "asset_references": [
+        "wendy-headshot.png"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/yiting-wu.md",
+      "sha256": "5a3dafed61160ed512ff1af7a91157045b44400ccfa1adacef81d36a8ab95c1b",
+      "role": "entry",
+      "collection": "people",
+      "slug": "yiting-wu",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "template",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "programs",
+        "classrooms",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "people",
+      "legacy_ref": "a2b61a23-cc9e-4ba3-ac3f-1b65b1025223",
+      "route": "/community/yiting-wu",
+      "published": false,
+      "relations": {
+        "person_education": 2,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": [
+          "1bdc622f-5bcd-4d93-ab82-89cac9bc1b49"
+        ]
+      },
+      "asset_references": [
+        "f83a9f04-af1b-42d4-b39d-b0f2e0caf6f0.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/people/yu-shiuan-carol-shie.md",
+      "sha256": "b0060e637063a53ec6eecae95662128525821da1fcb2fdb3e09ad13138560df9",
+      "role": "entry",
+      "collection": "people",
+      "slug": "yu-shiuan-carol-shie",
+      "keys": [
+        "id",
+        "blueprint",
+        "title",
+        "officialtitle",
+        "education",
+        "email",
+        "bio",
+        "photo",
+        "role",
+        "updated_by",
+        "updated_at",
+        "joined_ces"
+      ],
+      "target_table": "people",
+      "legacy_ref": "89f3addc-2951-465b-a6cb-4f3eec76d72b",
+      "route": "/community/yu-shiuan-carol-shie",
+      "published": true,
+      "relations": {
+        "person_education": 1,
+        "person_education_sets_skipped": 0,
+        "person_roles": [
+          "teacher"
+        ],
+        "classrooms": []
+      },
+      "asset_references": [
+        "yu-shiuan-carol-shie.jpeg"
+      ],
+      "notes": []
+    },
+    {
+      "path": "content/collections/promoted/admissions-season.md",
+      "sha256": "f36a951b7bba92a051e1cfd8381eb1b8ba734666c14112af772697beec23002d",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "admissions-season",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "1657573a-478a-450e-b55f-83ecbd04812e",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "15219634_1141044685963611_3316175230264602101_n.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/annual-auction-and-community-celebration.md",
+      "sha256": "03150a728db582afb17895d2dffa6e195afd780d4ca4df5b95977ceb1fc0819f",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "annual-auction-and-community-celebration",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "date_of_event",
+        "start_time",
+        "end_time",
+        "address",
+        "summary_or_additional_info",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "aa8e7d5f-11d6-4857-bd62-6f4ecbe6be5b",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/boston-area-school-fair.md",
+      "sha256": "b004e3f0ffab79f7ff8b81e93e558dc80b3beb86ca3a5e6634f0b4e98d8bf05d",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "boston-area-school-fair",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "date_of_event",
+        "start_time",
+        "end_time",
+        "address",
+        "image",
+        "updated_by",
+        "updated_at",
+        "subtitle"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "c6491f8c-6588-4930-82ad-aaeeef02fbb8",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "school-fair-website-banner-1725645772.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/february-break.md",
+      "sha256": "ce533c59a25a7124680a9dd6842e04925f84b7dde4289c2362cf7f9f8b7269ea",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "february-break",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "6fa2d96e-c0b1-4308-8e81-58969f163116",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/last-days-of-school.md",
+      "sha256": "0780f822d47de5f9ea24ab09eb6ef1c896de29a704d3b2dbaf74c80a64f666ea",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "last-days-of-school",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "date_of_event",
+        "summary_or_additional_info",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "29985e75-e0a5-45ec-8b15-f72a53123583",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/new-k-3rd-grade-mandarin-afterschool-program-apply-for-the-2025-26-school-year-today.md",
+      "sha256": "000c0578f4793a6ceba7620a418f078ea63f5409431c69f20b51b5eb7510da51",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "new-k-3rd-grade-mandarin-afterschool-program-apply-for-the-2025-26-school-year-today",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "link",
+        "image",
+        "updated_by",
+        "updated_at",
+        "add_link"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "8b87e474-816a-435f-ab1e-5d5e42f22e45",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 1
+      },
+      "asset_references": [
+        "15219634_1141044685963611_3316175230264602101_n.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/open-house.md",
+      "sha256": "6d22ed8c3eb9197a9577e2a3a29a3e1cf8585cf7e2a16d417857fa394ecb23a5",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "open-house",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "date_of_event",
+        "start_time",
+        "end_time",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "f4565d23-a220-4388-8f67-054986dfe81f",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "open-house-website-banner-1728579309.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/spring-growth-conferences.md",
+      "sha256": "f29aecaf8bb264365e1c341b5078d7bbf3b536cf1aa16a3e90c9918adaf7f596",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "spring-growth-conferences",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "date_of_event",
+        "address",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "66792467-5f8c-4313-9329-e5397414e409",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/start-of-2024.md",
+      "sha256": "c16fc35a9a342a567edc91b08a0c44578f620574572a77b03b0ada19bc94fc55",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "start-of-2024",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "date_of_event",
+        "summary_or_additional_info",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "4cffd1c6-7fd3-4538-94d4-e13758ed790d",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/story-slam.md",
+      "sha256": "74e50990d5ec6ab55e9690725601fecd868af7f49dc74b36aa79e0fe26656b9d",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "story-slam",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "date_of_event",
+        "start_time",
+        "end_time",
+        "address",
+        "summary_or_additional_info",
+        "image",
+        "updated_by",
+        "updated_at"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "b72fd205-d2ad-41d5-95cf-a0ab17144a2f",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/summer-camp-sessions-a-and-b.md",
+      "sha256": "39b5d19006c8ab1491f66775562b68cc58508b0757b50277ce4463ff06a571d3",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "summer-camp-sessions-a-and-b",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "address",
+        "summary_or_additional_info",
+        "image",
+        "updated_by",
+        "updated_at",
+        "date_of_event",
+        "start_time",
+        "end_time"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "bf3c65f4-5842-4478-a27d-e133afe96931",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/collections/promoted/summer-program-2026-registration-is-now-open-for-all-famil.md",
+      "sha256": "1d58fc077cf9fe11d78bb3795334f0f41177ef033b3d57c2e865389592744596",
+      "role": "entry",
+      "collection": "promoted",
+      "slug": "summer-program-2026-registration-is-now-open-for-all-famil",
+      "keys": [
+        "id",
+        "published",
+        "blueprint",
+        "title",
+        "subtitle",
+        "image",
+        "updated_by",
+        "updated_at",
+        "summary_or_additional_info"
+      ],
+      "target_table": "promoted",
+      "legacy_ref": "edb127b0-caf5-40be-9056-5fbfb4109b72",
+      "route": null,
+      "published": false,
+      "relations": {
+        "promoted_links": 0
+      },
+      "asset_references": [
+        "ces-house.jpg"
+      ],
+      "notes": [
+        "promoted declares no route: it renders as a component of the home page"
+      ]
+    },
+    {
+      "path": "content/taxonomies/role.yaml",
+      "sha256": "46809e1e4ab23dbb0d25f3979dac2311634d2581a1a8c4243c28785568073c01",
+      "role": "taxonomy",
+      "collection": null,
+      "slug": null,
+      "keys": [],
+      "target_table": null,
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "declares only `title: Role`; no visibility field exists to migrate"
+      ]
+    },
+    {
+      "path": "content/taxonomies/role/board-of-directors.yaml",
+      "sha256": "3d7cc67b745eeba44928d1d7c015b34903f760740cd873fea45c0a72e570e1ec",
+      "role": "taxonomy-term",
+      "collection": null,
+      "slug": "board-of-directors",
+      "keys": [
+        "title",
+        "updated_by",
+        "updated_at",
+        "blueprint"
+      ],
+      "target_table": "taxonomy_terms",
+      "legacy_ref": "board-of-directors",
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/taxonomies/role/leadership.yaml",
+      "sha256": "a44176cc233062eacb32d11251eabd0da11773e85c4f20b8deebb90ce01dde8a",
+      "role": "taxonomy-term",
+      "collection": null,
+      "slug": "leadership",
+      "keys": [
+        "title",
+        "updated_by",
+        "updated_at",
+        "blueprint"
+      ],
+      "target_table": "taxonomy_terms",
+      "legacy_ref": "leadership",
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/taxonomies/role/teacher.yaml",
+      "sha256": "0fc4d7ffdb36d0945dd5d2957206a73a4bd7d607859335e16ad76b6789fe1eea",
+      "role": "taxonomy-term",
+      "collection": null,
+      "slug": "teacher",
+      "keys": [
+        "title",
+        "updated_by",
+        "updated_at",
+        "blueprint"
+      ],
+      "target_table": "taxonomy_terms",
+      "legacy_ref": "teacher",
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": []
+    },
+    {
+      "path": "content/trees/collections/pages.yaml",
+      "sha256": "59eda0f8bbcb7697f6108af241c8e3242cc7348d28b193be2011507bcd93ac87",
+      "role": "tree",
+      "collection": null,
+      "slug": null,
+      "keys": [],
+      "target_table": "pages",
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "authoritative for parent_id, sort_order and the materialized path; its first root is the literal string `home` rather than a uuid",
+        "also the starting point for the designed nav_items seed"
+      ]
+    },
+    {
+      "path": "resources/views/donate.antlers.html",
+      "sha256": "0ab16de35cbd0f87b34f655ab3630da29905495aa44ff64cd0c3edc3c5f5d474",
+      "role": "template",
+      "collection": null,
+      "slug": null,
+      "keys": [],
+      "target_table": null,
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "donate heading and paragraph promoted into page_sections"
+      ]
+    },
+    {
+      "path": "resources/views/layout.antlers.html",
+      "sha256": "ffe3d5ed4c7dd68632d546d045247a153bb06c32cae9ae6e92bfd53651881833",
+      "role": "template",
+      "collection": null,
+      "slug": null,
+      "keys": [],
+      "target_table": "site_globals",
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "address, phone, fax, email, social URLs, the logo reference, the donate call to action and both analytics identifiers promoted into site_globals"
+      ]
+    },
+    {
+      "path": "resources/views/programsumbrellasummer.antlers.html",
+      "sha256": "94d9673eae57601284ac6a3bf0d0caafffd17d9d151255eebbd54f16e87cb518",
+      "role": "template",
+      "collection": null,
+      "slug": null,
+      "keys": [],
+      "target_table": null,
+      "legacy_ref": null,
+      "route": null,
+      "published": null,
+      "relations": {},
+      "asset_references": [],
+      "notes": [
+        "three summer day-length labels promoted into page_sections.data"
+      ]
+    }
+  ]
+}

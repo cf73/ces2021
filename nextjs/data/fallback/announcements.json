@@ -1,0 +1,70 @@
+{
+  "table": "announcements",
+  "count": 4,
+  "rows": [
+    {
+      "id": "648e5e80-e457-52ac-8cf2-439372f3a748",
+      "legacy_ref": "377340dc-5ec0-473a-9ed0-c1b272d64aba",
+      "slug": "2023-24-admissions-season-now-open-apply-today",
+      "title": "Summer Camp 2023 Registration Opens to the Public, 2/15!",
+      "link_page_id": null,
+      "link_page_path": null,
+      "feature_on_homepage": false,
+      "published": true,
+      "legacy": {
+        "blueprint": "announcements",
+        "link": "53cf3d97-1b19-4551-a080-30b69ec56ef6"
+      },
+      "source_updated_at": "2023-02-15T04:57:29.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "db783463-6520-5be7-8a91-327a4a3bb7ce",
+      "legacy_ref": "7bae662f-2f6e-4daa-a058-944758d25bdc",
+      "slug": "admissions-season",
+      "title": "Now Accepting Applications for the 2025-26 School Year!",
+      "link_page_id": "433d9cd7-317d-5d9c-b0d2-b666b3f627fb",
+      "link_page_path": "/admissions/apply",
+      "feature_on_homepage": true,
+      "published": false,
+      "legacy": {
+        "blueprint": "announcements",
+        "link": "a1104c2b-9a1c-4e71-a25b-cdab3a77e936"
+      },
+      "source_updated_at": "2025-10-02T16:15:40.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "6de0aaa5-7250-5a9c-9c63-74b91f08df3a",
+      "legacy_ref": "c87329d7-663c-4b54-9d95-d51c4822a827",
+      "slug": "summer-camp-registration-begins-february-1st",
+      "title": "Summer Camp registration is now open to all!",
+      "link_page_id": "d6ddc669-687b-5270-8465-4e19d846c075",
+      "link_page_path": "/programs/summer-programs",
+      "feature_on_homepage": true,
+      "published": false,
+      "legacy": {
+        "blueprint": "announcements",
+        "link": "21904ad8-20a4-4672-a6eb-51204901e0e7"
+      },
+      "source_updated_at": "2026-02-23T01:59:06.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "4a9cef74-fa69-5667-875e-05d9f5267ccb",
+      "legacy_ref": "5e838742-845e-4316-9c5f-3419cdef2b2d",
+      "slug": "tickets-now-on-sale-for-our-annual-ac",
+      "title": "Tickets now on Sale for our Annual Auction and Community Celebration!",
+      "link_page_id": "a451c757-e9ad-5a3e-921b-f39030c218cc",
+      "link_page_path": "/giving/auction",
+      "feature_on_homepage": true,
+      "published": false,
+      "legacy": {
+        "blueprint": "announcements",
+        "link": "7c9e5336-9d8b-40d0-b884-0e0e0712dcff"
+      },
+      "source_updated_at": "2023-04-06T15:06:30.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    }
+  ]
+}

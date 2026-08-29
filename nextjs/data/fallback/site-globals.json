@@ -1,0 +1,269 @@
+{
+  "table": "site_globals",
+  "count": 26,
+  "rows": [
+    {
+      "id": "d71d87cc-5e4d-5f6d-9f57-ce0e61eb0a29",
+      "key": "address_line_1",
+      "value": "80 Trowbridge St.",
+      "asset_id": null,
+      "label": "Street address",
+      "group": "contact",
+      "public": true,
+      "sort_order": 1
+    },
+    {
+      "id": "b61479dc-572e-5c15-b868-37a256979128",
+      "key": "address_locality",
+      "value": "Cambridge",
+      "asset_id": null,
+      "label": "City",
+      "group": "contact",
+      "public": true,
+      "sort_order": 2
+    },
+    {
+      "id": "35e2f211-0226-56bd-a205-ed98895501b9",
+      "key": "address_region",
+      "value": "MA",
+      "asset_id": null,
+      "label": "State",
+      "group": "contact",
+      "public": true,
+      "sort_order": 3
+    },
+    {
+      "id": "77a72df9-5551-52b1-baea-4b9eed539aa6",
+      "key": "address_postal",
+      "value": "02138",
+      "asset_id": null,
+      "label": "ZIP code",
+      "group": "contact",
+      "public": true,
+      "sort_order": 4
+    },
+    {
+      "id": "b58260d6-2287-5fb6-81f6-7d822be2e6f5",
+      "key": "phone",
+      "value": "617-354-0014",
+      "asset_id": null,
+      "label": "Phone",
+      "group": "contact",
+      "public": true,
+      "sort_order": 5
+    },
+    {
+      "id": "8b940a9c-f427-544e-a557-bcd00f2f8196",
+      "key": "fax",
+      "value": "617-491-4313",
+      "asset_id": null,
+      "label": "Fax",
+      "group": "contact",
+      "public": true,
+      "sort_order": 6
+    },
+    {
+      "id": "a26816e4-f7df-57dd-ac4d-8264033a1dc1",
+      "key": "email",
+      "value": "info@cambridge-ellis.org",
+      "asset_id": null,
+      "label": "Email",
+      "group": "contact",
+      "public": true,
+      "sort_order": 7
+    },
+    {
+      "id": "cabe84b1-0fe3-5767-92cf-ea26f3ba747d",
+      "key": "opening_hours",
+      "value": null,
+      "asset_id": null,
+      "label": "Opening hours",
+      "group": "contact",
+      "public": true,
+      "sort_order": 8
+    },
+    {
+      "id": "41d59dcd-08a2-586c-be54-c34c8d665999",
+      "key": "instagram_url",
+      "value": "https://www.instagram.com/cambridgeellis/",
+      "asset_id": null,
+      "label": "Instagram URL",
+      "group": "social",
+      "public": true,
+      "sort_order": 1
+    },
+    {
+      "id": "3005099b-5b1d-5e42-af0a-e3b519232786",
+      "key": "facebook_url",
+      "value": "https://www.facebook.com/CambridgeEllisSchool/",
+      "asset_id": null,
+      "label": "Facebook URL",
+      "group": "social",
+      "public": true,
+      "sort_order": 2
+    },
+    {
+      "id": "1569a6e7-4b79-56fe-8eb9-43db7d75b8d1",
+      "key": "donate_url",
+      "value": "/donate",
+      "asset_id": null,
+      "label": "Donate link",
+      "group": "social",
+      "public": true,
+      "sort_order": 3
+    },
+    {
+      "id": "a1cc9b90-1edc-5798-9a68-ffc4d9c211a7",
+      "key": "family_portal_url",
+      "value": {
+        "url": "https://bngn.blackbaud.school/?id=yrwunmzuxfg#/home/",
+        "confirmed": false
+      },
+      "asset_id": null,
+      "label": "Family portal URL",
+      "group": "social",
+      "public": true,
+      "sort_order": 4
+    },
+    {
+      "id": "d3201e0b-be1e-503d-9372-64ee58833e76",
+      "key": "logo",
+      "value": null,
+      "asset_id": "9d0cad3a-3e51-5c3f-9931-49e4d64eaa1a",
+      "label": "Logo",
+      "group": "branding",
+      "public": true,
+      "sort_order": 1
+    },
+    {
+      "id": "548f374f-d3c4-58d2-bc37-a64ffb0b8abf",
+      "key": "logo_alt",
+      "value": null,
+      "asset_id": null,
+      "label": "Logo alt text",
+      "group": "branding",
+      "public": true,
+      "sort_order": 2
+    },
+    {
+      "id": "01c10406-a11c-5733-98b8-54403506df9c",
+      "key": "site_name",
+      "value": "Cambridge-Ellis School",
+      "asset_id": null,
+      "label": "Site name",
+      "group": "branding",
+      "public": true,
+      "sort_order": 3
+    },
+    {
+      "id": "ae2a6415-78d3-52d2-b99f-366a4778adc6",
+      "key": "tagline",
+      "value": null,
+      "asset_id": null,
+      "label": "Tagline",
+      "group": "branding",
+      "public": true,
+      "sort_order": 4
+    },
+    {
+      "id": "183631df-0834-59f2-a711-4168efc5bbe9",
+      "key": "banner_enabled",
+      "value": false,
+      "asset_id": null,
+      "label": "Show announcement banner",
+      "group": "announcement",
+      "public": true,
+      "sort_order": 1
+    },
+    {
+      "id": "7b7d441b-009b-5b76-be96-c94add60d8eb",
+      "key": "banner_variant",
+      "value": "brand",
+      "asset_id": null,
+      "label": "Banner style",
+      "group": "announcement",
+      "public": true,
+      "sort_order": 2
+    },
+    {
+      "id": "92a50fe1-d2fd-578b-81da-db551cb402ae",
+      "key": "google_ads_id",
+      "value": "AW-11332213588",
+      "asset_id": null,
+      "label": "Google Ads tag ID",
+      "group": "analytics",
+      "public": true,
+      "sort_order": 1
+    },
+    {
+      "id": "3c07027a-f2f5-58f3-880f-110e6e4af428",
+      "key": "statcounter_project",
+      "value": "12673899",
+      "asset_id": null,
+      "label": "StatCounter project ID",
+      "group": "analytics",
+      "public": true,
+      "sort_order": 2
+    },
+    {
+      "id": "58f6d88a-9740-5700-b9ef-d4816e1c6b7e",
+      "key": "statcounter_security",
+      "value": "24719029",
+      "asset_id": null,
+      "label": "StatCounter security token",
+      "group": "analytics",
+      "public": true,
+      "sort_order": 3
+    },
+    {
+      "id": "2ec56ed2-6856-53e6-870a-1fd28beb0599",
+      "key": "maintenance_enabled",
+      "value": false,
+      "asset_id": null,
+      "label": "Maintenance mode",
+      "group": "maintenance",
+      "public": false,
+      "sort_order": 1
+    },
+    {
+      "id": "6148cd06-6d75-54d4-90a2-e1c6f1bb3601",
+      "key": "maintenance_title",
+      "value": "We'll be right back",
+      "asset_id": null,
+      "label": "Maintenance heading",
+      "group": "maintenance",
+      "public": false,
+      "sort_order": 2
+    },
+    {
+      "id": "c928a281-935b-5642-9154-9f09cf52bd86",
+      "key": "maintenance_message",
+      "value": "We're making some changes on our site, and expect to be back online in the next 24 hours. Stay tooned!",
+      "asset_id": null,
+      "label": "Maintenance message",
+      "group": "maintenance",
+      "public": false,
+      "sort_order": 3
+    },
+    {
+      "id": "b5196848-6d00-590a-8e00-4f2e778e98f2",
+      "key": "maintenance_retry_after",
+      "value": 3600,
+      "asset_id": null,
+      "label": "Retry after (seconds)",
+      "group": "maintenance",
+      "public": false,
+      "sort_order": 4
+    },
+    {
+      "id": "0e14f32a-50e0-54c7-a6d7-aafc45dd15b5",
+      "key": "site_description",
+      "value": "We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience…",
+      "asset_id": null,
+      "label": "Default meta description",
+      "group": "seo",
+      "public": true,
+      "sort_order": 1
+    }
+  ]
+}

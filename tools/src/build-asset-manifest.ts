@@ -2063,6 +2063,68 @@ const bundledPathFor = (
   return isUrlAlias(relativePath) ? relativePath : normalizedPath;
 };
 
+/**
+ * The public URL an aliased document keeps. Recorded in the entry's notes so the
+ * preserved URL is legible in the artifact itself rather than only inferable
+ * from `bundled_path` plus a convention.
+ */
+const aliasUrlFor = (relativePath: string): string => `/assets/${relativePath}`;
+
+/**
+ * Compose one entry's `notes` from what was measured plus what was *decided*.
+ *
+ * Measurement notes come first and are left exactly as `measureAsset` produced
+ * them, so this is purely additive and a diff shows only the new lines. Two
+ * dispositional facts are appended, and both are here rather than in a new field
+ * for the same reason: `AssetManifestEntry.notes` is declared as the home for
+ * "other recorded facts", and three sibling programs narrow the parsed manifest
+ * with that interface, so adding a property would be a schema change for a fact
+ * that is prose.
+ *
+ * Why record them at all, when both are derivable from a constant in this file:
+ * the artifact is committed and *a reader months later has only the file*. That
+ * is the same reasoning `main()` applies to waived census drift.
+ *
+ *   - **The retirement override.** Without a note, `avatar.svg` reads as a bug:
+ *     an `archived` row carrying two `view` references with `published: null`,
+ *     which directly contradicts the rule `classifyOne` documents — a template
+ *     reference means deployed. The note is what makes the deviation visible as
+ *     a decision (AAP §0.7.1) rather than an error to be "fixed" by someone who
+ *     would thereby publish a binary the target never serves.
+ *   - **The alias retention decision.** AAP §0.7.1 makes retention the default
+ *     and per-file school approval the precondition for retiring one of the
+ *     seven. This manifest is the durable evidence read at cutover, so the
+ *     decision is seeded here as pending — never as retired, which is a state
+ *     only the school can authorise.
+ */
+const entryNotesFor = (
+  relativePath: string,
+  assetClass: AssetClass,
+  measured: readonly string[],
+): readonly string[] => {
+  const notes = [...measured];
+
+  if (RETIRED_FILENAMES.has(basenameOf(relativePath))) {
+    notes.push(
+      `classification override: retired — template-referenced, so the reference rule alone would classify this as ${JSON.stringify(
+        "deployed",
+      )}; archived instead because the target replaces it with the shadcn AvatarFallback component and the binary is never served again (AAP §0.7.1)`,
+    );
+  }
+
+  if (isUrlAlias(relativePath)) {
+    notes.push(
+      `retention: pending school approval — ${aliasUrlFor(
+        relativePath,
+      )} is preserved verbatim by file placement, and this file stays ${JSON.stringify(
+        assetClass,
+      )}; retiring it requires explicit per-file school approval (AAP §0.7.1), so the default is retention`,
+    );
+  }
+
+  return notes;
+};
+
 interface DispositionCensus {
   readonly aliases: { files: number; bytes: number };
   readonly bundled: { files: number; bytes: number };
@@ -2331,7 +2393,9 @@ const assembleManifest = (input: AssemblyInput): AssetManifest => {
       // informative subset is a cutover deliverable and a release gate.
       alt: null,
       referenced_by: input.references.get(asset.relativePath) ?? [],
-      notes: asset.notes,
+      // Measured facts plus the two decisions that are not derivable from the
+      // other fields: the retirement override and the alias retention default.
+      notes: entryNotesFor(asset.relativePath, assetClass, asset.notes),
     });
   }
 

@@ -1,0 +1,163 @@
+{
+  "schema_version": "20260901121800",
+  "source_commit": "052173f17f72441d787bf17a6781b8e95d3a07ad",
+  "produced_by": "extract",
+  "generated_at": "2026-08-29T12:13:04.421Z",
+  "generator": "tools/src/extract-statamic-content.ts",
+  "source_manifest_checksum": "c0340deb2887fdafd33bd94568241fc393906898d613194690e9e47c285df61a",
+  "identity": {
+    "uuid_namespace": "840c711d-7f81-4376-b0f3-d4154d606b54",
+    "entity_rule": "uuidv5(uuid_namespace, '<table>:<legacy_ref>')",
+    "child_rule": "<parent legacy_ref>:<field handle>:<ordinal in source order>"
+  },
+  "counts": {
+    "entries": {
+      "pages": 34,
+      "people": 77,
+      "events": 18,
+      "classrooms": 13,
+      "promoted": 12,
+      "announcements": 4,
+      "inspiring_quotes": 5
+    },
+    "taxonomy_terms": 3,
+    "assets": 289,
+    "pages": 34,
+    "page_sections": 79,
+    "page_classrooms": 12,
+    "people": 77,
+    "person_education": 80,
+    "person_roles": 82,
+    "events": 18,
+    "classrooms": 13,
+    "classroom_teachers": 41,
+    "promoted": 12,
+    "promoted_links": 1,
+    "announcements": 4,
+    "inspiring_quotes": 5,
+    "site_globals": 26,
+    "nav_items": 38,
+    "routes": 142
+  },
+  "integrity": {
+    "stale_parent_references": [
+      {
+        "slug": "day-programs",
+        "source_file": "content/collections/pages/day-programs.md",
+        "raw_parent": "261c91f6-648b-409b-8457-02a740156d6a",
+        "effective_parent_slug": "programs"
+      },
+      {
+        "slug": "language-programs",
+        "source_file": "content/collections/pages/language-programs.md",
+        "raw_parent": "261c91f6-648b-409b-8457-02a740156d6a",
+        "effective_parent_slug": "programs"
+      },
+      {
+        "slug": "enrichment-programs",
+        "source_file": "content/collections/pages/enrichment-programs.md",
+        "raw_parent": "261c91f6-648b-409b-8457-02a740156d6a",
+        "effective_parent_slug": "programs"
+      },
+      {
+        "slug": "summer-programs",
+        "source_file": "content/collections/pages/summer-programs.md",
+        "raw_parent": "261c91f6-648b-409b-8457-02a740156d6a",
+        "effective_parent_slug": "programs"
+      }
+    ],
+    "dangling_announcement_links": [
+      {
+        "slug": "2023-24-admissions-season-now-open-apply-today",
+        "source_file": "content/collections/announcements/2023-24-admissions-season-now-open-apply-today.md",
+        "raw_link": "53cf3d97-1b19-4551-a080-30b69ec56ef6"
+      }
+    ],
+    "missing_required_fields": [
+      {
+        "collection": "pages",
+        "slug": "school-age-mandarin-for-grades-k-through-3rd",
+        "source_file": "content/collections/pages/school-age-mandarin-for-grades-k-through-3rd.md",
+        "blueprint": "programsumbrella",
+        "missing": [
+          "program_image",
+          "short_description",
+          "description"
+        ]
+      },
+      {
+        "collection": "people",
+        "slug": "alex-danton-klein",
+        "source_file": "content/collections/people/alex-danton-klein.md",
+        "blueprint": "people",
+        "missing": [
+          "education[0].name_of_institution"
+        ]
+      }
+    ],
+    "promoted_link_duplication": [
+      {
+        "slug": "new-k-3rd-grade-mandarin-afterschool-program-apply-for-the-2025-26-school-year-today",
+        "source_file": "content/collections/promoted/new-k-3rd-grade-mandarin-afterschool-program-apply-for-the-2025-26-school-year-today.md",
+        "scalar_link": "https://cambridge-ellis.myschoolapp.com/app#login/apply",
+        "replicator_link": "https://cambridge-ellis.myschoolapp.com/app#login/apply"
+      }
+    ],
+    "grandfathered_over_length": [
+      {
+        "table": "pages",
+        "column": "short_description",
+        "legacy_ref": "a4fe025d-3d9c-4131-8481-ec2718833b30",
+        "slug": "language-programs",
+        "source_file": "content/collections/pages/language-programs.md",
+        "length": 379,
+        "declared_limit": 300
+      },
+      {
+        "table": "pages",
+        "column": "short_description",
+        "legacy_ref": "21904ad8-20a4-4672-a6eb-51204901e0e7",
+        "slug": "summer-programs",
+        "source_file": "content/collections/pages/summer-programs.md",
+        "length": 606,
+        "declared_limit": 300
+      },
+      {
+        "table": "announcements",
+        "column": "title",
+        "legacy_ref": "377340dc-5ec0-473a-9ed0-c1b272d64aba",
+        "slug": "2023-24-admissions-season-now-open-apply-today",
+        "source_file": "content/collections/announcements/2023-24-admissions-season-now-open-apply-today.md",
+        "length": 56,
+        "declared_limit": 30
+      },
+      {
+        "table": "announcements",
+        "column": "title",
+        "legacy_ref": "7bae662f-2f6e-4daa-a058-944758d25bdc",
+        "slug": "admissions-season",
+        "source_file": "content/collections/announcements/admissions-season.md",
+        "length": 55,
+        "declared_limit": 30
+      },
+      {
+        "table": "announcements",
+        "column": "title",
+        "legacy_ref": "c87329d7-663c-4b54-9d95-d51c4822a827",
+        "slug": "summer-camp-registration-begins-february-1st",
+        "source_file": "content/collections/announcements/summer-camp-registration-begins-february-1st.md",
+        "length": 44,
+        "declared_limit": 30
+      },
+      {
+        "table": "announcements",
+        "column": "title",
+        "legacy_ref": "5e838742-845e-4316-9c5f-3419cdef2b2d",
+        "slug": "tickets-now-on-sale-for-our-annual-ac",
+        "source_file": "content/collections/announcements/tickets-now-on-sale-for-our-annual-ac.md",
+        "length": 69,
+        "declared_limit": 30
+      }
+    ]
+  }
+}

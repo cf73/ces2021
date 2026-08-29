@@ -1,0 +1,270 @@
+{
+  "table": "promoted",
+  "count": 12,
+  "rows": [
+    {
+      "id": "41c5ad2d-26b4-5462-ab19-5bf1694aeabe",
+      "legacy_ref": "1657573a-478a-450e-b55f-83ecbd04812e",
+      "slug": "admissions-season",
+      "title": "Admissions season for the 2026-27 school year is now open!",
+      "subtitle": null,
+      "address": null,
+      "summary": null,
+      "event_date": null,
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "57451eed-5e26-58ee-930b-795bae551226",
+      "published": false,
+      "sort_order": 1,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2026-02-02T14:16:19.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "4b38260b-4d2e-5fec-9d5f-b834a18b63d6",
+      "legacy_ref": "aa8e7d5f-11d6-4857-bd62-6f4ecbe6be5b",
+      "slug": "annual-auction-and-community-celebration",
+      "title": "Annual Auction and Community Celebration",
+      "subtitle": "Join CES' biggest party of the year!",
+      "address": "Harry Parker Boathouse\n20 Nonatum Rd,\nBrighton, MA",
+      "summary": "Visit our Auction webpage under the Giving tab to purchase tickets for the event. Dinner, drinks, and dancing are included with your ticket price. All proceeds from the event go towards supporting our playground renovations!",
+      "event_date": "2024-04-27",
+      "start_time": "06:30",
+      "end_time": "11:00",
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 2,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-03-15T14:48:16.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "207707e0-3bd3-5062-8095-43884b51fb5d",
+      "legacy_ref": "c6491f8c-6588-4930-82ad-aaeeef02fbb8",
+      "slug": "boston-area-school-fair",
+      "title": "Boston Area School Fair",
+      "subtitle": "Click on 'Events' to learn more about it.",
+      "address": "Cambridge-Ellis School / 80 Trowbridge St. / Cambridge, MA 02138",
+      "summary": null,
+      "event_date": "2024-09-28",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "image_asset_id": "562d6d55-3fd8-5fd6-a9f1-3aa73b2647d8",
+      "published": false,
+      "sort_order": 3,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-09-06T18:07:54.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "cb688e2e-8f0b-5254-b498-6c9e40d2eaf5",
+      "legacy_ref": "6fa2d96e-c0b1-4308-8e81-58969f163116",
+      "slug": "february-break",
+      "title": "February Break",
+      "subtitle": "CES will be closed the week of February 19-23rd for February Break. We will return to school on Monday, February 26th.",
+      "address": null,
+      "summary": null,
+      "event_date": null,
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 4,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-02-13T18:09:06.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "2314d531-76f1-5c1a-a78e-83a8506d7aa7",
+      "legacy_ref": "29985e75-e0a5-45ec-8b15-f72a53123583",
+      "slug": "last-days-of-school",
+      "title": "Last Days of School!",
+      "subtitle": "All families are invited to join us at CES for Last Day Celebrations! Classroom teachers will reach out with classroom specific details. We can't wait to celebrate our growth and learning with you!",
+      "address": null,
+      "summary": "The last day of the Language Program is Thursday, 6/6. The last day of the Day Program is Friday, 6/7. Don't forget that Friday, 6/7 is a half day with dismissal at 12pm.",
+      "event_date": "2024-06-07",
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 5,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-05-30T16:36:39.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "e6907375-c3cc-5487-851a-c6c68d1cc405",
+      "legacy_ref": "8b87e474-816a-435f-ab1e-5d5e42f22e45",
+      "slug": "new-k-3rd-grade-mandarin-afterschool-program-apply-for-the-2025-26-school-year-today",
+      "title": "We anticipate spots opening in our Language Immersion Program! Apply for the 2026-27 school year today!",
+      "subtitle": null,
+      "address": null,
+      "summary": null,
+      "event_date": null,
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "57451eed-5e26-58ee-930b-795bae551226",
+      "published": false,
+      "sort_order": 6,
+      "legacy": {
+        "blueprint": "promoted",
+        "link": "https://cambridge-ellis.myschoolapp.com/app#login/apply"
+      },
+      "links": [
+        {
+          "id": "1756d934-8181-5d76-8591-eb30db2ada2b",
+          "legacy_ref": "8b87e474-816a-435f-ab1e-5d5e42f22e45:add_link:0",
+          "link_title": "Apply now!",
+          "link_url": "https://cambridge-ellis.myschoolapp.com/app#login/apply",
+          "sort_order": 1,
+          "legacy": {
+            "set_id": "m7kug0k7"
+          }
+        }
+      ],
+      "source_updated_at": "2026-07-02T17:52:30.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "9a6ac96a-3c1d-5ede-a91e-f25dfd3d6f9f",
+      "legacy_ref": "f4565d23-a220-4388-8f67-054986dfe81f",
+      "slug": "open-house",
+      "title": "Join us for our Open House!",
+      "subtitle": null,
+      "address": null,
+      "summary": null,
+      "event_date": "2024-11-02",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "image_asset_id": "cc3b2fd9-72cd-5963-bb3c-3e3e69b3a22c",
+      "published": false,
+      "sort_order": 7,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-10-11T14:44:10.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "a07bd512-deee-523b-a2fd-a0bd319dee1f",
+      "legacy_ref": "66792467-5f8c-4313-9329-e5397414e409",
+      "slug": "spring-growth-conferences",
+      "title": "Spring Growth Conferences",
+      "subtitle": "Join your child's classroom teachers for a discussion of their development and growth towards goals set in the fall.",
+      "address": "The school will be closed to students on conference day. Families can sign up for conference times and childcare using links found in the CES Weekly.",
+      "summary": null,
+      "event_date": "2024-03-15",
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 8,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-02-29T23:49:25.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "279c7d0b-e037-5ff0-a45a-817013a27dc4",
+      "legacy_ref": "4cffd1c6-7fd3-4538-94d4-e13758ed790d",
+      "slug": "start-of-2024",
+      "title": "Start of 2024-25 School Year!",
+      "subtitle": null,
+      "address": null,
+      "summary": "Our school year begins on September 3rd with two transition days. Classroom assignments will be shared by school leadership on August 5th. Caregivers will receive a welcome email from their classroom teachers with more information about the start of the school year in mid-August.",
+      "event_date": "2024-09-03",
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 9,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-10-11T14:39:29.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "74618d8a-6cf5-53b4-8f26-be70b0c2a633",
+      "legacy_ref": "b72fd205-d2ad-41d5-95cf-a0ab17144a2f",
+      "slug": "story-slam",
+      "title": "Story Slam",
+      "subtitle": "Join us for a night of storytelling and community!",
+      "address": "80 Trowbridge St, Cambridge",
+      "summary": "Join us upstairs at CES to hear interesting, emotional, and funny stories from members of our community. Think The Moth from NPR. Drinks and snacks will be provided. We will be broadcasting this event over Zoom for those who are unable to attend in person.",
+      "event_date": "2024-03-07",
+      "start_time": "07:00",
+      "end_time": "08:30",
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 10,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2024-02-13T18:07:38.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "50def205-0baf-5ad3-b258-cff8a4f5a6f2",
+      "legacy_ref": "bf3c65f4-5842-4478-a27d-e133afe96931",
+      "slug": "summer-camp-sessions-a-and-b",
+      "title": "Community Welcome Night",
+      "subtitle": "Let's kick off the 2023-24 school year with our annual welcome event (previously known as Parent Orientation)!",
+      "address": "80 Trowbridge St, Cambridge",
+      "summary": "Meet our faculty, families, and enjoy beverages and snacks on the CES playground. Reminder: This is an in person, adult only event.",
+      "event_date": "2023-08-31",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 11,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2023-08-01T15:34:09.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    },
+    {
+      "id": "fe94f34e-2c97-59d5-ab93-ba9971da0831",
+      "legacy_ref": "edb127b0-caf5-40be-9056-5fbfb4109b72",
+      "slug": "summer-program-2026-registration-is-now-open-for-all-famil",
+      "title": "Summer Program 2026 Registration is now open for all Families!",
+      "subtitle": "June and July are full of fun, exploration, and water play at our CES summer program!",
+      "address": null,
+      "summary": "Visit the Summer Program Registration page under Programs to register! Limited spaces available!",
+      "event_date": null,
+      "start_time": null,
+      "end_time": null,
+      "image_asset_id": "f65e388d-8181-5014-b4c9-287ee5b30fca",
+      "published": false,
+      "sort_order": 12,
+      "legacy": {
+        "blueprint": "promoted"
+      },
+      "links": [],
+      "source_updated_at": "2026-02-23T02:01:03.000Z",
+      "source_updated_by": "bekah@cambridge-ellis.org"
+    }
+  ]
+}
