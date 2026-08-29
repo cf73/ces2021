@@ -1,9 +1,9 @@
 {
-    "name": "ces-nextjs",
+    "name": "cambridge-ellis-school",
     "version": "0.1.0",
     "private": true,
     "engines": {
-        "node": ">= 22.22.2"
+        "node": ">=22.22.2"
     },
     "scripts": {
         "dev": "next dev",
