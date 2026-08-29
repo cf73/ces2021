@@ -1,0 +1,38 @@
+{
+    "name": "ces-tools",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">= 22.22.2"
+    },
+    "scripts": {
+        "typecheck": "tsc --noEmit",
+        "lint": "eslint . --max-warnings=0",
+        "test": "vitest run",
+        "extract": "tsx src/extract-statamic-content.ts",
+        "asset-manifest": "tsx src/build-asset-manifest.ts",
+        "upload-assets": "tsx src/upload-assets.ts",
+        "verify:parity": "tsx src/verify-parity.ts",
+        "export-fallback": "tsx src/export-fallback.ts",
+        "bootstrap-admins": "tsx src/bootstrap-admins.ts"
+    },
+    "dependencies": {
+        "@supabase/supabase-js": "2.112.4",
+        "adm-zip": "0.6.0",
+        "gray-matter": "4.0.3",
+        "sharp": "0.35.4",
+        "yaml": "2.9.0"
+    },
+    "devDependencies": {
+        "@types/adm-zip": "0.5.8",
+        "@types/node": "22.20.1",
+        "eslint": "9.39.5",
+        "tsx": "4.23.12",
+        "typescript": "5.9.3",
+        "vitest": "4.1.11"
+    },
+    "allowScripts": {
+        "esbuild@0.28.2": true
+    }
+}

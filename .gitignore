@@ -6,6 +6,25 @@
 /vendor
 .env
 .env.backup
+
+# --- Node / Next.js / Supabase toolchain (target stack roots: nextjs/, tools/, supabase/) ---
+node_modules/
+nextjs/.next/
+nextjs/out/
+nextjs/build/
+.vercel/
+.env*.local
+.turbo/
+
+# Test and audit output
+playwright-report/
+blob-report/
+test-results/
+.lighthouseci/
+coverage/
+
+# Local-only Statamic CP account created for environment validation (contains a bcrypt hash)
+/users/blitzy.*.yaml
 .phpunit.result.cache
 .php_cs.cache
 Homestead.json
