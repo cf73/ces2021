@@ -1,0 +1,56 @@
+%PDF-1.4
+% Upload-path test fixture for the document branch of the asset pipeline.
+% Minimal hand-authored PDF: ASCII syntax only, LF line endings, one page,
+% no embedded font program, no interactive features, no variable metadata.
+%
+% These exact bytes ARE the fixture. Its sha256 and byte length are pinned
+% as constants in nextjs/tests/support/fixtures/index.ts, where
+% ensureFixtures() throws on mismatch instead of regenerating.
+%
+% Any edit therefore requires recomputing BOTH that pinned sha256 AND every
+% offset in the cross-reference table below, including the startxref value:
+% changing a single byte anywhere above the table shifts the offsets and the
+% file stops parsing. Do not reformat, do not convert line endings.
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 165 >>
+stream
+BT
+/F1 12 Tf
+72 720 Td
+16 TL
+(Upload-path test fixture: a minimal, valid PDF document.) Tj
+T*
+(These bytes are contractual. Do not edit or reformat this file.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Title (Upload-path test fixture) >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000736 00000 n 
+0000000785 00000 n 
+0000000842 00000 n 
+0000000971 00000 n 
+0000001187 00000 n 
+0000001284 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R /Info 6 0 R >>
+startxref
+1339
+%%EOF

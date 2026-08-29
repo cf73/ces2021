@@ -1,0 +1,15 @@
+<?php
+/*
+ * Inert upload-rejection fixture. Test data, not code -- never run this file.
+ *
+ * PHP source under a .jpg name on purpose: an upload declares image/jpeg,
+ * finalize reads the real bytes, finds no JPEG start marker (0xFF 0xD8 0xFF),
+ * and must refuse it before any decode. That first gate is this file's only
+ * job, so the PHP open tag above is the whole point. No payload, just an echo.
+ *
+ * The bytes are contractual: nextjs/tests/support/fixtures/index.ts pins this
+ * file's sha256 and byte length. Any edit, even to whitespace, must be paired
+ * with an update to those constants in the same commit.
+ */
+
+echo "Inert upload-rejection fixture: not a JPEG, not to be run.\n";
