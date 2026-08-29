@@ -1,38 +1,56 @@
 {
-    "name": "ces-tools",
-    "version": "0.1.0",
-    "private": true,
-    "type": "module",
-    "engines": {
-        "node": ">= 22.22.2"
-    },
-    "scripts": {
-        "typecheck": "tsc --noEmit",
-        "lint": "eslint . --max-warnings=0",
-        "test": "vitest run",
-        "extract": "tsx src/extract-statamic-content.ts",
-        "asset-manifest": "tsx src/build-asset-manifest.ts",
-        "upload-assets": "tsx src/upload-assets.ts",
-        "verify:parity": "tsx src/verify-parity.ts",
-        "export-fallback": "tsx src/export-fallback.ts",
-        "bootstrap-admins": "tsx src/bootstrap-admins.ts"
-    },
-    "dependencies": {
-        "@supabase/supabase-js": "2.112.4",
-        "adm-zip": "0.6.0",
-        "gray-matter": "4.0.3",
-        "sharp": "0.35.4",
-        "yaml": "2.9.0"
-    },
-    "devDependencies": {
-        "@types/adm-zip": "0.5.8",
-        "@types/node": "22.20.1",
-        "eslint": "9.39.5",
-        "tsx": "4.23.12",
-        "typescript": "5.9.3",
-        "vitest": "4.1.11"
-    },
-    "allowScripts": {
-        "esbuild@0.28.2": true
-    }
+  "name": "ces-migration-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Statamic 3.4 to Supabase/Next.js migration tooling for the Cambridge-Ellis School site: content extraction, asset manifest, asset upload, parity verification, fallback export and admin bootstrap. A self-contained npm project that is never installed by the deployment (the Vercel Root Directory is nextjs/), and that is retained permanently rather than being scaffolding.",
+  "//": [
+    "PERMANENT, NOT SCAFFOLDING. Nothing deletes a file under tools/. upload-assets, verify-parity,",
+    "export-fallback and bootstrap-admins all run AFTER the user supplies Supabase keys; extract-statamic-content",
+    "and build-asset-manifest are retained because the content freeze can be lifted and extraction re-run against a",
+    "newer source commit, and because a reader auditing a migrated value needs the code that produced it. After the",
+    "migration these two take a path to a Statamic checkout, which is a git revision of this repository rather than",
+    "the working tree; see tools/README.md.",
+    "EXACT PINS ONLY - no ^, no ~, no ranges, no 'latest'. A range here would let a transitive change alter extracted",
+    "content, and a content-transformation bug is a content bug. typescript 5.9.3 and the eslint 9 line are",
+    "deliberate judgments, not staleness: TypeScript 7 is the native-port major and ESLint 10 is a major with",
+    "removals, and neither the extractor nor the lint layer is where this migration takes churn.",
+    "engines.node mirrors nextjs/.nvmrc, the single source of truth for 22.22.2. That floor is the intersection of",
+    "next@16.3.3 (>=20.9.0), @vitejs/plugin-react@6.1.0 (^20.19.0 || >=22.12.0) and jsdom@30.0.1",
+    "(^22.22.2 || ^24.15.0 || >=26.0.0), the last being binding. Do not edit it here alone.",
+    "'verify:parity' is a hard CI and runbook name contract - do not rename it.",
+    "No credential, connection string, project ref or key belongs anywhere in this file."
+  ],
+  "engines": {
+    "node": ">=22.22.2"
+  },
+  "scripts": {
+    "extract": "tsx src/extract-statamic-content.ts",
+    "asset-manifest": "tsx src/build-asset-manifest.ts",
+    "upload-assets": "tsx src/upload-assets.ts",
+    "verify:parity": "tsx src/verify-parity.ts",
+    "export-fallback": "tsx src/export-fallback.ts",
+    "bootstrap-admins": "tsx src/bootstrap-admins.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.112.4",
+    "@types/node": "22.20.1",
+    "adm-zip": "0.6.0",
+    "gray-matter": "4.0.3",
+    "sharp": "0.35.4",
+    "tsx": "4.23.12",
+    "typescript": "5.9.3",
+    "yaml": "2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "9.39.5",
+    "typescript-eslint": "8.47.0",
+    "vitest": "4.1.11"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
 }
