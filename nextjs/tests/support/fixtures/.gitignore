@@ -1,0 +1,11 @@
+# Runtime-generated upload fixtures. ensureFixtures() in ./index.ts materializes
+# these from fixed recipes at test-setup time, together with a sidecar manifest of
+# recipe fingerprints and measured checksums. Nothing here is committed: it all
+# regenerates, and some of it is deliberately huge -- the oversized JPEG overshoots
+# the image byte ceiling on purpose, the decompression-bomb PNG declares
+# 20,000 x 20,000 pixels, and one ZIP variant expands past 200,000,000 bytes.
+# Those figures orient a reader only; nextjs/lib/upload-limits.ts owns the ceilings.
+#
+# Deliberately scoped to the generated directory: the fixtures committed beside
+# this file are checksum-pinned in ./index.ts and must stay tracked.
+.generated/

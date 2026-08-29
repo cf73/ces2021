@@ -1,0 +1,176 @@
+# Dependabot configuration — Cambridge-Ellis School
+#
+# The legacy Statamic/Laravel repository had no dependency automation of any
+# kind. That is how jQuery 3.4.1 stayed in production past CVE-2020-11022 and
+# CVE-2020-11023, both fixed in jQuery 3.5.0: the home page loaded jQuery twice
+# at two versions and the older, unpatched copy was the one that executed.
+# Nothing in the repository would ever have reported it.
+#
+# This file is the counterpart to the `deps-audit` CI job, which fails the build
+# on any high or critical advisory. The audit job detects, this file supplies the
+# upgrades that clear it, and .github/audit-allowlist.yml records the few
+# suppressions that are accepted, each with a reason and an expiry.
+#
+# There are two self-contained npm projects, NEITHER at the repository root:
+#   /nextjs  the deployed application, and the Vercel Root Directory
+#   /tools   the retained migration tooling (extract, manifest, upload, parity,
+#            fallback export, admin bootstrap)
+# There is deliberately no npm entry for "/", because the repository root holds
+# no package.json, and no composer entry, because no PHP remains after the
+# migration. No docker entry: the repository builds no image.
+#
+# No `ignore:` rules are declared, by design. TypeScript is held at 5.9.3 and
+# ESLint at 9.39.5 as deliberate, documented judgments, each with a stated
+# condition for revisiting. A pull request proposing either major is exactly the
+# prompt to re-evaluate against that condition, so those pull requests are
+# allowed to arrive and be closed with a reason rather than silently suppressed
+# here, where the decision point would be invisible.
+#
+# Groups are matched first-match-wins and any dependency matching no group is
+# raised on its own, so the order within each entry is significant and the
+# trailing "*" group is what keeps stragglers from becoming one pull request
+# each.
+
+version: 2
+
+updates:
+  # ---------------------------------------------------------------------------
+  # The deployed Next.js application.
+  # ---------------------------------------------------------------------------
+  - package-ecosystem: "npm"
+    directory: "/nextjs"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    labels:
+      - "dependencies"
+      - "nextjs"
+    groups:
+      # eslint-config-next tracks next exactly, and each @types package must
+      # track the runtime package it describes. These move together or not at
+      # all.
+      next-react:
+        patterns:
+          - "next"
+          - "eslint-config-next"
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
+      # @supabase/ssr peers on an exact @supabase/supabase-js range, and the CLI
+      # generates the committed database types, so all three stay in step.
+      supabase:
+        patterns:
+          - "@supabase/*"
+          - "supabase"
+      # One shared version line across the editor packages.
+      tiptap:
+        patterns:
+          - "@tiptap/*"
+      # The carousel engine and its autoplay and fade plugins are released
+      # together.
+      embla-carousel:
+        patterns:
+          - "embla-carousel*"
+      # The styling layer, including the Prettier plugin that orders Tailwind
+      # classes and therefore follows Tailwind rather than Prettier.
+      tailwind:
+        patterns:
+          - "tailwindcss"
+          - "@tailwindcss/*"
+          - "tailwind-merge"
+          - "tw-animate-css"
+          - "prettier-plugin-tailwindcss"
+      test-tooling:
+        patterns:
+          - "vitest"
+          - "@vitejs/*"
+          - "jsdom"
+          - "@testing-library/*"
+          - "@playwright/test"
+          - "@axe-core/playwright"
+          - "@lhci/cli"
+      lint-and-types:
+        patterns:
+          - "eslint"
+          - "prettier"
+          - "typescript"
+          - "@types/node"
+          - "tsx"
+      # Everything not claimed above, so no dependency is left to raise a pull
+      # request of its own.
+      remaining:
+        patterns:
+          - "*"
+
+  # ---------------------------------------------------------------------------
+  # The retained migration tooling. Never installed by the deployment, but held
+  # to the same bar as the application: a silent bug in the extractor is a
+  # content bug. Scheduled a day after /nextjs so the two npm projects do not
+  # arrive as a single review burst.
+  # ---------------------------------------------------------------------------
+  - package-ecosystem: "npm"
+    directory: "/tools"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "04:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    labels:
+      - "dependencies"
+      - "tools"
+    groups:
+      supabase:
+        patterns:
+          - "@supabase/*"
+      # This project shares its typescript, tsx, eslint and vitest pins with the
+      # application, so one pull request keeps the two projects aligned.
+      toolchain:
+        patterns:
+          - "typescript"
+          - "tsx"
+          - "eslint"
+          - "vitest"
+          - "@types/*"
+      # The content-parsing dependencies that read the legacy corpus.
+      remaining:
+        patterns:
+          - "*"
+
+  # ---------------------------------------------------------------------------
+  # The workflow's own actions. ci.yml pins every `uses:` to an immutable
+  # version, which is correct, but an unmaintained pin is simply a stale and
+  # unpatched pin. This entry is what makes that pinning discipline sustainable
+  # instead of a one-time snapshot.
+  #
+  # "/" is the documented value for this ecosystem: Dependabot searches the
+  # .github/workflows directory from the repository root. It is unrelated to an
+  # npm entry at "/", which this file deliberately does not declare.
+  # ---------------------------------------------------------------------------
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "04:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "chore(ci)"
+    labels:
+      - "dependencies"
+      - "github-actions"
+    groups:
+      # A single pull request for the whole workflow, so the pins stay
+      # consistent with one another.
+      actions:
+        patterns:
+          - "*"

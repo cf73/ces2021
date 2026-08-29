@@ -1,0 +1,80 @@
+# Dependency-advisory suppression registry for the `deps-audit` CI gate.
+#
+# Read by .github/workflows/ci.yml, job `deps-audit`, which runs
+# `npm audit --audit-level=high` in both nextjs/ and tools/. A high or critical
+# advisory fails the build unless a matching, unexpired entry appears in
+# `allowlist` below.
+#
+# The rule that makes that safe: every entry carries an `expires` date, and an
+# entry whose date has been reached FAILS the job instead of suppressing
+# anything. A suppression therefore cannot become permanent by inattention --
+# the absence of exactly this discipline is how jQuery 3.4.1 stayed in
+# production on this site past CVE-2020-11022 and CVE-2020-11023, both fixed
+# in jQuery 3.5.0.
+#
+# `allowlist` is intentionally empty: no advisory has been reviewed or
+# accepted. Do not add an entry without reading the advisory and recording a
+# real mitigating fact in `reason`.
+
+# Schema version. `deps-audit` rejects a file whose version it does not
+# recognize rather than guessing at its shape. Bump only alongside ci.yml.
+version: 1
+
+# ---------------------------------------------------------------------------
+# Entry schema. The field vocabulary is CLOSED: `deps-audit` fails on any
+# field not listed here, so a typo cannot silently widen a suppression.
+#
+# Required on every entry:
+#   advisory  GitHub advisory identifier, quoted, e.g. "GHSA-xxxx-xxxx-xxxx".
+#             This is the identifier `npm audit --json` reports for the finding.
+#   package   Name of the npm package the advisory is filed against.
+#   manifest  Which npm project the suppression applies to. Closed vocabulary:
+#             `nextjs` or `tools`, the repository's only two npm projects.
+#             One entry covers one manifest only. If an advisory genuinely
+#             applies to both, write two entries. That is deliberate: the two
+#             have different dependency sets and different exposure, and
+#             tools/ is never installed by the deployment, so an exception
+#             accepted for migration tooling must never excuse the deployed
+#             application.
+#   reason    Why this is accepted for now. State the actual mitigating fact
+#             -- "not reachable from any code path we ship", "no patched
+#             release published yet", "development-only dependency" -- rather
+#             than restating the advisory title.
+#   reviewer  GitHub handle or email address of the person accepting the risk.
+#             A named human, never a team or a role.
+#   expires   First day on which the suppression is no longer honored, as a
+#             quoted ISO calendar date, "YYYY-MM-DD". Required, and there is
+#             no sentinel for "never". Prefer the shortest workable window and
+#             re-review rather than extend by reflex.
+#
+# Optional:
+#   url       Link to the advisory or to the upstream tracking issue.
+#
+# `deps-audit` fails closed. Each of the following is a job failure, never a
+# silently ignored entry and never an unrestricted suppression:
+#   - a `version` it does not recognize
+#   - an unknown field, or a missing required field
+#   - a `manifest` outside {nextjs, tools}
+#   - an `expires` that is absent, is not a valid "YYYY-MM-DD" date, or has
+#     been reached
+# An entry suppresses only its own advisory/package/manifest combination. It
+# never widens to another advisory, another package or the other manifest.
+#
+# Example, commented out on purpose. To accept an advisory, replace the
+# `allowlist: []` line below with this block form and supply real values. The
+# example expiry is deliberately in the past, so uncommenting it without
+# editing fails the gate rather than quietly suppressing something.
+#
+# allowlist:
+#   - advisory: "GHSA-xxxx-xxxx-xxxx"
+#     package: example-package
+#     manifest: tools
+#     reason: >-
+#       Placeholder. Replace with the mitigating fact, for example that the
+#       vulnerable function is unreachable because we never call the affected
+#       API, and that no patched release has been published yet.
+#     reviewer: "@example-maintainer"
+#     expires: "2026-01-01"
+#     url: https://github.com/advisories/GHSA-xxxx-xxxx-xxxx
+# ---------------------------------------------------------------------------
+allowlist: []

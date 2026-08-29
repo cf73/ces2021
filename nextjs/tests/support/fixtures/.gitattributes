@@ -1,0 +1,23 @@
+# Fixture bytes are contractual: Git must never rewrite them.
+#
+# The repository-root .gitattributes sets `* text=auto`, and two fixtures here are
+# ASCII text carrying a non-text extension (disguised-script.jpg is PHP source,
+# sample-document.pdf is plain PDF syntax). Content auto-detection classifies both
+# as text, so a checkout on a CRLF platform (core.autocrlf=true) silently rewrites
+# every LF and:
+#   - shifts every byte offset in the PDF `xref` table, so the file stops parsing
+#     and is no longer the genuinely-parseable document it exists to be;
+#   - changes both byte lengths, breaking the declared-versus-actual length check
+#     they feed;
+#   - breaks every pinned sha256 in ./index.ts, so ensureFixtures() throws for a
+#     reason that is not a real defect.
+#
+# `binary` (-text -diff) disables all conversion and the useless textual diff.
+# Patterns are unanchored basenames so they cover ./.generated/ as well, whose
+# JPEG, PNG and ZIP artifacts are equally checksum-sensitive. `*.ts` is
+# deliberately absent: index.ts is ordinary source and keeps normal text handling.
+
+*.jpg binary
+*.pdf binary
+*.png binary
+*.zip binary

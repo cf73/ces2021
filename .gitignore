@@ -1,34 +1,52 @@
-/node_modules
-/public/hot
-/public/storage
-/public/vendor/statamic
-/storage/*.key
-/vendor
-.env
-.env.backup
+# Cambridge-Ellis School — Next.js / Supabase / Vercel
+#
+# This is the only ignore file covering the application code: there is no
+# nextjs/.gitignore and no tools/.gitignore, so every pattern here must reach
+# the subtree it is meant to cover. Unanchored patterns (node_modules) match at
+# any depth; path-anchored patterns (nextjs/.next) match exactly one location.
+# Patterns stay file-scoped rather than directory-scoped wherever a negation
+# below has to reach inside a directory: Git cannot un-ignore a file whose
+# parent directory is itself excluded.
 
-# --- Node / Next.js / Supabase toolchain (target stack roots: nextjs/, tools/, supabase/) ---
+# Dependencies
 node_modules/
+
+# Build output
 nextjs/.next/
 nextjs/out/
-nextjs/build/
-.vercel/
-.env*.local
-.turbo/
+*.tsbuildinfo
+
+# nextjs/next-env.d.ts is DELIBERATELY COMMITTED — never add an ignore for it.
+# CI typechecks a clean checkout with `tsc --noEmit` and no `next build` before
+# it, and nextjs/tsconfig.json lists the file in `include` for the `next` and
+# `next/image-types/global` type references it carries. Next rewrites it during
+# a build, so any change must surface as a reviewable diff instead of vanishing.
 
 # Test and audit output
+coverage/
 playwright-report/
 blob-report/
 test-results/
 .lighthouseci/
-coverage/
 
-# Local-only Statamic CP account created for environment validation (contains a bcrypt hash)
-/users/blitzy.*.yaml
-.phpunit.result.cache
-.php_cs.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
+# Environment
+# Never commit real credentials: a leaked Supabase service-role key is the worst
+# outcome available to this project. `.env.*` therefore blankets every variant
+# (.env.local, .env.test.local, .env.production) and the one exception is the
+# committed template, whose negation must stay reachable at nextjs/.env.example.
+.env
+.env.*
+!.env.example
+
+# Vercel — local link metadata only. The Root Directory (nextjs) is a Vercel
+# project setting and is not stored in the repository.
+.vercel/
+
+# Supabase local stack state. supabase/migrations and supabase/seed.sql are
+# committed: they are the canonical schema and the canonical database load.
+supabase/.temp
+
+# OS noise
 .DS_Store
+npm-debug.log*
+yarn-error.log*

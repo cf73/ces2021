@@ -1,5 +1,59 @@
-* text=auto
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
-CHANGELOG.md export-ignore
+# Cambridge-Ellis School - Git attribute definitions
+#
+# This repository holds a TypeScript application (Next.js on Vercel, Supabase as
+# the data backend) alongside a large committed media corpus. The attributes
+# below describe only paths and extensions the repository actually contains.
+#
+# No Git LFS filter is defined here, deliberately: rendering from committed
+# fallback data is a supported runtime state and the one-deploy rollback path,
+# so the images under nextjs/public/assets/ must stay ordinary Git objects.
+
+# --- Line endings -----------------------------------------------------------
+# Normalize to LF in the repository and check out LF everywhere, so the working
+# tree agrees with .editorconfig (end_of_line = lf), with Linux CI and with the
+# Vercel build. Anything not declared below is auto-detected from content.
+* text=auto eol=lf
+
+# --- Committed binary media -------------------------------------------------
+# Declared explicitly rather than left to content heuristics: the deployed asset
+# set and the retired archive together hold hundreds of megabytes, and the
+# marker also stops diff and merge attempting a textual comparison of a
+# multi-megabyte image. `binary` is equivalent to `-text -diff -merge`.
+#
+# The extension set is measured from the migrated corpus - JPEG, PNG and HEIC
+# images plus the PDF, ZIP and DOCX documents whose original URLs are preserved.
+# Extensions this repository does not contain are intentionally absent.
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.heic binary
+*.pdf binary
+*.zip binary
+*.docx binary
+
+# SVG is intentionally NOT binary: app/icon.svg is the sole favicon owner and is
+# authored, reviewable XML text.
+
+# --- Generated files --------------------------------------------------------
+# Collapsed in review and excluded from language statistics. npm is the single
+# package manager, so these are the only two lockfiles in the tree.
+nextjs/package-lock.json linguist-generated
+tools/package-lock.json linguist-generated
+
+# Migration evidence emitted by the scripts under tools/src: route manifest,
+# asset manifest, corpus census, source manifest and parity report. Only those
+# JSON reports are generated - artifacts/accessibility-record.md is authored by
+# hand each release and is deliberately not matched.
+artifacts/*.json linguist-generated
+
+# nextjs/data/fallback/*.json is deliberately NOT marked generated: it is the
+# runtime content source in fallback mode and the bounded rollback snapshot, so
+# its diffs are reviewed at cutover.
+
+# --- Retired media, staged outside the deployed root ------------------------
+# archive/ holds draft-only and unreferenced binaries kept for recoverability,
+# including legacy third-party CSS and JS retained as historical artifacts.
+# Excluding it keeps retired, non-authored content out of the language
+# breakdown. This is the only vendored marker in the tree: the application's own
+# stylesheets and configuration are project source and are never marked vendored.
+archive/** linguist-vendored
