@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: History
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707841602
+updated_at: 1788887292
 add_content:
   -
     id: vcCKJ1eO
@@ -26,25 +26,6 @@ add_content:
     type: text
     enabled: true
   -
-    id: hQwxnnZs
-    text:
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: '1987 | Finding a Forever Home'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Cambridge-Ellis moved into the building we now call home, at 80 Trowbridge Street in Cambridge. The larger space allowed us to introduce two toddler classrooms, three preschool classes, and a Kindergarten room.'
-    type: text
-    enabled: true
-  -
     id: XKK65eD2
     text:
       -
@@ -61,6 +42,25 @@ add_content:
           -
             type: text
             text: 'After extensive research and with the help of the Foreign Languages and Linguistics Department at MIT, we started our afternoon Mandarin Immersion Program. The following year, we added Spanish and French classrooms.'
+    type: text
+    enabled: true
+  -
+    id: hQwxnnZs
+    text:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '1997 | Finding a Forever Home'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Cambridge-Ellis moved into the building we now call home, at 80 Trowbridge Street in Cambridge. The larger space allowed us to introduce two toddler classrooms, three preschool classes, and a Kindergarten room.'
     type: text
     enabled: true
   -
