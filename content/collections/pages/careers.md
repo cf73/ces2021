@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1789046116
+updated_at: 1789046170
 add_content:
   -
     id: CC854MBg
@@ -146,7 +146,7 @@ add_content:
                           title: null
                     text: 'Click Here to Learn more and Apply!'
     type: text
-    enabled: true
+    enabled: false
   -
     id: g0JaZsBG
     quote: 'CES is committed to increasing the diversity of our community and the curriculum. Candidates who can contribute to that goal are encouraged to apply and to identify their strengths and experiences in this area. Cambridge-Ellis School is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability status, protected veteran status, gender identity, sexual orientation or any other characteristic protected by law.'
