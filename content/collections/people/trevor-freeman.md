@@ -1,5 +1,6 @@
 ---
 id: cfa1f635-908f-4d30-9812-cfe881bcddc7
+published: false
 blueprint: people
 title: 'Trevor Freeman'
 officialtitle: 'Floating Teacher'
@@ -15,6 +16,6 @@ photo: trevor-headshot.jpg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1753293622
+updated_at: 1790006463
 joined_ces: '2024-08-23'
 ---
