@@ -7,11 +7,11 @@ joined_ces: '2025-08-22'
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1757450058
+updated_at: 1790086112
 education:
   -
     id: mfd0cq9z
-    name_of_institution: 'BA Simmons University'
+    name_of_institution: 'B.A. Simmons University'
     type: institution
     enabled: true
 email: MayaB@Cambridge-Ellis.org
