@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Careers
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1789046170
+updated_at: 1790100286
 add_content:
   -
     id: CC854MBg
@@ -153,5 +153,5 @@ add_content:
     attribution: 'Cambridge-Ellis Non-Discrimination Policy'
     type: quote
     enabled: true
-main_image: IMG_5104-1635179815.jpg
+main_image: careers.jpg
 ---
