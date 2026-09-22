@@ -3,7 +3,7 @@ id: 06a2913a-6fe2-4d75-ae0c-77f0ecb6b5b3
 blueprint: programsumbrellasummer
 template: programsumbrellasummer
 title: 'Enrichment Programs'
-program_image: 20210920_162107-1635515402.jpg
+program_image: enrich.jpg
 short_description: 'We supplement our Day and Language Programs with a variety of Enrichment programming focused on the arts, music, and outdoor learning.'
 description: 'A focus on the arts and nature is an integral part of the Cambridge-Ellis philosophy. Though our classroom teachers integrate these experiences into their daily practice, we supplement this learning with the following Enrichment Programs: Arts Adventure, Nature Days, and our unique Artisan Program.'
 programs_offered:
@@ -33,10 +33,9 @@ programs_offered:
     enabled: true
 parent: 261c91f6-648b-409b-8457-02a740156d6a
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1757510382
+updated_at: 1790101315
 slideshow:
-  - IMG_4061.jpg
-  - 20210927_163507.jpg
+  - summer-1790101120.jpg
   - IMG_4064.JPG
-  - 69617404_523065031569707_108148148602370874_n.jpg
+  - img_5573.jpg
 ---
