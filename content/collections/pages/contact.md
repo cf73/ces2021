@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790109814
+updated_at: 1790109893
 add_content:
   -
     id: 8k7vQuWS
@@ -116,29 +116,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Director of Education, Lindsey Freedman'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'mailto:Lindsey@Cambridge-Ellis.org'
-                  rel: null
-                  target: null
-                  title: null
-            text: Lindsey@Cambridge-Ellis.org
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Language Program Director, Elisabeth Guenette'
+            text: 'Director of Language Program, Elisabeth Guenette'
       -
         type: paragraph
         content:
@@ -182,7 +160,29 @@ add_content:
         content:
           -
             type: text
-            text: 'Business Manager, Andy Griswold'
+            text: 'Director of Education, Lindsey Freedman'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'mailto:Lindsey@Cambridge-Ellis.org'
+                  rel: null
+                  target: null
+                  title: null
+            text: Lindsey@Cambridge-Ellis.org
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Director of Finance and Facilities, Andy Griswold'
       -
         type: paragraph
         content:
