@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790090673
+updated_at: 1790090869
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -28,19 +28,18 @@ slideshow:
     enabled: true
   -
     id: YOdFVqmA
-    image: 2WE-EXPLORE.jpg
+    image: explore.jpg
     happy_verb: 'We Explore'
     type: image
     enabled: true
   -
     id: FpNUTvKF
-    image: web.jp2
     happy_verb: 'We Make'
     type: image
     enabled: true
   -
     id: gUqm4FM3
-    image: img_6686.jp2
+    image: grow.jpg
     happy_verb: 'We Grow'
     type: image
     enabled: true
@@ -62,6 +61,12 @@ at_a_glance:
     id: i9ZL8wab
     number: '9'
     caption: 'years average tenure of our teachers'
+    type: statistic
+    enabled: true
+  -
+    id: muctsh2t
+    number: '3'
+    caption: 'afternoon immersion language offerings'
     type: statistic
     enabled: true
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the Purple Room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
