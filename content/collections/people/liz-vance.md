@@ -2,7 +2,7 @@
 id: 28d307a1-5066-4d82-bbe0-7e5787034d0b
 blueprint: people
 title: 'Liz Vance'
-officialtitle: 'Yellow Room Co-Head Teacher'
+officialtitle: 'Yellow Room Co-Head Teacher; Faculty Board Representative'
 education:
   -
     id: m0o9qemz
@@ -16,6 +16,6 @@ role:
   - teacher
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790106317
+updated_at: 1790106450
 joined_ces: '2024-08-23'
 ---
