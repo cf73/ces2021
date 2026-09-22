@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Contact
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790109724
+updated_at: 1790109814
 add_content:
   -
     id: 8k7vQuWS
@@ -266,5 +266,5 @@ add_content:
     type: text
     enabled: true
 include: true
-main_image: admiss.jpg
+main_image: contact.jpg
 ---
