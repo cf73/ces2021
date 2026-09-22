@@ -1,20 +1,20 @@
 ---
 id: e1cb2b8e-7150-465b-b287-0f00c9ae794b
 blueprint: people
-title: 'Andrea Connelly'
-officialtitle: 'Spanish Teacher'
+title: 'Jorge Rodriguez'
+officialtitle: 'Spanish Blue Room Teacher'
 joined_ces: '2025-08-22'
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1757449192
+updated_at: 1790086580
 education:
   -
     id: mfczuu36
-    name_of_institution: 'BA Universidad del Atlantico, Colombia'
+    name_of_institution: 'B.A. Universidad Sergio Arboleda'
     type: institution
     enabled: true
-email: Andrea@Cambridge-Ellis.org
-bio: "I'm from Colombia, and I moved to Massachusetts at the end of 2022. My native language is Spanish, and I'm passionate about education. I have a bachelor's degree in Physics and am currently pursuing a master's degree in the same field. I am excited to bring my curiosity, creativity, and passion for learning to the preschool classroom. I hope to help our students discover Spanish through songs, stories, science, and games. In my free time, I enjoy crocheting and spending time with my husband and dog. I'm excited to be part of the CES community and begin this new adventure with the students."
-photo: 2025-26-andrea-head-shot.jpg
+email: Jorge@Cambridge-Ellis.org
+bio: 'I am an early childhood educator originally from Colombia, and I have lived here in Boston for the last six years. With five years of experience in bilingual education—teaching Preschool, Kindergarten, and First Grade both internationally and in the US—I am passionate about helping young children thrive and develop a love for learning. I believe in bringing a balanced, vibrant energy into the classroom. In my free time, I enjoy reading, meditation, staying active through exercise, and traveling to new places. I also maintain a plant-based diet and enjoy relaxing with a good series. I am so excited to welcome your children into a safe and nurturing space this year!'
+photo: jorge-head-shot.jpg
 ---
