@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790092969
+updated_at: 1790110783
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -16,7 +16,7 @@ intro: "We are a small, non-profit preschool located in the heart of Cambridge. 
 slideshow:
   -
     id: Wueocp0N
-    image: IMG_3862-(1).jpg
+    image: 20260831_104356.jpg
     happy_verb: 'We Play'
     type: image
     enabled: true
