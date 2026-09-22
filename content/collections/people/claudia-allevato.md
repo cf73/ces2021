@@ -11,8 +11,8 @@ education:
     type: institution
     enabled: true
 email: Claudia@Cambridge-Ellis.org
-bio: 'I am proud to be a long-standing member of the Cambridge-Ellis School. Since 2000, I have supported many children from two to four years of age in the Day Program and Rainbow Rooms. As a native speaker of Portuguese, I love to share my language and Brazilian culture with all the children at Cambridge-Ellis. Outside of school, I enjoy my family, cooking, dancing, and spending time with my cat Shana.'
-photo: claudia-headshot.png
+bio: 'I am proud to be a long-standing member of the Cambridge-Ellis School. Since 2000, I have supported many children from two to four years of age in the Day Program and Rainbow Rooms. As a native speaker of Portuguese, I love to share my language and Brazilian culture with all the children at Cambridge-Ellis. Outside of school, I enjoy my family, cooking, and dancing.'
+photo: 241-(3).jpg
 role:
   - teacher
 programs:
@@ -22,6 +22,6 @@ classrooms:
   - 73f44629-52d8-444e-8cc4-35a3a7569479
   - a289ada5-75ed-4478-a0ac-457b827c8850
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303266
+updated_at: 1790085374
 joined_ces: '2001-09-10'
 ---
