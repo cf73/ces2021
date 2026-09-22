@@ -15,12 +15,11 @@ bio: 'I am passionate about Reggio and doing antiracist and anti-bias work in th
 photo: alex-l-1790089807.jpg
 role:
   - teacher
-  - board-of-directors
 programs:
   - language
 classrooms:
   - 9f3c379b-1411-420e-a43b-8370437954d0
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790089844
+updated_at: 1790105776
 joined_ces: '2026-09-02'
 ---
