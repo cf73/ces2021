@@ -1,6 +1,5 @@
 ---
 id: cfa1f635-908f-4d30-9812-cfe881bcddc7
-published: false
 blueprint: people
 title: 'Alison Morales'
 officialtitle: 'Floating Teacher'
