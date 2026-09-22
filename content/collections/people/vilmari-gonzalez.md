@@ -3,17 +3,17 @@ id: db9ed644-ea57-461f-bbdd-1eb82e53a8ce
 published: false
 blueprint: people
 template: bio
-title: 'Vilmari Gonzalez'
-officialtitle: 'Yellow Room Co-Head Teacher'
+title: 'Alex Lituchy'
+officialtitle: 'Red Room Co-Head Teacher'
 education:
   -
     id: wKaUN2Bl
-    name_of_institution: 'B.A. Bennington College'
+    name_of_institution: 'B.A. Lesley University'
     type: institution
     enabled: true
-email: Vilmari@Cambridge-Ellis.org
-bio: 'I was born and raised in Cambridge, MA and am a native Spanish speaker. I earned my Bachelor’s degree from Bennington College and thus began my journey into Education. I have been working in early childhood education for eight years and I am excited to dive into my fourth year at CES! My goal is to instill confidence and inspire a lifelong love of learning. I myself enjoy learning new skills and activities! In my free time I enjoy dancing, ice skating, archery, and reading.'
-photo: vilmari-headshot.jpg
+email: AlexL@Cambridge-Ellis.org
+bio: 'I am passionate about Reggio and doing antiracist and anti-bias work in the classroom! I received my bachelor’s degree in Early Childhood Education and Child Studies at Lesley University, which specializes in the Reggio teaching method. I have been teaching at Reggio preschools since 2018 and am excited to move to the toddler age. In my free time, I enjoy singing in a choir, playing board games, and reading. I’m a foodie, and I like to travel and go to comedy and improv shows.'
+photo: alex-l-1790089807.jpg
 role:
   - teacher
   - board-of-directors
@@ -22,5 +22,6 @@ programs:
 classrooms:
   - 9f3c379b-1411-420e-a43b-8370437954d0
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1722724806
+updated_at: 1790089844
+joined_ces: '2026-09-02'
 ---
