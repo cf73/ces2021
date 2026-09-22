@@ -11,7 +11,7 @@ education:
     type: institution
     enabled: true
 email: Lily@Cambridge-Ellis.org
-bio: 'This is my sixth year at Cambridge Ellis but I’ve worked for over a decade as a toddler teacher. I am constantly amazed by how much your wonderful toddlers teach me through their curiosity, creativity, and growth. I come from a creative arts background and love sharing that with the class. In my free time, I enjoy spending time with my husband and daughter, a current CES student.'
+bio: 'This is my seventh year at Cambridge Ellis, but I’ve worked for well over a decade as a toddler teacher. I am constantly amazed by how much your wonderful toddlers teach me through their curiosity, creativity, and appreciation for the world around them. I come from a creative arts background and love sharing that with the class. In my free time, I enjoy spending time with my husband and daughter, a current CES student.'
 role:
   - teacher
 programs:
@@ -19,7 +19,7 @@ programs:
 classrooms:
   - 448d749d-93d0-4c81-bd6f-806e5e431849
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303703
-photo: lily-headshot.png
+updated_at: 1790084336
+photo: 236-(3).jpg
 joined_ces: '2019-08-23'
 ---
