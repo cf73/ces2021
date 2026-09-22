@@ -11,8 +11,8 @@ education:
     type: institution
     enabled: true
 email: Elizabeth@Cambridge-Ellis.org
-bio: 'I am an experienced early childhood educator and hold a degree in Health and Human Services, with a major in Child and Family Studies. For the past 8 years I served as director of an Early Childhood Program and prior to that also taught for 8 years. I am excited about joining the Blue Room and continuing arts integration in play-based teaching at CES!'
-photo: 'Liz McKillop-Segura.jpg'
+bio: 'I’ve had the joy of working in Early Education since 2007. After holding a number of leadership roles in the field, I ultimately decided that my passion is working in a classroom, and I returned to teaching in 2019 when I joined CES. I feel so lucky to have the opportunity to spend my days in this community. Outside of school, I teach Vinyasa Yoga and love bringing mindfulness practices into the classroom as a way to connect and co-regulate with children. When I’m not teaching, I like to spend my time hanging out with my family, baking (cookies), and reading.'
+photo: 253-(3).jpg
 role:
   - teacher
 programs:
@@ -20,6 +20,6 @@ programs:
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1757450410
+updated_at: 1790085843
 joined_ces: '2019-08-23'
 ---
