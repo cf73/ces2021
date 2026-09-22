@@ -16,8 +16,8 @@ education:
     type: institution
     enabled: true
 email: MaryAnne@Cambridge-Ellis.org
-bio: 'After a brief career as a graphic designer, I returned to school to live out my dream as a Reggio-inspired educator of young children. I’m passionate about fostering relationships in the CES community and creating warm, nurturing environments for the children to explore and connect with each day. I love working with preschool children as they make connections and share their perspectives. Outside of work, I enjoy traveling with my husband and daughter, as well as spending time on the beaches of New England and beyond.'
-photo: 'Mary Anne Santos.jpg'
+bio: 'I have been finding joy in the field of early childhood education for over twenty-five years. For the majority of my teaching career, I have taught pre-kindergarten and kindergarten-aged children. In 2012, I had the opportunity to visit the schools of Reggio Emilia, Italy with a study group. This experience has profoundly shaped my perspective and approach to both education and parenting. I am thrilled to be part of a community that truly honors and values children in such meaningful ways.  Outside of teaching, I enjoy traveling, spending time with family & friends, and listening to live music, especially when my son is behind the drums!'
+photo: 245-(3).jpg
 role:
   - teacher
 programs:
@@ -25,6 +25,6 @@ programs:
 classrooms:
   - 7c58e147-8daa-4bf1-9ef4-0c2d74ac028f
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739303851
+updated_at: 1790086004
 joined_ces: '2009-09-08'
 ---
