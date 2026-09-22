@@ -12,7 +12,7 @@ add_content:
         content:
           -
             type: text
-            text: 'Welcome to the Cambridge-Ellis School! We are excited to introduce you to our wonderful faculty and staff and unique programs, as well as provide you with information about the admissions process.'
+            text: 'Welcome to the Cambridge-Ellis School! I am excited to introduce you to our wonderful faculty and staff and unique programs, as well as provide you with information about the admissions process.'
       -
         type: paragraph
         content:
@@ -30,13 +30,13 @@ add_content:
                 marks:
                   -
                     type: italic
-                text: 'The Cambridge-Ellis School provides a warm, stimulating early-school experience in a joyful, loving environment that is built upon a foundation of trusting relationships with a diverse group of children and families. We promote the optimal development of the whole child through a creative, play-based, and emergent curriculum; an emphasis on arts and outdoor play; and immersion language offerings.'
+                text: 'The Cambridge-Ellis School provides a warm, stimulating early-school experience in a joyful, loving environment that is built upon a foundation of trusting relationships with a diverse group of children and families. We promote the optimal development of the whole child through a creative, play-based, and emergent curriculum; an emphasis on arts and outdoor play; and immersion language offerings. We strive to foster a community that is anti-racist so that children from a wide variety of backgrounds, abilities, and interests can learn and thrive.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'I encourage you to schedule a visit to our school to experience the warm atmosphere of our classroom communities and watch our children and teachers at work. You’ll see children excited about learning: They might be exploring the rainforest through an emergent curriculum that builds confidence and expertise, while gaining exposure to everything from art and science to early literacy skills along the way. They could be expressing themselves through dance and fine arts in Arts Adventure, working on a special cooking project, or absorbing a new language in our unique immersion programs. Each classroom has its own distinct character, thanks to our charming, light-filled historic building. And as all caregivers of young children know, outdoor play and a connection with nature are key to optimal development. We benefit from two beautiful outdoor spaces designed with children’s creative spirits in mind.'
+            text: 'I encourage you to schedule a visit to our school to experience the warm atmosphere of our classroom communities and watch our children and teachers at work. You’ll see children excited about learning: They might be exploring the simple machines through an emergent curriculum that builds confidence and expertise, while gaining exposure to everything from art and science to early literacy skills along the way. They could be expressing themselves through dance and fine arts in Arts Adventure, working on a special cooking project, or absorbing a new language in our unique immersion programs. Each classroom has its own distinct character, thanks to our charming, light-filled historic building. And as all caregivers of young children know, outdoor play and a connection with nature are key to optimal development. We benefit from two beautiful outdoor spaces designed with children’s creative spirits in mind.'
       -
         type: paragraph
         content:
@@ -54,6 +54,6 @@ add_content:
     type: text
     enabled: true
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1707842059
-main_image: pxl_20230411_134447805.mp.jpg
+updated_at: 1790100072
+main_image: director.jpg
 ---
