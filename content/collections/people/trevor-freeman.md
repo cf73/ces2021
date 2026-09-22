@@ -2,20 +2,20 @@
 id: cfa1f635-908f-4d30-9812-cfe881bcddc7
 published: false
 blueprint: people
-title: 'Trevor Freeman'
+title: 'Alison Morales'
 officialtitle: 'Floating Teacher'
 education:
   -
     id: lzczycu1
-    name_of_institution: 'M.Ed Cambridge College, In Progress'
+    name_of_institution: 'Year Up Boston'
     type: institution
     enabled: true
-email: Trevor@Cambridge-Ellis.org
-bio: 'I began my journey teaching in Applied Behavioral Analysis working with special education students with autism. I fell in love with the teaching aspect of ABA after spending time in a classroom. I slowly moved into being a special education paraprofessional. Now, I aspire to lead a classroom after the completion of my master’s in education. I hope to be able to apply what I have learned as an ABA and a paraprofessional in any and every classroom I have the opportunity to teach. When I am not teaching, you can find me cheerleading. I am committed to two competitive all-star cheerleading teams in the North Shore that I get to travel and perform with all year.'
-photo: trevor-headshot.jpg
+email: Alison@Cambridge-Ellis.org
+bio: 'I have been working with kids for about 13 years, which is roughly half of my life! It was when I became a camp counselor that I realized that I enjoyed being part of a child’s journey. Children are tiny human beings who are filled with curiosity and possibilities, it’s up to us to highlight that and help guide them to their highest potential. I plan to continue furthering my early childhood education while I am here in Cambridge Ellis! When I am not working with kids, I’m outside enjoying the weather with my two cats, Lola and Korra. I also enjoy listening to different genres of music.'
+photo: alison.jpg
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790006463
-joined_ces: '2024-08-23'
+updated_at: 1790086706
+joined_ces: '2026-09-02'
 ---
