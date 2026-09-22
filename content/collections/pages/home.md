@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790091723
+updated_at: 1790092212
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -12,7 +12,7 @@ hero:
   - 1WE-PLAY.jpg
   - 2WE-EXPLORE.jpg
   - hands.jpg
-intro: "We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community's youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community."
+intro: "We are a small, non-profit preschool located in the heart of Cambridge. Our mission is to provide a joyful, warm, and stimulating first school experience for our community's youngest learners. Our philosophy is built upon a foundation of equity, inclusion, and above all community. In addition to our toddler and preschool program, we offer an afterschool language immersion program with French, Mandarin, and Spanish offerings."
 slideshow:
   -
     id: Wueocp0N
