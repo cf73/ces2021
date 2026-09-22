@@ -16,13 +16,13 @@ education:
     type: institution
     enabled: true
 email: Holly@Cambridge-Ellis.org
-bio: 'I began my educational journey when I received my master’s degree and MA DESE license in 1998 and have been teaching children of various ages ever since. I enjoy the preschool age the most and have ample experience with 3–5 year-olds. I love connecting with young children through nature and engaging their learning through hands-on, play-based curriculum. Outside of school, I spend time near the ocean in Revere with my life partner John. My interests are gardening, cooking, yoga, planning vacations, and backyard gatherings.'
-photo: 2425-holly-headshot.JPG
+bio: 'I began my educational journey when I received my Master’s degree and MA DESE license in 1998 and have been teaching children of various ages ever since. I enjoy the preschool age the most and have over 20 years of experience with 3–5 year-olds. I love connecting with young children through nature and engaging their learning through hands-on, play-based curriculum. Outside of school, I spend time near the ocean in Revere with my life partner John. My interests are reading, singing with friends, plants, VT, documentaries, Pilates/Yoga, outside time, fashion, planning vacations, weekend getaways and backyard gatherings.'
+photo: untitled-design-(3).jpg
 role:
   - teacher
 programs:
   - language
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1739302068
+updated_at: 1790088009
 joined_ces: '2021-03-17'
 ---
