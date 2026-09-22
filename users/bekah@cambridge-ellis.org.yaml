@@ -12,3 +12,5 @@ preferences:
         - date_of_event
     classrooms:
       after_save: continue_editing
+    people:
+      per_page: 100
