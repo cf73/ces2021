@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790091097
+updated_at: 1790091723
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -40,7 +40,7 @@ slideshow:
     image: img_8406.jpg
   -
     id: gUqm4FM3
-    image: grow.jpg
+    image: annual-fund2.jpg
     happy_verb: 'We Grow'
     type: image
     enabled: true
@@ -48,7 +48,7 @@ welcome_line: 'Welcome to Cambridge-Ellis School!'
 at_a_glance:
   -
     id: xL92rNlN
-    number: '41'
+    number: '45'
     caption: 'years of nurturing young children'
     type: statistic
     enabled: true
@@ -62,12 +62,6 @@ at_a_glance:
     id: i9ZL8wab
     number: '9'
     caption: 'years average tenure of our teachers'
-    type: statistic
-    enabled: true
-  -
-    id: muctsh2t
-    number: '3'
-    caption: 'afternoon immersion language offerings'
     type: statistic
     enabled: true
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the Purple Room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
