@@ -3,10 +3,11 @@ id: 68ab3ced-2c3f-4d30-8c42-1eeb2f3f2300
 blueprint: flexible_content_page
 title: Families
 template: flexpage
-updated_by: b863e707-3140-4001-859f-3487e09c5881
-updated_at: 1638064434
+updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
+updated_at: 1790107657
 add_content:
   -
+    id: 3JHnmLoZ
     text:
       -
         type: paragraph
@@ -36,5 +37,5 @@ add_content:
             text: ' page for ideas on how to get involved!'
     type: text
     enabled: true
-main_image: IMG_1716-1635524643.JPG
+main_image: family.jpg
 ---
