@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790111645
+updated_at: 1790111857
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -71,7 +71,7 @@ at_a_glance:
     type: statistic
     enabled: true
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the Purple Room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
-testimonial_1_image: 2.jpg
+testimonial_1_image: 2-1790111844.jpg
 testimonial_2: 'Cambridge-Ellis has so much to offer families who are just starting their child’s educational journey. Our teachers take the time to form unique relationships with each child, making the transition from home to school feel flawless. I often feel in awe of the curriculum my co-workers are cultivating in their classrooms: Kamishibai theater storytelling, what farming looks like around the world, the art Jean-Michel Basquiat, the silkworm lifecycle, and what it means to vote! I feel that at CES, we work with children to build a foundation of learning that will serve them for the rest of their lives.'
 testimonial_2_image: img_0440-1790111603.JPG
 testimonial_3: 'In our conversations with other parents, we always come back to the same refrain: Cambridge-Ellis is a special place. The kindness and gentleness of the teachers, the depth and creativity of the curriculum, the exuberance of the children’s art displayed everywhere, the sunlight that fills and warms the building- these are just some of the things that make Cambridge-Ellis a very special place. We couldn’t have asked for a better first school experience for our child.'
