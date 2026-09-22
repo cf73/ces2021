@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790090869
+updated_at: 1790091097
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -28,7 +28,7 @@ slideshow:
     enabled: true
   -
     id: YOdFVqmA
-    image: explore.jpg
+    image: explore-1790091064.jpg
     happy_verb: 'We Explore'
     type: image
     enabled: true
@@ -37,6 +37,7 @@ slideshow:
     happy_verb: 'We Make'
     type: image
     enabled: true
+    image: img_8406.jpg
   -
     id: gUqm4FM3
     image: grow.jpg
