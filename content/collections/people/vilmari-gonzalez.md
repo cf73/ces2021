@@ -1,6 +1,5 @@
 ---
 id: db9ed644-ea57-461f-bbdd-1eb82e53a8ce
-published: false
 blueprint: people
 template: bio
 title: 'Alex Lituchy'
