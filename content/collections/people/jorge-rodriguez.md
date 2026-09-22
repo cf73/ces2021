@@ -7,7 +7,7 @@ joined_ces: '2025-08-22'
 role:
   - teacher
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790086580
+updated_at: 1790106288
 education:
   -
     id: mfczuu36
