@@ -4,7 +4,7 @@ blueprint: home
 title: Home
 template: home
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790092891
+updated_at: 1790092969
 hero:
   - xcooking.jpg
   - Xcoolkids.jpg
@@ -51,7 +51,7 @@ at_a_glance:
     number: '45'
     caption: 'years of nurturing young children'
     type: statistic
-    enabled: true
+    enabled: false
   -
     id: 8tUx5V8i
     caption: 'average child to teacher ratio'
@@ -65,9 +65,9 @@ at_a_glance:
     type: statistic
     enabled: true
   -
-    id: mucv1v6q
-    number: '1-10 years old'
-    caption: 'range of ages served at CES'
+    id: mucv4jc4
+    number: '3'
+    caption: 'afternoon immersion language offerings'
     type: statistic
     enabled: true
 testimonial_1: 'CES is not only a place dedicated to the well being of each child, but it has an enduring sense of community. Our two children have thoroughly enjoyed the preschool and French immersion programs, as well as the summer camp. As our daughter finished the Purple Room, we did not know who was going to miss CES more—our daughter or us—but we were sure that she was well prepared for her next school. Thankfully for us, our son started the following year in the Orange Room.'
