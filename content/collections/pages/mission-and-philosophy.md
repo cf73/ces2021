@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: 'Mission and Philosophy'
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790100135
+updated_at: 1790174523
 add_content:
   -
     id: 7Xnl96fu
@@ -135,5 +135,5 @@ add_content:
         type: paragraph
     type: text
     enabled: true
-main_image: mission.jpg
+main_image: img_2202.jpg
 ---
