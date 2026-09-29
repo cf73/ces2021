@@ -53,5 +53,6 @@ details:
         type: text
         text: ' if you have any questions about this special event.'
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1783007322
+updated_at: 1790695504
+image: screenshot-2026-09-29-at-11.24.48-am.png
 ---
