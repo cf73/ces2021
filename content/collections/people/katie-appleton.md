@@ -6,7 +6,7 @@ officialtitle: 'Community Builders Chair'
 role:
   - board-of-directors
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1791208071
+updated_at: 1791300434
 email: alexander.katie@gmail.com
-photo: img_4456_optimized_750.jpg
+photo: untitled-design.jpg
 ---
