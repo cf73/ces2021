@@ -3,7 +3,7 @@ id: 55c6d51a-07ca-41c5-b091-a98abc416aa0
 blueprint: people
 template: bio
 title: 'Jermaine Cook-Wright'
-officialtitle: 'Blue Room Teacher; Faculty Board Representative'
+officialtitle: 'Blue Room Teacher'
 education:
   -
     id: GmQTyVVr
@@ -15,12 +15,11 @@ bio: 'I am originally from Jamaica. As a child, I always wanted to be in the mil
 photo: 252-(3).jpg
 role:
   - teacher
-  - board-of-directors
 programs:
   - day
 classrooms:
   - af22aa7b-08f2-4f3a-b509-10c03031eee4
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790085799
+updated_at: 1791300530
 joined_ces: '2000-02-01'
 ---
