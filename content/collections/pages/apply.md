@@ -135,27 +135,7 @@ add_content:
         content:
           -
             type: text
-            text: 'The admissions season for the 2026-27 school year has officially closed, but we are still accepting applications to be considered for our waitlist. We do anticipate spots opening up in our after school Language Program, so please reach out to our Language Program Director, '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: elisabeth@cambridge-ellis.org
-                  rel: null
-                  target: null
-                  title: null
-            text: 'Elisabeth Guenette'
-          -
-            type: text
-            text: ', if you want to learn more about that unique program.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Contact our Admissions Director, '
+            text: 'The admissions season for the 2027-28 school year is officially open! We will be accepting applications and conducting tours for our Day and afternoon Language Programs now through January 31st. See the steps below on how to apply and contact our Admissions Director, '
           -
             type: text
             marks:
@@ -169,7 +149,13 @@ add_content:
             text: 'Christina Isidoro'
           -
             type: text
-            text: ', for all other inquiries.'
+            text: ', if you have any additional questions.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "We're excited to get to know you during the application process!"
     type: text
     enabled: true
   -
@@ -279,7 +265,41 @@ add_content:
                 content:
                   -
                     type: text
-                    text: 'Apply for Financial Aid if needed before the first Monday in February'
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://cambridge-ellis.org/events'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Check out the events'
+                  -
+                    type: text
+                    text: ' we have going on throughout the admissions season'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Apply for '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://cambridge-ellis.org/admissions/financial-aid'
+                          rel: null
+                          target: null
+                          title: null
+                    text: 'Financial Aid'
+                  -
+                    type: text
+                    text: ' if needed before the first Monday in February'
       -
         type: paragraph
         content:
@@ -288,7 +308,7 @@ add_content:
             marks:
               -
                 type: italic
-            text: "All late applicants will be added to our waitlist and be considered if later decision rounds are necessary.\_"
+            text: "All late applicants will be added to our waitlist and be considered if a later round of decisions is necessary.\_"
   -
     id: iENR7N03
     text:
@@ -327,6 +347,6 @@ add_content:
     enabled: true
 parent: c122c5f5-7df6-4f26-8080-0888c282b224
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790109684
+updated_at: 1791570330
 main_image: apply.jpg
 ---
