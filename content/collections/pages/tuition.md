@@ -4,7 +4,7 @@ blueprint: flexible_content_page
 title: Tuition
 template: flexpage
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1771429653
+updated_at: 1794501338
 add_content:
   -
     id: Tq9tLv9l
@@ -399,7 +399,7 @@ add_content:
         content:
           -
             type: text
-            text: '*Discounted Language/Rainbow Room program tuition applies to students enrolled in both the Morning & Afternoon Programs.'
+            text: '*Discounted Language/Rainbow Room program tuition applies to students enrolled in both the Morning & Afternoon Programs (discounts do not apply to families enrolled through CPP).'
     type: text
     enabled: true
   -
