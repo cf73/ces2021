@@ -16,7 +16,9 @@ education:
     type: institution
     enabled: true
 email: MaryAnne@Cambridge-Ellis.org
-bio: 'I have been finding joy in the field of early childhood education for over twenty-five years. For the majority of my teaching career, I have taught pre-kindergarten and kindergarten-aged children. In 2012, I had the opportunity to visit the schools of Reggio Emilia, Italy with a study group. This experience has profoundly shaped my perspective and approach to both education and parenting. I am thrilled to be part of a community that truly honors and values children in such meaningful ways.  Outside of teaching, I enjoy traveling, spending time with family & friends, and listening to live music, especially when my son is behind the drums!'
+bio: |-
+  Working with young children has been a lifelong passion of mine. Over the course of my career, I’ve taught afterschool art programs, summer camps, and preschool before finding my home here at CES. I’m passionate about fostering relationships in the school community and creating warm, nurturing environments for children to explore and connect with each day. Learning about the Reggio Emilia teaching philosophy has enriched and framed my teaching approach, and it’s rewarding to see children make connections and share their perspectives about the world around them. 
+  Outside of work, I enjoy reading, traveling, and spending time with my family.
 photo: 245-(3).jpg
 role:
   - teacher
@@ -25,6 +27,6 @@ programs:
 classrooms:
   - 7c58e147-8daa-4bf1-9ef4-0c2d74ac028f
 updated_by: 1179db75-8eeb-4bad-8e60-d5005aef7ef8
-updated_at: 1790086004
+updated_at: 1795451137
 joined_ces: '2009-09-08'
 ---
